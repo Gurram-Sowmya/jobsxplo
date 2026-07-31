@@ -1,7 +1,5 @@
 name: Update job data
 
-# Runs every 6 hours automatically, and can also be triggered manually
-# from the GitHub Actions tab to test it on demand.
 on:
   schedule:
     - cron: "0 */6 * * *"
@@ -17,8 +15,6 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v4
 
-      # Placeholder step for Stage 3 — proves the automation loop works.
-      # In Stage 4/5 this gets replaced with the real fetch + process script.
       - name: Update timestamp (placeholder for real fetcher)
         run: |
           python3 -c "
