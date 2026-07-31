@@ -1,1 +1,39 @@
+name: Update job data
 
+# Runs every 6 hours automatically, and can also be triggered manually
+# from the GitHub Actions tab to test it on demand.
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      # Placeholder step for Stage 3 — proves the automation loop works.
+      # In Stage 4/5 this gets replaced with the real fetch + process script.
+      - name: Update timestamp (placeholder for real fetcher)
+        run: |
+          python3 -c "
+          import json, datetime
+          with open('data/jobs.json') as f:
+              data = json.load(f)
+          data['generated_at'] = datetime.datetime.utcnow().isoformat() + 'Z'
+          with open('data/jobs.json', 'w') as f:
+              json.dump(data, f, indent=2)
+          "
+
+      - name: Commit updated data
+        run: |
+          git config user.name "jobxplo-bot"
+          git config user.email "actions@github.com"
+          git add data/jobs.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update job data"
+          git push
