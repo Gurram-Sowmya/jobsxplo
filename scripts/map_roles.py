@@ -5,21 +5,24 @@ Reads every raw company file in data/raw/*.json (from Stage 4) and
 adds a `role_category` field to each job, mapped from the messy
 `raw_title` into one of the fixed categories in data/role_taxonomy.json.
 
+IMPORTANT: every canonical name used on the left side of KEYWORD_RULES
+below MUST exist in data/role_taxonomy.json. The frontend filter dropdown
+is built from that file - a role_category that isn't in the taxonomy is
+a job the user can never find by filtering, even though it's in the data.
+
 Two-step mapping, cheapest first:
-  1. Keyword rules   - if the title contains an obvious keyword
-                       ("data engineer", "recruiter", etc.), map it
+  1. Keyword rules   - if the title contains an obvious keyword, map it
                        directly. Free, fast, handles most titles.
   2. Fuzzy fallback   - for titles that don't match any keyword rule,
-                       use Python's built-in difflib to find the closest
-                       canonical role by text similarity. No extra
-                       libraries needed to install.
+                       use difflib to find the closest canonical role
+                       by text similarity, restricted to the taxonomy list.
 
 This does NOT overwrite the raw title anywhere - `raw_title` is kept
 untouched and always shown to the user later. `role_category` is only
 used for filtering.
 
 Usage:
-    python scripts/map_roles.py
+    python3 scripts/map_roles.py
 """
 
 import json
@@ -32,22 +35,285 @@ PROCESSED_DIR = ROOT / "data" / "processed"
 TAXONOMY_FILE = ROOT / "data" / "role_taxonomy.json"
 
 # Step 1: keyword rules.
-# Order matters - more specific keywords should come before general ones.
-# Each canonical role maps to a list of keywords checked (case-insensitive)
-# against the raw title.
+# Order matters - more specific keywords should come before general ones,
+# and the FIRST matching rule wins (map_by_keyword returns immediately).
+# Every canonical name here must exist in data/role_taxonomy.json -
+# see the self-check in main() which verifies this on every run.
 KEYWORD_RULES = [
-    # Engineering
-    #("Site Reliability Engineer", ["site reliability", "sre"]),
-    #("DevOps Engineer", ["devops", "dev ops"]),
-    #("Platform Engineer", ["platform engineer", "platform engineering"]),
-    #("Infrastructure Engineer", ["infrastructure engineer", "infra engineer"]),
-    #("Cloud Engineer", ["cloud engineer", "cloud infrastructure"]),
-    #("Cloud Architect", ["cloud architect", "solutions architect", "solution architect"]),
-    #("Software Engineer", ["software engineer", "software developer", "swe"]),
-    #("Backend Engineer", ["backend", "back-end", "back end engineer"]),
-    #("Frontend Engineer", ["frontend", "front-end", "front end engineer"]),
-    #("Full Stack Engineer", ["full stack", "fullstack", "full stack developer"]),
-    #("Mobile Engineer", ["mobile engineer", "ios engineer", "android engineer"]),
+    ("Site Reliability Engineer", [
+        "site reliability", "sre", "production engineer", "reliability engineer",
+    ]),
+    ("DevOps Engineer", [
+        "devops", "dev ops", "release engineer", "build engineer",
+        "ci/cd", "deployment engineer", "automation engineer",
+    ]),
+    ("Machine Learning Engineer", [
+        "machine learning", "ml engineer", "mle", "ai engineer",
+        "artificial intelligence", "genai", "generative ai", "llm",
+        "computer vision", "nlp", "deep learning", "prompt engineer",
+        "ai/ml researcher", "ml researcher",
+    ]),
+    ("Data Scientist", [
+        "data scientist", "data science", "decision scientist", "quantitative analyst",
+    ]),
+    ("Data Engineer", [
+        "data engineer", "data engineering", "big data", "etl",
+        "spark", "hadoop", "airflow", "analytics engineer",
+        "data platform", "data infrastructure", "data architect",
+        "database engineer", "database administrator", "dba",
+    ]),
+    ("Data Analyst", [
+        "data analyst", "business intelligence", "bi developer", "bi engineer",
+        "power bi", "tableau", "reporting analyst", "report analyst",
+        "advanced analytics", "analytics analyst", "analytics lead", "analytics manager",
+    ]),
+    ("Cloud Engineer", [
+        "cloud engineer", "cloud architect", "solutions architect", "solution architect",
+        "cloud infrastructure", "aws solutions", "azure solutions", "gcp cloud",
+    ]),
+    ("Security Engineer", [
+        "security engineer", "security analyst", "cyber security", "cybersecurity",
+        "application security", "appsec", "infosec", "soc analyst",
+        "penetration tester", "pentester", "ethical hacker", "iam engineer",
+        "cloud security", "fraud intelligence", "fraud analyst", "trust and safety",
+    ]),
+    ("QA Engineer", [
+        "qa engineer", "quality assurance", "test engineer", "sdet",
+        "automation tester", "automation test engineer", "manual tester",
+        "performance tester", "test automation",
+    ]),
+    ("Mobile Engineer", [
+        "ios engineer", "ios developer", "android engineer", "android developer",
+        "mobile engineer", "mobile developer", "swift developer", "kotlin developer",
+        "flutter developer", "react native",
+    ]),
+    ("Frontend Engineer", [
+        "frontend", "front-end", "front end engineer", "ui engineer",
+        "react developer", "angular developer", "vue developer",
+    ]),
+    ("Backend Engineer", [
+        "backend", "back-end", "back end engineer", "api engineer", "server engineer",
+    ]),
+    ("Full Stack Engineer", [
+        "full stack", "fullstack",
+    ]),
+    ("Engineering Manager", [
+        "engineering manager", "eng manager", "software engineering manager",
+        "development manager", "director of engineering", "engineering director",
+        "vp engineering", "vice president engineering",
+    ]),
+    ("Software Engineer", [
+        "software engineer", "software developer", "swe",
+        "application engineer", "applications engineer", "platform engineer",
+        "infrastructure engineer", "systems engineer", "system engineer",
+        "embedded engineer", "embedded software", "firmware engineer",
+        "firmware developer", "python developer", "java developer",
+        "golang", "go developer", "c++ developer", "c# developer",
+        ".net developer", "dotnet developer", "php developer", "laravel developer",
+        "ruby developer", "rails developer", "node developer", "node.js",
+        "nodejs", "member of technical staff",
+    ]),
+    ("Solutions Engineer", [
+        "solutions engineer", "sales engineer", "solutions consultant",
+        "implementation engineer", "integration engineer", "technical consultant",
+        "pre sales engineer", "presales engineer",
+    ]),
+    ("Support Engineer", [
+        "support engineer", "technical support", "customer support engineer",
+        "technical account manager", " tam ", "application support engineer",
+    ]),
+    ("Product Designer", [
+        "product designer", "interaction designer", "visual designer",
+    ]),
+    ("UI/UX Designer", [
+        "ui designer", "ux designer", "ui/ux", "ux/ui", "graphic designer", "ux researcher",
+    ]),
+    ("Product Manager", [
+        "product manager", "technical product manager", "group product manager",
+        "associate product manager", "product owner", "pm,",
+    ]),
+    ("Program Manager", [
+        "program manager", "technical program manager", "tpm",
+        "engineering program manager",
+    ]),
+    ("Project Manager", [
+        "project manager", "delivery manager", "scrum master",
+    ]),
+    ("Business Analyst", [
+        "business analyst", "business systems analyst", "functional analyst",
+    ]),
+    ("Account Executive", [
+        "account executive", "accounts associate", "enterprise account executive",
+    ]),
+    ("Sales Development Representative", [
+        "sales development", "sdr", "business development representative",
+        "business development rep", "bdr",
+    ]),
+    ("Sales Executive", [
+        "sales executive", "sales manager", "inside sales", "enterprise sales",
+        "business development manager", "account manager", "sales lead", "sales director",
+    ]),
+    ("Customer Success Manager", [
+        "customer success", "customer experience associate", "cx associate",
+    ]),
+    ("Marketing Manager", [
+        "marketing manager", "digital marketing", "brand manager", "marketing lead",
+        "social media manager", "email marketing",
+    ]),
+    ("Content Marketing", [
+        "content marketing", "content writer", "copywriter",
+    ]),
+    ("Growth Marketing", [
+        "growth marketing", "performance marketing", "seo specialist", "sem specialist",
+        "growth manager",
+    ]),
+    ("Recruiter", [
+        "recruiter", "technical recruiter", "talent acquisition", "staffing",
+        "recruiting",
+    ]),
+    ("HR Manager", [
+        "human resources", "hr manager", "hrbp", "people operations", "people ops",
+        "people partner", "hr generalist", "employee experience", "workforce operations",
+    ]),
+    ("Finance Analyst", [
+        "finance analyst", "financial analyst", "strategic finance", "finance analytics",
+        "corporate finance", "fp&a",
+    ]),
+    ("Accountant", [
+        "accountant", "accounting", "controller", "auditor", "tax consultant", "tax analyst",
+    ]),
+    ("Legal Counsel", [
+        "legal", "counsel", "compliance officer", "compliance analyst", "privacy engineer",
+        "public policy", "regulatory policy", "policy analyst", "policy economist",
+    ]),
+    ("Operations Manager", [
+        "operations manager", "ops manager", "office manager", "procurement",
+        "logistics", "supply chain", "revops", "field operations", "business operations",
+        "operational planning", "capacity planning", "process strategy",
+        "process optimization", "strategy and operations", "growth operations",
+    ]),
+    ("Operations Analyst", [
+        "operations analyst", "forecasting analyst", "demand planning analyst",
+        "workforce planning analyst",
+    ]),
+    ("Technical Writer", [
+        "technical writer", "documentation engineer", "documentation specialist",
+    ]),
+    ("Research Scientist", [
+        "research scientist", "research engineer", "ai researcher",
+    ]),
+    ("Executive Assistant", [
+        "executive assistant", "executive coordinator", "administrative assistant",
+    ]),
+]
+
+
+def load_taxonomy():
+    with open(TAXONOMY_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def check_rules_match_taxonomy(taxonomy):
+    """Fail loudly if a keyword rule points at a category the taxonomy
+    doesn't have - this is exactly the bug that silently broke filtering."""
+    taxonomy_set = set(taxonomy)
+    bad = [canonical for canonical, _ in KEYWORD_RULES if canonical not in taxonomy_set]
+    if bad:
+        print("ERROR: these KEYWORD_RULES categories are not in role_taxonomy.json:")
+        for b in bad:
+            print("  -", b)
+        raise SystemExit(1)
+
+
+def map_by_keyword(title_lower):
+    for canonical, keywords in KEYWORD_RULES:
+        for kw in keywords:
+            if kw in title_lower:
+                return canonical
+    return None
+
+
+def map_by_fuzzy(title, taxonomy):
+    matches = difflib.get_close_matches(title, taxonomy, n=1, cutoff=0.5)
+    if matches:
+        return matches[0]
+    return "Other"
+
+
+def map_title(raw_title, taxonomy):
+    title_lower = raw_title.lower()
+    result = map_by_keyword(title_lower)
+    if result:
+        return result, "keyword"
+    result = map_by_fuzzy(raw_title, taxonomy)
+    return result, "fuzzy"
+
+
+def main():
+    taxonomy = load_taxonomy()
+    check_rules_match_taxonomy(taxonomy)
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+
+    raw_files = sorted(RAW_DIR.glob("*.json"))
+    if not raw_files:
+        print("No files found in data/raw/. Run scripts/fetch_jobs.py first (Stage 4).")
+        return
+
+    total_jobs = 0
+    total_keyword = 0
+    total_fuzzy = 0
+    total_other = 0
+
+    for raw_file in raw_files:
+        with open(raw_file, "r", encoding="utf-8") as f:
+            payload = json.load(f)
+
+        jobs = payload.get("jobs", [])
+        processed_jobs = []
+
+        for job in jobs:
+            raw_title = job.get("title", "")
+            category, method = map_title(raw_title, taxonomy)
+
+            total_jobs += 1
+            if method == "keyword":
+                total_keyword += 1
+            else:
+                total_fuzzy += 1
+            if category == "Other":
+                total_other += 1
+
+            new_job = dict(job)
+            new_job["raw_title"] = raw_title
+            new_job["role_category"] = category
+            processed_jobs.append(new_job)
+
+        out_file = PROCESSED_DIR / raw_file.name
+        with open(out_file, "w", encoding="utf-8") as f:
+            json.dump({"jobs": processed_jobs}, f, indent=2)
+
+        print(f"{raw_file.stem:15s} -> {len(processed_jobs):4d} jobs mapped -> {out_file.relative_to(ROOT)}")
+
+    print()
+    print("=" * 50)
+    print(f"Total jobs processed:        {total_jobs}")
+    print(f"Mapped by keyword rule:      {total_keyword}")
+    print(f"Mapped by fuzzy fallback:    {total_fuzzy}")
+    print(f"Fell through to 'Other':     {total_other}")
+    if total_jobs:
+        print(f"'Other' rate:                {total_other / total_jobs * 100:.1f}%")
+    print("=" * 50)
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+
+
+"""
     ("Embedded Engineer", [
     "embedded engineer",
     "embedded software engineer",
@@ -1626,7 +1892,8 @@ KEYWORD_RULES = [
     "recruiter",
     "technical recruiter",
     "talent acquisition",
-    "staffing"
+    "staffing",
+    "recruiting"
     ]),
 
 
@@ -1742,96 +2009,6 @@ KEYWORD_RULES = [
     "administrative assistant"
     ]),
     
-]
-
-def load_taxonomy():
-    with open(TAXONOMY_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+]"""
 
 
-def map_by_keyword(title_lower):
-    for canonical, keywords in KEYWORD_RULES:
-        for kw in keywords:
-            if kw in title_lower:
-                return canonical
-    return None
-
-
-def map_by_fuzzy(title, taxonomy):
-    matches = difflib.get_close_matches(title, taxonomy, n=1, cutoff=0.5)
-    if matches:
-        return matches[0]
-    return "Other"
-
-
-def map_title(raw_title, taxonomy):
-    title_lower = raw_title.lower()
-    result = map_by_keyword(title_lower)
-    if result:
-        return result, "keyword"
-    result = map_by_fuzzy(raw_title, taxonomy)
-    return result, "fuzzy"
-
-
-def main():
-    taxonomy = load_taxonomy()
-    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
-
-    raw_files = sorted(RAW_DIR.glob("*.json"))
-    if not raw_files:
-        print("No files found in data/raw/. Run scripts/fetch_jobs.py first (Stage 4).")
-        return
-
-    total_jobs = 0
-    total_keyword = 0
-    total_fuzzy = 0
-    total_other = 0
-
-    for raw_file in raw_files:
-        with open(raw_file, "r", encoding="utf-8") as f:
-            payload = json.load(f)
-
-        jobs = payload.get("jobs", [])
-        processed_jobs = []
-
-        for job in jobs:
-            raw_title = job.get("title", "")
-            category, method = map_title(raw_title, taxonomy)
-
-            total_jobs += 1
-            if method == "keyword":
-                total_keyword += 1
-            else:
-                total_fuzzy += 1
-            if category == "Other":
-                total_other += 1
-
-            new_job = dict(job)
-            new_job["raw_title"] = raw_title
-            new_job["role_category"] = category
-            processed_jobs.append(new_job)
-
-        out_file = PROCESSED_DIR / raw_file.name
-        with open(out_file, "w", encoding="utf-8") as f:
-            json.dump({"jobs": processed_jobs}, f, indent=2)
-
-        print(f"{raw_file.stem:15s} -> {len(processed_jobs):4d} jobs mapped -> {out_file.relative_to(ROOT)}")
-
-    print()
-    print("=" * 50)
-    print(f"Total jobs processed:        {total_jobs}")
-    print(f"Mapped by keyword rule:      {total_keyword}")
-    print(f"Mapped by fuzzy fallback:    {total_fuzzy}")
-    print(f"Fell through to 'Other':     {total_other}")
-    if total_jobs:
-        print(f"'Other' rate:                {total_other / total_jobs * 100:.1f}%")
-    print("=" * 50)
-    print()
-    print("Check a few titles below manually against their assigned category.")
-    print("If 'Other' rate is high, or mappings look wrong, tell Claude some")
-    print("example (raw_title -> role_category) pairs so the keyword rules")
-    print("can be tuned.")
-
-
-if __name__ == "__main__":
-    main()
