@@ -15,15 +15,6 @@
       font-family: system-ui, -apple-system, Segoe UI, sans-serif;
     }
 
-    /* =========================================================
-       TOP BAR
-       Everything up top now lives in normal document flow inside
-       one bar, instead of separate absolutely-positioned corners.
-       That's what stops title/subtitle/status/filters from ever
-       overlapping each other - on any screen size, they just wrap
-       and stack instead. The globe is positioned in JS to start
-       exactly where this bar ends, so it's never covered either.
-       ========================================================= */
     #topBar {
       position: relative;
       z-index: 10;
@@ -148,9 +139,6 @@
     .ctrlBtn:hover { border-color: rgba(255,255,255,0.35); }
     .ctrlBtn:disabled { opacity: 0.6; cursor: default; }
 
-    /* Globe fills everything below the top bar; top is set in JS to
-       match the bar's real rendered height, so it adapts automatically
-       whether the bar wraps to 2 lines (desktop) or 5 lines (small phone). */
     #globeViz {
       position: absolute;
       left: 0;
@@ -169,10 +157,6 @@
       cursor: pointer;
     }
 
-    /* Below ~700px (phones), filters are collapsed behind a toggle
-       button by default, so the globe gets most of the screen instead
-       of five stacked dropdowns pushing it halfway down. Desktop is
-       untouched - filters stay inline and this rule never applies. */
     @media (max-width: 700px) {
       #filterToggle { display: inline-block; }
       #filters { display: none; width: 100%; }
@@ -269,8 +253,6 @@
     world.controls().enableRotate = true;
     world.controls().enableZoom = true;
 
-    // ---------- Keep the globe positioned exactly below the top bar,
-    // however tall that bar happens to be on this screen ----------
     function positionGlobe() {
       const barHeight = topBar.offsetHeight;
       globeContainer.style.top = barHeight + "px";
@@ -279,7 +261,6 @@
     window.addEventListener("resize", positionGlobe);
     positionGlobe();
 
-    // ---------- Mobile: collapsible filters ----------
     const filterToggle = document.getElementById("filterToggle");
     const filtersEl = document.getElementById("filters");
     filterToggle.addEventListener("click", () => {
@@ -289,15 +270,12 @@
     });
 
     // ---------- Country/state border overlay ----------
-    // Natural Earth is a free, public-domain map dataset - no API key,
-    // no cost. Countries come from globe.gl's own example dataset (small,
-    // reliable); states/provinces from the Natural Earth project directly.
     const COUNTRIES_URL = "https://cdn.jsdelivr.net/gh/vasturiano/globe.gl@master/example/datasets/ne_110m_admin_0_countries.geojson";
     const STATES_URL = "https://cdn.jsdelivr.net/gh/nvkelso/natural-earth-vector@master/geojson/ne_50m_admin_1_states_provinces_lakes.geojson";
 
     const btnBorders = document.getElementById("toggleBorders");
     let bordersOn = false;
-    let borderFeatures = null; // cached after first successful load, so toggling off/on again is instant
+    let borderFeatures = null;
 
     world
       .polygonsTransitionDuration(0)
@@ -332,8 +310,6 @@
           console.warn("State/province borders failed to load - showing country borders only.");
         }
 
-        // States drawn first, country outlines drawn on top, so country
-        // lines stay clearly visible over the finer state lines.
         borderFeatures = [...states, ...countries];
       } catch (err) {
         console.error("Failed to load border data:", err);
@@ -362,7 +338,6 @@
       }
     });
 
-    // ---------- Pause / resume rotation ----------
     const btnRotate = document.getElementById("toggleRotate");
     btnRotate.addEventListener("click", () => {
       const spinning = world.controls().autoRotate;
@@ -370,7 +345,6 @@
       btnRotate.textContent = spinning ? "▶ Resume rotation" : "⏸ Pause rotation";
     });
 
-    // ---------- Location text cleanup ----------
     function cleanLocationText(raw) {
       if (!raw) return null;
       let t = raw.replace(/\b(remote|hybrid|distributed|on[\s-]?site)\b/gi, "");
@@ -378,7 +352,6 @@
       return t || null;
     }
 
-    // ---------- Filters ----------
     let allJobs = [];
 
     const selRole = document.getElementById("filterRole");
@@ -428,9 +401,6 @@
         `${plottable.length} jobs on the globe` +
         (skipped ? ` (${skipped} without a mappable location)` : "");
 
-      // Dropdown selections can change how many lines the top bar wraps
-      // to (e.g. long option text on a narrow phone) - keep the globe
-      // aligned to it every time.
       positionGlobe();
     }
 
