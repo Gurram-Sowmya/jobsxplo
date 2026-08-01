@@ -156,6 +156,27 @@
       right: 0;
       bottom: 0;
     }
+    #filterToggle {
+      display: none;
+      background: rgba(255,255,255,0.08);
+      color: #cbd5e1;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 0.8rem;
+      font-family: inherit;
+      cursor: pointer;
+    }
+
+    /* Below ~700px (phones), filters are collapsed behind a toggle
+       button by default, so the globe gets most of the screen instead
+       of five stacked dropdowns pushing it halfway down. Desktop is
+       untouched - filters stay inline and this rule never applies. */
+    @media (max-width: 700px) {
+      #filterToggle { display: inline-block; }
+      #filters { display: none; width: 100%; }
+      #filters.open { display: flex; }
+    }
   </style>
 </head>
 <body>
@@ -169,6 +190,8 @@
     </div>
 
     <div id="controlsRow">
+      <button id="filterToggle">Filters ▾</button>
+
       <div id="filters">
         <select id="filterRole"><option value="All">All roles</option></select>
         <select id="filterMode">
@@ -253,6 +276,15 @@
     }
     window.addEventListener("resize", positionGlobe);
     positionGlobe();
+
+    // ---------- Mobile: collapsible filters ----------
+    const filterToggle = document.getElementById("filterToggle");
+    const filtersEl = document.getElementById("filters");
+    filterToggle.addEventListener("click", () => {
+      const open = filtersEl.classList.toggle("open");
+      filterToggle.textContent = open ? "Hide filters ▲" : "Filters ▾";
+      positionGlobe();
+    });
 
     // ---------- Pause / resume rotation ----------
     const btnRotate = document.getElementById("toggleRotate");
