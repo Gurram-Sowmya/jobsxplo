@@ -1,13 +1,20 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
   <title>Jobxplo</title>
+
   <style>
-    * { box-sizing: border-box; }
-    html, body {
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
       margin: 0;
+      width: 100%;
       height: 100%;
       background: #0b0f19;
       color: #f5f5f5;
@@ -15,15 +22,25 @@
       overflow: hidden;
     }
 
-    /* Globe now starts below the filter row instead of underneath it,
-       per the "move the globe down a bit" request. */
+    /* =========================================================
+       GLOBE
+       The globe now occupies the entire screen so that the
+       Earth remains centered in the browser window.
+       ========================================================= */
+
     #globeViz {
       position: absolute;
-      top: 130px;
+      top: 0;
       left: 0;
       right: 0;
       bottom: 0;
+      width: 100%;
+      height: 100%;
     }
+
+    /* =========================================================
+       HEADER
+       ========================================================= */
 
     #header {
       position: absolute;
@@ -32,8 +49,22 @@
       z-index: 10;
       pointer-events: none;
     }
-    #header h1 { margin: 0; font-size: 1.4rem; letter-spacing: 0.02em; }
-    #header p { margin: 4px 0 0; font-size: 0.85rem; color: #9aa4b2; }
+
+    #header h1 {
+      margin: 0;
+      font-size: 1.4rem;
+      letter-spacing: 0.02em;
+    }
+
+    #header p {
+      margin: 4px 0 0;
+      font-size: 0.85rem;
+      color: #9aa4b2;
+    }
+
+    /* =========================================================
+       FILTERS
+       ========================================================= */
 
     #filters {
       position: absolute;
@@ -45,31 +76,40 @@
       gap: 8px;
       max-width: 78vw;
     }
+
     #filters select {
       background: rgba(15, 20, 32, 0.85);
       color: #f5f5f5;
-      border: 1px solid rgba(255,255,255,0.15);
+      border: 1px solid rgba(255, 255, 255, 0.15);
       border-radius: 6px;
       padding: 6px 10px;
       font-size: 0.8rem;
       font-family: inherit;
       cursor: pointer;
     }
-    #filters select:hover { border-color: rgba(255,255,255,0.35); }
+
+    #filters select:hover {
+      border-color: rgba(255, 255, 255, 0.35);
+    }
 
     #clearFilters {
-      background: rgba(255,255,255,0.08);
+      background: rgba(255, 255, 255, 0.08);
       color: #cbd5e1;
-      border: 1px solid rgba(255,255,255,0.15);
+      border: 1px solid rgba(255, 255, 255, 0.15);
       border-radius: 6px;
       padding: 6px 10px;
       font-size: 0.8rem;
       cursor: pointer;
     }
-    #clearFilters:hover { background: rgba(255,255,255,0.16); }
 
-    /* Right-side stacked panel: job count, clickable freshness legend,
-       and the rotation pause/resume button all live here now. */
+    #clearFilters:hover {
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    /* =========================================================
+       RIGHT PANEL
+       ========================================================= */
+
     #rightPanel {
       position: absolute;
       top: 16px;
@@ -80,6 +120,7 @@
       align-items: flex-end;
       gap: 8px;
     }
+
     #status {
       font-size: 0.8rem;
       color: #9aa4b2;
@@ -87,6 +128,11 @@
       padding: 8px 12px;
       border-radius: 8px;
     }
+
+    /* =========================================================
+       FRESHNESS FILTER
+       ========================================================= */
+
     #freshnessFilter {
       display: flex;
       flex-direction: column;
@@ -95,6 +141,7 @@
       padding: 10px 12px;
       border-radius: 8px;
     }
+
     .freshBtn {
       display: flex;
       align-items: center;
@@ -109,12 +156,17 @@
       font-family: inherit;
       text-align: left;
     }
-    .freshBtn:hover { background: rgba(255,255,255,0.08); }
+
+    .freshBtn:hover {
+      background: rgba(255, 255, 255, 0.08);
+    }
+
     .freshBtn.active {
-      background: rgba(255,255,255,0.14);
-      border-color: rgba(255,255,255,0.3);
+      background: rgba(255, 255, 255, 0.14);
+      border-color: rgba(255, 255, 255, 0.3);
       color: #ffffff;
     }
+
     .dot {
       display: inline-block;
       width: 10px;
@@ -123,225 +175,717 @@
       flex-shrink: 0;
     }
 
+    /* =========================================================
+       ROTATION BUTTON
+       ========================================================= */
+
     #toggleRotate {
       background: rgba(15, 20, 32, 0.85);
       color: #f5f5f5;
-      border: 1px solid rgba(255,255,255,0.15);
+      border: 1px solid rgba(255, 255, 255, 0.15);
       border-radius: 6px;
       padding: 6px 12px;
       font-size: 0.8rem;
       cursor: pointer;
       font-family: inherit;
     }
-    #toggleRotate:hover { border-color: rgba(255,255,255,0.35); }
+
+    #toggleRotate:hover {
+      border-color: rgba(255, 255, 255, 0.35);
+    }
   </style>
 </head>
+
 <body>
+
+  <!-- =========================================================
+       HEADER
+       ========================================================= -->
 
   <div id="header">
     <h1>Jobxplo</h1>
-    <p>Jobs posted today, yesterday, or 2 days ago — click a dot to open the listing</p>
+    <p>
+      Jobs posted today, yesterday, or 2 days ago —
+      click a dot to open the listing
+    </p>
   </div>
 
+  <!-- =========================================================
+       FILTERS
+       ========================================================= -->
+
   <div id="filters">
-    <select id="filterRole"><option value="All">All roles</option></select>
+
+    <select id="filterRole">
+      <option value="All">All roles</option>
+    </select>
+
     <select id="filterMode">
       <option value="All">All work modes</option>
       <option value="Onsite">Onsite</option>
       <option value="Remote">Remote</option>
       <option value="Hybrid">Hybrid</option>
     </select>
+
     <select id="filterExperience">
       <option value="All">All experience levels</option>
       <option value="Entry-level">Entry-level</option>
       <option value="Mid-level">Mid-level</option>
       <option value="Senior/Leadership">Senior/Leadership</option>
     </select>
-    <select id="filterLocation"><option value="All">All locations</option></select>
-    <select id="filterCompany"><option value="All">All companies</option></select>
-    <button id="clearFilters">Clear filters</button>
+
+    <select id="filterLocation">
+      <option value="All">All locations</option>
+    </select>
+
+    <select id="filterCompany">
+      <option value="All">All companies</option>
+    </select>
+
+    <button id="clearFilters">
+      Clear filters
+    </button>
+
   </div>
 
+  <!-- =========================================================
+       RIGHT PANEL
+       ========================================================= -->
+
   <div id="rightPanel">
-    <div id="status">Loading jobs…</div>
-    <div id="freshnessFilter">
-      <button class="freshBtn" data-freshness="today">
-        <span class="dot" style="background:#16f26b"></span>Today
-      </button>
-      <button class="freshBtn" data-freshness="yesterday">
-        <span class="dot" style="background:#ffe234"></span>Yesterday
-      </button>
-      <button class="freshBtn" data-freshness="2 days ago">
-        <span class="dot" style="background:#ff5a1f"></span>2 days ago
-      </button>
+
+    <div id="status">
+      Loading jobs…
     </div>
-    <button id="toggleRotate">⏸ Pause rotation</button>
+
+    <div id="freshnessFilter">
+
+      <button class="freshBtn" data-freshness="today">
+        <span
+          class="dot"
+          style="background:#16f26b">
+        </span>
+        Today
+      </button>
+
+      <button class="freshBtn" data-freshness="yesterday">
+        <span
+          class="dot"
+          style="background:#ffe234">
+        </span>
+        Yesterday
+      </button>
+
+      <button class="freshBtn" data-freshness="2 days ago">
+        <span
+          class="dot"
+          style="background:#ff5a1f">
+        </span>
+        2 days ago
+      </button>
+
+    </div>
+
+    <button id="toggleRotate">
+      ⏸ Pause rotation
+    </button>
+
   </div>
+
+  <!-- =========================================================
+       GLOBE CONTAINER
+       ========================================================= -->
 
   <div id="globeViz"></div>
 
+
+  <!-- =========================================================
+       GLOBE.GL
+       ========================================================= -->
+
   <script src="https://unpkg.com/globe.gl"></script>
+
   <script>
+
+    /* =========================================================
+       FRESHNESS COLORS
+       ========================================================= */
+
     const FRESHNESS_COLOR = {
       "today": "#16f26b",
       "yesterday": "#ffe234",
       "2 days ago": "#ff5a1f"
     };
 
-    const statusEl = document.getElementById("status");
-    const globeContainer = document.getElementById("globeViz");
+
+    /* =========================================================
+       DOM ELEMENTS
+       ========================================================= */
+
+    const statusEl =
+      document.getElementById("status");
+
+    const globeContainer =
+      document.getElementById("globeViz");
+
+
+    /* =========================================================
+       CREATE GLOBE
+       ========================================================= */
 
     const world = Globe()
       (globeContainer)
-      .globeImageUrl("https://unpkg.com/three-globe/example/img/earth-night.jpg")
+
+      .globeImageUrl(
+        "https://unpkg.com/three-globe/example/img/earth-night.jpg"
+      )
+
       .backgroundColor("#0b0f19")
-      .pointOfView({ lat: 20, lng: 0, altitude: 2.2 }, 0)
+
+      /*
+       * Center of the Earth.
+       *
+       * lat: 0  = Equator
+       * lng: 0  = Prime Meridian
+       *
+       * altitude controls how far the camera is
+       * from the globe.
+       */
+      .pointOfView(
+        {
+          lat: 0,
+          lng: 0,
+          altitude: 2.2
+        },
+        0
+      )
+
       .pointAltitude(0.015)
+
       .pointRadius(0.45)
-      .pointColor(d => FRESHNESS_COLOR[d.freshness] || "#888888")
-      .pointLabel(d => `
-        <div style="font-family: system-ui, sans-serif; background: rgba(15,20,32,0.95);
-                    color: #f5f5f5; padding: 8px 10px; border-radius: 6px; max-width: 240px;">
-          <strong>${d.company}</strong><br/>
-          ${d.raw_title}<br/>
-          <span style="color:#9aa4b2">${d.location_text} · ${d.work_mode}</span>
-        </div>
-      `)
-      .onPointClick(d => {
-        if (d.job_url) window.open(d.job_url, "_blank");
-      });
+
+      .pointColor(
+        d =>
+          FRESHNESS_COLOR[d.freshness] ||
+          "#888888"
+      )
+
+      .pointLabel(
+        d => `
+          <div
+            style="
+              font-family: system-ui, sans-serif;
+              background: rgba(15,20,32,0.95);
+              color: #f5f5f5;
+              padding: 8px 10px;
+              border-radius: 6px;
+              max-width: 240px;
+            "
+          >
+
+            <strong>${d.company}</strong>
+            <br/>
+
+            ${d.raw_title}
+            <br/>
+
+            <span style="color:#9aa4b2">
+              ${d.location_text}
+              ·
+              ${d.work_mode}
+            </span>
+
+          </div>
+        `
+      )
+
+      .onPointClick(
+        d => {
+          if (d.job_url) {
+            window.open(
+              d.job_url,
+              "_blank"
+            );
+          }
+        }
+      );
+
+
+    /* =========================================================
+       GLOBE CONTROLS
+       ========================================================= */
 
     world.controls().autoRotate = true;
+
     world.controls().autoRotateSpeed = 0.6;
+
     world.controls().enableRotate = true;
+
     world.controls().enableZoom = true;
 
-    // ---------- Pause / resume rotation ----------
-    const btnRotate = document.getElementById("toggleRotate");
-    btnRotate.addEventListener("click", () => {
-      const spinning = world.controls().autoRotate;
-      world.controls().autoRotate = !spinning;
-      btnRotate.textContent = spinning ? "▶ Resume rotation" : "⏸ Pause rotation";
-    });
 
-    // ---------- Location text cleanup ----------
-    // Raw location strings sometimes bundle the work mode into the place
-    // itself (e.g. "Remote - India" or "India (Remote)"). Since work mode
-    // already has its own filter, the Location filter should only ever
-    // show the place. This strips mode words out for filtering/display,
-    // without touching the original data or the on-hover tooltip.
+    /* =========================================================
+       PAUSE / RESUME ROTATION
+       ========================================================= */
+
+    const btnRotate =
+      document.getElementById("toggleRotate");
+
+    btnRotate.addEventListener(
+      "click",
+      () => {
+
+        const spinning =
+          world.controls().autoRotate;
+
+        world.controls().autoRotate =
+          !spinning;
+
+        btnRotate.textContent =
+          spinning
+            ? "▶ Resume rotation"
+            : "⏸ Pause rotation";
+
+      }
+    );
+
+
+    /* =========================================================
+       LOCATION TEXT CLEANUP
+       ========================================================= */
+
     function cleanLocationText(raw) {
-      if (!raw) return null;
-      let t = raw.replace(/\b(remote|hybrid|distributed|on[\s-]?site)\b/gi, "");
-      t = t.replace(/^[\s,;\-–—()]+|[\s,;\-–—()]+$/g, "").replace(/\s{2,}/g, " ").trim();
-      return t || null; // pure "Remote"/"Hybrid" with no real place -> no location option
+
+      if (!raw) {
+        return null;
+      }
+
+      let t =
+        raw.replace(
+          /\b(remote|hybrid|distributed|on[\s-]?site)\b/gi,
+          ""
+        );
+
+      t =
+        t.replace(
+          /^[\s,;\-–—()]+|[\s,;\-–—()]+$/g,
+          ""
+        );
+
+      t =
+        t.replace(
+          /\s{2,}/g,
+          " "
+        )
+        .trim();
+
+      return t || null;
     }
 
-    // ---------- Stage 9: filters ----------
+
+    /* =========================================================
+       FILTERS
+       ========================================================= */
+
     let allJobs = [];
 
-    const selRole = document.getElementById("filterRole");
-    const selMode = document.getElementById("filterMode");
-    const selExperience = document.getElementById("filterExperience");
-    const selLocation = document.getElementById("filterLocation");
-    const selCompany = document.getElementById("filterCompany");
-    const btnClear = document.getElementById("clearFilters");
-    const freshButtons = Array.from(document.querySelectorAll(".freshBtn"));
 
-    let activeFreshness = null; // null = no freshness filter active
+    const selRole =
+      document.getElementById("filterRole");
 
-    function populateDropdown(selectEl, values) {
-      const sorted = [...new Set(values)].filter(Boolean).sort();
-      sorted.forEach(v => {
-        const opt = document.createElement("option");
-        opt.value = v;
-        opt.textContent = v;
-        selectEl.appendChild(opt);
-      });
+    const selMode =
+      document.getElementById("filterMode");
+
+    const selExperience =
+      document.getElementById("filterExperience");
+
+    const selLocation =
+      document.getElementById("filterLocation");
+
+    const selCompany =
+      document.getElementById("filterCompany");
+
+    const btnClear =
+      document.getElementById("clearFilters");
+
+    const freshButtons =
+      Array.from(
+        document.querySelectorAll(".freshBtn")
+      );
+
+
+    /*
+     * null means no freshness filter.
+     */
+
+    let activeFreshness = null;
+
+
+    /* =========================================================
+       POPULATE DROPDOWNS
+       ========================================================= */
+
+    function populateDropdown(
+      selectEl,
+      values
+    ) {
+
+      const sorted =
+        [...new Set(values)]
+          .filter(Boolean)
+          .sort();
+
+      sorted.forEach(
+        v => {
+
+          const opt =
+            document.createElement("option");
+
+          opt.value = v;
+
+          opt.textContent = v;
+
+          selectEl.appendChild(opt);
+
+        }
+      );
     }
+
+
+    /* =========================================================
+       APPLY FILTERS
+       ========================================================= */
 
     function applyFilters() {
-      const role = selRole.value;
-      const mode = selMode.value;
-      const experience = selExperience.value;
-      const location = selLocation.value;
-      const company = selCompany.value;
 
-      const matched = allJobs.filter(j =>
-        (role === "All" || j.role_category === role) &&
-        (mode === "All" || j.work_mode === mode) &&
-        (experience === "All" || j.experience_level === experience) &&
-        (location === "All" || j.locationClean === location) &&
-        (company === "All" || j.company === company) &&
-        (activeFreshness === null || j.freshness === activeFreshness)
-      );
+      const role =
+        selRole.value;
 
-      const plottable = matched.filter(j => j.lat != null && j.long != null);
+      const mode =
+        selMode.value;
+
+      const experience =
+        selExperience.value;
+
+      const location =
+        selLocation.value;
+
+      const company =
+        selCompany.value;
+
+
+      const matched =
+        allJobs.filter(
+          j =>
+
+            (role === "All" ||
+              j.role_category === role)
+
+            &&
+
+            (mode === "All" ||
+              j.work_mode === mode)
+
+            &&
+
+            (experience === "All" ||
+              j.experience_level === experience)
+
+            &&
+
+            (location === "All" ||
+              j.locationClean === location)
+
+            &&
+
+            (company === "All" ||
+              j.company === company)
+
+            &&
+
+            (
+              activeFreshness === null ||
+              j.freshness === activeFreshness
+            )
+        );
+
+
+      /*
+       * Only jobs with latitude and longitude
+       * can be displayed on the globe.
+       */
+
+      const plottable =
+        matched.filter(
+          j =>
+            j.lat != null &&
+            j.long != null
+        );
+
 
       world.pointsData(
-        plottable.map(j => ({ ...j, lat: j.lat, lng: j.long }))
+        plottable.map(
+          j => ({
+            ...j,
+            lat: j.lat,
+            lng: j.long
+          })
+        )
       );
 
-      const skipped = matched.length - plottable.length;
+
+      const skipped =
+        matched.length -
+        plottable.length;
+
+
       statusEl.textContent =
         `${plottable.length} jobs on the globe` +
-        (skipped ? ` (${skipped} without a mappable location)` : "");
+        (
+          skipped
+            ? ` (${skipped} without a mappable location)`
+            : ""
+        );
     }
 
-    [selRole, selMode, selExperience, selLocation, selCompany]
-      .forEach(sel => sel.addEventListener("change", applyFilters));
 
-    btnClear.addEventListener("click", () => {
-      [selRole, selMode, selExperience, selLocation, selCompany]
-        .forEach(sel => sel.value = "All");
-      activeFreshness = null;
-      freshButtons.forEach(b => b.classList.remove("active"));
-      applyFilters();
-    });
+    /* =========================================================
+       FILTER CHANGE EVENTS
+       ========================================================= */
 
-    // Clickable freshness legend: click once to isolate that color,
-    // click the same one again to go back to showing all.
-    freshButtons.forEach(btn => {
-      btn.addEventListener("click", () => {
-        const value = btn.dataset.freshness;
-        if (activeFreshness === value) {
-          activeFreshness = null;
-          btn.classList.remove("active");
-        } else {
-          activeFreshness = value;
-          freshButtons.forEach(b => b.classList.remove("active"));
-          btn.classList.add("active");
-        }
+    [
+      selRole,
+      selMode,
+      selExperience,
+      selLocation,
+      selCompany
+    ]
+      .forEach(
+        sel =>
+          sel.addEventListener(
+            "change",
+            applyFilters
+          )
+      );
+
+
+    /* =========================================================
+       CLEAR FILTERS
+       ========================================================= */
+
+    btnClear.addEventListener(
+      "click",
+      () => {
+
+        [
+          selRole,
+          selMode,
+          selExperience,
+          selLocation,
+          selCompany
+        ]
+          .forEach(
+            sel =>
+              sel.value = "All"
+          );
+
+
+        activeFreshness = null;
+
+
+        freshButtons.forEach(
+          b =>
+            b.classList.remove("active")
+        );
+
+
         applyFilters();
-      });
-    });
+
+      }
+    );
+
+
+    /* =========================================================
+       FRESHNESS FILTER
+       ========================================================= */
+
+    freshButtons.forEach(
+      btn => {
+
+        btn.addEventListener(
+          "click",
+          () => {
+
+            const value =
+              btn.dataset.freshness;
+
+
+            /*
+             * Clicking the active button again
+             * removes the filter.
+             */
+
+            if (
+              activeFreshness === value
+            ) {
+
+              activeFreshness = null;
+
+              btn.classList.remove(
+                "active"
+              );
+
+            }
+
+            else {
+
+              activeFreshness = value;
+
+
+              freshButtons.forEach(
+                b =>
+                  b.classList.remove(
+                    "active"
+                  )
+              );
+
+
+              btn.classList.add(
+                "active"
+              );
+
+            }
+
+
+            applyFilters();
+
+          }
+        );
+
+      }
+    );
+
+
+    /* =========================================================
+       LOAD JOB DATA
+       ========================================================= */
 
     fetch("./data/jobs.json")
-      .then(res => {
-        if (!res.ok) throw new Error("HTTP " + res.status);
-        return res.json();
-      })
-      .then(data => {
-        allJobs = (data.jobs || []).map(j => ({
-          ...j,
-          locationClean: cleanLocationText(j.location_text)
-        }));
 
-        populateDropdown(selRole, allJobs.map(j => j.role_category));
-        populateDropdown(selLocation, allJobs.map(j => j.locationClean));
-        populateDropdown(selCompany, allJobs.map(j => j.company));
+      .then(
+        res => {
 
-        applyFilters();
-      })
-      .catch(err => {
-        statusEl.textContent = "Couldn't load job data — " + err.message;
-        console.error("Failed to load data/jobs.json:", err);
-      });
+          if (!res.ok) {
+            throw new Error(
+              "HTTP " + res.status
+            );
+          }
 
-    window.addEventListener("resize", () => {
-      world.width(globeContainer.clientWidth).height(globeContainer.clientHeight);
-    });
+          return res.json();
+
+        }
+      )
+
+      .then(
+        data => {
+
+          allJobs =
+            (data.jobs || [])
+              .map(
+                j => ({
+                  ...j,
+                  locationClean:
+                    cleanLocationText(
+                      j.location_text
+                    )
+                })
+              );
+
+
+          /*
+           * Populate dropdowns
+           */
+
+          populateDropdown(
+            selRole,
+            allJobs.map(
+              j => j.role_category
+            )
+          );
+
+
+          populateDropdown(
+            selLocation,
+            allJobs.map(
+              j => j.locationClean
+            )
+          );
+
+
+          populateDropdown(
+            selCompany,
+            allJobs.map(
+              j => j.company
+            )
+          );
+
+
+          /*
+           * Display all jobs initially.
+           */
+
+          applyFilters();
+
+        }
+      )
+
+      .catch(
+        err => {
+
+          statusEl.textContent =
+            "Couldn't load job data — " +
+            err.message;
+
+          console.error(
+            "Failed to load data/jobs.json:",
+            err
+          );
+
+        }
+      );
+
+
+    /* =========================================================
+       RESPONSIVE RESIZE
+       ========================================================= */
+
+    function resizeGlobe() {
+
+      world
+        .width(
+          globeContainer.clientWidth
+        )
+        .height(
+          globeContainer.clientHeight
+        );
+
+    }
+
+
+    window.addEventListener(
+      "resize",
+      resizeGlobe
+    );
+
+
+    /*
+     * Initial size
+     */
+
+    resizeGlobe();
+
   </script>
 
 </body>
 </html>
+```
