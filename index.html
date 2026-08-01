@@ -14,7 +14,16 @@
       font-family: system-ui, -apple-system, Segoe UI, sans-serif;
       overflow: hidden;
     }
-    #globeViz { width: 100vw; height: 100vh; }
+
+    /* Globe now starts below the filter row instead of underneath it,
+       per the "move the globe down a bit" request. */
+    #globeViz {
+      position: absolute;
+      top: 130px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
 
     #header {
       position: absolute;
@@ -23,48 +32,9 @@
       z-index: 10;
       pointer-events: none;
     }
-    #header h1 {
-      margin: 0;
-      font-size: 1.4rem;
-      letter-spacing: 0.02em;
-    }
-    #header p {
-      margin: 4px 0 0;
-      font-size: 0.85rem;
-      color: #9aa4b2;
-    }
+    #header h1 { margin: 0; font-size: 1.4rem; letter-spacing: 0.02em; }
+    #header p { margin: 4px 0 0; font-size: 0.85rem; color: #9aa4b2; }
 
-    #legend {
-      position: absolute;
-      bottom: 16px;
-      left: 16px;
-      z-index: 10;
-      font-size: 0.8rem;
-      color: #cbd5e1;
-      background: rgba(15, 20, 32, 0.7);
-      padding: 10px 14px;
-      border-radius: 8px;
-      line-height: 1.6;
-    }
-    .dot {
-      display: inline-block;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      margin-right: 6px;
-    }
-
-    #status {
-      position: absolute;
-      top: 16px;
-      right: 16px;
-      z-index: 10;
-      font-size: 0.8rem;
-      color: #9aa4b2;
-      background: rgba(15, 20, 32, 0.7);
-      padding: 8px 12px;
-      border-radius: 8px;
-    }
     #filters {
       position: absolute;
       top: 78px;
@@ -73,7 +43,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
-      max-width: 90vw;
+      max-width: 78vw;
     }
     #filters select {
       background: rgba(15, 20, 32, 0.85);
@@ -97,6 +67,73 @@
       cursor: pointer;
     }
     #clearFilters:hover { background: rgba(255,255,255,0.16); }
+
+    /* Right-side stacked panel: job count, clickable freshness legend,
+       and the rotation pause/resume button all live here now. */
+    #rightPanel {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 8px;
+    }
+    #status {
+      font-size: 0.8rem;
+      color: #9aa4b2;
+      background: rgba(15, 20, 32, 0.7);
+      padding: 8px 12px;
+      border-radius: 8px;
+    }
+    #freshnessFilter {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      background: rgba(15, 20, 32, 0.7);
+      padding: 10px 12px;
+      border-radius: 8px;
+    }
+    .freshBtn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: transparent;
+      border: 1px solid transparent;
+      border-radius: 6px;
+      padding: 4px 6px;
+      font-size: 0.8rem;
+      color: #cbd5e1;
+      cursor: pointer;
+      font-family: inherit;
+      text-align: left;
+    }
+    .freshBtn:hover { background: rgba(255,255,255,0.08); }
+    .freshBtn.active {
+      background: rgba(255,255,255,0.14);
+      border-color: rgba(255,255,255,0.3);
+      color: #ffffff;
+    }
+    .dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    #toggleRotate {
+      background: rgba(15, 20, 32, 0.85);
+      color: #f5f5f5;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    #toggleRotate:hover { border-color: rgba(255,255,255,0.35); }
   </style>
 </head>
 <body>
@@ -125,33 +162,42 @@
     <button id="clearFilters">Clear filters</button>
   </div>
 
-  <div id="legend">
-    <div><span class="dot" style="background:#22c55e"></span>Today</div>
-    <div><span class="dot" style="background:#eab308"></span>Yesterday</div>
-    <div><span class="dot" style="background:#f97316"></span>2 days ago</div>
+  <div id="rightPanel">
+    <div id="status">Loading jobs…</div>
+    <div id="freshnessFilter">
+      <button class="freshBtn" data-freshness="today">
+        <span class="dot" style="background:#16f26b"></span>Today
+      </button>
+      <button class="freshBtn" data-freshness="yesterday">
+        <span class="dot" style="background:#ffe234"></span>Yesterday
+      </button>
+      <button class="freshBtn" data-freshness="2 days ago">
+        <span class="dot" style="background:#ff5a1f"></span>2 days ago
+      </button>
+    </div>
+    <button id="toggleRotate">⏸ Pause rotation</button>
   </div>
-
-  <div id="status">Loading jobs…</div>
 
   <div id="globeViz"></div>
 
   <script src="https://unpkg.com/globe.gl"></script>
   <script>
     const FRESHNESS_COLOR = {
-      "today": "#22c55e",
-      "yesterday": "#eab308",
-      "2 days ago": "#f97316"
+      "today": "#16f26b",
+      "yesterday": "#ffe234",
+      "2 days ago": "#ff5a1f"
     };
 
     const statusEl = document.getElementById("status");
+    const globeContainer = document.getElementById("globeViz");
 
     const world = Globe()
-      (document.getElementById("globeViz"))
+      (globeContainer)
       .globeImageUrl("https://unpkg.com/three-globe/example/img/earth-night.jpg")
       .backgroundColor("#0b0f19")
       .pointOfView({ lat: 20, lng: 0, altitude: 2.2 }, 0)
-      .pointAltitude(0.01)
-      .pointRadius(0.35)
+      .pointAltitude(0.015)
+      .pointRadius(0.45)
       .pointColor(d => FRESHNESS_COLOR[d.freshness] || "#888888")
       .pointLabel(d => `
         <div style="font-family: system-ui, sans-serif; background: rgba(15,20,32,0.95);
@@ -165,15 +211,34 @@
         if (d.job_url) window.open(d.job_url, "_blank");
       });
 
-    // Make rotation unmistakable: gentle auto-spin by default, and dragging
-    // with the mouse/trackpad temporarily takes over, then auto-spin resumes.
     world.controls().autoRotate = true;
     world.controls().autoRotateSpeed = 0.6;
     world.controls().enableRotate = true;
     world.controls().enableZoom = true;
 
+    // ---------- Pause / resume rotation ----------
+    const btnRotate = document.getElementById("toggleRotate");
+    btnRotate.addEventListener("click", () => {
+      const spinning = world.controls().autoRotate;
+      world.controls().autoRotate = !spinning;
+      btnRotate.textContent = spinning ? "▶ Resume rotation" : "⏸ Pause rotation";
+    });
+
+    // ---------- Location text cleanup ----------
+    // Raw location strings sometimes bundle the work mode into the place
+    // itself (e.g. "Remote - India" or "India (Remote)"). Since work mode
+    // already has its own filter, the Location filter should only ever
+    // show the place. This strips mode words out for filtering/display,
+    // without touching the original data or the on-hover tooltip.
+    function cleanLocationText(raw) {
+      if (!raw) return null;
+      let t = raw.replace(/\b(remote|hybrid|distributed|on[\s-]?site)\b/gi, "");
+      t = t.replace(/^[\s,;\-–—()]+|[\s,;\-–—()]+$/g, "").replace(/\s{2,}/g, " ").trim();
+      return t || null; // pure "Remote"/"Hybrid" with no real place -> no location option
+    }
+
     // ---------- Stage 9: filters ----------
-    let allJobs = [];  // every job from data/jobs.json, unfiltered
+    let allJobs = [];
 
     const selRole = document.getElementById("filterRole");
     const selMode = document.getElementById("filterMode");
@@ -181,6 +246,9 @@
     const selLocation = document.getElementById("filterLocation");
     const selCompany = document.getElementById("filterCompany");
     const btnClear = document.getElementById("clearFilters");
+    const freshButtons = Array.from(document.querySelectorAll(".freshBtn"));
+
+    let activeFreshness = null; // null = no freshness filter active
 
     function populateDropdown(selectEl, values) {
       const sorted = [...new Set(values)].filter(Boolean).sort();
@@ -203,8 +271,9 @@
         (role === "All" || j.role_category === role) &&
         (mode === "All" || j.work_mode === mode) &&
         (experience === "All" || j.experience_level === experience) &&
-        (location === "All" || j.location_text === location) &&
-        (company === "All" || j.company === company)
+        (location === "All" || j.locationClean === location) &&
+        (company === "All" || j.company === company) &&
+        (activeFreshness === null || j.freshness === activeFreshness)
       );
 
       const plottable = matched.filter(j => j.lat != null && j.long != null);
@@ -225,7 +294,26 @@
     btnClear.addEventListener("click", () => {
       [selRole, selMode, selExperience, selLocation, selCompany]
         .forEach(sel => sel.value = "All");
+      activeFreshness = null;
+      freshButtons.forEach(b => b.classList.remove("active"));
       applyFilters();
+    });
+
+    // Clickable freshness legend: click once to isolate that color,
+    // click the same one again to go back to showing all.
+    freshButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const value = btn.dataset.freshness;
+        if (activeFreshness === value) {
+          activeFreshness = null;
+          btn.classList.remove("active");
+        } else {
+          activeFreshness = value;
+          freshButtons.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+        }
+        applyFilters();
+      });
     });
 
     fetch("./data/jobs.json")
@@ -234,10 +322,13 @@
         return res.json();
       })
       .then(data => {
-        allJobs = data.jobs || [];
+        allJobs = (data.jobs || []).map(j => ({
+          ...j,
+          locationClean: cleanLocationText(j.location_text)
+        }));
 
         populateDropdown(selRole, allJobs.map(j => j.role_category));
-        populateDropdown(selLocation, allJobs.map(j => j.location_text));
+        populateDropdown(selLocation, allJobs.map(j => j.locationClean));
         populateDropdown(selCompany, allJobs.map(j => j.company));
 
         applyFilters();
@@ -248,7 +339,7 @@
       });
 
     window.addEventListener("resize", () => {
-      world.width(window.innerWidth).height(window.innerHeight);
+      world.width(globeContainer.clientWidth).height(globeContainer.clientHeight);
     });
   </script>
 
