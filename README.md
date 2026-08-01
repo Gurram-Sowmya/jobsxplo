@@ -2,14 +2,16 @@
 
 Live, no-login, 3D globe of jobs posted today/yesterday/2-days-ago — pulled directly from company ATS feeds.
 
-## Current status: Stage 9 complete
+## Current status: Stage 11 complete (manual pass), Stage 12 in progress
 
-There's now a real, live, self-updating site: a 3D globe (`index.html`, built with `globe.gl`) that loads `data/jobs.json` — which regenerates itself automatically every 6 hours (Stage 7) — and plots one dot per job, colored by freshness. Five filters (Role, Work mode, Experience, Location, Company) narrow the globe instantly in the browser, no server involved, plus a clickable freshness legend and a rotation pause/resume button. What's still missing: Stage 10 (expanding beyond the current 7 companies) and Stage 11 (formal testing pass).
+There's a real, live, self-updating site: a 3D globe (`index.html`, built with `globe.gl`) that loads `data/jobs.json` — which regenerates itself automatically every 6 hours (Stage 7) from **14 companies** — and plots one dot per job, colored by freshness. Five filters (Role, Work mode, Experience, Location, Company) narrow the globe instantly in the browser, plus a clickable freshness legend and a rotation pause/resume button. The site is responsive on both desktop and mobile. Confirmed live: the Company dropdown correctly shows ~10 of the 14 companies at any given time - the other ~4 simply don't have a posting inside the current 2-day freshness window, which is expected, correct behavior, not a bug.
+
+**Bonus feature added during Stage 9 polish:** a "Show borders" button overlays free Natural Earth country/state boundary data on the globe. Confirmed working live.
 
 **Stage 5 bug fix (post Stage 6 review):** an earlier version of `scripts/map_roles.py` had ~145 categories' worth of keyword rules accidentally left inert inside a text block instead of running as real code, which pushed ~23% of jobs into an unhelpful "Other" catch-all. Those rules were recovered, merged onto the existing 41-category taxonomy (no new categories added, to keep the filter list clean), and verified — "Other" rate dropped to ~17%. This is why `scripts/map_roles.py` may look denser than a first draft would.
 
 Repo contents:
-- `companies.json` — list of companies to fetch, with their Greenhouse board tokens
+- `companies.json` — 14 companies, all on Greenhouse, live and confirmed
 - `scripts/fetch_jobs.py` — Stage 4: pulls raw job data per company
 - `scripts/map_roles.py` — Stage 5: maps messy raw titles to a fixed role taxonomy
 - `scripts/process_jobs.py` — Stage 6: adds experience level, work mode, coordinates, freshness; produces the final dataset
@@ -18,7 +20,7 @@ Repo contents:
 - `data/processed/*.json` — one file per company, with `role_category` added (Stage 5 output)
 - `data/geocode_cache.json` — cached lat/long lookups, so re-running never re-hits the geocoding service for a location it's already resolved
 - `data/jobs.json` — the final, live dataset the frontend will read (Stage 6 output) — **regenerated automatically every 6 hours (Stage 7)**
-- `index.html` — **the real 3D globe (Stage 8), with filters and freshness controls (Stage 9)** — no longer the placeholder
+- `index.html` — **the real 3D globe (Stage 8), with filters, freshness controls, mobile-responsive layout (Stage 9), and a border overlay**
 - `.github/workflows/update-data.yml` — the real scheduled pipeline (Stage 7) — runs fetch → map → process → commit automatically
 
 ---
@@ -180,9 +182,59 @@ If you delete `data/geocode_cache.json` and re-run, the pipeline still works cor
 - [x] Filter dropdown options are driven by real data, not hardcoded
 - [x] Freshness legend is clickable and toggles correctly
 - [x] Rotation can be paused and resumed on demand
+- [x] Layout is responsive - filters collapse behind a toggle on mobile so the globe stays the focus
+
+**Bonus, built during Stage 9 polish (not originally scoped, added on request):** a "Show borders" toggle overlays real country and state/province outlines (free, public-domain Natural Earth data) directly on the globe, lazy-loaded on first click and cached after that. District-level boundaries were intentionally scoped out - no reliable free global dataset exists at that detail level; the existing job dots already serve as city-level markers. This part is built and syntax-verified, but not yet confirmed working live - worth a quick check next time you're in the app.
 
 ---
 
-## Next: Stage 10 (multi-company integration)
+## Stage 10: multi-company integration
 
-Expand `companies.json` beyond the current 7 companies (Stripe, Airbnb, Figma, Anthropic, Coinbase, Cloudflare, Databricks) to reach the target of 5-10+ well-covered companies, and re-verify that filtering, role mapping, and geocoding all continue to behave correctly as the dataset grows and role diversity increases.
+**What it is:** expanding `companies.json` from the original 7 companies to 14 (added Duolingo, Instacart, Discord, Robinhood, Dropbox, Reddit, Notion - all confirmed to run on Greenhouse). The pipeline itself needed no code changes for this; it was built in Stage 4-7 to handle any number of companies already. This was purely a data/config change.
+
+### Exit criteria
+- [x] Updated `companies.json` uploaded to the repo
+- [x] Workflow manually re-run and completed successfully with the expanded list
+- [x] Live site's Company filter dropdown confirmed to show the new companies (10 of 14 visible - expected, since the other 4 simply have no posting inside the current 2-day window)
+- [ ] Deep spot-check that new companies didn't introduce any bad role mappings or broken locations *(optional - folded into Stage 11 below)*
+
+**Status:** confirmed live and working.
+
+---
+
+## Stage 11: testing
+
+**What it is:** a verification pass across the now-larger, 14-company dataset. Split into two parts:
+
+1. **Manual, live-site checks (done):** each filter individually, filters combined, several dots clicked to confirm they open the correct real posting, freshness legend isolating the correct colors, mobile layout, and the border overlay - all confirmed working directly on the live site.
+2. **Deep data-quality check (optional, not yet done):** the kind of review that caught the Stage 5 role-mapping bug - re-verifying date parsing, dedup, geocoding accuracy, and "Other" rate specifically against the 7 newly-added companies' data, in case any of them has an unusual title/date/location format the original 7 didn't. This requires the repo's `data/` and `scripts/` folders to be shared for review; it's optional extra confidence, not a blocker.
+
+### Exit criteria
+- [x] All filters verified individually and in combination on live data
+- [x] Multiple dots spot-checked to confirm correct click-through
+- [x] Freshness legend verified to isolate correct colors
+- [x] Mobile layout re-confirmed
+- [x] Border overlay confirmed working live
+- [ ] Deep data-quality review of the 7 newly-added companies *(optional)*
+
+**Status:** manually verified and passing. Considered complete for practical purposes; the optional deep check can be done anytime without blocking further progress.
+
+---
+
+## Stage 12: deployment (in progress)
+
+**What it is:** normally this stage means "get the tested app live for the first time" - but since this project has been live on Vercel since Stage 3 (every stage since has been tested on the real deployed site, not a local copy), most of this stage's work already happened along the way. What's left is closing the remaining gaps between "live" and "properly finished deployment":
+
+### Exit criteria
+- [x] Publicly reachable by anyone, at all times (true since Stage 3)
+- [x] Auto-redeploys on every commit (Vercel + GitHub integration, working since Stage 8)
+- [ ] Caching behavior on `data/jobs.json` confirmed sensible (should be cached by the CDN but still pick up new data after each 6-hour pipeline run, not serve stale data indefinitely)
+- [ ] Decision made on a custom domain (optional - the current `jobsxplo.vercel.app` link works fine as-is; a custom domain like `jobxplo.com` is a nice-to-have, not a requirement, and costs roughly $10/year - the one realistic cost in this whole project)
+
+**Status:** in progress - the two remaining boxes are both quick, low-risk items.
+
+---
+
+## Next: Stage 13 (soft launch)
+
+Once Stage 12's two remaining boxes are checked, Stage 13 is about sharing the link with a small group first (rather than a big launch push) and watching for real-world edge cases in actual usage before Stage 14's ongoing iteration loop begins.
