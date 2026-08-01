@@ -134,7 +134,7 @@
       flex-shrink: 0;
     }
 
-    #toggleRotate {
+    .ctrlBtn {
       background: rgba(15, 20, 32, 0.85);
       color: #f5f5f5;
       border: 1px solid rgba(255,255,255,0.15);
@@ -145,7 +145,8 @@
       font-family: inherit;
       white-space: nowrap;
     }
-    #toggleRotate:hover { border-color: rgba(255,255,255,0.35); }
+    .ctrlBtn:hover { border-color: rgba(255,255,255,0.35); }
+    .ctrlBtn:disabled { opacity: 0.6; cursor: default; }
 
     /* Globe fills everything below the top bar; top is set in JS to
        match the bar's real rendered height, so it adapts automatically
@@ -223,7 +224,8 @@
             <span class="dot" style="background:#ff5a1f"></span>2 days ago
           </button>
         </div>
-        <button id="toggleRotate">⏸ Pause rotation</button>
+        <button id="toggleRotate" class="ctrlBtn">⏸ Pause rotation</button>
+        <button id="toggleBorders" class="ctrlBtn">🗺️ Show borders</button>
       </div>
     </div>
   </div>
@@ -284,6 +286,80 @@
       const open = filtersEl.classList.toggle("open");
       filterToggle.textContent = open ? "Hide filters ▲" : "Filters ▾";
       positionGlobe();
+    });
+
+    // ---------- Country/state border overlay ----------
+    // Natural Earth is a free, public-domain map dataset - no API key,
+    // no cost. Countries come from globe.gl's own example dataset (small,
+    // reliable); states/provinces from the Natural Earth project directly.
+    const COUNTRIES_URL = "https://cdn.jsdelivr.net/gh/vasturiano/globe.gl@master/example/datasets/ne_110m_admin_0_countries.geojson";
+    const STATES_URL = "https://cdn.jsdelivr.net/gh/nvkelso/natural-earth-vector@master/geojson/ne_50m_admin_1_states_provinces_lakes.geojson";
+
+    const btnBorders = document.getElementById("toggleBorders");
+    let bordersOn = false;
+    let borderFeatures = null; // cached after first successful load, so toggling off/on again is instant
+
+    world
+      .polygonsTransitionDuration(0)
+      .polygonCapColor(() => "rgba(0,0,0,0)")
+      .polygonSideColor(() => "rgba(0,0,0,0)")
+      .polygonStrokeColor(d => d.properties.mapLevel === "country" ? "#ffffff" : "rgba(255,255,255,0.45)")
+      .polygonAltitude(d => d.properties.mapLevel === "country" ? 0.01 : 0.008)
+      .polygonLabel(d => d.properties.mapLevel === "country"
+        ? (d.properties.ADMIN || d.properties.NAME || "")
+        : (d.properties.name || d.properties.woe_name || ""));
+
+    async function loadBorders() {
+      btnBorders.textContent = "Loading borders…";
+      btnBorders.disabled = true;
+      try {
+        const [countriesRes, statesRes] = await Promise.allSettled([
+          fetch(COUNTRIES_URL).then(r => r.json()),
+          fetch(STATES_URL).then(r => r.json())
+        ]);
+
+        const countries = countriesRes.status === "fulfilled"
+          ? countriesRes.value.features.map(f => ({ ...f, properties: { ...f.properties, mapLevel: "country" } }))
+          : [];
+        const states = statesRes.status === "fulfilled"
+          ? statesRes.value.features.map(f => ({ ...f, properties: { ...f.properties, mapLevel: "state" } }))
+          : [];
+
+        if (countries.length === 0 && states.length === 0) {
+          throw new Error("Border data unavailable");
+        }
+        if (statesRes.status !== "fulfilled") {
+          console.warn("State/province borders failed to load - showing country borders only.");
+        }
+
+        // States drawn first, country outlines drawn on top, so country
+        // lines stay clearly visible over the finer state lines.
+        borderFeatures = [...states, ...countries];
+      } catch (err) {
+        console.error("Failed to load border data:", err);
+        btnBorders.textContent = "Borders unavailable";
+        btnBorders.disabled = false;
+        setTimeout(() => { btnBorders.textContent = "🗺️ Show borders"; }, 2500);
+        return false;
+      }
+      btnBorders.disabled = false;
+      return true;
+    }
+
+    btnBorders.addEventListener("click", async () => {
+      if (!bordersOn) {
+        if (!borderFeatures) {
+          const ok = await loadBorders();
+          if (!ok) return;
+        }
+        world.polygonsData(borderFeatures);
+        bordersOn = true;
+        btnBorders.textContent = "Hide borders";
+      } else {
+        world.polygonsData([]);
+        bordersOn = false;
+        btnBorders.textContent = "🗺️ Show borders";
+      }
     });
 
     // ---------- Pause / resume rotation ----------
