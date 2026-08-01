@@ -65,6 +65,38 @@
       padding: 8px 12px;
       border-radius: 8px;
     }
+    #filters {
+      position: absolute;
+      top: 78px;
+      left: 16px;
+      z-index: 10;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      max-width: 90vw;
+    }
+    #filters select {
+      background: rgba(15, 20, 32, 0.85);
+      color: #f5f5f5;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-size: 0.8rem;
+      font-family: inherit;
+      cursor: pointer;
+    }
+    #filters select:hover { border-color: rgba(255,255,255,0.35); }
+
+    #clearFilters {
+      background: rgba(255,255,255,0.08);
+      color: #cbd5e1;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+    #clearFilters:hover { background: rgba(255,255,255,0.16); }
   </style>
 </head>
 <body>
@@ -72,6 +104,25 @@
   <div id="header">
     <h1>Jobxplo</h1>
     <p>Jobs posted today, yesterday, or 2 days ago — click a dot to open the listing</p>
+  </div>
+
+  <div id="filters">
+    <select id="filterRole"><option value="All">All roles</option></select>
+    <select id="filterMode">
+      <option value="All">All work modes</option>
+      <option value="Onsite">Onsite</option>
+      <option value="Remote">Remote</option>
+      <option value="Hybrid">Hybrid</option>
+    </select>
+    <select id="filterExperience">
+      <option value="All">All experience levels</option>
+      <option value="Entry-level">Entry-level</option>
+      <option value="Mid-level">Mid-level</option>
+      <option value="Senior/Leadership">Senior/Leadership</option>
+    </select>
+    <select id="filterLocation"><option value="All">All locations</option></select>
+    <select id="filterCompany"><option value="All">All companies</option></select>
+    <button id="clearFilters">Clear filters</button>
   </div>
 
   <div id="legend">
@@ -121,39 +172,81 @@
     world.controls().enableRotate = true;
     world.controls().enableZoom = true;
 
-    // Fetch the live dataset produced by Stage 6/7. Path is relative to this
-    // file, so it works the same on Vercel/Cloudflare Pages/Netlify without
-    // any config change.
+    // ---------- Stage 9: filters ----------
+    let allJobs = [];  // every job from data/jobs.json, unfiltered
+
+    const selRole = document.getElementById("filterRole");
+    const selMode = document.getElementById("filterMode");
+    const selExperience = document.getElementById("filterExperience");
+    const selLocation = document.getElementById("filterLocation");
+    const selCompany = document.getElementById("filterCompany");
+    const btnClear = document.getElementById("clearFilters");
+
+    function populateDropdown(selectEl, values) {
+      const sorted = [...new Set(values)].filter(Boolean).sort();
+      sorted.forEach(v => {
+        const opt = document.createElement("option");
+        opt.value = v;
+        opt.textContent = v;
+        selectEl.appendChild(opt);
+      });
+    }
+
+    function applyFilters() {
+      const role = selRole.value;
+      const mode = selMode.value;
+      const experience = selExperience.value;
+      const location = selLocation.value;
+      const company = selCompany.value;
+
+      const matched = allJobs.filter(j =>
+        (role === "All" || j.role_category === role) &&
+        (mode === "All" || j.work_mode === mode) &&
+        (experience === "All" || j.experience_level === experience) &&
+        (location === "All" || j.location_text === location) &&
+        (company === "All" || j.company === company)
+      );
+
+      const plottable = matched.filter(j => j.lat != null && j.long != null);
+
+      world.pointsData(
+        plottable.map(j => ({ ...j, lat: j.lat, lng: j.long }))
+      );
+
+      const skipped = matched.length - plottable.length;
+      statusEl.textContent =
+        `${plottable.length} jobs on the globe` +
+        (skipped ? ` (${skipped} without a mappable location)` : "");
+    }
+
+    [selRole, selMode, selExperience, selLocation, selCompany]
+      .forEach(sel => sel.addEventListener("change", applyFilters));
+
+    btnClear.addEventListener("click", () => {
+      [selRole, selMode, selExperience, selLocation, selCompany]
+        .forEach(sel => sel.value = "All");
+      applyFilters();
+    });
+
     fetch("./data/jobs.json")
       .then(res => {
         if (!res.ok) throw new Error("HTTP " + res.status);
         return res.json();
       })
       .then(data => {
-        const jobs = (data.jobs || []);
+        allJobs = data.jobs || [];
 
-        // Only jobs with a resolved coordinate can be plotted as a dot.
-        // Jobs with lat/long = null (see Stage 6 notes on non-place
-        // locations like "Hybrid" or "N/A") are intentionally skipped here
-        // rather than plotted at a wrong or default location.
-        const plottable = jobs.filter(j => j.lat != null && j.long != null);
+        populateDropdown(selRole, allJobs.map(j => j.role_category));
+        populateDropdown(selLocation, allJobs.map(j => j.location_text));
+        populateDropdown(selCompany, allJobs.map(j => j.company));
 
-        world.pointsData(
-          plottable.map(j => ({ ...j, lat: j.lat, lng: j.long }))
-        );
-
-        const skipped = jobs.length - plottable.length;
-        statusEl.textContent =
-          `${plottable.length} jobs on the globe` +
-          (skipped ? ` (${skipped} without a mappable location)` : "");
+        applyFilters();
       })
       .catch(err => {
         statusEl.textContent = "Couldn't load job data — " + err.message;
         console.error("Failed to load data/jobs.json:", err);
       });
 
-    // Keep the globe sized correctly if the window/orientation changes
-    // (important for the mobile case).
     window.addEventListener("resize", () => {
       world.width(window.innerWidth).height(window.innerHeight);
     });
