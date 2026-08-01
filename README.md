@@ -2,9 +2,11 @@
 
 Live, no-login, 3D globe of jobs posted today/yesterday/2-days-ago — pulled directly from company ATS feeds.
 
-## Current status: Stage 6 complete
+## Current status: Stage 7 complete
 
-The pipeline now runs end to end locally: fetch → map roles → process (experience level, work mode, geocoding, freshness, dedupe) → final `data/jobs.json`. What's still missing: automation (Stage 7) and the actual 3D globe frontend (Stage 8) — right now `index.html` is still the Stage 3 placeholder page.
+The full pipeline now runs **automatically, on its own, on a schedule** — no one needs to run anything by hand anymore. Every 6 hours (and any time it's triggered manually from the Actions tab), GitHub Actions runs, in order: fetch → map roles → process (experience level, work mode, geocoding, freshness, dedupe) → commits the fresh `data/jobs.json` straight back to this repo. What's still missing: the actual 3D globe frontend (Stage 8) — right now `index.html` is still the Stage 3 placeholder page, so there's nothing yet to *see*, even though the data behind it is now live and self-updating.
+
+**Stage 5 bug fix (post Stage 6 review):** an earlier version of `scripts/map_roles.py` had ~145 categories' worth of keyword rules accidentally left inert inside a text block instead of running as real code, which pushed ~23% of jobs into an unhelpful "Other" catch-all. Those rules were recovered, merged onto the existing 41-category taxonomy (no new categories added, to keep the filter list clean), and verified — "Other" rate dropped to ~17%. This is why `scripts/map_roles.py` may look denser than a first draft would.
 
 Repo contents:
 - `companies.json` — list of companies to fetch, with their Greenhouse board tokens
@@ -15,9 +17,9 @@ Repo contents:
 - `data/raw/*.json` — one file per company, raw ATS data (Stage 4 output)
 - `data/processed/*.json` — one file per company, with `role_category` added (Stage 5 output)
 - `data/geocode_cache.json` — cached lat/long lookups, so re-running never re-hits the geocoding service for a location it's already resolved
-- `data/jobs.json` — the final, live dataset the frontend will read (Stage 6 output)
+- `data/jobs.json` — the final, live dataset the frontend will read (Stage 6 output) — **now regenerated automatically every 6 hours (Stage 7)**
 - `index.html` — still the Stage 3 placeholder; becomes the real globe in Stage 8
-- `.github/workflows/update-data.yml` — automation skeleton; becomes the real scheduled pipeline in Stage 7
+- `.github/workflows/update-data.yml` — **the real scheduled pipeline (Stage 7)** — runs fetch → map → process → commit automatically
 
 ---
 
@@ -122,6 +124,31 @@ If you delete `data/geocode_cache.json` and re-run, the pipeline still works cor
 
 ---
 
-## Next: Stage 7 (pipeline automation)
+## Stage 7: pipeline automation
 
-Wrap `fetch_jobs.py` → `map_roles.py` → `process_jobs.py` into the scheduled GitHub Actions workflow (`.github/workflows/update-data.yml`), so `data/jobs.json` regenerates itself every few hours without anyone running it by hand.
+**What it is:** `.github/workflows/update-data.yml` now runs the real pipeline instead of the Stage 3 placeholder timestamp step. On a schedule (every 6 hours) and on-demand (via the **Run workflow** button on the Actions tab), it runs, in order:
+
+1. Check out the repo
+2. Set up Python
+3. `python3 scripts/fetch_jobs.py` (Stage 4 — pulls fresh raw data)
+4. `python3 scripts/map_roles.py` (Stage 5 — assigns role categories)
+5. `python3 scripts/process_jobs.py` (Stage 6 — geocodes, tags freshness, dedupes, writes `data/jobs.json`)
+6. Commits and pushes `data/` back to the repo, only if something actually changed
+
+**Why this matters:** this is the step that turns Jobxplo from "a script I have to remember to run" into "a site that keeps itself current on its own." From this point on, `data/jobs.json` reflects real postings from the last 2 days without anyone touching it — including while asleep, on a different device, or after the project is handed off to someone else entirely.
+
+**A couple of things worth knowing:**
+- The commit step only pushes when there's an actual change (`git diff --quiet ... || git commit`), so the repo's history doesn't fill up with empty "nothing changed" commits.
+- A "Node.js 20 is deprecated" warning may show up in the Actions log — this is GitHub's own infrastructure notice about the runner environment, not an error in this project's code, and needs no action.
+
+### Exit criteria
+- [x] Workflow file updated to run the real 3-script pipeline instead of the placeholder
+- [x] Manually triggered run completes with a green checkmark on all steps (Fetch, Map, Process, Commit)
+- [x] `data/jobs.json` in the repo shows real job entries after the run, not the empty placeholder
+- [ ] Confirmed a scheduled (non-manual) run fires on its own after 6 hours, without anyone clicking anything
+
+---
+
+## Next: Stage 8 (globe frontend)
+
+Replace the Stage 3 placeholder `index.html` with the real 3D globe, using `globe.gl`. It should load `data/jobs.json`, plot one marker per job colored by `freshness` (green = today, yellow = yesterday, orange = 2 days ago), support drag-to-rotate and scroll-to-zoom, and open `job_url` in a new tab on click.
