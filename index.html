@@ -114,6 +114,13 @@
         if (d.job_url) window.open(d.job_url, "_blank");
       });
 
+    // Make rotation unmistakable: gentle auto-spin by default, and dragging
+    // with the mouse/trackpad temporarily takes over, then auto-spin resumes.
+    world.controls().autoRotate = true;
+    world.controls().autoRotateSpeed = 0.6;
+    world.controls().enableRotate = true;
+    world.controls().enableZoom = true;
+
     // Fetch the live dataset produced by Stage 6/7. Path is relative to this
     // file, so it works the same on Vercel/Cloudflare Pages/Netlify without
     // any config change.
