@@ -2,9 +2,9 @@
 
 Live, no-login, 3D globe of jobs posted today/yesterday/2-days-ago — pulled directly from company ATS feeds.
 
-## Current status: Stage 7 complete
+## Current status: Stage 9 complete
 
-The full pipeline now runs **automatically, on its own, on a schedule** — no one needs to run anything by hand anymore. Every 6 hours (and any time it's triggered manually from the Actions tab), GitHub Actions runs, in order: fetch → map roles → process (experience level, work mode, geocoding, freshness, dedupe) → commits the fresh `data/jobs.json` straight back to this repo. What's still missing: the actual 3D globe frontend (Stage 8) — right now `index.html` is still the Stage 3 placeholder page, so there's nothing yet to *see*, even though the data behind it is now live and self-updating.
+There's now a real, live, self-updating site: a 3D globe (`index.html`, built with `globe.gl`) that loads `data/jobs.json` — which regenerates itself automatically every 6 hours (Stage 7) — and plots one dot per job, colored by freshness. Five filters (Role, Work mode, Experience, Location, Company) narrow the globe instantly in the browser, no server involved, plus a clickable freshness legend and a rotation pause/resume button. What's still missing: Stage 10 (expanding beyond the current 7 companies) and Stage 11 (formal testing pass).
 
 **Stage 5 bug fix (post Stage 6 review):** an earlier version of `scripts/map_roles.py` had ~145 categories' worth of keyword rules accidentally left inert inside a text block instead of running as real code, which pushed ~23% of jobs into an unhelpful "Other" catch-all. Those rules were recovered, merged onto the existing 41-category taxonomy (no new categories added, to keep the filter list clean), and verified — "Other" rate dropped to ~17%. This is why `scripts/map_roles.py` may look denser than a first draft would.
 
@@ -17,9 +17,9 @@ Repo contents:
 - `data/raw/*.json` — one file per company, raw ATS data (Stage 4 output)
 - `data/processed/*.json` — one file per company, with `role_category` added (Stage 5 output)
 - `data/geocode_cache.json` — cached lat/long lookups, so re-running never re-hits the geocoding service for a location it's already resolved
-- `data/jobs.json` — the final, live dataset the frontend will read (Stage 6 output) — **now regenerated automatically every 6 hours (Stage 7)**
-- `index.html` — still the Stage 3 placeholder; becomes the real globe in Stage 8
-- `.github/workflows/update-data.yml` — **the real scheduled pipeline (Stage 7)** — runs fetch → map → process → commit automatically
+- `data/jobs.json` — the final, live dataset the frontend will read (Stage 6 output) — **regenerated automatically every 6 hours (Stage 7)**
+- `index.html` — **the real 3D globe (Stage 8), with filters and freshness controls (Stage 9)** — no longer the placeholder
+- `.github/workflows/update-data.yml` — the real scheduled pipeline (Stage 7) — runs fetch → map → process → commit automatically
 
 ---
 
@@ -149,6 +149,40 @@ If you delete `data/geocode_cache.json` and re-run, the pipeline still works cor
 
 ---
 
-## Next: Stage 8 (globe frontend)
+## Stage 8: globe frontend
 
-Replace the Stage 3 placeholder `index.html` with the real 3D globe, using `globe.gl`. It should load `data/jobs.json`, plot one marker per job colored by `freshness` (green = today, yellow = yesterday, orange = 2 days ago), support drag-to-rotate and scroll-to-zoom, and open `job_url` in a new tab on click.
+**What it is:** `index.html` replaced the Stage 3 placeholder with a real 3D Earth, built using `globe.gl` (loaded from a public CDN, no install/build step needed — it's a single static HTML file). On load, it fetches `data/jobs.json` and plots one point per job that has a resolved `lat`/`long`, colored by `freshness`. Hovering a point shows the company, title, location, and work mode; clicking it opens `job_url` in a new tab.
+
+**Design decisions worth knowing:**
+- Jobs with `lat: null` (unresolved locations — see Stage 6) are intentionally **not plotted**, rather than guessed at a default position. The status readout in the corner reports how many were skipped this way, so that number is always visible, not hidden.
+- Rotation is drag-to-orbit by default (built into `globe.gl`), plus a gentle **auto-rotate** so it's obviously interactive even without touching it — dragging temporarily overrides the auto-spin, then it resumes.
+- The whole page is one dependency-free HTML file — no build tools, no `npm install` — so it can be edited and re-uploaded directly through GitHub's web editor, which matters a lot for a no-local-dev-environment workflow.
+
+### Exit criteria
+- [x] Real dots (not placeholder content) render on a rotatable, zoomable 3D globe
+- [x] Data comes from the live `data/jobs.json`, not hardcoded sample data
+- [x] Clicking a dot opens the real, original job posting
+
+---
+
+## Stage 9: filter UI
+
+**What it is:** five dropdowns (Role, Work mode, Experience, Location, Company) plus a clickable freshness legend (Today / Yesterday / 2 days ago) and a rotation pause/resume button, all added directly into `index.html`. Every filter runs **entirely in the browser** — picking a filter re-reads the already-downloaded `data/jobs.json` in memory and redraws the globe; nothing is re-fetched from the server.
+
+**How the filter options are built:** Role, Location, and Company dropdowns populate themselves from whatever values actually exist in the current `data/jobs.json` — not a hardcoded list. This means a role/location/company only ever appears as a filter option when there's a real, currently-fresh job behind it; there's no such thing as picking a filter and getting zero results. It also means the dropdown contents change automatically as the dataset changes (e.g. as Stage 10 adds more companies), with no code changes needed.
+
+**Location text cleanup:** raw location strings from company ATS feeds sometimes bundle the work mode into the place itself (e.g. `"Remote - India"`, `"Hybrid - London, UK"`). Since work mode already has its own filter, `index.html` strips those mode words out client-side before showing locations in the dropdown — so the Location filter shows `"India"` and `"London, UK"`, and Remote/Hybrid stay filterable through the Work mode dropdown instead. (Note: this cleanup happens in the frontend only; `data/jobs.json` itself still stores the original, unmodified `location_text` — worth eventually moving this same cleanup into Stage 6's `process_jobs.py` so the cleaned value is available anywhere the data is used, not just this one page.)
+
+**Clickable freshness legend:** clicking "Today," "Yesterday," or "2 days ago" isolates that color on the globe; clicking the same one again (or "Clear filters") returns to showing all three.
+
+### Exit criteria
+- [x] All 5 filters correctly narrow the visible dots, individually and in combination
+- [x] Filter dropdown options are driven by real data, not hardcoded
+- [x] Freshness legend is clickable and toggles correctly
+- [x] Rotation can be paused and resumed on demand
+
+---
+
+## Next: Stage 10 (multi-company integration)
+
+Expand `companies.json` beyond the current 7 companies (Stripe, Airbnb, Figma, Anthropic, Coinbase, Cloudflare, Databricks) to reach the target of 5-10+ well-covered companies, and re-verify that filtering, role mapping, and geocoding all continue to behave correctly as the dataset grows and role diversity increases.
