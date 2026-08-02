@@ -2,7 +2,7 @@
 
 Live, no-login, 3D globe of jobs posted today/yesterday/2-days-ago — pulled directly from company ATS feeds.
 
-## Current status: Stage 12 nearly complete (one confirmation pending)
+## Current status: Stage 12 complete, Stage 13 in progress
 
 There's a real, live, self-updating site: a 3D globe (`index.html`, built with `globe.gl`) that loads `data/jobs.json` — which regenerates itself automatically every 6 hours (Stage 7) from **14 companies** — and plots one dot per job, colored by freshness. Five filters (Role, Work mode, Experience, Location, Company) narrow the globe instantly in the browser, plus a clickable freshness legend and a rotation pause/resume button. The site is responsive on both desktop and mobile. Confirmed live: the Company dropdown correctly shows ~10 of the 14 companies at any given time - the other ~4 simply don't have a posting inside the current 2-day freshness window, which is expected, correct behavior, not a bug.
 
@@ -232,13 +232,37 @@ If you delete `data/geocode_cache.json` and re-run, the pipeline still works cor
 - [x] Publicly reachable by anyone, at all times (true since Stage 3)
 - [x] Auto-redeploys on every commit (Vercel + GitHub integration, working since Stage 8)
 - [x] Root-caused a data-freshness display issue - confirmed pipeline and deployment both working correctly; added explicit caching headers to prevent recurrence
-- [ ] Hard-refresh confirmation that the live site now shows current data (pending)
+- [x] Hard-refresh confirmed live site shows current data (job count updated to reflect real churn - postings aging out of the 2-day window, exactly as designed)
 - [x] Custom domain decision made - staying with the free `jobsxplo.vercel.app` link
 
-**Status:** effectively done pending one confirmation - a hard refresh on the live site to confirm the current job count matches the latest pipeline run.
+**Status:** complete.
 
 ---
 
-## Next: Stage 13 (soft launch)
+## Stage 13: soft launch
 
-Once Stage 12's two remaining boxes are checked, Stage 13 is about sharing the link with a small group first (rather than a big launch push) and watching for real-world edge cases in actual usage before Stage 14's ongoing iteration loop begins.
+**What it is:** sharing the live link with a small, real group of people before any bigger push, and watching what actually happens under real usage - not a technical stage, a feedback-gathering one.
+
+**Who to share with first:** people who'd actually use a job-search tool and will give honest reactions - a few friends currently job-hunting, a relevant subreddit (e.g. r/cscareerquestions, r/jobs, r/developersIndia), a LinkedIn post, or a college/alumni group. Avoid a big public push (Hacker News, Product Hunt) until after this smaller round, since that's where problems are cheaper to catch.
+
+**What to watch for while it's out:**
+- Does anyone get confused by the UI without being told how it works first? (A real test of whether it's actually intuitive.)
+- Does anyone report a role/location/company that looks wrong to them, since they know that industry better than this pipeline does?
+- Does the site stay fast and correct as real, uncoordinated traffic hits it (rather than just your own testing)?
+- Any device/browser combination that breaks, that wasn't tested yet?
+
+**How to collect feedback:** the simplest approach - ask people directly for reactions (a short message, not a formal survey), and keep a running note of anything mentioned more than once.
+
+### Exit criteria
+- [ ] Shared with a small real group (not a mass public launch yet)
+- [ ] At least a few days of real usage observed
+- [ ] Any recurring feedback themes identified and logged
+- [ ] No major breakage found under real usage
+
+**Status:** in progress - link is being shared with a small first audience now.
+
+---
+
+## Next: Stage 14 (iterate - ongoing)
+
+Once Stage 13 feedback comes in, this becomes the permanent loop: add more companies, refine the role taxonomy based on what "Other" catches, fix the still-open multi-city location parsing, and build out whatever v2 features real usage suggests are actually wanted (bookmarkable filter URLs, marker clustering, etc.) This stage has no fixed end - it's where the project lives from here on.
