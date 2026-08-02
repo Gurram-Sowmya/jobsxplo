@@ -2,7 +2,7 @@
 
 Live, no-login, 3D globe of jobs posted today/yesterday/2-days-ago — pulled directly from company ATS feeds.
 
-## Current status: Stage 11 complete (manual pass), Stage 12 in progress
+## Current status: Stage 12 nearly complete (one confirmation pending)
 
 There's a real, live, self-updating site: a 3D globe (`index.html`, built with `globe.gl`) that loads `data/jobs.json` — which regenerates itself automatically every 6 hours (Stage 7) from **14 companies** — and plots one dot per job, colored by freshness. Five filters (Role, Work mode, Experience, Location, Company) narrow the globe instantly in the browser, plus a clickable freshness legend and a rotation pause/resume button. The site is responsive on both desktop and mobile. Confirmed live: the Company dropdown correctly shows ~10 of the 14 companies at any given time - the other ~4 simply don't have a posting inside the current 2-day freshness window, which is expected, correct behavior, not a bug.
 
@@ -22,6 +22,7 @@ Repo contents:
 - `data/jobs.json` — the final, live dataset the frontend will read (Stage 6 output) — **regenerated automatically every 6 hours (Stage 7)**
 - `index.html` — **the real 3D globe (Stage 8), with filters, freshness controls, mobile-responsive layout (Stage 9), and a border overlay**
 - `.github/workflows/update-data.yml` — the real scheduled pipeline (Stage 7) — runs fetch → map → process → commit automatically
+- `vercel.json` — sets caching headers on `data/jobs.json` so devices always check for fresh data (Stage 12)
 
 ---
 
@@ -221,17 +222,20 @@ If you delete `data/geocode_cache.json` and re-run, the pipeline still works cor
 
 ---
 
-## Stage 12: deployment (in progress)
+## Stage 12: deployment
 
 **What it is:** normally this stage means "get the tested app live for the first time" - but since this project has been live on Vercel since Stage 3 (every stage since has been tested on the real deployed site, not a local copy), most of this stage's work already happened along the way. What's left is closing the remaining gaps between "live" and "properly finished deployment":
+
+**Caching investigation (resolved):** the site appeared to show stale job counts after a pipeline run. Traced step by step: (1) confirmed via GitHub's commit history that the pipeline genuinely had committed new data, (2) confirmed via Vercel's deployment list that the new commit was deployed to Production successfully. Both halves of the pipeline were working correctly - the stale view was the browser's own local cache, not a server or pipeline issue. `vercel.json` was added to explicitly set `Cache-Control: public, max-age=0, must-revalidate` on `data/jobs.json`, so browsers always check for fresh data instead of trusting a cached copy - this prevents the same confusion from happening again.
 
 ### Exit criteria
 - [x] Publicly reachable by anyone, at all times (true since Stage 3)
 - [x] Auto-redeploys on every commit (Vercel + GitHub integration, working since Stage 8)
-- [ ] Caching behavior on `data/jobs.json` confirmed sensible (should be cached by the CDN but still pick up new data after each 6-hour pipeline run, not serve stale data indefinitely)
-- [ ] Decision made on a custom domain (optional - the current `jobsxplo.vercel.app` link works fine as-is; a custom domain like `jobxplo.com` is a nice-to-have, not a requirement, and costs roughly $10/year - the one realistic cost in this whole project)
+- [x] Root-caused a data-freshness display issue - confirmed pipeline and deployment both working correctly; added explicit caching headers to prevent recurrence
+- [ ] Hard-refresh confirmation that the live site now shows current data (pending)
+- [x] Custom domain decision made - staying with the free `jobsxplo.vercel.app` link
 
-**Status:** in progress - the two remaining boxes are both quick, low-risk items.
+**Status:** effectively done pending one confirmation - a hard refresh on the live site to confirm the current job count matches the latest pipeline run.
 
 ---
 
