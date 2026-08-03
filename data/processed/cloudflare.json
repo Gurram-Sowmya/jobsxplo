@@ -103,57 +103,6 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8054093?gh_jid=8054093",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3490699,
-      "location": {
-        "name": "In-Office"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5991 - S&M Interns",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "San Francisco, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Early Talent"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8054093,
-      "updated_at": "2026-07-10T11:14:43-04:00",
-      "requisition_id": null,
-      "title": "Brand Social Media Intern (Fall 2026)",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-10T11:14:43-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Brand Social Media Intern (Fall 2026)",
-      "role_category": "Other"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8084358?gh_jid=8084358",
       "data_compliance": [
         {
@@ -918,7 +867,7 @@
         }
       ],
       "id": 8093127,
-      "updated_at": "2026-07-31T12:36:12-04:00",
+      "updated_at": "2026-08-03T15:01:44-04:00",
       "requisition_id": null,
       "title": "Customer Advocacy Intern (Fall 2026)",
       "company_name": "Cloudflare",
@@ -1183,6 +1132,61 @@
       "application_deadline": null,
       "raw_title": "Customer Experience Manager - Russian Speaking",
       "role_category": "Customer Success Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7535803?gh_jid=7535803",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3336808,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "4100 - Infrastructure Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Atlanta, US",
+            "Austin, US",
+            "Denver, US",
+            "Seattle, US",
+            "Washington DC, US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Infrastructure"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7535803,
+      "updated_at": "2026-08-03T13:27:38-04:00",
+      "requisition_id": null,
+      "title": "Data Center DCIM Program Leader - Infrastructure Operations",
+      "company_name": "Cloudflare",
+      "first_published": "2026-01-15T19:10:36-05:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Data Center DCIM Program Leader - Infrastructure Operations",
+      "role_category": "Other"
     },
     {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7736431?gh_jid=7736431",
@@ -1707,6 +1711,57 @@
       "role_category": "Engineering Manager"
     },
     {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8051547?gh_jid=8051547",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3367295,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5150 - Field Sales",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "San Francisco, US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8051547,
+      "updated_at": "2026-07-08T13:24:08-04:00",
+      "requisition_id": null,
+      "title": "Director, Enterprise Sales (AI & Digital Natives)",
+      "company_name": "Cloudflare",
+      "first_published": "2026-07-08T13:24:08-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Director, Enterprise Sales (AI & Digital Natives)",
+      "role_category": "Engineering Manager"
+    },
+    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8051548?gh_jid=8051548",
       "data_compliance": [
         {
@@ -1753,57 +1808,6 @@
       "title": "Director, Enterprise Sales (AI & Digital Natives)",
       "company_name": "Cloudflare",
       "first_published": "2026-07-08T13:24:18-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Director, Enterprise Sales (AI & Digital Natives)",
-      "role_category": "Engineering Manager"
-    },
-    {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8051547?gh_jid=8051547",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3367295,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5150 - Field Sales",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "San Francisco, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8051547,
-      "updated_at": "2026-07-08T13:24:08-04:00",
-      "requisition_id": null,
-      "title": "Director, Enterprise Sales (AI & Digital Natives)",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-08T13:24:08-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Director, Enterprise Sales (AI & Digital Natives)",
@@ -1964,57 +1968,6 @@
       "language": "en",
       "application_deadline": null,
       "raw_title": "Director of Developer Events",
-      "role_category": "Engineering Manager"
-    },
-    {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8009131?gh_jid=8009131",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3472550,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "6510 - Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Singapore"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "People & Places"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8009131,
-      "updated_at": "2026-07-07T13:56:30-04:00",
-      "requisition_id": null,
-      "title": "Director of Talent Acquisition, APJC",
-      "company_name": "Cloudflare",
-      "first_published": "2026-06-18T15:38:09-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Director of Talent Acquisition, APJC",
       "role_category": "Engineering Manager"
     },
     {
@@ -4158,57 +4111,6 @@
       "role_category": "Security Engineer"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8031027?gh_jid=8031027",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3481434,
-      "location": {
-        "name": "In-Office"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "4991 - R&D Interns",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "London, UK"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Early Talent"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8031027,
-      "updated_at": "2026-07-01T12:12:00-04:00",
-      "requisition_id": null,
-      "title": "Network Strategy Intern (Fall 2026)",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-01T12:12:00-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Network Strategy Intern (Fall 2026)",
-      "role_category": "Other"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8013562?gh_jid=8013562",
       "data_compliance": [
         {
@@ -4254,6 +4156,57 @@
       "title": "Network Strategy Intern (Fall 2026)",
       "company_name": "Cloudflare",
       "first_published": "2026-06-26T13:31:50-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Network Strategy Intern (Fall 2026)",
+      "role_category": "Other"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8031027?gh_jid=8031027",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3481434,
+      "location": {
+        "name": "In-Office"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "4991 - R&D Interns",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "London, UK"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Early Talent"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8031027,
+      "updated_at": "2026-07-01T12:12:00-04:00",
+      "requisition_id": null,
+      "title": "Network Strategy Intern (Fall 2026)",
+      "company_name": "Cloudflare",
+      "first_published": "2026-07-01T12:12:00-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Network Strategy Intern (Fall 2026)",
@@ -4885,62 +4838,6 @@
       "role_category": "Solutions Engineer"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8016561?gh_jid=8016561",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3475556,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "6500 - Human Resources",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Atlanta, US",
-            "Austin, US",
-            "Denver, US",
-            "New York, US",
-            "San Francisco, US",
-            "Seattle, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "People & Places"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8016561,
-      "updated_at": "2026-07-02T20:07:52-04:00",
-      "requisition_id": null,
-      "title": "Principal People Team Business Partner - GTM",
-      "company_name": "Cloudflare",
-      "first_published": "2026-06-22T13:58:41-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Principal People Team Business Partner - GTM",
-      "role_category": "Other"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8000779?gh_jid=8000779",
       "data_compliance": [
         {
@@ -5410,7 +5307,7 @@
         }
       ],
       "id": 7904142,
-      "updated_at": "2026-07-17T01:23:52-04:00",
+      "updated_at": "2026-08-03T10:24:35-04:00",
       "requisition_id": null,
       "title": "Product Manager, AI Access",
       "company_name": "Cloudflare",
@@ -5677,57 +5574,6 @@
       "role_category": "Research Scientist"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3504712,
-      "location": {
-        "name": "In-Office"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "4991 - R&D Interns",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Early Talent"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8089379,
-      "updated_at": "2026-07-28T12:43:59-04:00",
-      "requisition_id": null,
-      "title": "Research Engineer Intern (Fall 2026)",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-28T12:43:59-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Research Engineer Intern (Fall 2026)",
-      "role_category": "Research Scientist"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8089407?gh_jid=8089407",
       "data_compliance": [
         {
@@ -5773,6 +5619,57 @@
       "title": "Research Engineer Intern (Fall 2026)",
       "company_name": "Cloudflare",
       "first_published": "2026-07-29T13:13:54-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Research Engineer Intern (Fall 2026)",
+      "role_category": "Research Scientist"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3504712,
+      "location": {
+        "name": "In-Office"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "4991 - R&D Interns",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Austin, US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Early Talent"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8089379,
+      "updated_at": "2026-07-28T12:43:59-04:00",
+      "requisition_id": null,
+      "title": "Research Engineer Intern (Fall 2026)",
+      "company_name": "Cloudflare",
+      "first_published": "2026-07-28T12:43:59-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Research Engineer Intern (Fall 2026)",
@@ -5986,57 +5883,6 @@
       "role_category": "Account Executive"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7875143?gh_jid=7875143",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3426989,
-      "location": {
-        "name": "Distributed"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5100 - Mid Market",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Denver, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 7875143,
-      "updated_at": "2026-07-02T20:08:35-04:00",
-      "requisition_id": "GTM_AMER US DN STARTUP W C#22964",
-      "title": "Senior Account Executive, Startups (Denver)",
-      "company_name": "Cloudflare",
-      "first_published": "2026-05-01T16:49:43-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Account Executive, Startups (Denver)",
-      "role_category": "Account Executive"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7681220?gh_jid=7681220",
       "data_compliance": [
         {
@@ -6077,65 +5923,14 @@
         }
       ],
       "id": 7681220,
-      "updated_at": "2026-07-02T20:09:01-04:00",
+      "updated_at": "2026-08-03T13:32:25-04:00",
       "requisition_id": "GTM_AMER US DN STARTUP E NE#22965",
-      "title": "Senior Account Executive, Start-ups (NYC OR Boston)",
+      "title": "Senior Account Executive, Startups (NYC)",
       "company_name": "Cloudflare",
       "first_published": "2026-03-05T11:32:04-05:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Senior Account Executive, Start-ups (NYC OR Boston)",
-      "role_category": "Account Executive"
-    },
-    {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7872031?gh_jid=7872031",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3378548,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5100 - Mid Market",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "New York, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 7872031,
-      "updated_at": "2026-07-02T20:08:36-04:00",
-      "requisition_id": "GTM_AMER US DN STARTUP E NE#22965",
-      "title": "Senior Account Executive, Startups(NYC OR Boston)",
-      "company_name": "Cloudflare",
-      "first_published": "2026-04-30T14:54:04-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Account Executive, Startups(NYC OR Boston)",
+      "raw_title": "Senior Account Executive, Startups (NYC)",
       "role_category": "Account Executive"
     },
     {
@@ -6397,6 +6192,57 @@
       "role_category": "Account Executive"
     },
     {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8059775?gh_jid=8059775",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3493046,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "6120 - Strategy",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "San Francisco, US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Strategy"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8059775,
+      "updated_at": "2026-08-03T14:59:30-04:00",
+      "requisition_id": null,
+      "title": "Senior Customer Engagement Strategy Manager    ",
+      "company_name": "Cloudflare",
+      "first_published": "2026-07-14T09:53:39-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Customer Engagement Strategy Manager    ",
+      "role_category": "Customer Success Manager"
+    },
+    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8018980?gh_jid=8018980",
       "data_compliance": [
         {
@@ -6462,7 +6308,7 @@
       ],
       "internal_job_id": 3498903,
       "location": {
-        "name": "Hybrid"
+        "name": "Distributed"
       },
       "metadata": [
         {
@@ -6489,7 +6335,7 @@
         }
       ],
       "id": 8075795,
-      "updated_at": "2026-07-22T16:49:17-04:00",
+      "updated_at": "2026-08-03T15:17:34-04:00",
       "requisition_id": "916",
       "title": "Senior Customer Engineer-  (AI & Start-Ups). Los Angeles ",
       "company_name": "Cloudflare",
@@ -6655,57 +6501,6 @@
       "role_category": "Support Engineer"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8054072?gh_jid=8054072",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3490689,
-      "location": {
-        "name": "Distributed"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5200 - Solution Engineers",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Washington DC, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8054072,
-      "updated_at": "2026-07-30T13:28:26-04:00",
-      "requisition_id": "907",
-      "title": "Senior Customer Engineer- Cloudflare Developer Platform (Start-Ups) Washington DC",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-10T11:52:36-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Customer Engineer- Cloudflare Developer Platform (Start-Ups) Washington DC",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8077614?gh_jid=8077614",
       "data_compliance": [
         {
@@ -6859,7 +6654,7 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7782508?gh_jid=7782508",
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8097947?gh_jid=8097947",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -6870,7 +6665,7 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3405972,
+      "internal_job_id": 3508161,
       "location": {
         "name": "Hybrid"
       },
@@ -6885,7 +6680,7 @@
           "id": 8654220,
           "name": "Job Posting Location",
           "value": [
-            "US"
+            "Singapore"
           ],
           "value_type": "multi_select"
         },
@@ -6893,21 +6688,22 @@
           "id": 46546702,
           "name": "Career Site Department",
           "value": [
+            "Engineering",
             "Sales"
           ],
           "value_type": "multi_select"
         }
       ],
-      "id": 7782508,
-      "updated_at": "2026-07-29T20:59:56-04:00",
-      "requisition_id": "HM Warren Q326 NC",
-      "title": "Senior Customer Engineer, Enterprise Accounts - Charlotte or Raleigh, NC",
+      "id": 8097947,
+      "updated_at": "2026-08-03T10:53:07-04:00",
+      "requisition_id": null,
+      "title": "Senior Customer Engineer, Hong Kong (Pre-sales)",
       "company_name": "Cloudflare",
-      "first_published": "2026-04-07T18:13:08-04:00",
+      "first_published": "2026-08-03T10:53:07-04:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Senior Customer Engineer, Enterprise Accounts - Charlotte or Raleigh, NC",
-      "role_category": "Account Executive"
+      "raw_title": "Senior Customer Engineer, Hong Kong (Pre-sales)",
+      "role_category": "Other"
     },
     {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8070722?gh_jid=8070722",
@@ -7268,6 +7064,57 @@
       "role_category": "Other"
     },
     {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8082834?gh_jid=8082834",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3501884,
+      "location": {
+        "name": "Distributed"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5200 - Solution Engineers",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8082834,
+      "updated_at": "2026-08-03T15:05:43-04:00",
+      "requisition_id": "925",
+      "title": "Senior Customer Engineer, Named - Charlotte, NC",
+      "company_name": "Cloudflare",
+      "first_published": "2026-07-24T10:27:10-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Customer Engineer, Named - Charlotte, NC",
+      "role_category": "Other"
+    },
+    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7954702?gh_jid=7954702",
       "data_compliance": [
         {
@@ -7370,7 +7217,7 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7518670?gh_jid=7518670",
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8087769?gh_jid=8087769",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -7381,7 +7228,7 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3331631,
+      "internal_job_id": 3504036,
       "location": {
         "name": "Distributed"
       },
@@ -7409,16 +7256,16 @@
           "value_type": "multi_select"
         }
       ],
-      "id": 7518670,
-      "updated_at": "2026-07-21T19:45:55-04:00",
-      "requisition_id": "HM Supino Q226 Boston",
-      "title": "Senior Customer Engineer - New England",
+      "id": 8087769,
+      "updated_at": "2026-08-03T10:54:21-04:00",
+      "requisition_id": "929",
+      "title": "Senior Customer Engineer - Nashville",
       "company_name": "Cloudflare",
-      "first_published": "2026-01-12T13:00:54-05:00",
+      "first_published": "2026-08-03T10:54:21-04:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Senior Customer Engineer - New England",
-      "role_category": "Other"
+      "raw_title": "Senior Customer Engineer - Nashville",
+      "role_category": "Support Engineer"
     },
     {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8075765?gh_jid=8075765",
@@ -7574,6 +7421,57 @@
       "role_category": "Other"
     },
     {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8087772?gh_jid=8087772",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3504038,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5200 - Solution Engineers",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Washington DC, US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8087772,
+      "updated_at": "2026-08-03T10:55:13-04:00",
+      "requisition_id": "930",
+      "title": "Senior Customer Engineer - Washington DC",
+      "company_name": "Cloudflare",
+      "first_published": "2026-08-03T10:55:13-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Customer Engineer - Washington DC",
+      "role_category": "Other"
+    },
+    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/6629769?gh_jid=6629769",
       "data_compliance": [
         {
@@ -7677,57 +7575,6 @@
       "role_category": "Site Reliability Engineer"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8007032?gh_jid=8007032",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3471766,
-      "location": {
-        "name": "In-Office"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "4900 - Business Intelligence - R&D",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Bengaluru, India"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Data Intelligence and Analytics"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8007032,
-      "updated_at": "2026-07-06T11:14:41-04:00",
-      "requisition_id": null,
-      "title": "Senior Data Engineer",
-      "company_name": "Cloudflare",
-      "first_published": "2026-06-19T01:40:45-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Data Engineer",
-      "role_category": "Data Engineer"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8055118?gh_jid=8055118",
       "data_compliance": [
         {
@@ -7773,6 +7620,57 @@
       "title": "Senior Data Engineer",
       "company_name": "Cloudflare",
       "first_published": "2026-07-14T10:54:05-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Data Engineer",
+      "role_category": "Data Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8007032?gh_jid=8007032",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3471766,
+      "location": {
+        "name": "In-Office"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "4900 - Business Intelligence - R&D",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Bengaluru, India"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Data Intelligence and Analytics"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8007032,
+      "updated_at": "2026-07-06T11:14:41-04:00",
+      "requisition_id": null,
+      "title": "Senior Data Engineer",
+      "company_name": "Cloudflare",
+      "first_published": "2026-06-19T01:40:45-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Data Engineer",
@@ -8297,57 +8195,6 @@
       "role_category": "Account Executive"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8059775?gh_jid=8059775",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3493046,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "6120 - Strategy",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "San Francisco, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Strategy"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8059775,
-      "updated_at": "2026-07-27T16:22:17-04:00",
-      "requisition_id": null,
-      "title": "Senior Executive Engagement Program Manager - Strategy            ",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-14T09:53:39-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Executive Engagement Program Manager - Strategy            ",
-      "role_category": "Program Manager"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8082556?gh_jid=8082556",
       "data_compliance": [
         {
@@ -8503,58 +8350,6 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8042034?gh_jid=8042034",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_optional",
-      "internal_job_id": 3485742,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "6310 - Data Intelligence & Analytics",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Data Intelligence and Analytics"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8042034,
-      "updated_at": "2026-07-07T08:47:26-04:00",
-      "requisition_id": "902",
-      "title": "Senior Machine Learning Engineer",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-02T09:49:51-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Machine Learning Engineer",
-      "role_category": "Machine Learning Engineer"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8043974?gh_jid=8043974",
       "data_compliance": [
         {
@@ -8602,6 +8397,58 @@
       "title": "Senior Machine Learning Engineer",
       "company_name": "Cloudflare",
       "first_published": "2026-07-09T15:53:44-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Machine Learning Engineer",
+      "role_category": "Machine Learning Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8042034?gh_jid=8042034",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 3485742,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "6310 - Data Intelligence & Analytics",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Austin, US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Data Intelligence and Analytics"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8042034,
+      "updated_at": "2026-07-07T08:47:26-04:00",
+      "requisition_id": "902",
+      "title": "Senior Machine Learning Engineer",
+      "company_name": "Cloudflare",
+      "first_published": "2026-07-02T09:49:51-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Machine Learning Engineer",
@@ -9223,57 +9070,6 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8071416?gh_jid=8071416",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3497150,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5150 - Field Sales",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Paris, France"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8071416,
-      "updated_at": "2026-07-22T06:52:15-04:00",
-      "requisition_id": null,
-      "title": "Senior Named Account Executive",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-22T06:52:15-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Named Account Executive",
-      "role_category": "Account Executive"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7978921?gh_jid=7978921",
       "data_compliance": [
         {
@@ -9319,6 +9115,57 @@
       "title": "Senior Named Account Executive",
       "company_name": "Cloudflare",
       "first_published": "2026-06-04T04:06:59-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Named Account Executive",
+      "role_category": "Account Executive"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8071416?gh_jid=8071416",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3497150,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5150 - Field Sales",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Paris, France"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8071416,
+      "updated_at": "2026-07-22T06:52:15-04:00",
+      "requisition_id": null,
+      "title": "Senior Named Account Executive",
+      "company_name": "Cloudflare",
+      "first_published": "2026-07-22T06:52:15-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Named Account Executive",
@@ -11545,57 +11392,6 @@
       "role_category": "Solutions Engineer"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8082834?gh_jid=8082834",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3501884,
-      "location": {
-        "name": "Distributed"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5200 - Solution Engineers",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8082834,
-      "updated_at": "2026-07-24T15:12:05-04:00",
-      "requisition_id": "925",
-      "title": "Senior Strategic Customer Engineer, Named - Charlotte, NC",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-24T10:27:10-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Strategic Customer Engineer, Named - Charlotte, NC",
-      "role_category": "Other"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7967144?gh_jid=7967144",
       "data_compliance": [
         {
@@ -13360,6 +13156,57 @@
       "role_category": "Software Engineer"
     },
     {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8098922?gh_jid=8098922",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3508622,
+      "location": {
+        "name": "In-Office"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "6300 - Accounting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Lisbon, Portugal"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Accounting & Finance"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8098922,
+      "updated_at": "2026-08-03T13:08:33-04:00",
+      "requisition_id": null,
+      "title": "Statutory Manager",
+      "company_name": "Cloudflare",
+      "first_published": "2026-08-03T13:08:33-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Statutory Manager",
+      "role_category": "Operations Manager"
+    },
+    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8016162?gh_jid=8016162",
       "data_compliance": [
         {
@@ -14591,58 +14438,6 @@
       "application_deadline": null,
       "raw_title": "Vice President, Internal Audit",
       "role_category": "Other"
-    },
-    {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8001502?gh_jid=8001502",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3469482,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "6510 - Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, US",
-            "New York, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "People & Places"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8001502,
-      "updated_at": "2026-07-21T12:58:41-04:00",
-      "requisition_id": null,
-      "title": "VP, Talent Acquisition & Strategy",
-      "company_name": "Cloudflare",
-      "first_published": "2026-06-15T10:42:12-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "VP, Talent Acquisition & Strategy",
-      "role_category": "Recruiter"
     },
     {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7579269?gh_jid=7579269",
