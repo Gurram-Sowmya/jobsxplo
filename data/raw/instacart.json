@@ -226,51 +226,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=7976932",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3462120,
-      "location": {
-        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7976932,
-      "updated_at": "2026-08-05T16:40:36-04:00",
-      "requisition_id": "R018321",
-      "title": "AI Solutions Architect",
-      "company_name": "Instacart",
-      "first_published": "2026-06-04T13:06:32-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=7976934",
       "data_compliance": [
         {
@@ -316,7 +271,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8082703",
+      "absolute_url": "https://instacart.careers/job/?gh_jid=7976932",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -327,9 +282,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3501834,
+      "internal_job_id": 3462120,
       "location": {
-        "name": "United States - Remote"
+        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
       },
       "metadata": [
         {
@@ -341,7 +296,7 @@
         {
           "id": 740030,
           "name": "Exemption Status",
-          "value": "Non-Exempt",
+          "value": "Exempt",
           "value_type": "single_select"
         },
         {
@@ -351,12 +306,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8082703,
-      "updated_at": "2026-08-05T16:40:45-04:00",
-      "requisition_id": "PR00065",
-      "title": "BGC Compliance Specialist",
+      "id": 7976932,
+      "updated_at": "2026-08-05T16:40:36-04:00",
+      "requisition_id": "R018321",
+      "title": "AI Solutions Architect",
       "company_name": "Instacart",
-      "first_published": "2026-07-24T12:21:37-04:00",
+      "first_published": "2026-06-04T13:06:32-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -397,7 +352,7 @@
         }
       ],
       "id": 7826880,
-      "updated_at": "2026-08-05T16:40:25-04:00",
+      "updated_at": "2026-08-06T15:54:13-04:00",
       "requisition_id": "R018618",
       "title": "Bilingual Staff Technical Program Manager, Global Enterprise Fulfillment Platform",
       "company_name": "Instacart",
@@ -447,6 +402,96 @@
       "title": "Catalog Operations Analyst II",
       "company_name": "Instacart",
       "first_published": "2026-05-29T13:59:40-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8112138",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3513958,
+      "location": {
+        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8112138,
+      "updated_at": "2026-08-06T17:26:12-04:00",
+      "requisition_id": "PR00104",
+      "title": "Chief of Staff, Online Grocery",
+      "company_name": "Instacart",
+      "first_published": "2026-08-06T17:26:12-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8112136",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3513958,
+      "location": {
+        "name": "United States - Remote"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8112136,
+      "updated_at": "2026-08-06T17:25:56-04:00",
+      "requisition_id": "PR00104",
+      "title": "Chief of Staff, Online Grocery",
+      "company_name": "Instacart",
+      "first_published": "2026-08-06T17:25:56-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -541,51 +586,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8080532",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3407925,
-      "location": {
-        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8080532,
-      "updated_at": "2026-08-05T16:40:25-04:00",
-      "requisition_id": "MH141",
-      "title": "Detection Engineer II",
-      "company_name": "Instacart",
-      "first_published": "2026-07-22T16:50:24-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8080512",
       "data_compliance": [
         {
@@ -631,7 +631,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=7991597",
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8080532",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -642,9 +642,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3466806,
+      "internal_job_id": 3407925,
       "location": {
-        "name": "United States - Remote"
+        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
       },
       "metadata": [
         {
@@ -666,12 +666,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 7991597,
-      "updated_at": "2026-08-05T16:40:38-04:00",
-      "requisition_id": "R018748",
-      "title": "Director, Enterprise Product Marketing",
+      "id": 8080532,
+      "updated_at": "2026-08-05T16:40:25-04:00",
+      "requisition_id": "MH141",
+      "title": "Detection Engineer II",
       "company_name": "Instacart",
-      "first_published": "2026-06-09T12:08:02-04:00",
+      "first_published": "2026-07-22T16:50:24-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -721,6 +721,51 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=7991597",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3466806,
+      "location": {
+        "name": "United States - Remote"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7991597,
+      "updated_at": "2026-08-05T16:40:38-04:00",
+      "requisition_id": "R018748",
+      "title": "Director, Enterprise Product Marketing",
+      "company_name": "Instacart",
+      "first_published": "2026-06-09T12:08:02-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=7871823",
       "data_compliance": [
         {
@@ -762,51 +807,6 @@
       "title": "Director of Customer Success",
       "company_name": "Instacart",
       "first_published": "2026-05-11T14:30:23-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=7967235",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3458645,
-      "location": {
-        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7967235,
-      "updated_at": "2026-08-05T16:40:35-04:00",
-      "requisition_id": "R018813",
-      "title": "Director of Product, Agentic Commerce",
-      "company_name": "Instacart",
-      "first_published": "2026-05-29T13:13:14-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -856,7 +856,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=7960988",
+      "absolute_url": "https://instacart.careers/job/?gh_jid=7967235",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -867,7 +867,7 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3456543,
+      "internal_job_id": 3458645,
       "location": {
         "name": "Canada - Remote (ON, AB, BC, or NS Only)"
       },
@@ -891,12 +891,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 7960988,
-      "updated_at": "2026-08-05T16:40:32-04:00",
-      "requisition_id": "R018601",
-      "title": "Engineering Manager, Service Platform",
+      "id": 7967235,
+      "updated_at": "2026-08-05T16:40:35-04:00",
+      "requisition_id": "R018813",
+      "title": "Director of Product, Agentic Commerce",
       "company_name": "Instacart",
-      "first_published": "2026-05-27T13:27:59-04:00",
+      "first_published": "2026-05-29T13:13:14-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -943,6 +943,51 @@
       "title": "Engineering Manager, Service Platform",
       "company_name": "Instacart",
       "first_published": "2026-05-27T13:27:57-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=7960988",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3456543,
+      "location": {
+        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7960988,
+      "updated_at": "2026-08-05T16:40:32-04:00",
+      "requisition_id": "R018601",
+      "title": "Engineering Manager, Service Platform",
+      "company_name": "Instacart",
+      "first_published": "2026-05-27T13:27:59-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1082,51 +1127,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=7939638",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3449555,
-      "location": {
-        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7939638,
-      "updated_at": "2026-08-05T16:40:27-04:00",
-      "requisition_id": "R018692",
-      "title": "Enterprise Sales Manager, StoreFront Pro",
-      "company_name": "Instacart",
-      "first_published": "2026-05-18T15:34:13-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=7939636",
       "data_compliance": [
         {
@@ -1172,7 +1172,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8041911",
+      "absolute_url": "https://instacart.careers/job/?gh_jid=7939638",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1183,9 +1183,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3480917,
+      "internal_job_id": 3449555,
       "location": {
-        "name": "United States - Remote"
+        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
       },
       "metadata": [
         {
@@ -1207,12 +1207,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8041911,
-      "updated_at": "2026-08-05T16:40:43-04:00",
-      "requisition_id": "MH145",
-      "title": "Eversight Senior Account Executive, Enterprise Team",
+      "id": 7939638,
+      "updated_at": "2026-08-05T16:40:27-04:00",
+      "requisition_id": "R018692",
+      "title": "Enterprise Sales Manager, StoreFront Pro",
       "company_name": "Instacart",
-      "first_published": "2026-07-01T13:37:31-04:00",
+      "first_published": "2026-05-18T15:34:13-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1532,51 +1532,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8060210",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3462098,
-      "location": {
-        "name": "Elizabeth, NJ; Wayne, NJ; White Plains, NY"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Contract",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Non-Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8060210,
-      "updated_at": "2026-08-05T16:40:36-04:00",
-      "requisition_id": "CH103",
-      "title": "Implementation Specialist - Caper (Contractor)",
-      "company_name": "Instacart",
-      "first_published": "2026-07-21T12:13:58-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=7976883",
       "data_compliance": [
         {
@@ -1618,6 +1573,51 @@
       "title": "Implementation Specialist - Caper (Contractor)",
       "company_name": "Instacart",
       "first_published": "2026-06-03T15:51:39-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8060210",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3462098,
+      "location": {
+        "name": "Elizabeth, NJ; Wayne, NJ; White Plains, NY"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Contract",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Non-Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8060210,
+      "updated_at": "2026-08-05T16:40:36-04:00",
+      "requisition_id": "CH103",
+      "title": "Implementation Specialist - Caper (Contractor)",
+      "company_name": "Instacart",
+      "first_published": "2026-07-21T12:13:58-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -2297,51 +2297,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=7718773",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3389620,
-      "location": {
-        "name": "United States - Remote"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7718773,
-      "updated_at": "2026-08-05T16:40:22-04:00",
-      "requisition_id": "MH107",
-      "title": "Sales Executive II",
-      "company_name": "Instacart",
-      "first_published": "2026-03-13T17:07:30-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8093228",
       "data_compliance": [
         {
@@ -2383,51 +2338,6 @@
       "title": "Sales Executive, Mid Market",
       "company_name": "Instacart",
       "first_published": "2026-07-28T20:03:09-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8029697",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3480917,
-      "location": {
-        "name": "United States - Remote"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8029697,
-      "updated_at": "2026-08-05T16:40:43-04:00",
-      "requisition_id": "MH145",
-      "title": "Senior Account Executive, Eversight",
-      "company_name": "Instacart",
-      "first_published": "2026-06-25T20:14:16-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -2522,51 +2432,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=7783160",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3406195,
-      "location": {
-        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7783160,
-      "updated_at": "2026-08-05T16:40:24-04:00",
-      "requisition_id": "MH109",
-      "title": "Senior Data Analyst",
-      "company_name": "Instacart",
-      "first_published": "2026-04-06T19:44:58-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=7783158",
       "data_compliance": [
         {
@@ -2608,6 +2473,51 @@
       "title": "Senior Data Analyst",
       "company_name": "Instacart",
       "first_published": "2026-04-06T19:44:57-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=7783160",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3406195,
+      "location": {
+        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7783160,
+      "updated_at": "2026-08-05T16:40:24-04:00",
+      "requisition_id": "MH109",
+      "title": "Senior Data Analyst",
+      "company_name": "Instacart",
+      "first_published": "2026-04-06T19:44:58-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -2972,51 +2882,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=7958329",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3455259,
-      "location": {
-        "name": "United States - Remote"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7958329,
-      "updated_at": "2026-08-05T16:40:31-04:00",
-      "requisition_id": "MH128",
-      "title": "Senior Financial Analyst, Retailer",
-      "company_name": "Instacart",
-      "first_published": "2026-05-26T14:28:50-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=7958331",
       "data_compliance": [
         {
@@ -3058,6 +2923,51 @@
       "title": "Senior Financial Analyst, Retailer",
       "company_name": "Instacart",
       "first_published": "2026-05-26T14:28:51-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=7958329",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3455259,
+      "location": {
+        "name": "United States - Remote"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7958329,
+      "updated_at": "2026-08-05T16:40:31-04:00",
+      "requisition_id": "MH128",
+      "title": "Senior Financial Analyst, Retailer",
+      "company_name": "Instacart",
+      "first_published": "2026-05-26T14:28:50-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3377,51 +3287,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=7958121",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3384641,
-      "location": {
-        "name": "United States - Remote"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7958121,
-      "updated_at": "2026-08-05T16:40:22-04:00",
-      "requisition_id": "R016980",
-      "title": "Senior People Data Scientist",
-      "company_name": "Instacart",
-      "first_published": "2026-05-26T12:49:45-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=7958122",
       "data_compliance": [
         {
@@ -3467,7 +3332,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8077510",
+      "absolute_url": "https://instacart.careers/job/?gh_jid=7958121",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -3478,7 +3343,7 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3499598,
+      "internal_job_id": 3384641,
       "location": {
         "name": "United States - Remote"
       },
@@ -3502,12 +3367,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8077510,
-      "updated_at": "2026-08-05T16:40:43-04:00",
-      "requisition_id": "PR00070",
-      "title": "Senior Product Manager, Ads Quality",
+      "id": 7958121,
+      "updated_at": "2026-08-05T16:40:22-04:00",
+      "requisition_id": "R016980",
+      "title": "Senior People Data Scientist",
       "company_name": "Instacart",
-      "first_published": "2026-07-23T00:29:47-04:00",
+      "first_published": "2026-05-26T12:49:45-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3557,7 +3422,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8024430",
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8077510",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -3568,9 +3433,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3478734,
+      "internal_job_id": 3499598,
       "location": {
-        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
+        "name": "United States - Remote"
       },
       "metadata": [
         {
@@ -3592,12 +3457,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8024430,
-      "updated_at": "2026-08-05T16:40:41-04:00",
-      "requisition_id": "PR00032",
-      "title": "Senior Product Manager, AI",
+      "id": 8077510,
+      "updated_at": "2026-08-05T16:40:43-04:00",
+      "requisition_id": "PR00070",
+      "title": "Senior Product Manager, Ads Quality",
       "company_name": "Instacart",
-      "first_published": "2026-06-24T14:54:47-04:00",
+      "first_published": "2026-07-23T00:29:47-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3647,7 +3512,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8100150",
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8024430",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -3658,7 +3523,7 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3509006,
+      "internal_job_id": 3478734,
       "location": {
         "name": "Canada - Remote (ON, AB, BC, or NS Only)"
       },
@@ -3682,12 +3547,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8100150,
-      "updated_at": "2026-08-05T16:40:46-04:00",
-      "requisition_id": "PR00090",
-      "title": "Senior Product Manager, Caper Recommendations & Personalization",
+      "id": 8024430,
+      "updated_at": "2026-08-05T16:40:41-04:00",
+      "requisition_id": "PR00032",
+      "title": "Senior Product Manager, AI",
       "company_name": "Instacart",
-      "first_published": "2026-08-03T14:27:35-04:00",
+      "first_published": "2026-06-24T14:54:47-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3733,6 +3598,51 @@
       "title": "Senior Product Manager, Caper Recommendations & Personalization",
       "company_name": "Instacart",
       "first_published": "2026-08-03T14:27:33-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8100150",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3509006,
+      "location": {
+        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8100150,
+      "updated_at": "2026-08-05T16:40:46-04:00",
+      "requisition_id": "PR00090",
+      "title": "Senior Product Manager, Caper Recommendations & Personalization",
+      "company_name": "Instacart",
+      "first_published": "2026-08-03T14:27:35-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -4052,51 +3962,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8017071",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3475790,
-      "location": {
-        "name": "United States - Remote"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8017071,
-      "updated_at": "2026-08-05T16:40:41-04:00",
-      "requisition_id": "R018796",
-      "title": "Senior Product Security Engineer II",
-      "company_name": "Instacart",
-      "first_published": "2026-06-18T16:33:58-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8017073",
       "data_compliance": [
         {
@@ -4142,7 +4007,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8104343",
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8017071",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -4153,9 +4018,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3510946,
+      "internal_job_id": 3475790,
       "location": {
-        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
+        "name": "United States - Remote"
       },
       "metadata": [
         {
@@ -4177,12 +4042,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8104343,
-      "updated_at": "2026-08-05T16:40:47-04:00",
-      "requisition_id": "R018219",
-      "title": "Senior Revenue Operations Manager - Eversight",
+      "id": 8017071,
+      "updated_at": "2026-08-05T16:40:41-04:00",
+      "requisition_id": "R018796",
+      "title": "Senior Product Security Engineer II",
       "company_name": "Instacart",
-      "first_published": "2026-08-04T14:07:39-04:00",
+      "first_published": "2026-06-18T16:33:58-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -4228,6 +4093,51 @@
       "title": "Senior Revenue Operations Manager - Eversight",
       "company_name": "Instacart",
       "first_published": "2026-08-04T14:07:38-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8104343",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3510946,
+      "location": {
+        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8104343,
+      "updated_at": "2026-08-05T16:40:47-04:00",
+      "requisition_id": "R018219",
+      "title": "Senior Revenue Operations Manager - Eversight",
+      "company_name": "Instacart",
+      "first_published": "2026-08-04T14:07:39-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -4907,51 +4817,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8026684",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3479662,
-      "location": {
-        "name": "United States - Remote"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8026684,
-      "updated_at": "2026-08-05T16:40:42-04:00",
-      "requisition_id": "PR00036",
-      "title": "Sr. Product Designer II - Design Systems",
-      "company_name": "Instacart",
-      "first_published": "2026-06-24T14:51:48-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8026686",
       "data_compliance": [
         {
@@ -4993,6 +4858,51 @@
       "title": "Sr. Product Designer II - Design Systems",
       "company_name": "Instacart",
       "first_published": "2026-06-24T14:52:04-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8026684",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3479662,
+      "location": {
+        "name": "United States - Remote"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8026684,
+      "updated_at": "2026-08-05T16:40:42-04:00",
+      "requisition_id": "PR00036",
+      "title": "Sr. Product Designer II - Design Systems",
+      "company_name": "Instacart",
+      "first_published": "2026-06-24T14:51:48-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -5087,51 +4997,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8080312",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3500685,
-      "location": {
-        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8080312,
-      "updated_at": "2026-08-05T16:40:45-04:00",
-      "requisition_id": "R018604",
-      "title": "Staff Software Engineer, Bazel & Go",
-      "company_name": "Instacart",
-      "first_published": "2026-07-22T16:44:32-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8080310",
       "data_compliance": [
         {
@@ -5169,6 +5034,51 @@
       ],
       "id": 8080310,
       "updated_at": "2026-08-05T16:40:44-04:00",
+      "requisition_id": "R018604",
+      "title": "Staff Software Engineer, Bazel & Go",
+      "company_name": "Instacart",
+      "first_published": "2026-07-22T16:44:32-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8080312",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3500685,
+      "location": {
+        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8080312,
+      "updated_at": "2026-08-05T16:40:45-04:00",
       "requisition_id": "R018604",
       "title": "Staff Software Engineer, Bazel & Go",
       "company_name": "Instacart",
@@ -5268,6 +5178,6 @@
     }
   ],
   "meta": {
-    "total": 117
+    "total": 115
   }
 }
