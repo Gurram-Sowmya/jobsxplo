@@ -81,100 +81,11 @@
         }
       ],
       "id": 8107794,
-      "updated_at": "2026-08-07T07:14:42-04:00",
+      "updated_at": "2026-08-07T10:57:57-04:00",
       "requisition_id": "R11671",
       "title": "Account Executive",
       "company_name": "Dropbox",
       "first_published": "2026-08-07T07:14:42-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://jobs.dropbox.com/listing/8048847?gh_jid=8048847",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3488515,
-      "location": {
-        "name": "Remote - US: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "GCO Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Business Development Manager",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC4",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Business Development",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8048847,
-      "updated_at": "2026-08-05T09:43:48-04:00",
-      "requisition_id": "R11638",
-      "title": "Business Development Manager, Strategic Partnerships",
-      "company_name": "Dropbox",
-      "first_published": "2026-07-22T13:53:11-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -268,7 +179,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/7848536?gh_jid=7848536",
+      "absolute_url": "https://jobs.dropbox.com/listing/8048847?gh_jid=8048847",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -281,15 +192,15 @@
       ],
       "education": "education_required",
       "employment": "employment_required",
-      "internal_job_id": 3420626,
+      "internal_job_id": 3488515,
       "location": {
-        "name": "Remote - US: All locations"
+        "name": "Remote - US: Select locations"
       },
       "metadata": [
         {
           "id": 397108,
           "name": "Recruiting Team Responsible",
-          "value": "NAMER - Executive Recruiting",
+          "value": "GCO Recruiting",
           "value_type": "single_select"
         },
         {
@@ -331,28 +242,28 @@
         {
           "id": 696737,
           "name": "Skillset",
-          "value": "GCO, Niche",
+          "value": "Business Development Manager",
           "value_type": "single_select"
         },
         {
           "id": 113830,
           "name": "Dropboxer Level",
-          "value": "MGR6",
+          "value": "IC4",
           "value_type": "single_select"
         },
         {
           "id": 54678,
           "name": "Career Page Allocation",
-          "value": "Sales",
+          "value": "Business Development",
           "value_type": "single_select"
         }
       ],
-      "id": 7848536,
-      "updated_at": "2026-08-05T20:31:55-04:00",
-      "requisition_id": "R11588",
-      "title": "Director, Head of Scaled Sales",
+      "id": 8048847,
+      "updated_at": "2026-08-05T09:43:48-04:00",
+      "requisition_id": "R11638",
+      "title": "Business Development Manager, Strategic Partnerships",
       "company_name": "Dropbox",
-      "first_published": "2026-04-24T09:25:56-04:00",
+      "first_published": "2026-07-22T13:53:11-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -442,6 +353,95 @@
       "title": "Director, Head of Scaled Sales",
       "company_name": "Dropbox",
       "first_published": "2026-04-24T09:28:07-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/7848536?gh_jid=7848536",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3420626,
+      "location": {
+        "name": "Remote - US: All locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "NAMER - Executive Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "GCO, Niche",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "MGR6",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Sales",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7848536,
+      "updated_at": "2026-08-05T20:31:55-04:00",
+      "requisition_id": "R11588",
+      "title": "Director, Head of Scaled Sales",
+      "company_name": "Dropbox",
+      "first_published": "2026-04-24T09:25:56-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -891,95 +891,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/7673207?gh_jid=7673207",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3376387,
-      "location": {
-        "name": "Remote - Canada: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "NAMER - Executive Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Sales Strategy & Operations",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "MGR6",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Sales",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7673207,
-      "updated_at": "2026-08-06T17:46:24-04:00",
-      "requisition_id": "R11509",
-      "title": "Head of Global Sales Enablement and AI Adoption",
-      "company_name": "Dropbox",
-      "first_published": "2026-04-10T15:43:14-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/7673202?gh_jid=7673202",
       "data_compliance": [
         {
@@ -1065,6 +976,95 @@
       "title": "Head of Global Sales Enablement and AI Adoption",
       "company_name": "Dropbox",
       "first_published": "2026-04-10T15:41:12-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/7673207?gh_jid=7673207",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3376387,
+      "location": {
+        "name": "Remote - Canada: Select locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "NAMER - Executive Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "Sales Strategy & Operations",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "MGR6",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Sales",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7673207,
+      "updated_at": "2026-08-06T17:46:24-04:00",
+      "requisition_id": "R11509",
+      "title": "Head of Global Sales Enablement and AI Adoption",
+      "company_name": "Dropbox",
+      "first_published": "2026-04-10T15:43:14-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1425,95 +1425,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8006977?gh_jid=8006977",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3471740,
-      "location": {
-        "name": "Remote - Canada: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "NAMER - Executive Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "High",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Product SWE FS",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC6",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Engineering",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8006977,
-      "updated_at": "2026-08-05T09:43:48-04:00",
-      "requisition_id": "R11628",
-      "title": "Principal Software Engineer, Core Sharing & Collaboration",
-      "company_name": "Dropbox",
-      "first_published": "2026-06-17T12:01:40-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/8006972?gh_jid=8006972",
       "data_compliance": [
         {
@@ -1603,7 +1514,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8092224?gh_jid=8092224",
+      "absolute_url": "https://jobs.dropbox.com/listing/8006977?gh_jid=8006977",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1616,15 +1527,15 @@
       ],
       "education": "education_required",
       "employment": "employment_required",
-      "internal_job_id": 3505594,
+      "internal_job_id": 3471740,
       "location": {
-        "name": "Remote - US: Select locations"
+        "name": "Remote - Canada: Select locations"
       },
       "metadata": [
         {
           "id": 397108,
           "name": "Recruiting Team Responsible",
-          "value": "G&A Recruiting",
+          "value": "NAMER - Executive Recruiting",
           "value_type": "single_select"
         },
         {
@@ -1660,34 +1571,34 @@
         {
           "id": 3465818,
           "name": "Location Cost Tier",
-          "value": "Mid",
+          "value": "High",
           "value_type": "single_select"
         },
         {
           "id": 696737,
           "name": "Skillset",
-          "value": "People, Niche",
+          "value": "Product SWE FS",
           "value_type": "single_select"
         },
         {
           "id": 113830,
           "name": "Dropboxer Level",
-          "value": "IC4",
+          "value": "IC6",
           "value_type": "single_select"
         },
         {
           "id": 54678,
           "name": "Career Page Allocation",
-          "value": "People",
+          "value": "Engineering",
           "value_type": "single_select"
         }
       ],
-      "id": 8092224,
+      "id": 8006977,
       "updated_at": "2026-08-05T09:43:48-04:00",
-      "requisition_id": "R11657",
-      "title": "Program Manager, Workforce Planning",
+      "requisition_id": "R11628",
+      "title": "Principal Software Engineer, Core Sharing & Collaboration",
       "company_name": "Dropbox",
-      "first_published": "2026-07-31T11:14:45-04:00",
+      "first_published": "2026-06-17T12:01:40-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1781,6 +1692,95 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://jobs.dropbox.com/listing/8092224?gh_jid=8092224",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3505594,
+      "location": {
+        "name": "Remote - US: Select locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "G&A Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "People, Niche",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC4",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "People",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8092224,
+      "updated_at": "2026-08-05T09:43:48-04:00",
+      "requisition_id": "R11657",
+      "title": "Program Manager, Workforce Planning",
+      "company_name": "Dropbox",
+      "first_published": "2026-07-31T11:14:45-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://jobs.dropbox.com/listing/8051403?gh_jid=8051403",
       "data_compliance": [
         {
@@ -1866,95 +1866,6 @@
       "title": "Senior Account Executive UKI ",
       "company_name": "Dropbox",
       "first_published": "2026-07-16T09:44:42-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://jobs.dropbox.com/listing/8050991?gh_jid=8050991",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3489368,
-      "location": {
-        "name": "Remote - Canada: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "G&A Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Rewards",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC4",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "People",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8050991,
-      "updated_at": "2026-08-05T09:43:48-04:00",
-      "requisition_id": "R11639",
-      "title": "Senior Compensation Business Partner",
-      "company_name": "Dropbox",
-      "first_published": "2026-07-20T15:57:07-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -2048,6 +1959,95 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://jobs.dropbox.com/listing/8050991?gh_jid=8050991",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3489368,
+      "location": {
+        "name": "Remote - Canada: Select locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "G&A Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "Rewards",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC4",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "People",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8050991,
+      "updated_at": "2026-08-05T09:43:48-04:00",
+      "requisition_id": "R11639",
+      "title": "Senior Compensation Business Partner",
+      "company_name": "Dropbox",
+      "first_published": "2026-07-20T15:57:07-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://jobs.dropbox.com/listing/8103658?gh_jid=8103658",
       "data_compliance": [
         {
@@ -2137,95 +2137,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8067367?gh_jid=8067367",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3495655,
-      "location": {
-        "name": "Remote - Canada: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "NAMER - Executive Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Sales Strategy & Operations",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "MGR7",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Business Strategy & Ops",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8067367,
-      "updated_at": "2026-08-05T09:43:48-04:00",
-      "requisition_id": "R11642",
-      "title": "Senior Director, Revenue Operations",
-      "company_name": "Dropbox",
-      "first_published": "2026-07-23T11:31:23-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/8067362?gh_jid=8067362",
       "data_compliance": [
         {
@@ -2283,7 +2194,7 @@
         {
           "id": 3465818,
           "name": "Location Cost Tier",
-          "value": "Mid",
+          "value": "High",
           "value_type": "single_select"
         },
         {
@@ -2306,11 +2217,100 @@
         }
       ],
       "id": 8067362,
-      "updated_at": "2026-08-05T09:43:48-04:00",
+      "updated_at": "2026-08-07T09:16:33-04:00",
       "requisition_id": "R11642",
       "title": "Senior Director, Revenue Operations",
       "company_name": "Dropbox",
       "first_published": "2026-07-28T13:58:37-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/8067367?gh_jid=8067367",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3495655,
+      "location": {
+        "name": "Remote - Canada: Select locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "NAMER - Executive Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "High",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "Sales Strategy & Operations",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "MGR7",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Business Strategy & Ops",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8067367,
+      "updated_at": "2026-08-07T09:16:33-04:00",
+      "requisition_id": "R11642",
+      "title": "Senior Director, Revenue Operations",
+      "company_name": "Dropbox",
+      "first_published": "2026-07-23T11:31:23-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -2404,95 +2404,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8074709?gh_jid=8074709",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3498522,
-      "location": {
-        "name": "Remote - Mexico"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "Engineering Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Product SWE FS",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC4",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Engineering",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8074709,
-      "updated_at": "2026-08-05T09:43:48-04:00",
-      "requisition_id": "R11647",
-      "title": "Senior Fullstack Product Software Engineer, Web Experience",
-      "company_name": "Dropbox",
-      "first_published": "2026-07-23T15:37:35-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/8074707?gh_jid=8074707",
       "data_compliance": [
         {
@@ -2578,6 +2489,95 @@
       "title": "Senior Fullstack Product Software Engineer, Web Experience",
       "company_name": "Dropbox",
       "first_published": "2026-07-23T15:37:37-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/8074709?gh_jid=8074709",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3498522,
+      "location": {
+        "name": "Remote - Mexico"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "Engineering Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "Product SWE FS",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC4",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Engineering",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8074709,
+      "updated_at": "2026-08-05T09:43:48-04:00",
+      "requisition_id": "R11647",
+      "title": "Senior Fullstack Product Software Engineer, Web Experience",
+      "company_name": "Dropbox",
+      "first_published": "2026-07-23T15:37:35-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -2849,95 +2849,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8070685?gh_jid=8070685",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3496878,
-      "location": {
-        "name": "Remote - US: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "GCO Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Product Marketing Manager",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC5",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Marketing",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8070685,
-      "updated_at": "2026-08-05T17:56:57-04:00",
-      "requisition_id": "R11645",
-      "title": "Senior Product Marketing Operations Manager",
-      "company_name": "Dropbox",
-      "first_published": "2026-07-29T13:10:04-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/8070686?gh_jid=8070686",
       "data_compliance": [
         {
@@ -3023,6 +2934,95 @@
       "title": "Senior Product Marketing Operations Manager",
       "company_name": "Dropbox",
       "first_published": "2026-07-29T13:17:58-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/8070685?gh_jid=8070685",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3496878,
+      "location": {
+        "name": "Remote - US: Select locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "GCO Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "Product Marketing Manager",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC5",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Marketing",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8070685,
+      "updated_at": "2026-08-05T17:56:57-04:00",
+      "requisition_id": "R11645",
+      "title": "Senior Product Marketing Operations Manager",
+      "company_name": "Dropbox",
+      "first_published": "2026-07-29T13:10:04-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3116,95 +3116,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/7421153?gh_jid=7421153",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3304213,
-      "location": {
-        "name": "Remote - Canada: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "Engineering Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "High",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Product SWE FS",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC5",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Engineering",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7421153,
-      "updated_at": "2026-08-05T09:43:48-04:00",
-      "requisition_id": "R11353",
-      "title": "Staff Fullstack Software Engineer, Core Performance",
-      "company_name": "Dropbox",
-      "first_published": "2025-12-04T12:34:55-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/7421149?gh_jid=7421149",
       "data_compliance": [
         {
@@ -3294,7 +3205,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8092715?gh_jid=8092715",
+      "absolute_url": "https://jobs.dropbox.com/listing/7421153?gh_jid=7421153",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -3307,7 +3218,7 @@
       ],
       "education": "education_required",
       "employment": "employment_required",
-      "internal_job_id": 3505771,
+      "internal_job_id": 3304213,
       "location": {
         "name": "Remote - Canada: Select locations"
       },
@@ -3315,7 +3226,7 @@
         {
           "id": 397108,
           "name": "Recruiting Team Responsible",
-          "value": "Design Recruiting",
+          "value": "Engineering Recruiting",
           "value_type": "single_select"
         },
         {
@@ -3351,13 +3262,13 @@
         {
           "id": 3465818,
           "name": "Location Cost Tier",
-          "value": "Mid",
+          "value": "High",
           "value_type": "single_select"
         },
         {
           "id": 696737,
           "name": "Skillset",
-          "value": "Product Design",
+          "value": "Product SWE FS",
           "value_type": "single_select"
         },
         {
@@ -3369,16 +3280,16 @@
         {
           "id": 54678,
           "name": "Career Page Allocation",
-          "value": "Design & Research",
+          "value": "Engineering",
           "value_type": "single_select"
         }
       ],
-      "id": 8092715,
+      "id": 7421153,
       "updated_at": "2026-08-05T09:43:48-04:00",
-      "requisition_id": "R11658",
-      "title": "Staff Product Designer",
+      "requisition_id": "R11353",
+      "title": "Staff Fullstack Software Engineer, Core Performance",
       "company_name": "Dropbox",
-      "first_published": "2026-08-03T15:08:29-04:00",
+      "first_published": "2025-12-04T12:34:55-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3468,6 +3379,95 @@
       "title": "Staff Product Designer",
       "company_name": "Dropbox",
       "first_published": "2026-08-03T15:08:27-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/8092715?gh_jid=8092715",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3505771,
+      "location": {
+        "name": "Remote - Canada: Select locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "Design Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "Product Design",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC5",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Design & Research",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8092715,
+      "updated_at": "2026-08-05T09:43:48-04:00",
+      "requisition_id": "R11658",
+      "title": "Staff Product Designer",
+      "company_name": "Dropbox",
+      "first_published": "2026-08-03T15:08:29-04:00",
       "language": "en",
       "application_deadline": null
     }
