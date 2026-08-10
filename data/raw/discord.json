@@ -310,7 +310,7 @@
         }
       ],
       "id": 8649856002,
-      "updated_at": "2026-08-03T13:39:20-04:00",
+      "updated_at": "2026-08-10T11:43:04-04:00",
       "requisition_id": "R-107352",
       "title": "Engineering Manager, Platform Security",
       "company_name": "Discord",
@@ -333,7 +333,7 @@
       "education": "education_optional",
       "internal_job_id": 6396082002,
       "location": {
-        "name": "San Francisco Bay Area or Remote"
+        "name": "Remote"
       },
       "metadata": [
         {
@@ -350,7 +350,7 @@
         }
       ],
       "id": 8502342002,
-      "updated_at": "2026-07-31T13:17:05-04:00",
+      "updated_at": "2026-08-10T12:52:41-04:00",
       "requisition_id": "R-107250",
       "title": "Engineering Manager, Revenue",
       "company_name": "Discord",
@@ -1506,6 +1506,45 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8691572002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 6472662002,
+      "location": {
+        "name": "San Francisco Bay Area"
+      },
+      "metadata": [
+        {
+          "id": 4105571002,
+          "name": "Featured on Website",
+          "value": [],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 96196709002,
+          "name": "Careers Site Department",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8691572002,
+      "updated_at": "2026-08-10T13:56:48-04:00",
+      "requisition_id": "R-107368",
+      "title": "Staff Data Engineer - Data Infrastructure",
+      "company_name": "Discord",
+      "first_published": "2026-08-10T13:56:48-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8641295002",
       "data_compliance": [
         {
@@ -1865,6 +1904,6 @@
     }
   ],
   "meta": {
-    "total": 47
+    "total": 48
   }
 }
