@@ -822,45 +822,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8080954?gh_jid=8080954",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3500939,
-      "location": {
-        "name": "United States"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8080954,
-      "updated_at": "2026-07-24T14:15:02-04:00",
-      "requisition_id": "TBD-FTE",
-      "title": "Lead Advanced Analytics, Guest Product",
-      "company_name": "Airbnb",
-      "first_published": "2026-07-24T14:15:02-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/8009372?gh_jid=8009372",
       "data_compliance": [
         {
@@ -1013,6 +974,45 @@
       "title": "Lead, Advanced Analytics, Payments",
       "company_name": "Airbnb",
       "first_published": "2026-05-29T16:29:58-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/8080954?gh_jid=8080954",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3500939,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8080954,
+      "updated_at": "2026-08-11T02:11:01-04:00",
+      "requisition_id": "MULTI",
+      "title": "Lead Advanced Analytics, Product",
+      "company_name": "Airbnb",
+      "first_published": "2026-07-24T14:15:02-04:00",
       "language": "en",
       "application_deadline": null
     },
