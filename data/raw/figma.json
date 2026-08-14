@@ -560,11 +560,11 @@
       ],
       "internal_job_id": 5197792004,
       "location": {
-        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+        "name": "San Francisco, CA"
       },
       "metadata": null,
       "id": 6138907004,
-      "updated_at": "2026-08-12T16:56:17-04:00",
+      "updated_at": "2026-08-13T17:38:03-04:00",
       "requisition_id": "2508",
       "title": "AV Production Specialist",
       "company_name": "Figma",
@@ -1605,7 +1605,7 @@
       },
       "metadata": null,
       "id": 6141591004,
-      "updated_at": "2026-08-13T12:23:48-04:00",
+      "updated_at": "2026-08-13T18:30:42-04:00",
       "requisition_id": "2515",
       "title": "Executive Recruiter",
       "company_name": "Figma",
@@ -1897,6 +1897,32 @@
       "title": "Manager, Inside Sales (London, United Kingdom)",
       "company_name": "Figma",
       "first_published": "2026-06-04T12:21:29-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/6142460004?gh_jid=6142460004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 5199523004,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": null,
+      "id": 6142460004,
+      "updated_at": "2026-08-13T17:58:18-04:00",
+      "requisition_id": "2517",
+      "title": "Manager, IT Operations",
+      "company_name": "Figma",
+      "first_published": "2026-08-13T15:21:51-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -4138,6 +4164,6 @@
     }
   ],
   "meta": {
-    "total": 159
+    "total": 160
   }
 }
