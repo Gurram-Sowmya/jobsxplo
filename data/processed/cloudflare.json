@@ -5415,57 +5415,6 @@
       "role_category": "Product Manager"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8102768?gh_jid=8102768",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3510330,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "4700 - Security",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Security"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8102768,
-      "updated_at": "2026-08-06T15:17:31-04:00",
-      "requisition_id": null,
-      "title": "Product Security Engineer",
-      "company_name": "Cloudflare",
-      "first_published": "2026-08-04T08:46:53-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Product Security Engineer",
-      "role_category": "Security Engineer"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8053116?gh_jid=8053116",
       "data_compliance": [
         {
@@ -5511,6 +5460,57 @@
       "title": "Product Security Engineer",
       "company_name": "Cloudflare",
       "first_published": "2026-07-09T23:38:26-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Product Security Engineer",
+      "role_category": "Security Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8102768?gh_jid=8102768",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3510330,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "4700 - Security",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Austin, US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Security"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8102768,
+      "updated_at": "2026-08-06T15:17:31-04:00",
+      "requisition_id": null,
+      "title": "Product Security Engineer",
+      "company_name": "Cloudflare",
+      "first_published": "2026-08-04T08:46:53-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Product Security Engineer",
@@ -5773,7 +5773,7 @@
       "role_category": "Recruiter"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8089400?gh_jid=8089400",
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -5784,7 +5784,7 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3504721,
+      "internal_job_id": 3504712,
       "location": {
         "name": "In-Office"
       },
@@ -5799,7 +5799,7 @@
           "id": 8654220,
           "name": "Job Posting Location",
           "value": [
-            "Lisbon, Portugal"
+            "Austin, US"
           ],
           "value_type": "multi_select"
         },
@@ -5812,12 +5812,12 @@
           "value_type": "multi_select"
         }
       ],
-      "id": 8089400,
+      "id": 8089379,
       "updated_at": "2026-08-06T15:17:31-04:00",
       "requisition_id": null,
       "title": "Research Engineer Intern (Fall 2026)",
       "company_name": "Cloudflare",
-      "first_published": "2026-07-28T11:57:17-04:00",
+      "first_published": "2026-07-28T12:43:59-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Research Engineer Intern (Fall 2026)",
@@ -5875,7 +5875,7 @@
       "role_category": "Research Scientist"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379",
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8089400?gh_jid=8089400",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -5886,7 +5886,7 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3504712,
+      "internal_job_id": 3504721,
       "location": {
         "name": "In-Office"
       },
@@ -5901,7 +5901,7 @@
           "id": 8654220,
           "name": "Job Posting Location",
           "value": [
-            "Austin, US"
+            "Lisbon, Portugal"
           ],
           "value_type": "multi_select"
         },
@@ -5914,12 +5914,12 @@
           "value_type": "multi_select"
         }
       ],
-      "id": 8089379,
+      "id": 8089400,
       "updated_at": "2026-08-06T15:17:31-04:00",
       "requisition_id": null,
       "title": "Research Engineer Intern (Fall 2026)",
       "company_name": "Cloudflare",
-      "first_published": "2026-07-28T12:43:59-04:00",
+      "first_published": "2026-07-28T11:57:17-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Research Engineer Intern (Fall 2026)",
@@ -8804,59 +8804,6 @@
       "role_category": "Legal Counsel"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8110209?gh_jid=8110209",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3405295,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5430 - Developer GTM",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Sweden"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Emerging Technology & Incubation",
-            "Engineering",
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8110209,
-      "updated_at": "2026-08-06T15:17:31-04:00",
-      "requisition_id": null,
-      "title": "Senior Forward Deployed Engineer",
-      "company_name": "Cloudflare",
-      "first_published": "2026-08-05T17:51:40-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Forward Deployed Engineer",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8082556?gh_jid=8082556",
       "data_compliance": [
         {
@@ -8904,6 +8851,59 @@
       "title": "Senior Forward Deployed Engineer",
       "company_name": "Cloudflare",
       "first_published": "2026-07-23T17:05:12-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Forward Deployed Engineer",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8110209?gh_jid=8110209",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3405295,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5430 - Developer GTM",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Sweden"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Emerging Technology & Incubation",
+            "Engineering",
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8110209,
+      "updated_at": "2026-08-06T15:17:31-04:00",
+      "requisition_id": null,
+      "title": "Senior Forward Deployed Engineer",
+      "company_name": "Cloudflare",
+      "first_published": "2026-08-05T17:51:40-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Forward Deployed Engineer",
@@ -9219,57 +9219,6 @@
       "role_category": "Account Executive"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8083770?gh_jid=8083770",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3502255,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5150 - Field Sales",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Houston, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8083770,
-      "updated_at": "2026-08-06T15:17:31-04:00",
-      "requisition_id": "23356",
-      "title": "Senior Majors Account Executive - Houston",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-27T11:48:24-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Majors Account Executive - Houston",
-      "role_category": "Account Executive"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7773428?gh_jid=7773428",
       "data_compliance": [
         {
@@ -9315,6 +9264,57 @@
       "title": "Senior Majors Account Executive - Houston",
       "company_name": "Cloudflare",
       "first_published": "2026-04-02T10:39:14-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Majors Account Executive - Houston",
+      "role_category": "Account Executive"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8083770?gh_jid=8083770",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3502255,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5150 - Field Sales",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Houston, US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8083770,
+      "updated_at": "2026-08-06T15:17:31-04:00",
+      "requisition_id": "23356",
+      "title": "Senior Majors Account Executive - Houston",
+      "company_name": "Cloudflare",
+      "first_published": "2026-07-27T11:48:24-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Majors Account Executive - Houston",
