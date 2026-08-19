@@ -1279,7 +1279,7 @@
         }
       ],
       "id": 8694476002,
-      "updated_at": "2026-08-17T15:12:28-04:00",
+      "updated_at": "2026-08-18T11:53:13-04:00",
       "requisition_id": "R-107369",
       "title": "Senior Software Engineer, Data Platform",
       "company_name": "Discord",
@@ -1571,7 +1571,7 @@
         }
       ],
       "id": 8545663002,
-      "updated_at": "2026-07-31T13:17:05-04:00",
+      "updated_at": "2026-08-18T11:59:33-04:00",
       "requisition_id": "R-107281",
       "title": "Software Engineer, Distributed Systems",
       "company_name": "Discord",
@@ -1820,7 +1820,7 @@
         }
       ],
       "id": 8498984002,
-      "updated_at": "2026-07-31T13:17:05-04:00",
+      "updated_at": "2026-08-18T11:47:22-04:00",
       "requisition_id": "R-107245",
       "title": "Staff Software Engineer, Data Platform",
       "company_name": "Discord",
@@ -1870,6 +1870,47 @@
       "language": "en",
       "application_deadline": null,
       "raw_title": "Staff Software Engineer, Enterprise Platform",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8700605002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 6476715002,
+      "location": {
+        "name": "San Francisco Bay Area"
+      },
+      "metadata": [
+        {
+          "id": 4105571002,
+          "name": "Featured on Website",
+          "value": [],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 96196709002,
+          "name": "Careers Site Department",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8700605002,
+      "updated_at": "2026-08-18T18:26:49-04:00",
+      "requisition_id": "R-107374",
+      "title": "Staff Software Engineer, Experimentation Platform",
+      "company_name": "Discord",
+      "first_published": "2026-08-18T18:26:49-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Staff Software Engineer, Experimentation Platform",
       "role_category": "Software Engineer"
     },
     {
