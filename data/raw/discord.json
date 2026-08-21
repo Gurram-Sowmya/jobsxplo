@@ -161,45 +161,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8614971002",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 6440705002,
-      "location": {
-        "name": "San Francisco Bay Area"
-      },
-      "metadata": [
-        {
-          "id": 4105571002,
-          "name": "Featured on Website",
-          "value": [],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 96196709002,
-          "name": "Careers Site Department",
-          "value": null,
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8614971002,
-      "updated_at": "2026-07-31T13:17:05-04:00",
-      "requisition_id": "R-107334",
-      "title": "Data Engineer",
-      "company_name": "Discord",
-      "first_published": "2026-07-30T18:53:02-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8571766002",
       "data_compliance": [
         {
@@ -716,46 +677,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8652553002",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "education": "education_optional",
-      "internal_job_id": 6455433002,
-      "location": {
-        "name": "San Francisco Bay Area"
-      },
-      "metadata": [
-        {
-          "id": 4105571002,
-          "name": "Featured on Website",
-          "value": [],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 96196709002,
-          "name": "Careers Site Department",
-          "value": null,
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8652553002,
-      "updated_at": "2026-07-31T13:17:05-04:00",
-      "requisition_id": "R-107353",
-      "title": "Security Analyst",
-      "company_name": "Discord",
-      "first_published": "2026-07-29T22:16:10-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8299493002",
       "data_compliance": [
         {
@@ -1220,7 +1141,7 @@
         }
       ],
       "id": 8656854002,
-      "updated_at": "2026-08-20T16:24:21-04:00",
+      "updated_at": "2026-08-21T12:55:25-04:00",
       "requisition_id": "R-107356",
       "title": "Senior Software Engineer, Application Security",
       "company_name": "Discord",
@@ -2092,7 +2013,7 @@
         }
       ],
       "id": 8652914002,
-      "updated_at": "2026-08-06T20:04:55-04:00",
+      "updated_at": "2026-08-21T11:02:58-04:00",
       "requisition_id": "R-107355",
       "title": "Threat Investigator ",
       "company_name": "Discord",
@@ -2102,6 +2023,6 @@
     }
   ],
   "meta": {
-    "total": 53
+    "total": 51
   }
 }
