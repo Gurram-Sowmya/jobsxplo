@@ -1009,7 +1009,7 @@
         {
           "id": 825338,
           "name": "Cost Center",
-          "value": "5250 - Customer Success",
+          "value": "5210 - CS Engineers",
           "value_type": "single_select"
         },
         {
@@ -1030,7 +1030,7 @@
         }
       ],
       "id": 8140641,
-      "updated_at": "2026-08-24T20:39:45-04:00",
+      "updated_at": "2026-08-25T02:13:25-04:00",
       "requisition_id": null,
       "title": "Customer Engineer, ASEAN Specialist",
       "company_name": "Cloudflare",
@@ -1108,7 +1108,7 @@
         {
           "id": 825338,
           "name": "Cost Center",
-          "value": "5250 - Customer Success",
+          "value": "5210 - CS Engineers",
           "value_type": "single_select"
         },
         {
@@ -1129,7 +1129,7 @@
         }
       ],
       "id": 8140643,
-      "updated_at": "2026-08-24T20:39:41-04:00",
+      "updated_at": "2026-08-25T02:13:20-04:00",
       "requisition_id": null,
       "title": "Customer Engineer, Korean Specialist",
       "company_name": "Cloudflare",
@@ -3001,58 +3001,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8046869?gh_jid=8046869",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3487702,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "4110 - Network & Infrastructure Strategy",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, US",
-            "New York, US",
-            "San Francisco, US",
-            "Washington DC, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Infrastructure"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8046869,
-      "updated_at": "2026-08-24T16:06:07-04:00",
-      "requisition_id": null,
-      "title": "Interconnection Manager, Network Strategy Americas",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-09T12:06:22-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8138788?gh_jid=8138788",
       "data_compliance": [
         {
@@ -3197,6 +3145,56 @@
       "title": "Major Account Executive, France",
       "company_name": "Cloudflare",
       "first_published": "2026-01-26T08:38:30-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8140704?gh_jid=8140704",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "employment": "employment_required",
+      "internal_job_id": 3523165,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5200 - Solution Engineers",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Sydney, Australia"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8140704,
+      "updated_at": "2026-08-25T01:09:45-04:00",
+      "requisition_id": null,
+      "title": "Manager, Presales Customer Engineering",
+      "company_name": "Cloudflare",
+      "first_published": "2026-08-24T22:01:50-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -4196,7 +4194,7 @@
         }
       ],
       "id": 7958083,
-      "updated_at": "2026-08-24T18:07:38-04:00",
+      "updated_at": "2026-08-24T23:03:19-04:00",
       "requisition_id": "GTM_AMER US PUBSEC SLED PAC MTN#22970",
       "title": "Principal Account Executive, SLED West (R1 Institutions and Higher Ed) ",
       "company_name": "Cloudflare",
@@ -4252,6 +4250,56 @@
       "title": "Principal Content Engineer",
       "company_name": "Cloudflare",
       "first_published": "2026-08-06T08:06:09-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7956845?gh_jid=7956845",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "employment": "employment_required",
+      "internal_job_id": 3454625,
+      "location": {
+        "name": "Distributed"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5200 - Solution Engineers",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Australia"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7956845,
+      "updated_at": "2026-08-24T22:01:48-04:00",
+      "requisition_id": null,
+      "title": "Principal Customer Engineer (based in Canberra)",
+      "company_name": "Cloudflare",
+      "first_published": "2026-08-24T22:01:48-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -5254,7 +5302,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8089407?gh_jid=8089407",
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -5265,7 +5313,7 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3504726,
+      "internal_job_id": 3504712,
       "location": {
         "name": "In-Office"
       },
@@ -5280,7 +5328,7 @@
           "id": 8654220,
           "name": "Job Posting Location",
           "value": [
-            "London, UK"
+            "Austin, US"
           ],
           "value_type": "multi_select"
         },
@@ -5293,12 +5341,12 @@
           "value_type": "multi_select"
         }
       ],
-      "id": 8089407,
+      "id": 8089379,
       "updated_at": "2026-08-24T16:06:07-04:00",
       "requisition_id": null,
       "title": "Research Engineer Intern (Fall 2026)",
       "company_name": "Cloudflare",
-      "first_published": "2026-07-29T13:13:54-04:00",
+      "first_published": "2026-07-28T12:43:59-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -5352,7 +5400,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379",
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8089407?gh_jid=8089407",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -5363,7 +5411,7 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3504712,
+      "internal_job_id": 3504726,
       "location": {
         "name": "In-Office"
       },
@@ -5378,7 +5426,7 @@
           "id": 8654220,
           "name": "Job Posting Location",
           "value": [
-            "Austin, US"
+            "London, UK"
           ],
           "value_type": "multi_select"
         },
@@ -5391,12 +5439,12 @@
           "value_type": "multi_select"
         }
       ],
-      "id": 8089379,
+      "id": 8089407,
       "updated_at": "2026-08-24T16:06:07-04:00",
       "requisition_id": null,
       "title": "Research Engineer Intern (Fall 2026)",
       "company_name": "Cloudflare",
-      "first_published": "2026-07-28T12:43:59-04:00",
+      "first_published": "2026-07-29T13:13:54-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -8409,57 +8457,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8082556?gh_jid=8082556",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3391983,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5430 - Developer GTM",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "San Francisco, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Emerging Technology & Incubation",
-            "Engineering",
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8082556,
-      "updated_at": "2026-08-24T16:06:07-04:00",
-      "requisition_id": null,
-      "title": "Senior Forward Deployed Engineer",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-23T17:05:12-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8110209?gh_jid=8110209",
       "data_compliance": [
         {
@@ -8507,6 +8504,57 @@
       "title": "Senior Forward Deployed Engineer",
       "company_name": "Cloudflare",
       "first_published": "2026-08-05T17:51:40-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8082556?gh_jid=8082556",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3391983,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5430 - Developer GTM",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "San Francisco, US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Emerging Technology & Incubation",
+            "Engineering",
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8082556,
+      "updated_at": "2026-08-24T16:06:07-04:00",
+      "requisition_id": null,
+      "title": "Senior Forward Deployed Engineer",
+      "company_name": "Cloudflare",
+      "first_published": "2026-07-23T17:05:12-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -8560,6 +8608,56 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8042034?gh_jid=8042034",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 3485742,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "6310 - Data Intelligence & Analytics",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Austin, US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Data Intelligence and Analytics"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8042034,
+      "updated_at": "2026-08-24T16:06:07-04:00",
+      "requisition_id": "902",
+      "title": "Senior Machine Learning Engineer",
+      "company_name": "Cloudflare",
+      "first_published": "2026-07-02T09:49:51-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8043974?gh_jid=8043974",
       "data_compliance": [
         {
@@ -8607,56 +8705,6 @@
       "title": "Senior Machine Learning Engineer",
       "company_name": "Cloudflare",
       "first_published": "2026-07-09T15:53:44-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8042034?gh_jid=8042034",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_optional",
-      "internal_job_id": 3485742,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "6310 - Data Intelligence & Analytics",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Data Intelligence and Analytics"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8042034,
-      "updated_at": "2026-08-24T16:06:07-04:00",
-      "requisition_id": "902",
-      "title": "Senior Machine Learning Engineer",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-02T09:49:51-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -8759,55 +8807,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7773428?gh_jid=7773428",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3403769,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5150 - Field Sales",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Houston, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 7773428,
-      "updated_at": "2026-08-24T16:06:07-04:00",
-      "requisition_id": "22783",
-      "title": "Senior Majors Account Executive - Houston",
-      "company_name": "Cloudflare",
-      "first_published": "2026-04-02T10:39:14-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8083770?gh_jid=8083770",
       "data_compliance": [
         {
@@ -8853,6 +8852,55 @@
       "title": "Senior Majors Account Executive - Houston",
       "company_name": "Cloudflare",
       "first_published": "2026-07-27T11:48:24-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7773428?gh_jid=7773428",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3403769,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5150 - Field Sales",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Houston, US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7773428,
+      "updated_at": "2026-08-24T16:06:07-04:00",
+      "requisition_id": "22783",
+      "title": "Senior Majors Account Executive - Houston",
+      "company_name": "Cloudflare",
+      "first_published": "2026-04-02T10:39:14-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -10379,7 +10427,7 @@
         }
       ],
       "id": 7943582,
-      "updated_at": "2026-08-24T18:14:09-04:00",
+      "updated_at": "2026-08-24T23:04:06-04:00",
       "requisition_id": "GTM_AMER US NMD W MW#22995",
       "title": "Senior Named Account Executive, Salt Lake City ",
       "company_name": "Cloudflare",
@@ -10981,55 +11029,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8025521?gh_jid=8025521",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3479212,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5110 - Professional Services",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Seoul, South Korea"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8025521,
-      "updated_at": "2026-08-24T16:06:07-04:00",
-      "requisition_id": null,
-      "title": "Senior Professional Services Engineer",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-01T22:26:58-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8121079?gh_jid=8121079",
       "data_compliance": [
         {
@@ -11075,6 +11074,55 @@
       "title": "Senior Professional Services Engineer",
       "company_name": "Cloudflare",
       "first_published": "2026-08-17T22:43:23-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8025521?gh_jid=8025521",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3479212,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5110 - Professional Services",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Seoul, South Korea"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8025521,
+      "updated_at": "2026-08-24T16:06:07-04:00",
+      "requisition_id": null,
+      "title": "Senior Professional Services Engineer",
+      "company_name": "Cloudflare",
+      "first_published": "2026-07-01T22:26:58-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -12930,7 +12978,7 @@
         }
       ],
       "id": 7782141,
-      "updated_at": "2026-08-24T18:10:07-04:00",
+      "updated_at": "2026-08-24T23:04:30-04:00",
       "requisition_id": "GTM_AMER US TERR E NE#22963",
       "title": "Senior Territory Account Executive (NY)",
       "company_name": "Cloudflare",
@@ -13334,55 +13382,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3516554,
-      "location": {
-        "name": "In-Office"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "4991 - R&D Interns",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "London, UK"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Early Talent"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8118855,
-      "updated_at": "2026-08-24T16:06:07-04:00",
-      "requisition_id": null,
-      "title": "Software Engineer Intern (Fall 2026)",
-      "company_name": "Cloudflare",
-      "first_published": "2026-08-20T12:26:40-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845",
       "data_compliance": [
         {
@@ -13428,6 +13427,55 @@
       "title": "Software Engineer Intern (Fall 2026)",
       "company_name": "Cloudflare",
       "first_published": "2026-08-10T22:49:28-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3516554,
+      "location": {
+        "name": "In-Office"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "4991 - R&D Interns",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "London, UK"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Early Talent"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8118855,
+      "updated_at": "2026-08-24T16:06:07-04:00",
+      "requisition_id": null,
+      "title": "Software Engineer Intern (Fall 2026)",
+      "company_name": "Cloudflare",
+      "first_published": "2026-08-20T12:26:40-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -14181,55 +14229,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8125865?gh_jid=8125865",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3519042,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "4100 - Infrastructure Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Bengaluru, India"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Engineering"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8125865,
-      "updated_at": "2026-08-24T16:06:07-04:00",
-      "requisition_id": null,
-      "title": "Systems Engineer",
-      "company_name": "Cloudflare",
-      "first_published": "2026-08-14T04:04:07-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8071056?gh_jid=8071056",
       "data_compliance": [
         {
@@ -14275,6 +14274,55 @@
       "title": "Systems Engineer",
       "company_name": "Cloudflare",
       "first_published": "2026-07-30T07:00:58-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8125865?gh_jid=8125865",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3519042,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "4100 - Infrastructure Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Bengaluru, India"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Engineering"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8125865,
+      "updated_at": "2026-08-24T16:06:07-04:00",
+      "requisition_id": null,
+      "title": "Systems Engineer",
+      "company_name": "Cloudflare",
+      "first_published": "2026-08-14T04:04:07-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -15114,7 +15162,7 @@
         }
       ],
       "id": 8114069,
-      "updated_at": "2026-08-24T20:39:16-04:00",
+      "updated_at": "2026-08-24T20:40:19-04:00",
       "requisition_id": null,
       "title": "VoidZero Engineer",
       "company_name": "Cloudflare",
@@ -15174,6 +15222,6 @@
     }
   ],
   "meta": {
-    "total": 305
+    "total": 306
   }
 }
