@@ -1,47 +1,6 @@
 {
   "jobs": [
     {
-      "absolute_url": "https://careers.airbnb.com/positions/7995199?gh_jid=7995199",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3468226,
-      "location": {
-        "name": "Paris, France"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Hybrid",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7995199,
-      "updated_at": "2026-06-10T08:51:02-04:00",
-      "requisition_id": "ONE",
-      "title": "Acquisition Manager",
-      "company_name": "Airbnb",
-      "first_published": "2026-06-10T08:51:02-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Acquisition Manager",
-      "role_category": "Operations Manager"
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/7995153?gh_jid=7995153",
       "data_compliance": [
         {
@@ -77,6 +36,47 @@
       "title": "Acquisition Manager",
       "company_name": "Airbnb",
       "first_published": "2026-06-10T08:50:56-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Acquisition Manager",
+      "role_category": "Operations Manager"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/7995199?gh_jid=7995199",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3468226,
+      "location": {
+        "name": "Paris, France"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Hybrid",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7995199,
+      "updated_at": "2026-06-10T08:51:02-04:00",
+      "requisition_id": "ONE",
+      "title": "Acquisition Manager",
+      "company_name": "Airbnb",
+      "first_published": "2026-06-10T08:51:02-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Acquisition Manager",
@@ -370,48 +370,6 @@
       "role_category": "Operations Manager"
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8153094?gh_jid=8153094",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3527779,
-      "location": {
-        "name": "United States"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8153094,
-      "updated_at": "2026-08-24T10:18:09-04:00",
-      "requisition_id": "MULTI",
-      "title": "Complex Claims Manager",
-      "company_name": "Airbnb",
-      "first_published": "2026-08-24T10:18:09-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Complex Claims Manager",
-      "role_category": "Operations Manager"
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/8152131?gh_jid=8152131",
       "data_compliance": [
         {
@@ -448,6 +406,48 @@
       "title": "Complex Claims Manager",
       "company_name": "Airbnb",
       "first_published": "2026-08-24T10:18:12-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Complex Claims Manager",
+      "role_category": "Operations Manager"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/8153094?gh_jid=8153094",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3527779,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8153094,
+      "updated_at": "2026-08-24T10:18:09-04:00",
+      "requisition_id": "MULTI",
+      "title": "Complex Claims Manager",
+      "company_name": "Airbnb",
+      "first_published": "2026-08-24T10:18:09-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Complex Claims Manager",
@@ -1689,6 +1689,47 @@
       "role_category": "Marketing Manager"
     },
     {
+      "absolute_url": "https://careers.airbnb.com/positions/8129503?gh_jid=8129503",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3520279,
+      "location": {
+        "name": "Ohio, United States, Indiana, United States, Kentucky, United States, Illinois, United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8129503,
+      "updated_at": "2026-08-21T14:37:33-04:00",
+      "requisition_id": "ONE",
+      "title": "Market Manager",
+      "company_name": "Airbnb",
+      "first_published": "2026-08-14T16:41:42-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Market Manager",
+      "role_category": "Marketing Manager"
+    },
+    {
       "absolute_url": "https://careers.airbnb.com/positions/8131310?gh_jid=8131310",
       "data_compliance": [
         {
@@ -1730,7 +1771,7 @@
       "role_category": "Marketing Manager"
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8131269?gh_jid=8131269",
+      "absolute_url": "https://careers.airbnb.com/positions/8043473?gh_jid=8043473",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1741,9 +1782,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3520958,
+      "internal_job_id": 3486311,
       "location": {
-        "name": "Sao Paulo, Brazil"
+        "name": "Paris, France"
       },
       "metadata": [
         {
@@ -1755,16 +1796,16 @@
         {
           "id": 10216612,
           "name": "Workplace Type",
-          "value": "Remote",
+          "value": "Hybrid",
           "value_type": "single_select"
         }
       ],
-      "id": 8131269,
-      "updated_at": "2026-08-21T14:36:42-04:00",
-      "requisition_id": "MULTI",
+      "id": 8043473,
+      "updated_at": "2026-07-03T03:39:13-04:00",
+      "requisition_id": "ONE",
       "title": "Market Manager",
       "company_name": "Airbnb",
-      "first_published": "2026-08-17T10:50:16-04:00",
+      "first_published": "2026-07-03T03:39:13-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Market Manager",
@@ -1813,7 +1854,7 @@
       "role_category": "Marketing Manager"
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8129503?gh_jid=8129503",
+      "absolute_url": "https://careers.airbnb.com/positions/8131269?gh_jid=8131269",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1824,9 +1865,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3520279,
+      "internal_job_id": 3520958,
       "location": {
-        "name": "Ohio, United States, Indiana, United States, Kentucky, United States, Illinois, United States"
+        "name": "Sao Paulo, Brazil"
       },
       "metadata": [
         {
@@ -1842,53 +1883,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8129503,
-      "updated_at": "2026-08-21T14:37:33-04:00",
-      "requisition_id": "ONE",
+      "id": 8131269,
+      "updated_at": "2026-08-21T14:36:42-04:00",
+      "requisition_id": "MULTI",
       "title": "Market Manager",
       "company_name": "Airbnb",
-      "first_published": "2026-08-14T16:41:42-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Market Manager",
-      "role_category": "Marketing Manager"
-    },
-    {
-      "absolute_url": "https://careers.airbnb.com/positions/8043473?gh_jid=8043473",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3486311,
-      "location": {
-        "name": "Paris, France"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Hybrid",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8043473,
-      "updated_at": "2026-07-03T03:39:13-04:00",
-      "requisition_id": "ONE",
-      "title": "Market Manager",
-      "company_name": "Airbnb",
-      "first_published": "2026-07-03T03:39:13-04:00",
+      "first_published": "2026-08-17T10:50:16-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Market Manager",
@@ -3375,6 +3375,47 @@
       "role_category": "Legal Counsel"
     },
     {
+      "absolute_url": "https://careers.airbnb.com/positions/8152721?gh_jid=8152721",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3528072,
+      "location": {
+        "name": "Bangalore, India"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": true,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8152721,
+      "updated_at": "2026-08-26T02:23:44-04:00",
+      "requisition_id": "REQ49821",
+      "title": "Senior Data Engineer, BizTech",
+      "company_name": "Airbnb",
+      "first_published": "2026-08-26T02:23:20-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Data Engineer, BizTech",
+      "role_category": "Data Engineer"
+    },
+    {
       "absolute_url": "https://careers.airbnb.com/positions/7662244?gh_jid=7662244",
       "data_compliance": [
         {
@@ -3700,6 +3741,47 @@
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Machine Learning Engineer, Customer Support Engineering",
+      "role_category": "Machine Learning Engineer"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/7755758?gh_jid=7755758",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3398862,
+      "location": {
+        "name": "Remote-USA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7755758,
+      "updated_at": "2026-08-25T22:30:12-04:00",
+      "requisition_id": "ONE",
+      "title": " Senior Machine Learning Engineer, Payments",
+      "company_name": "Airbnb",
+      "first_published": "2026-03-26T13:02:39-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": " Senior Machine Learning Engineer, Payments",
       "role_category": "Machine Learning Engineer"
     },
     {
@@ -5468,47 +5550,6 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/7525479?gh_jid=7525479",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3333734,
-      "location": {
-        "name": "Remote - Bangalore, India"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": true,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7525479,
-      "updated_at": "2026-07-15T04:57:39-04:00",
-      "requisition_id": "ONE",
-      "title": "Senior Staff Software Engineer, Payments",
-      "company_name": "Airbnb",
-      "first_published": "2026-01-09T04:23:27-05:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Staff Software Engineer, Payments",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/7688467?gh_jid=7688467",
       "data_compliance": [
         {
@@ -5544,6 +5585,47 @@
       "title": "Senior Staff Software Engineer, Payments",
       "company_name": "Airbnb",
       "first_published": "2026-03-06T18:00:41-05:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Staff Software Engineer, Payments",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/7525479?gh_jid=7525479",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3333734,
+      "location": {
+        "name": "Remote - Bangalore, India"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": true,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7525479,
+      "updated_at": "2026-07-15T04:57:39-04:00",
+      "requisition_id": "ONE",
+      "title": "Senior Staff Software Engineer, Payments",
+      "company_name": "Airbnb",
+      "first_published": "2026-01-09T04:23:27-05:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Staff Software Engineer, Payments",
@@ -5882,48 +5964,6 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8080766?gh_jid=8080766",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3500858,
-      "location": {
-        "name": "Canada"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8080766,
-      "updated_at": "2026-08-12T17:29:33-04:00",
-      "requisition_id": "MULTI",
-      "title": "Specialist, Premium Support",
-      "company_name": "Airbnb",
-      "first_published": "2026-07-28T11:33:37-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Specialist, Premium Support",
-      "role_category": "Other"
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/6852954?gh_jid=6852954",
       "data_compliance": [
         {
@@ -5960,6 +6000,48 @@
       "title": "Specialist, Premium Support",
       "company_name": "Airbnb",
       "first_published": "2025-04-30T20:20:40-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Specialist, Premium Support",
+      "role_category": "Other"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/8080766?gh_jid=8080766",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3500858,
+      "location": {
+        "name": "Canada"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8080766,
+      "updated_at": "2026-08-12T17:29:33-04:00",
+      "requisition_id": "MULTI",
+      "title": "Specialist, Premium Support",
+      "company_name": "Airbnb",
+      "first_published": "2026-07-28T11:33:37-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Specialist, Premium Support",
@@ -6869,47 +6951,6 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/7463421?gh_jid=7463421",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3316189,
-      "location": {
-        "name": "Remote - USA"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7463421,
-      "updated_at": "2026-05-28T00:34:57-04:00",
-      "requisition_id": "one",
-      "title": "Staff Software Engineer, Community Support Engineering",
-      "company_name": "Airbnb",
-      "first_published": "2025-12-11T16:23:10-05:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Staff Software Engineer, Community Support Engineering",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/6448191?gh_jid=6448191",
       "data_compliance": [
         {
@@ -6945,6 +6986,47 @@
       "title": "Staff Software Engineer, Community Support Engineering",
       "company_name": "Airbnb",
       "first_published": "2024-12-09T21:12:46-05:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Staff Software Engineer, Community Support Engineering",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/7463421?gh_jid=7463421",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3316189,
+      "location": {
+        "name": "Remote - USA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7463421,
+      "updated_at": "2026-05-28T00:34:57-04:00",
+      "requisition_id": "one",
+      "title": "Staff Software Engineer, Community Support Engineering",
+      "company_name": "Airbnb",
+      "first_published": "2025-12-11T16:23:10-05:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Staff Software Engineer, Community Support Engineering",
