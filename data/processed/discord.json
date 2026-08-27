@@ -475,7 +475,7 @@
       ],
       "internal_job_id": 6445470002,
       "location": {
-        "name": "San Francisco Bay Area"
+        "name": "San Francisco Bay Area or Remote (U.S.)"
       },
       "metadata": [
         {
@@ -492,7 +492,7 @@
         }
       ],
       "id": 8627166002,
-      "updated_at": "2026-07-31T13:17:05-04:00",
+      "updated_at": "2026-08-26T17:42:33-04:00",
       "requisition_id": "R-107340",
       "title": "Oracle ERP Fusion Functional Analyst",
       "company_name": "Discord",
@@ -516,7 +516,7 @@
       ],
       "internal_job_id": 6445447002,
       "location": {
-        "name": "San Francisco Bay Area"
+        "name": "San Francisco Bay Area or Remote (U.S.)"
       },
       "metadata": [
         {
@@ -533,7 +533,7 @@
         }
       ],
       "id": 8627078002,
-      "updated_at": "2026-07-31T13:17:05-04:00",
+      "updated_at": "2026-08-26T17:43:45-04:00",
       "requisition_id": "R-107339",
       "title": "Oracle ERP Fusion Technical Developer",
       "company_name": "Discord",
@@ -1913,6 +1913,48 @@
       "language": "en",
       "application_deadline": null,
       "raw_title": "Staff Software Engineer, Experimentation Platform",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8727410002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 6489145002,
+      "location": {
+        "name": "San Francisco Bay Area"
+      },
+      "metadata": [
+        {
+          "id": 4105571002,
+          "name": "Featured on Website",
+          "value": [],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 96196709002,
+          "name": "Careers Site Department",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8727410002,
+      "updated_at": "2026-08-26T16:58:25-04:00",
+      "requisition_id": "R-107382",
+      "title": "Staff Software Engineer, Safety Experience",
+      "company_name": "Discord",
+      "first_published": "2026-08-26T16:58:25-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Staff Software Engineer, Safety Experience",
       "role_category": "Software Engineer"
     },
     {
