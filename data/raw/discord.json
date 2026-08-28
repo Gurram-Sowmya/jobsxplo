@@ -637,46 +637,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8678376002",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 6466734002,
-      "location": {
-        "name": "San Francisco"
-      },
-      "metadata": [
-        {
-          "id": 4105571002,
-          "name": "Featured on Website",
-          "value": [],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 96196709002,
-          "name": "Careers Site Department",
-          "value": null,
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8678376002,
-      "updated_at": "2026-08-13T18:29:35-04:00",
-      "requisition_id": "R-107365",
-      "title": "Regional Security Manager, Bay Area",
-      "company_name": "Discord",
-      "first_published": "2026-08-10T19:19:49-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8299493002",
       "data_compliance": [
         {
@@ -1895,7 +1855,7 @@
         }
       ],
       "id": 8214127002,
-      "updated_at": "2026-08-19T13:18:49-04:00",
+      "updated_at": "2026-08-27T14:27:52-04:00",
       "requisition_id": "R-107050",
       "title": "Staff Software Engineer, Safety Processing",
       "company_name": "Discord",
@@ -2063,6 +2023,6 @@
     }
   ],
   "meta": {
-    "total": 52
+    "total": 51
   }
 }
