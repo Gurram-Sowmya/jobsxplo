@@ -90,95 +90,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8048848?gh_jid=8048848",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3488515,
-      "location": {
-        "name": "Remote - Canada: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "GCO Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Business Development Manager",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC4",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Business Development",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8048848,
-      "updated_at": "2026-08-05T09:43:48-04:00",
-      "requisition_id": "R11638",
-      "title": "Business Development Manager, Strategic Partnerships",
-      "company_name": "Dropbox",
-      "first_published": "2026-07-22T13:53:12-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/8048847?gh_jid=8048847",
       "data_compliance": [
         {
@@ -268,7 +179,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8126575?gh_jid=8126575",
+      "absolute_url": "https://jobs.dropbox.com/listing/8048848?gh_jid=8048848",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -281,7 +192,7 @@
       ],
       "education": "education_required",
       "employment": "employment_required",
-      "internal_job_id": 3519264,
+      "internal_job_id": 3488515,
       "location": {
         "name": "Remote - Canada: Select locations"
       },
@@ -289,7 +200,7 @@
         {
           "id": 397108,
           "name": "Recruiting Team Responsible",
-          "value": "G&A Recruiting",
+          "value": "GCO Recruiting",
           "value_type": "single_select"
         },
         {
@@ -331,28 +242,28 @@
         {
           "id": 696737,
           "name": "Skillset",
-          "value": "People Analytics",
+          "value": "Business Development Manager",
           "value_type": "single_select"
         },
         {
           "id": 113830,
           "name": "Dropboxer Level",
-          "value": "IC3",
+          "value": "IC4",
           "value_type": "single_select"
         },
         {
           "id": 54678,
           "name": "Career Page Allocation",
-          "value": "People",
+          "value": "Business Development",
           "value_type": "single_select"
         }
       ],
-      "id": 8126575,
-      "updated_at": "2026-08-18T11:47:46-04:00",
-      "requisition_id": "R11674",
-      "title": "Data Analytics Partner, People Analytics",
+      "id": 8048848,
+      "updated_at": "2026-08-05T09:43:48-04:00",
+      "requisition_id": "R11638",
+      "title": "Business Development Manager, Strategic Partnerships",
       "company_name": "Dropbox",
-      "first_published": "2026-08-18T11:47:46-04:00",
+      "first_published": "2026-07-22T13:53:12-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -442,6 +353,95 @@
       "title": "Data Analytics Partner, People Analytics",
       "company_name": "Dropbox",
       "first_published": "2026-08-18T11:47:44-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/8126575?gh_jid=8126575",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3519264,
+      "location": {
+        "name": "Remote - Canada: Select locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "G&A Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "People Analytics",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC3",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "People",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8126575,
+      "updated_at": "2026-08-18T11:47:46-04:00",
+      "requisition_id": "R11674",
+      "title": "Data Analytics Partner, People Analytics",
+      "company_name": "Dropbox",
+      "first_published": "2026-08-18T11:47:46-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -624,95 +624,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8121667?gh_jid=8121667",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3517708,
-      "location": {
-        "name": "Remote - US: All locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "NAMER - Executive Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Sales Strategy & Operations",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "MGR6",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Business Strategy & Ops",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8121667,
-      "updated_at": "2026-08-11T11:52:32-04:00",
-      "requisition_id": "R11673",
-      "title": "Director, Sales Compensation",
-      "company_name": "Dropbox",
-      "first_published": "2026-08-11T11:52:07-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/8121672?gh_jid=8121672",
       "data_compliance": [
         {
@@ -798,6 +709,95 @@
       "title": "Director, Sales Compensation",
       "company_name": "Dropbox",
       "first_published": "2026-08-11T11:52:10-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/8121667?gh_jid=8121667",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3517708,
+      "location": {
+        "name": "Remote - US: All locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "NAMER - Executive Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "Sales Strategy & Operations",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "MGR6",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Business Strategy & Ops",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8121667,
+      "updated_at": "2026-08-11T11:52:32-04:00",
+      "requisition_id": "R11673",
+      "title": "Director, Sales Compensation",
+      "company_name": "Dropbox",
+      "first_published": "2026-08-11T11:52:07-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1425,95 +1425,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/7862212?gh_jid=7862212",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3423704,
-      "location": {
-        "name": "Remote - US: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "GCO Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Product Marketing Manager",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC5",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Marketing",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7862212,
-      "updated_at": "2026-08-17T13:49:58-04:00",
-      "requisition_id": "R11581",
-      "title": "Principal, Market & Competitive Intelligence Manager",
-      "company_name": "Dropbox",
-      "first_published": "2026-08-17T13:49:58-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/7862213?gh_jid=7862213",
       "data_compliance": [
         {
@@ -1599,6 +1510,95 @@
       "title": "Principal, Market & Competitive Intelligence Manager",
       "company_name": "Dropbox",
       "first_published": "2026-08-17T13:49:57-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/7862212?gh_jid=7862212",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3423704,
+      "location": {
+        "name": "Remote - US: Select locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "GCO Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "Product Marketing Manager",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC5",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Marketing",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7862212,
+      "updated_at": "2026-08-17T13:49:58-04:00",
+      "requisition_id": "R11581",
+      "title": "Principal, Market & Competitive Intelligence Manager",
+      "company_name": "Dropbox",
+      "first_published": "2026-08-17T13:49:58-04:00",
       "language": "en",
       "application_deadline": null
     },
