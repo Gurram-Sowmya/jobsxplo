@@ -1548,97 +1548,6 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8006972?gh_jid=8006972",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3471740,
-      "location": {
-        "name": "Remote - US: All locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "NAMER - Executive Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "High",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Product SWE FS",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC6",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Engineering",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8006972,
-      "updated_at": "2026-09-03T09:40:01-04:00",
-      "requisition_id": "R11628",
-      "title": "Principal Software Engineer, Core Sharing & Collaboration",
-      "company_name": "Dropbox",
-      "first_published": "2026-06-17T12:01:33-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Principal Software Engineer, Core Sharing & Collaboration",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/8006977?gh_jid=8006977",
       "data_compliance": [
         {
@@ -1730,6 +1639,97 @@
       "role_category": "Software Engineer"
     },
     {
+      "absolute_url": "https://jobs.dropbox.com/listing/8006972?gh_jid=8006972",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3471740,
+      "location": {
+        "name": "Remote - US: All locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "NAMER - Executive Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "High",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "Product SWE FS",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC6",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Engineering",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8006972,
+      "updated_at": "2026-09-03T09:40:01-04:00",
+      "requisition_id": "R11628",
+      "title": "Principal Software Engineer, Core Sharing & Collaboration",
+      "company_name": "Dropbox",
+      "first_published": "2026-06-17T12:01:33-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Principal Software Engineer, Core Sharing & Collaboration",
+      "role_category": "Software Engineer"
+    },
+    {
       "absolute_url": "https://jobs.dropbox.com/listing/8177610?gh_jid=8177610",
       "data_compliance": [
         {
@@ -1810,7 +1810,7 @@
         }
       ],
       "id": 8177610,
-      "updated_at": "2026-09-04T09:34:24-04:00",
+      "updated_at": "2026-09-04T15:15:54-04:00",
       "requisition_id": "R11701",
       "title": "Program Manager, Customers",
       "company_name": "Dropbox",
@@ -1901,7 +1901,7 @@
         }
       ],
       "id": 8177609,
-      "updated_at": "2026-09-04T09:34:22-04:00",
+      "updated_at": "2026-09-04T15:15:52-04:00",
       "requisition_id": "R11701",
       "title": "Program Manager, Customers",
       "company_name": "Dropbox",
@@ -1909,97 +1909,6 @@
       "language": "en",
       "application_deadline": null,
       "raw_title": "Program Manager, Customers",
-      "role_category": "Program Manager"
-    },
-    {
-      "absolute_url": "https://jobs.dropbox.com/listing/8092225?gh_jid=8092225",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3505594,
-      "location": {
-        "name": "Remote - Canada: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "G&A Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "People, Niche",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC4",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "People",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8092225,
-      "updated_at": "2026-09-03T09:40:01-04:00",
-      "requisition_id": "R11657",
-      "title": "Program Manager, Workforce Planning",
-      "company_name": "Dropbox",
-      "first_published": "2026-07-31T11:14:44-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Program Manager, Workforce Planning",
       "role_category": "Program Manager"
     },
     {
@@ -2088,6 +1997,97 @@
       "title": "Program Manager, Workforce Planning",
       "company_name": "Dropbox",
       "first_published": "2026-07-31T11:14:45-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Program Manager, Workforce Planning",
+      "role_category": "Program Manager"
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/8092225?gh_jid=8092225",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3505594,
+      "location": {
+        "name": "Remote - Canada: Select locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "G&A Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "People, Niche",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC4",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "People",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8092225,
+      "updated_at": "2026-09-03T09:40:01-04:00",
+      "requisition_id": "R11657",
+      "title": "Program Manager, Workforce Planning",
+      "company_name": "Dropbox",
+      "first_published": "2026-07-31T11:14:44-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Program Manager, Workforce Planning",
