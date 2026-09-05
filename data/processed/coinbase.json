@@ -916,7 +916,7 @@
       "role_category": "Legal Counsel"
     },
     {
-      "absolute_url": "https://www.coinbase.com/careers/positions/7994498?gh_jid=7994498",
+      "absolute_url": "https://www.coinbase.com/careers/positions/8031253?gh_jid=8031253",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -929,68 +929,7 @@
       ],
       "education": "education_required",
       "employment": "employment_required",
-      "internal_job_id": 3467896,
-      "location": {
-        "name": "Hybrid - Singapore"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "Customer Experience",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "210008",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "Customer Experience",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": null,
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": null,
-          "value_type": "number"
-        }
-      ],
-      "id": 7994498,
-      "updated_at": "2026-06-23T19:21:49-04:00",
-      "requisition_id": "P77139",
-      "title": "Concierge Specialist IV",
-      "company_name": "Coinbase",
-      "first_published": "2026-06-12T15:22:25-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Concierge Specialist IV",
-      "role_category": "Other"
-    },
-    {
-      "absolute_url": "https://www.coinbase.com/careers/positions/8031308?gh_jid=8031308",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3481547,
+      "internal_job_id": 3481529,
       "location": {
         "name": "Hybrid - London, UK"
       },
@@ -1026,12 +965,12 @@
           "value_type": "number"
         }
       ],
-      "id": 8031308,
-      "updated_at": "2026-07-09T19:19:06-04:00",
-      "requisition_id": "P77142",
+      "id": 8031253,
+      "updated_at": "2026-07-09T19:18:23-04:00",
+      "requisition_id": "P77140",
       "title": "Concierge Specialist IV",
       "company_name": "Coinbase",
-      "first_published": "2026-06-26T17:02:56-04:00",
+      "first_published": "2026-06-26T17:03:00-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Concierge Specialist IV",
@@ -1099,7 +1038,7 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://www.coinbase.com/careers/positions/8031253?gh_jid=8031253",
+      "absolute_url": "https://www.coinbase.com/careers/positions/8031308?gh_jid=8031308",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1112,7 +1051,7 @@
       ],
       "education": "education_required",
       "employment": "employment_required",
-      "internal_job_id": 3481529,
+      "internal_job_id": 3481547,
       "location": {
         "name": "Hybrid - London, UK"
       },
@@ -1148,12 +1087,73 @@
           "value_type": "number"
         }
       ],
-      "id": 8031253,
-      "updated_at": "2026-07-09T19:18:23-04:00",
-      "requisition_id": "P77140",
+      "id": 8031308,
+      "updated_at": "2026-07-09T19:19:06-04:00",
+      "requisition_id": "P77142",
       "title": "Concierge Specialist IV",
       "company_name": "Coinbase",
-      "first_published": "2026-06-26T17:03:00-04:00",
+      "first_published": "2026-06-26T17:02:56-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Concierge Specialist IV",
+      "role_category": "Other"
+    },
+    {
+      "absolute_url": "https://www.coinbase.com/careers/positions/7994498?gh_jid=7994498",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3467896,
+      "location": {
+        "name": "Hybrid - Singapore"
+      },
+      "metadata": [
+        {
+          "id": 166433,
+          "name": "Team",
+          "value": "Customer Experience",
+          "value_type": "single_select"
+        },
+        {
+          "id": 11090754,
+          "name": "HM Employee ID (WD)",
+          "value": "210008",
+          "value_type": "short_text"
+        },
+        {
+          "id": 3174030,
+          "name": "Careersite Department (for job postings)",
+          "value": "Customer Experience",
+          "value_type": "single_select"
+        },
+        {
+          "id": 13234829,
+          "name": "mule_sourcers_counter_custom",
+          "value": null,
+          "value_type": "number"
+        },
+        {
+          "id": 13234830,
+          "name": "mule_recruiters_counter_custom",
+          "value": null,
+          "value_type": "number"
+        }
+      ],
+      "id": 7994498,
+      "updated_at": "2026-06-23T19:21:49-04:00",
+      "requisition_id": "P77139",
+      "title": "Concierge Specialist IV",
+      "company_name": "Coinbase",
+      "first_published": "2026-06-12T15:22:25-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Concierge Specialist IV",
@@ -1370,7 +1370,7 @@
         {
           "id": 11090754,
           "name": "HM Employee ID (WD)",
-          "value": "201978",
+          "value": "201996",
           "value_type": "short_text"
         },
         {
@@ -1393,7 +1393,7 @@
         }
       ],
       "id": 8131356,
-      "updated_at": "2026-09-01T20:23:35-04:00",
+      "updated_at": "2026-09-05T03:31:31-04:00",
       "requisition_id": "P77678",
       "title": "Credit Risk Analyst",
       "company_name": "Coinbase",
@@ -6892,67 +6892,6 @@
       "role_category": "Recruiter"
     },
     {
-      "absolute_url": "https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3477615,
-      "location": {
-        "name": "Remote - USA"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "Security",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "204190",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": null,
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": null,
-          "value_type": "number"
-        }
-      ],
-      "id": 8021647,
-      "updated_at": "2026-08-31T17:51:50-04:00",
-      "requisition_id": "P77421",
-      "title": "Senior Software Engineer",
-      "company_name": "Coinbase",
-      "first_published": "2026-06-24T14:39:38-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Software Engineer",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://www.coinbase.com/careers/positions/7961318?gh_jid=7961318",
       "data_compliance": [
         {
@@ -7008,6 +6947,67 @@
       "title": "Senior Software Engineer",
       "company_name": "Coinbase",
       "first_published": "2026-06-09T15:08:03-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Software Engineer",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3477615,
+      "location": {
+        "name": "Remote - USA"
+      },
+      "metadata": [
+        {
+          "id": 166433,
+          "name": "Team",
+          "value": "Security",
+          "value_type": "single_select"
+        },
+        {
+          "id": 11090754,
+          "name": "HM Employee ID (WD)",
+          "value": "204190",
+          "value_type": "short_text"
+        },
+        {
+          "id": 3174030,
+          "name": "Careersite Department (for job postings)",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 13234829,
+          "name": "mule_sourcers_counter_custom",
+          "value": null,
+          "value_type": "number"
+        },
+        {
+          "id": 13234830,
+          "name": "mule_recruiters_counter_custom",
+          "value": null,
+          "value_type": "number"
+        }
+      ],
+      "id": 8021647,
+      "updated_at": "2026-08-31T17:51:50-04:00",
+      "requisition_id": "P77421",
+      "title": "Senior Software Engineer",
+      "company_name": "Coinbase",
+      "first_published": "2026-06-24T14:39:38-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Software Engineer",
