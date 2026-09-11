@@ -112,7 +112,7 @@
         }
       ],
       "id": 8571766002,
-      "updated_at": "2026-09-09T16:22:54-04:00",
+      "updated_at": "2026-09-11T15:09:25-04:00",
       "requisition_id": "R-107298",
       "title": "Director of Engineering, Safety",
       "company_name": "Discord",
@@ -271,7 +271,7 @@
         }
       ],
       "id": 8637688002,
-      "updated_at": "2026-09-09T16:22:54-04:00",
+      "updated_at": "2026-09-11T15:10:51-04:00",
       "requisition_id": "R-107345",
       "title": "Engineering Manager, Safety",
       "company_name": "Discord",
@@ -1271,6 +1271,46 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8642213002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 6451441002,
+      "location": {
+        "name": "San Francisco Bay Area"
+      },
+      "metadata": [
+        {
+          "id": 4105571002,
+          "name": "Featured on Website",
+          "value": [],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 96196709002,
+          "name": "Careers Site Department",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8642213002,
+      "updated_at": "2026-09-11T13:13:31-04:00",
+      "requisition_id": "R-107350",
+      "title": "Software Engineer, Notifications",
+      "company_name": "Discord",
+      "first_published": "2026-09-11T13:13:31-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8691572002",
       "data_compliance": [
         {
@@ -1746,6 +1786,6 @@
     }
   ],
   "meta": {
-    "total": 44
+    "total": 45
   }
 }
