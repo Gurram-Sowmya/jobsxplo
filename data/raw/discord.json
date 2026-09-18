@@ -359,46 +359,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8635949002",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 6448985002,
-      "location": {
-        "name": "San Francisco Bay Area"
-      },
-      "metadata": [
-        {
-          "id": 4105571002,
-          "name": "Featured on Website",
-          "value": [],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 96196709002,
-          "name": "Careers Site Department",
-          "value": null,
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8635949002,
-      "updated_at": "2026-09-11T19:25:24-04:00",
-      "requisition_id": "R-107342",
-      "title": "Program Manager, Detection & Enforcement, Youth Safety",
-      "company_name": "Discord",
-      "first_published": "2026-07-21T17:08:39-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8703614002",
       "data_compliance": [
         {
@@ -434,6 +394,46 @@
       "title": "QA/DevOps Engineer",
       "company_name": "Discord",
       "first_published": "2026-08-13T23:27:33-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8811982002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 6526589002,
+      "location": {
+        "name": "San Francisco Bay Area"
+      },
+      "metadata": [
+        {
+          "id": 4105571002,
+          "name": "Featured on Website",
+          "value": [],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 96196709002,
+          "name": "Careers Site Department",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8811982002,
+      "updated_at": "2026-09-17T18:51:55-04:00",
+      "requisition_id": "R-107412",
+      "title": "Sales Operations Manager",
+      "company_name": "Discord",
+      "first_published": "2026-09-17T18:51:55-04:00",
       "language": "en",
       "application_deadline": null
     },
