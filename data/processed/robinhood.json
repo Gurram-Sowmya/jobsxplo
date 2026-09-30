@@ -236,13 +236,13 @@
         }
       ],
       "id": 8199973,
-      "updated_at": "2026-09-25T13:03:21-04:00",
+      "updated_at": "2026-09-29T18:17:20-04:00",
       "requisition_id": "1938",
       "title": "Associate Product Manager (New Grad)",
       "company_name": "Robinhood",
       "first_published": "2026-09-14T08:00:08-04:00",
       "language": "en",
-      "application_deadline": null,
+      "application_deadline": "2026-10-14T02:00:00-04:00",
       "raw_title": "Associate Product Manager (New Grad)",
       "role_category": "Product Manager"
     },
@@ -951,6 +951,42 @@
       "application_deadline": null,
       "raw_title": "Customer Experience Team Lead",
       "role_category": "Customer Success Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8241738?t=gh_src=&gh_jid=8241738",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3566077,
+      "location": {
+        "name": "Menlo Park, CA"
+      },
+      "metadata": [
+        {
+          "id": 4288026,
+          "name": "Careers Page Bucket",
+          "value": "EARLY TALENT AND INTERNSHIPS",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8241738,
+      "updated_at": "2026-09-29T19:13:29-04:00",
+      "requisition_id": "1950",
+      "title": "Data Science Intern (Summer 2027)",
+      "company_name": "Robinhood",
+      "first_published": "2026-09-29T19:13:29-04:00",
+      "language": "en",
+      "application_deadline": "2026-10-12T02:00:00-04:00",
+      "raw_title": "Data Science Intern (Summer 2027)",
+      "role_category": "Data Scientist"
     },
     {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8220699?t=gh_src=&gh_jid=8220699",
@@ -1971,41 +2007,6 @@
       "application_deadline": null,
       "raw_title": "Lifecycle Marketing Manager",
       "role_category": "Marketing Manager"
-    },
-    {
-      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/7960680?t=gh_src=&gh_jid=7960680",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3456449,
-      "location": {
-        "name": "Bellevue, WA"
-      },
-      "metadata": [
-        {
-          "id": 4288026,
-          "name": "Careers Page Bucket",
-          "value": "DATA/AI/ML",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7960680,
-      "updated_at": "2026-09-25T13:03:21-04:00",
-      "requisition_id": "1855",
-      "title": "Machine Learning Engineer",
-      "company_name": "Robinhood",
-      "first_published": "2026-06-01T22:43:34-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Machine Learning Engineer",
-      "role_category": "Machine Learning Engineer"
     },
     {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8180757?t=gh_src=&gh_jid=8180757",
@@ -3506,7 +3507,7 @@
         }
       ],
       "id": 8120101,
-      "updated_at": "2026-09-25T13:03:21-04:00",
+      "updated_at": "2026-09-29T18:17:36-04:00",
       "requisition_id": "JR109273",
       "title": "Senior Software Engineer, Enterprise Build",
       "company_name": "Robinhood",
@@ -3762,41 +3763,6 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8189059?t=gh_src=&gh_jid=8189059",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3543646,
-      "location": {
-        "name": "Toronto, Canada"
-      },
-      "metadata": [
-        {
-          "id": 4288026,
-          "name": "Careers Page Bucket",
-          "value": "SOFTWARE ENGINEERING",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8189059,
-      "updated_at": "2026-09-28T12:35:24-04:00",
-      "requisition_id": "JR109444",
-      "title": "Senior Software Engineer, Tokenization",
-      "company_name": "Robinhood",
-      "first_published": "2026-09-10T07:07:05-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Software Engineer, Tokenization",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8189057?t=gh_src=&gh_jid=8189057",
       "data_compliance": [
         {
@@ -3826,6 +3792,41 @@
       "title": "Senior Software Engineer, Tokenization",
       "company_name": "Robinhood",
       "first_published": "2026-09-10T07:05:13-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Software Engineer, Tokenization",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8189059?t=gh_src=&gh_jid=8189059",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3543646,
+      "location": {
+        "name": "Toronto, Canada"
+      },
+      "metadata": [
+        {
+          "id": 4288026,
+          "name": "Careers Page Bucket",
+          "value": "SOFTWARE ENGINEERING",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8189059,
+      "updated_at": "2026-09-28T12:35:24-04:00",
+      "requisition_id": "JR109444",
+      "title": "Senior Software Engineer, Tokenization",
+      "company_name": "Robinhood",
+      "first_published": "2026-09-10T07:07:05-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Software Engineer, Tokenization",
@@ -4182,6 +4183,41 @@
       "role_category": "Other"
     },
     {
+      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/7728367?t=gh_src=&gh_jid=7728367",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3392087,
+      "location": {
+        "name": "Chicago, IL; Denver, CO; Westlake, TX"
+      },
+      "metadata": [
+        {
+          "id": 4288026,
+          "name": "Careers Page Bucket",
+          "value": "CUSTOMER EXPERIENCE",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7728367,
+      "updated_at": "2026-09-29T19:20:25-04:00",
+      "requisition_id": "JR108488",
+      "title": "Short Term Planning Analyst",
+      "company_name": "Robinhood",
+      "first_published": "2026-03-19T11:30:18-04:00",
+      "language": "en",
+      "application_deadline": "2026-12-03T19:20:25-05:00",
+      "raw_title": "Short Term Planning Analyst",
+      "role_category": "Operations Analyst"
+    },
+    {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8211366?t=gh_src=&gh_jid=8211366",
       "data_compliance": [
         {
@@ -4242,13 +4278,13 @@
         }
       ],
       "id": 8142930,
-      "updated_at": "2026-09-28T12:41:51-04:00",
+      "updated_at": "2026-09-29T18:36:10-04:00",
       "requisition_id": "1908",
       "title": "Software Developer Intern, Backend (Summer 2027)",
       "company_name": "Robinhood",
       "first_published": "2026-09-14T08:00:08-04:00",
       "language": "en",
-      "application_deadline": null,
+      "application_deadline": "2026-10-14T02:00:00-04:00",
       "raw_title": "Software Developer Intern, Backend (Summer 2027)",
       "role_category": "Backend Engineer"
     },
@@ -4314,13 +4350,13 @@
         }
       ],
       "id": 8199729,
-      "updated_at": "2026-09-28T12:34:31-04:00",
+      "updated_at": "2026-09-29T18:38:50-04:00",
       "requisition_id": "1936",
       "title": "Software Developer Intern, iOS (Summer 2027)",
       "company_name": "Robinhood",
       "first_published": "2026-09-14T08:00:08-04:00",
       "language": "en",
-      "application_deadline": null,
+      "application_deadline": "2026-10-14T02:00:00-04:00",
       "raw_title": "Software Developer Intern, iOS (Summer 2027)",
       "role_category": "Software Engineer"
     },
@@ -4492,13 +4528,13 @@
         }
       ],
       "id": 8123225,
-      "updated_at": "2026-09-25T13:03:21-04:00",
+      "updated_at": "2026-09-29T18:35:09-04:00",
       "requisition_id": "1903",
       "title": "Software Engineering Intern, Backend (Summer 2027)",
       "company_name": "Robinhood",
       "first_published": "2026-09-14T08:00:08-04:00",
       "language": "en",
-      "application_deadline": null,
+      "application_deadline": "2026-10-14T02:00:00-04:00",
       "raw_title": "Software Engineering Intern, Backend (Summer 2027)",
       "role_category": "Backend Engineer"
     },
@@ -4528,13 +4564,13 @@
         }
       ],
       "id": 8142959,
-      "updated_at": "2026-09-25T13:03:21-04:00",
+      "updated_at": "2026-09-29T18:37:15-04:00",
       "requisition_id": "1909",
       "title": "Software Engineering Intern, iOS (Summer 2027)",
       "company_name": "Robinhood",
       "first_published": "2026-09-14T08:00:09-04:00",
       "language": "en",
-      "application_deadline": null,
+      "application_deadline": "2026-10-14T02:00:00-04:00",
       "raw_title": "Software Engineering Intern, iOS (Summer 2027)",
       "role_category": "Software Engineer"
     },
@@ -4575,41 +4611,6 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8189007?t=gh_src=&gh_jid=8189007",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3543625,
-      "location": {
-        "name": "Toronto, Canada"
-      },
-      "metadata": [
-        {
-          "id": 4288026,
-          "name": "Careers Page Bucket",
-          "value": "SOFTWARE ENGINEERING",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8189007,
-      "updated_at": "2026-09-28T12:39:49-04:00",
-      "requisition_id": "JR109445",
-      "title": "Software Engineer, Tokenization",
-      "company_name": "Robinhood",
-      "first_published": "2026-09-10T06:57:53-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Software Engineer, Tokenization",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8189005?t=gh_src=&gh_jid=8189005",
       "data_compliance": [
         {
@@ -4639,6 +4640,41 @@
       "title": "Software Engineer, Tokenization",
       "company_name": "Robinhood",
       "first_published": "2026-09-10T06:55:18-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Software Engineer, Tokenization",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8189007?t=gh_src=&gh_jid=8189007",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3543625,
+      "location": {
+        "name": "Toronto, Canada"
+      },
+      "metadata": [
+        {
+          "id": 4288026,
+          "name": "Careers Page Bucket",
+          "value": "SOFTWARE ENGINEERING",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8189007,
+      "updated_at": "2026-09-28T12:39:49-04:00",
+      "requisition_id": "JR109445",
+      "title": "Software Engineer, Tokenization",
+      "company_name": "Robinhood",
+      "first_published": "2026-09-10T06:57:53-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Software Engineer, Tokenization",
@@ -5381,41 +5417,6 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/7489952?t=gh_src=&gh_jid=7489952",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3322842,
-      "location": {
-        "name": "Toronto, Canada"
-      },
-      "metadata": [
-        {
-          "id": 4288026,
-          "name": "Careers Page Bucket",
-          "value": "SOFTWARE ENGINEERING",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7489952,
-      "updated_at": "2026-09-28T12:36:05-04:00",
-      "requisition_id": "JR108105",
-      "title": "Staff Software Engineer, Web3",
-      "company_name": "Robinhood",
-      "first_published": "2026-02-06T14:14:11-05:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Staff Software Engineer, Web3",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/7489950?t=gh_src=&gh_jid=7489950",
       "data_compliance": [
         {
@@ -5445,6 +5446,41 @@
       "title": "Staff Software Engineer, Web3",
       "company_name": "Robinhood",
       "first_published": "2026-02-06T14:09:38-05:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Staff Software Engineer, Web3",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/7489952?t=gh_src=&gh_jid=7489952",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3322842,
+      "location": {
+        "name": "Toronto, Canada"
+      },
+      "metadata": [
+        {
+          "id": 4288026,
+          "name": "Careers Page Bucket",
+          "value": "SOFTWARE ENGINEERING",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7489952,
+      "updated_at": "2026-09-28T12:36:05-04:00",
+      "requisition_id": "JR108105",
+      "title": "Staff Software Engineer, Web3",
+      "company_name": "Robinhood",
+      "first_published": "2026-02-06T14:14:11-05:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Staff Software Engineer, Web3",
