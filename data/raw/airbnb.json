@@ -1252,6 +1252,45 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://careers.airbnb.com/positions/8178505?gh_jid=8178505",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3539237,
+      "location": {
+        "name": "Mexico City, Mexico"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8178505,
+      "updated_at": "2026-09-29T20:00:54-04:00",
+      "requisition_id": "MULTI",
+      "title": "Market Associate",
+      "company_name": "Airbnb",
+      "first_published": "2026-09-08T09:20:36-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://careers.airbnb.com/positions/8176559?gh_jid=8176559",
       "data_compliance": [
         {
@@ -1330,7 +1369,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8178505?gh_jid=8178505",
+      "absolute_url": "https://careers.airbnb.com/positions/8131310?gh_jid=8131310",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1341,9 +1380,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3539237,
+      "internal_job_id": 3520972,
       "location": {
-        "name": "Mexico City, Mexico"
+        "name": "Mexico"
       },
       "metadata": [
         {
@@ -1359,12 +1398,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8178505,
+      "id": 8131310,
       "updated_at": "2026-09-29T20:00:54-04:00",
-      "requisition_id": "MULTI",
-      "title": "Market Associate",
+      "requisition_id": "ONE",
+      "title": "Market Manager",
       "company_name": "Airbnb",
-      "first_published": "2026-09-08T09:20:36-04:00",
+      "first_published": "2026-08-17T10:50:31-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1408,84 +1447,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8260061?gh_jid=8260061",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3574102,
-      "location": {
-        "name": "Missouri, United States "
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8260061,
-      "updated_at": "2026-10-06T21:50:51-04:00",
-      "requisition_id": "ONE",
-      "title": "Market Manager",
-      "company_name": "Airbnb",
-      "first_published": "2026-10-06T21:50:51-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://careers.airbnb.com/positions/8131310?gh_jid=8131310",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3520972,
-      "location": {
-        "name": "Mexico"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8131310,
-      "updated_at": "2026-09-29T20:00:54-04:00",
-      "requisition_id": "ONE",
-      "title": "Market Manager",
-      "company_name": "Airbnb",
-      "first_published": "2026-08-17T10:50:31-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/8146630?gh_jid=8146630",
       "data_compliance": [
         {
@@ -1521,6 +1482,45 @@
       "title": "Market Manager",
       "company_name": "Airbnb",
       "first_published": "2026-08-21T07:32:58-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/8260061?gh_jid=8260061",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3574102,
+      "location": {
+        "name": "Missouri, United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8260061,
+      "updated_at": "2026-10-06T21:50:51-04:00",
+      "requisition_id": "ONE",
+      "title": "Market Manager",
+      "company_name": "Airbnb",
+      "first_published": "2026-10-06T21:50:51-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1717,6 +1717,45 @@
       "title": "Payments Partnerships Manager, Host Payouts",
       "company_name": "Airbnb",
       "first_published": "2026-07-21T11:38:47-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/7904321?gh_jid=7904321",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3436096,
+      "location": {
+        "name": "Gurugram, India"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": true,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Onsite",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7904321,
+      "updated_at": "2026-10-07T00:30:51-04:00",
+      "requisition_id": "MULTI",
+      "title": "Payments Specialist - Risk & Chargeback",
+      "company_name": "Airbnb",
+      "first_published": "2026-06-25T08:38:37-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -2033,45 +2072,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8259240?gh_jid=8259240",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3573763,
-      "location": {
-        "name": "Bangalore, India"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": true,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8259240,
-      "updated_at": "2026-10-06T15:33:58-04:00",
-      "requisition_id": "ONE",
-      "title": "Quality Assurance & Standards Manager",
-      "company_name": "Airbnb",
-      "first_published": "2026-10-06T15:33:58-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/8259224?gh_jid=8259224",
       "data_compliance": [
         {
@@ -2107,6 +2107,45 @@
       "title": "Quality Assurance & Standards Manager",
       "company_name": "Airbnb",
       "first_published": "2026-10-06T15:33:56-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/8259240?gh_jid=8259240",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3573763,
+      "location": {
+        "name": "Bangalore, India"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": true,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8259240,
+      "updated_at": "2026-10-06T15:33:58-04:00",
+      "requisition_id": "ONE",
+      "title": "Quality Assurance & Standards Manager",
+      "company_name": "Airbnb",
+      "first_published": "2026-10-06T15:33:58-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3243,45 +3282,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8114345?gh_jid=8114345",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3514775,
-      "location": {
-        "name": "Ireland"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8114345,
-      "updated_at": "2026-10-05T18:19:00-04:00",
-      "requisition_id": "ONE",
-      "title": "Senior Manager, Quality, Volume Tiers",
-      "company_name": "Airbnb",
-      "first_published": "2026-10-05T18:19:00-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/8158133?gh_jid=8158133",
       "data_compliance": [
         {
@@ -3317,6 +3317,45 @@
       "title": "Senior Manager, Quality, Volume Tiers",
       "company_name": "Airbnb",
       "first_published": "2026-10-05T18:21:35-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/8114345?gh_jid=8114345",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3514775,
+      "location": {
+        "name": "Ireland"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8114345,
+      "updated_at": "2026-10-05T18:19:00-04:00",
+      "requisition_id": "ONE",
+      "title": "Senior Manager, Quality, Volume Tiers",
+      "company_name": "Airbnb",
+      "first_published": "2026-10-05T18:19:00-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3512,6 +3551,45 @@
       "title": "Senior Manager, Vendor Operations & Customer Support",
       "company_name": "Airbnb",
       "first_published": "2026-10-01T05:38:59-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/8259185?gh_jid=8259185",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3573744,
+      "location": {
+        "name": "Los Angeles, United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8259185,
+      "updated_at": "2026-10-07T01:14:46-04:00",
+      "requisition_id": "ONE",
+      "title": "Senior Market Manager",
+      "company_name": "Airbnb",
+      "first_published": "2026-10-07T01:14:46-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -4179,45 +4257,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/7101592?gh_jid=7101592",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3201981,
-      "location": {
-        "name": "Bangalore, India"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": true,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7101592,
-      "updated_at": "2026-10-06T09:29:29-04:00",
-      "requisition_id": "MULTI",
-      "title": "Senior Software Engineer, Trust",
-      "company_name": "Airbnb",
-      "first_published": "2025-08-08T02:00:19-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/7107054?gh_jid=7107054",
       "data_compliance": [
         {
@@ -4839,45 +4878,6 @@
       "title": "Senior Systems Engineer, Tech Foundations",
       "company_name": "Airbnb",
       "first_published": "2026-09-11T16:40:45-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://careers.airbnb.com/positions/8245428?gh_jid=8245428",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3567547,
-      "location": {
-        "name": "India "
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": true,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8245428,
-      "updated_at": "2026-10-06T00:20:52-04:00",
-      "requisition_id": "ONE",
-      "title": "Software Engineer, Guest & Host",
-      "company_name": "Airbnb",
-      "first_published": "2026-10-06T00:20:52-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -6016,6 +6016,45 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://careers.airbnb.com/positions/8076422?gh_jid=8076422",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3499160,
+      "location": {
+        "name": "Gurugram, India"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": true,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Onsite",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8076422,
+      "updated_at": "2026-10-07T00:33:30-04:00",
+      "requisition_id": "ONE",
+      "title": "Supervisor, Payment Compliance - KYC",
+      "company_name": "Airbnb",
+      "first_published": "2026-07-21T03:31:42-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://careers.airbnb.com/positions/7822781?gh_jid=7822781",
       "data_compliance": [
         {
@@ -6214,6 +6253,6 @@
     }
   ],
   "meta": {
-    "total": 159
+    "total": 160
   }
 }
