@@ -279,6 +279,46 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8796132002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 6519294002,
+      "location": {
+        "name": "Lisbon, Portugal"
+      },
+      "metadata": [
+        {
+          "id": 4105571002,
+          "name": "Featured on Website",
+          "value": [],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 96196709002,
+          "name": "Careers Site Department",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8796132002,
+      "updated_at": "2026-10-07T16:20:34-04:00",
+      "requisition_id": "R-107401",
+      "title": "IT Ops Engineer - Lisbon",
+      "company_name": "Discord",
+      "first_published": "2026-10-07T16:19:37-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8856460002",
       "data_compliance": [
         {
@@ -714,6 +754,45 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8856467002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 6545415002,
+      "location": {
+        "name": "San Francisco Bay Area"
+      },
+      "metadata": [
+        {
+          "id": 4105571002,
+          "name": "Featured on Website",
+          "value": [],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 96196709002,
+          "name": "Careers Site Department",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8856467002,
+      "updated_at": "2026-10-07T11:27:54-04:00",
+      "requisition_id": "R-107444",
+      "title": "Senior Full-Stack Software Engineer, Engagement",
+      "company_name": "Discord",
+      "first_published": "2026-10-01T14:55:39-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8642085002",
       "data_compliance": [
         {
@@ -1068,45 +1147,6 @@
       "title": "Senior Software Engineer, Consumer Revenue",
       "company_name": "Discord",
       "first_published": "2026-03-18T19:11:11-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8856467002",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 6545415002,
-      "location": {
-        "name": "San Francisco Bay Area"
-      },
-      "metadata": [
-        {
-          "id": 4105571002,
-          "name": "Featured on Website",
-          "value": [],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 96196709002,
-          "name": "Careers Site Department",
-          "value": null,
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8856467002,
-      "updated_at": "2026-10-01T14:55:39-04:00",
-      "requisition_id": "R-107444",
-      "title": "Senior Software Engineer, Engagement",
-      "company_name": "Discord",
-      "first_published": "2026-10-01T14:55:39-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1895,9 +1935,9 @@
         }
       ],
       "id": 8575166002,
-      "updated_at": "2026-09-11T19:25:24-04:00",
+      "updated_at": "2026-10-07T17:47:47-04:00",
       "requisition_id": "R-107301",
-      "title": "Strategic Finance",
+      "title": "Strategic Finance Analyst",
       "company_name": "Discord",
       "first_published": "2026-06-24T01:22:00-04:00",
       "language": "en",
@@ -1905,6 +1945,6 @@
     }
   ],
   "meta": {
-    "total": 48
+    "total": 49
   }
 }
