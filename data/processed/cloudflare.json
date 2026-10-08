@@ -3006,7 +3006,7 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8043305?gh_jid=8043305",
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8043339?gh_jid=8043339",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -3017,7 +3017,7 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3486239,
+      "internal_job_id": 3486258,
       "location": {
         "name": "Distributed"
       },
@@ -3032,7 +3032,7 @@
           "id": 8654220,
           "name": "Job Posting Location",
           "value": [
-            "Munich, Germany"
+            "London, UK"
           ],
           "value_type": "multi_select"
         },
@@ -3045,12 +3045,12 @@
           "value_type": "multi_select"
         }
       ],
-      "id": 8043305,
+      "id": 8043339,
       "updated_at": "2026-10-02T14:24:13-04:00",
-      "requisition_id": "TBH#23249",
+      "requisition_id": "TBH#23248",
       "title": "Forward Deployed Engineer, Professional Services",
       "company_name": "Cloudflare",
-      "first_published": "2026-09-23T15:27:31-04:00",
+      "first_published": "2026-08-26T10:18:44-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Forward Deployed Engineer, Professional Services",
@@ -3109,7 +3109,7 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8043339?gh_jid=8043339",
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8043305?gh_jid=8043305",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -3120,7 +3120,7 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3486258,
+      "internal_job_id": 3486239,
       "location": {
         "name": "Distributed"
       },
@@ -3135,7 +3135,7 @@
           "id": 8654220,
           "name": "Job Posting Location",
           "value": [
-            "London, UK"
+            "Munich, Germany"
           ],
           "value_type": "multi_select"
         },
@@ -3148,12 +3148,12 @@
           "value_type": "multi_select"
         }
       ],
-      "id": 8043339,
+      "id": 8043305,
       "updated_at": "2026-10-02T14:24:13-04:00",
-      "requisition_id": "TBH#23248",
+      "requisition_id": "TBH#23249",
       "title": "Forward Deployed Engineer, Professional Services",
       "company_name": "Cloudflare",
-      "first_published": "2026-08-26T10:18:44-04:00",
+      "first_published": "2026-09-23T15:27:31-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Forward Deployed Engineer, Professional Services",
@@ -5135,6 +5135,57 @@
       "role_category": "Other"
     },
     {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7967144?gh_jid=7967144",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3458622,
+      "location": {
+        "name": "Distributed"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5200 - Solution Engineers",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Switzerland"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7967144,
+      "updated_at": "2026-10-02T14:24:13-04:00",
+      "requisition_id": null,
+      "title": "Principal Customer Engineer, Majors",
+      "company_name": "Cloudflare",
+      "first_published": "2026-06-12T04:02:11-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Principal Customer Engineer, Majors",
+      "role_category": "Other"
+    },
+    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8200786?gh_jid=8200786",
       "data_compliance": [
         {
@@ -5181,57 +5232,6 @@
       "title": "Principal Customer Engineer, Majors",
       "company_name": "Cloudflare",
       "first_published": "2026-09-16T05:35:41-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Principal Customer Engineer, Majors",
-      "role_category": "Other"
-    },
-    {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7967144?gh_jid=7967144",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3458622,
-      "location": {
-        "name": "Distributed"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5200 - Solution Engineers",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Switzerland"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 7967144,
-      "updated_at": "2026-10-02T14:24:13-04:00",
-      "requisition_id": null,
-      "title": "Principal Customer Engineer, Majors",
-      "company_name": "Cloudflare",
-      "first_published": "2026-06-12T04:02:11-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Principal Customer Engineer, Majors",
@@ -6062,57 +6062,6 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8102350?gh_jid=8102350",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3510120,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "4310 - Platform Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Engineering"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8102350,
-      "updated_at": "2026-10-02T14:24:13-04:00",
-      "requisition_id": null,
-      "title": "Principal Software Engineer, Data",
-      "company_name": "Cloudflare",
-      "first_published": "2026-08-06T17:07:54-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Principal Software Engineer, Data",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8038898?gh_jid=8038898",
       "data_compliance": [
         {
@@ -6630,57 +6579,6 @@
       "role_category": "Solutions Engineer"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8099018?gh_jid=8099018",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3508671,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "6510 - Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, TX"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "People & Places"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8099018,
-      "updated_at": "2026-10-02T14:24:13-04:00",
-      "requisition_id": null,
-      "title": "Recruiting Coordinator (Contract)",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-31T11:10:03-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Recruiting Coordinator (Contract)",
-      "role_category": "Recruiter"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8180488?gh_jid=8180488",
       "data_compliance": [
         {
@@ -6726,6 +6624,57 @@
       "title": "Recruiting Coordinator (Contract)",
       "company_name": "Cloudflare",
       "first_published": "2026-09-04T13:53:15-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Recruiting Coordinator (Contract)",
+      "role_category": "Recruiter"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8099018?gh_jid=8099018",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3508671,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "6510 - Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Austin, TX"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "People & Places"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8099018,
+      "updated_at": "2026-10-02T14:24:13-04:00",
+      "requisition_id": null,
+      "title": "Recruiting Coordinator (Contract)",
+      "company_name": "Cloudflare",
+      "first_published": "2026-07-31T11:10:03-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Recruiting Coordinator (Contract)",
@@ -8216,58 +8165,6 @@
       "application_deadline": null,
       "raw_title": "Senior Customer Engineer,Indonesia ",
       "role_category": "Support Engineer"
-    },
-    {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8070722?gh_jid=8070722",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3496896,
-      "location": {
-        "name": "Distributed"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5200 - Solution Engineers",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, US",
-            "Dallas, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8070722,
-      "updated_at": "2026-10-02T14:24:13-04:00",
-      "requisition_id": "Ollie SEM M4 TOLA",
-      "title": "Senior Customer Engineering Manager, Majors - Texas",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-30T10:28:05-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Customer Engineering Manager, Majors - Texas",
-      "role_category": "Engineering Manager"
     },
     {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8146536?gh_jid=8146536",
@@ -10902,6 +10799,112 @@
       "role_category": "Legal Counsel"
     },
     {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8160655?gh_jid=8160655",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3531896,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5430 - Developer GTM",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Austin, US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Emerging Technology & Incubation",
+            "Engineering",
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8160655,
+      "updated_at": "2026-10-08T12:19:53-04:00",
+      "requisition_id": "23668",
+      "title": "Senior Forward Deployed Engineer",
+      "company_name": "Cloudflare",
+      "first_published": "2026-09-03T10:24:07-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Forward Deployed Engineer",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8265704?gh_jid=8265704",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3405295,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5430 - Developer GTM",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Sweden"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Emerging Technology & Incubation",
+            "Engineering",
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8265704,
+      "updated_at": "2026-10-08T16:53:40-04:00",
+      "requisition_id": null,
+      "title": "Senior Forward Deployed Engineer",
+      "company_name": "Cloudflare",
+      "first_published": "2026-10-08T16:53:40-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Forward Deployed Engineer",
+      "role_category": "Software Engineer"
+    },
+    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8184169?gh_jid=8184169",
       "data_compliance": [
         {
@@ -10949,112 +10952,6 @@
       "title": "Senior Forward Deployed Engineer",
       "company_name": "Cloudflare",
       "first_published": "2026-09-16T16:09:03-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Forward Deployed Engineer",
-      "role_category": "Software Engineer"
-    },
-    {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8160655?gh_jid=8160655",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3531896,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5430 - Developer GTM",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Emerging Technology & Incubation",
-            "Engineering",
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8160655,
-      "updated_at": "2026-10-02T14:24:13-04:00",
-      "requisition_id": "23668",
-      "title": "Senior Forward Deployed Engineer",
-      "company_name": "Cloudflare",
-      "first_published": "2026-09-03T10:24:07-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Forward Deployed Engineer",
-      "role_category": "Software Engineer"
-    },
-    {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8110209?gh_jid=8110209",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3405295,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "5430 - Developer GTM",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Sweden"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Emerging Technology & Incubation",
-            "Engineering",
-            "Sales"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8110209,
-      "updated_at": "2026-10-02T14:24:13-04:00",
-      "requisition_id": null,
-      "title": "Senior Forward Deployed Engineer",
-      "company_name": "Cloudflare",
-      "first_published": "2026-08-05T17:51:40-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Forward Deployed Engineer",
@@ -11209,14 +11106,14 @@
         }
       ],
       "id": 8256332,
-      "updated_at": "2026-10-07T17:17:46-04:00",
+      "updated_at": "2026-10-08T16:53:13-04:00",
       "requisition_id": "23186",
-      "title": "Senior Forward Deployed Engineer (DevOps)",
+      "title": "Senior Forward Deployed Infrastructure Engineer",
       "company_name": "Cloudflare",
       "first_published": "2026-10-07T17:17:46-04:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Senior Forward Deployed Engineer (DevOps)",
+      "raw_title": "Senior Forward Deployed Infrastructure Engineer",
       "role_category": "DevOps Engineer"
     },
     {
@@ -11328,58 +11225,6 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8042034?gh_jid=8042034",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_optional",
-      "internal_job_id": 3485742,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "6310 - Data Intelligence & Analytics",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Data Intelligence and Analytics"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8042034,
-      "updated_at": "2026-10-02T14:24:13-04:00",
-      "requisition_id": "902",
-      "title": "Senior Machine Learning Engineer",
-      "company_name": "Cloudflare",
-      "first_published": "2026-07-02T09:49:51-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Machine Learning Engineer",
-      "role_category": "Machine Learning Engineer"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8043974?gh_jid=8043974",
       "data_compliance": [
         {
@@ -11428,6 +11273,58 @@
       "title": "Senior Machine Learning Engineer",
       "company_name": "Cloudflare",
       "first_published": "2026-07-09T15:53:44-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Machine Learning Engineer",
+      "role_category": "Machine Learning Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8042034?gh_jid=8042034",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 3485742,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "6310 - Data Intelligence & Analytics",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Austin, US"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Data Intelligence and Analytics"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8042034,
+      "updated_at": "2026-10-02T14:24:13-04:00",
+      "requisition_id": "902",
+      "title": "Senior Machine Learning Engineer",
+      "company_name": "Cloudflare",
+      "first_published": "2026-07-02T09:49:51-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Machine Learning Engineer",
@@ -11627,7 +11524,7 @@
         }
       ],
       "id": 8233692,
-      "updated_at": "2026-10-02T14:24:13-04:00",
+      "updated_at": "2026-10-08T17:46:13-04:00",
       "requisition_id": "22784",
       "title": "Senior Majors Account Executive (IBM), New York",
       "company_name": "Cloudflare",
@@ -11729,7 +11626,7 @@
         }
       ],
       "id": 7747326,
-      "updated_at": "2026-10-02T14:24:13-04:00",
+      "updated_at": "2026-10-08T17:45:43-04:00",
       "requisition_id": "22784",
       "title": "Senior Majors Account Executive, New York",
       "company_name": "Cloudflare",
@@ -13268,7 +13165,7 @@
         }
       ],
       "id": 8257165,
-      "updated_at": "2026-10-07T14:54:23-04:00",
+      "updated_at": "2026-10-08T12:37:21-04:00",
       "requisition_id": "1001",
       "title": "Senior Named Account Executive, LATAM",
       "company_name": "Cloudflare",
@@ -14139,7 +14036,7 @@
         }
       ],
       "id": 7978887,
-      "updated_at": "2026-10-08T03:47:06-04:00",
+      "updated_at": "2026-10-08T11:48:00-04:00",
       "requisition_id": null,
       "title": "Senior Oracle EPM Specialist",
       "company_name": "Cloudflare",
@@ -15039,59 +14936,6 @@
       "role_category": "Project Manager"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7522891?gh_jid=7522891",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3332886,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "6300 - Accounting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, US",
-            "New York, US",
-            "San Francisco, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Accounting & Finance"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 7522891,
-      "updated_at": "2026-10-02T14:24:13-04:00",
-      "requisition_id": null,
-      "title": "Senior Revenue Accountant",
-      "company_name": "Cloudflare",
-      "first_published": "2026-01-08T12:35:20-05:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Revenue Accountant",
-      "role_category": "Accountant"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8172873?gh_jid=8172873",
       "data_compliance": [
         {
@@ -15141,60 +14985,6 @@
       "application_deadline": null,
       "raw_title": "Senior Revenue Operations Support Manager, Singapore",
       "role_category": "Operations Manager"
-    },
-    {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8258539?gh_jid=8258539",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3573497,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "6330 - FP&A Business Ops",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, TX",
-            "Dallas, TX",
-            "Houston, TX",
-            "San Antonio, TX"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Accounting & Finance"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8258539,
-      "updated_at": "2026-10-06T16:46:20-04:00",
-      "requisition_id": null,
-      "title": "Senior Sales Compensation Analyst",
-      "company_name": "Cloudflare",
-      "first_published": "2026-10-06T16:46:20-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Sales Compensation Analyst",
-      "role_category": "Operations Analyst"
     },
     {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8046286?gh_jid=8046286",
@@ -15402,6 +15192,60 @@
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Software Engineer - Addressing Team",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8262000?gh_jid=8262000",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 3574862,
+      "location": {
+        "name": "In-Office"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "4500 - Emerg Tech & Incubation",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Lisbon, Portugal",
+            "London, UK"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Emerging Technology & Incubation",
+            "Engineering"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8262000,
+      "updated_at": "2026-10-08T11:05:55-04:00",
+      "requisition_id": "1003",
+      "title": "Senior Software Engineer, Agentic Discovery",
+      "company_name": "Cloudflare",
+      "first_published": "2026-10-08T09:12:18-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Software Engineer, Agentic Discovery",
       "role_category": "Software Engineer"
     },
     {
@@ -15976,57 +15820,6 @@
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Software Engineer, Network On-Ramps",
-      "role_category": "Software Engineer"
-    },
-    {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7446340?gh_jid=7446340",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3310987,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "4100 - Infrastructure Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, US"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Engineering"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 7446340,
-      "updated_at": "2026-10-02T14:24:13-04:00",
-      "requisition_id": null,
-      "title": "Senior Software Engineer, Network Performance & Reliability",
-      "company_name": "Cloudflare",
-      "first_published": "2025-12-22T11:31:10-05:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Software Engineer, Network Performance & Reliability",
       "role_category": "Software Engineer"
     },
     {
@@ -18298,6 +18091,57 @@
       "role_category": "Account Executive"
     },
     {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8262821?gh_jid=8262821",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3575232,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "5150 - Field Sales",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "San Francisco, CA"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Sales"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8262821,
+      "updated_at": "2026-10-08T10:31:28-04:00",
+      "requisition_id": "GTM_AMER US TERR W NW#24146",
+      "title": "Senior Territory Account Executive, San Francisco",
+      "company_name": "Cloudflare",
+      "first_published": "2026-10-08T10:31:28-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Territory Account Executive, San Francisco",
+      "role_category": "Account Executive"
+    },
+    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7807860?gh_jid=7807860",
       "data_compliance": [
         {
@@ -18708,6 +18552,59 @@
       "language": "en",
       "application_deadline": null,
       "raw_title": "Software Engineer",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8264687?gh_jid=8264687",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3574862,
+      "location": {
+        "name": "In-Office"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "4500 - Emerg Tech & Incubation",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Lisbon, Portugal",
+            "London, UK"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Emerging Technology & Incubation",
+            "Engineering"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8264687,
+      "updated_at": "2026-10-08T11:03:13-04:00",
+      "requisition_id": "1003",
+      "title": "Software Engineer, Agentic Discovery",
+      "company_name": "Cloudflare",
+      "first_published": "2026-10-08T11:03:13-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Software Engineer, Agentic Discovery",
       "role_category": "Software Engineer"
     },
     {
@@ -19276,57 +19173,6 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/6972536?gh_jid=6972536",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3168746,
-      "location": {
-        "name": "In-Office"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "4310 - Platform Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Bengaluru, India"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Engineering"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 6972536,
-      "updated_at": "2026-10-05T01:51:20-04:00",
-      "requisition_id": null,
-      "title": "Software Engineer - Platforms & Productivity",
-      "company_name": "Cloudflare",
-      "first_published": "2025-06-11T22:51:02-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Software Engineer - Platforms & Productivity",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8168623?gh_jid=8168623",
       "data_compliance": [
         {
@@ -19372,6 +19218,57 @@
       "title": "Software Engineer - Platforms & Productivity",
       "company_name": "Cloudflare",
       "first_published": "2026-09-01T01:19:12-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Software Engineer - Platforms & Productivity",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/6972536?gh_jid=6972536",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3168746,
+      "location": {
+        "name": "In-Office"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "4310 - Platform Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Bengaluru, India"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Engineering"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6972536,
+      "updated_at": "2026-10-05T01:51:20-04:00",
+      "requisition_id": null,
+      "title": "Software Engineer - Platforms & Productivity",
+      "company_name": "Cloudflare",
+      "first_published": "2025-06-11T22:51:02-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Software Engineer - Platforms & Productivity",
@@ -21182,7 +21079,8 @@
           "id": 8654220,
           "name": "Job Posting Location",
           "value": [
-            "Ontario, Canada"
+            "Ontario, Canada",
+            "Toronto, Canada"
           ],
           "value_type": "multi_select"
         },
@@ -21196,14 +21094,14 @@
         }
       ],
       "id": 7804941,
-      "updated_at": "2026-10-02T14:24:13-04:00",
+      "updated_at": "2026-10-08T14:12:16-04:00",
       "requisition_id": null,
-      "title": "Territory Account Executive, Central Canada",
+      "title": "Territory Account Executive (AI & Digital Natives)",
       "company_name": "Cloudflare",
       "first_published": "2026-04-13T11:23:01-04:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Territory Account Executive, Central Canada",
+      "raw_title": "Territory Account Executive (AI & Digital Natives)",
       "role_category": "Account Executive"
     },
     {
