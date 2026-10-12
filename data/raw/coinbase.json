@@ -532,6 +532,65 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://www.coinbase.com/careers/positions/8265422?gh_jid=8265422",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3576314,
+      "location": {
+        "name": "Hybrid - Luxembourg"
+      },
+      "metadata": [
+        {
+          "id": 166433,
+          "name": "Team",
+          "value": "Legal",
+          "value_type": "single_select"
+        },
+        {
+          "id": 11090754,
+          "name": "HM Employee ID (WD)",
+          "value": "203466",
+          "value_type": "short_text"
+        },
+        {
+          "id": 3174030,
+          "name": "Careersite Department (for job postings)",
+          "value": "International Operations",
+          "value_type": "single_select"
+        },
+        {
+          "id": 13234829,
+          "name": "mule_sourcers_counter_custom",
+          "value": "0.0",
+          "value_type": "number"
+        },
+        {
+          "id": 13234830,
+          "name": "mule_recruiters_counter_custom",
+          "value": "0.0",
+          "value_type": "number"
+        }
+      ],
+      "id": 8265422,
+      "updated_at": "2026-10-12T04:33:30-04:00",
+      "requisition_id": "P78209",
+      "title": "Associate General Counsel, EU Legal",
+      "company_name": "Coinbase",
+      "first_published": "2026-10-12T04:33:30-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://www.coinbase.com/careers/positions/8227393?gh_jid=8227393",
       "data_compliance": [
         {
@@ -1004,65 +1063,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://www.coinbase.com/careers/positions/8013889?gh_jid=8013889",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3474482,
-      "location": {
-        "name": "Hybrid - Bangalore, India"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "Customer Experience",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "210036",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "Customer Experience",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": null,
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": null,
-          "value_type": "number"
-        }
-      ],
-      "id": 8013889,
-      "updated_at": "2026-10-09T18:03:34-04:00",
-      "requisition_id": "P77108",
-      "title": "Capacity Planning Lead",
-      "company_name": "Coinbase",
-      "first_published": "2026-06-20T21:48:42-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://www.coinbase.com/careers/positions/8238573?gh_jid=8238573",
       "data_compliance": [
         {
@@ -1118,6 +1118,65 @@
       "title": "Capacity Planning Lead",
       "company_name": "Coinbase",
       "first_published": "2026-09-28T18:50:53-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://www.coinbase.com/careers/positions/8013889?gh_jid=8013889",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3474482,
+      "location": {
+        "name": "Hybrid - Bangalore, India"
+      },
+      "metadata": [
+        {
+          "id": 166433,
+          "name": "Team",
+          "value": "Customer Experience",
+          "value_type": "single_select"
+        },
+        {
+          "id": 11090754,
+          "name": "HM Employee ID (WD)",
+          "value": "210036",
+          "value_type": "short_text"
+        },
+        {
+          "id": 3174030,
+          "name": "Careersite Department (for job postings)",
+          "value": "Customer Experience",
+          "value_type": "single_select"
+        },
+        {
+          "id": 13234829,
+          "name": "mule_sourcers_counter_custom",
+          "value": null,
+          "value_type": "number"
+        },
+        {
+          "id": 13234830,
+          "name": "mule_recruiters_counter_custom",
+          "value": null,
+          "value_type": "number"
+        }
+      ],
+      "id": 8013889,
+      "updated_at": "2026-10-09T18:03:34-04:00",
+      "requisition_id": "P77108",
+      "title": "Capacity Planning Lead",
+      "company_name": "Coinbase",
+      "first_published": "2026-06-20T21:48:42-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1535,6 +1594,65 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://www.coinbase.com/careers/positions/7994498?gh_jid=7994498",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3467896,
+      "location": {
+        "name": "Hybrid - Singapore"
+      },
+      "metadata": [
+        {
+          "id": 166433,
+          "name": "Team",
+          "value": "Customer Experience",
+          "value_type": "single_select"
+        },
+        {
+          "id": 11090754,
+          "name": "HM Employee ID (WD)",
+          "value": "210008",
+          "value_type": "short_text"
+        },
+        {
+          "id": 3174030,
+          "name": "Careersite Department (for job postings)",
+          "value": "Customer Experience",
+          "value_type": "single_select"
+        },
+        {
+          "id": 13234829,
+          "name": "mule_sourcers_counter_custom",
+          "value": null,
+          "value_type": "number"
+        },
+        {
+          "id": 13234830,
+          "name": "mule_recruiters_counter_custom",
+          "value": null,
+          "value_type": "number"
+        }
+      ],
+      "id": 7994498,
+      "updated_at": "2026-06-23T19:21:49-04:00",
+      "requisition_id": "P77139",
+      "title": "Concierge Specialist IV",
+      "company_name": "Coinbase",
+      "first_published": "2026-06-12T15:22:25-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://www.coinbase.com/careers/positions/7994501?gh_jid=7994501",
       "data_compliance": [
         {
@@ -1649,65 +1767,6 @@
       "title": "Concierge Specialist IV",
       "company_name": "Coinbase",
       "first_published": "2026-06-26T17:02:56-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://www.coinbase.com/careers/positions/7994498?gh_jid=7994498",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3467896,
-      "location": {
-        "name": "Hybrid - Singapore"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "Customer Experience",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "210008",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "Customer Experience",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": null,
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": null,
-          "value_type": "number"
-        }
-      ],
-      "id": 7994498,
-      "updated_at": "2026-06-23T19:21:49-04:00",
-      "requisition_id": "P77139",
-      "title": "Concierge Specialist IV",
-      "company_name": "Coinbase",
-      "first_published": "2026-06-12T15:22:25-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -4889,7 +4948,7 @@
         }
       ],
       "id": 8239099,
-      "updated_at": "2026-10-01T03:51:08-04:00",
+      "updated_at": "2026-10-12T00:44:43-04:00",
       "requisition_id": "P78202",
       "title": "Operations Manager",
       "company_name": "Coinbase",
@@ -6895,7 +6954,7 @@
         }
       ],
       "id": 8207217,
-      "updated_at": "2026-09-30T10:43:02-04:00",
+      "updated_at": "2026-10-12T00:44:17-04:00",
       "requisition_id": "P78324",
       "title": "Senior Executive Officer, ADGM",
       "company_name": "Coinbase",
@@ -7140,65 +7199,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://www.coinbase.com/careers/positions/8054055?gh_jid=8054055",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3490681,
-      "location": {
-        "name": "Remote - India"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "IT",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "210447",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "IT",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": null,
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": null,
-          "value_type": "number"
-        }
-      ],
-      "id": 8054055,
-      "updated_at": "2026-07-29T12:47:45-04:00",
-      "requisition_id": "P77459",
-      "title": "Senior IT Automation Engineer",
-      "company_name": "Coinbase",
-      "first_published": "2026-07-09T14:24:09-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://www.coinbase.com/careers/positions/8095207?gh_jid=8095207",
       "data_compliance": [
         {
@@ -7254,6 +7254,65 @@
       "title": "Senior IT Automation Engineer",
       "company_name": "Coinbase",
       "first_published": "2026-07-29T16:57:08-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://www.coinbase.com/careers/positions/8054055?gh_jid=8054055",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3490681,
+      "location": {
+        "name": "Remote - India"
+      },
+      "metadata": [
+        {
+          "id": 166433,
+          "name": "Team",
+          "value": "IT",
+          "value_type": "single_select"
+        },
+        {
+          "id": 11090754,
+          "name": "HM Employee ID (WD)",
+          "value": "210447",
+          "value_type": "short_text"
+        },
+        {
+          "id": 3174030,
+          "name": "Careersite Department (for job postings)",
+          "value": "IT",
+          "value_type": "single_select"
+        },
+        {
+          "id": 13234829,
+          "name": "mule_sourcers_counter_custom",
+          "value": null,
+          "value_type": "number"
+        },
+        {
+          "id": 13234830,
+          "name": "mule_recruiters_counter_custom",
+          "value": null,
+          "value_type": "number"
+        }
+      ],
+      "id": 8054055,
+      "updated_at": "2026-07-29T12:47:45-04:00",
+      "requisition_id": "P77459",
+      "title": "Senior IT Automation Engineer",
+      "company_name": "Coinbase",
+      "first_published": "2026-07-09T14:24:09-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -11034,65 +11093,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://www.coinbase.com/careers/positions/8222264?gh_jid=8222264",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3558509,
-      "location": {
-        "name": "Remote - Singapore"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "Institutional",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "204886",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "Finance & Accounting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": null,
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": null,
-          "value_type": "number"
-        }
-      ],
-      "id": 8222264,
-      "updated_at": "2026-09-21T22:46:36-04:00",
-      "requisition_id": "P77935",
-      "title": "Specialist, Market Operations",
-      "company_name": "Coinbase",
-      "first_published": "2026-09-21T22:46:36-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://www.coinbase.com/careers/positions/8222259?gh_jid=8222259",
       "data_compliance": [
         {
@@ -11148,6 +11148,65 @@
       "title": "Specialist, Market Operations",
       "company_name": "Coinbase",
       "first_published": "2026-09-21T22:41:41-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://www.coinbase.com/careers/positions/8222264?gh_jid=8222264",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3558509,
+      "location": {
+        "name": "Remote - Singapore"
+      },
+      "metadata": [
+        {
+          "id": 166433,
+          "name": "Team",
+          "value": "Institutional",
+          "value_type": "single_select"
+        },
+        {
+          "id": 11090754,
+          "name": "HM Employee ID (WD)",
+          "value": "204886",
+          "value_type": "short_text"
+        },
+        {
+          "id": 3174030,
+          "name": "Careersite Department (for job postings)",
+          "value": "Finance & Accounting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 13234829,
+          "name": "mule_sourcers_counter_custom",
+          "value": null,
+          "value_type": "number"
+        },
+        {
+          "id": 13234830,
+          "name": "mule_recruiters_counter_custom",
+          "value": null,
+          "value_type": "number"
+        }
+      ],
+      "id": 8222264,
+      "updated_at": "2026-09-21T22:46:36-04:00",
+      "requisition_id": "P77935",
+      "title": "Specialist, Market Operations",
+      "company_name": "Coinbase",
+      "first_published": "2026-09-21T22:46:36-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -11506,65 +11565,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://www.coinbase.com/careers/positions/7891045?gh_jid=7891045",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3430541,
-      "location": {
-        "name": "Remote - USA"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "Platform",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "211834",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": "0.0",
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": "0.0",
-          "value_type": "number"
-        }
-      ],
-      "id": 7891045,
-      "updated_at": "2026-10-02T12:19:53-04:00",
-      "requisition_id": "P76792",
-      "title": "Staff Machine Learning Engineer(Platform - Identity)",
-      "company_name": "Coinbase",
-      "first_published": "2026-06-10T12:54:42-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://www.coinbase.com/careers/positions/8211486?gh_jid=8211486",
       "data_compliance": [
         {
@@ -11620,6 +11620,65 @@
       "title": "Staff Machine Learning Engineer(Platform - Identity)",
       "company_name": "Coinbase",
       "first_published": "2026-09-17T15:38:43-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://www.coinbase.com/careers/positions/7891045?gh_jid=7891045",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3430541,
+      "location": {
+        "name": "Remote - USA"
+      },
+      "metadata": [
+        {
+          "id": 166433,
+          "name": "Team",
+          "value": "Platform",
+          "value_type": "single_select"
+        },
+        {
+          "id": 11090754,
+          "name": "HM Employee ID (WD)",
+          "value": "211834",
+          "value_type": "short_text"
+        },
+        {
+          "id": 3174030,
+          "name": "Careersite Department (for job postings)",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 13234829,
+          "name": "mule_sourcers_counter_custom",
+          "value": "0.0",
+          "value_type": "number"
+        },
+        {
+          "id": 13234830,
+          "name": "mule_recruiters_counter_custom",
+          "value": "0.0",
+          "value_type": "number"
+        }
+      ],
+      "id": 7891045,
+      "updated_at": "2026-10-02T12:19:53-04:00",
+      "requisition_id": "P76792",
+      "title": "Staff Machine Learning Engineer(Platform - Identity)",
+      "company_name": "Coinbase",
+      "first_published": "2026-06-10T12:54:42-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -13100,6 +13159,6 @@
     }
   ],
   "meta": {
-    "total": 222
+    "total": 223
   }
 }
