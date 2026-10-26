@@ -5186,67 +5186,6 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://www.coinbase.com/careers/positions/8260302?gh_jid=8260302",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3574180,
-      "location": {
-        "name": "Remote - USA"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "People Success",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "202363",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "HR & Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": null,
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": null,
-          "value_type": "number"
-        }
-      ],
-      "id": 8260302,
-      "updated_at": "2026-10-15T16:21:05-04:00",
-      "requisition_id": "P78571",
-      "title": "Principal Recruiter",
-      "company_name": "Coinbase",
-      "first_published": "2026-10-15T16:21:05-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Principal Recruiter",
-      "role_category": "Recruiter"
-    },
-    {
       "absolute_url": "https://www.coinbase.com/careers/positions/8106071?gh_jid=8106071",
       "data_compliance": [
         {
@@ -5302,6 +5241,67 @@
       "title": "Principal Recruiter",
       "company_name": "Coinbase",
       "first_published": "2026-08-07T13:50:05-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Principal Recruiter",
+      "role_category": "Recruiter"
+    },
+    {
+      "absolute_url": "https://www.coinbase.com/careers/positions/8260302?gh_jid=8260302",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3574180,
+      "location": {
+        "name": "Remote - USA"
+      },
+      "metadata": [
+        {
+          "id": 166433,
+          "name": "Team",
+          "value": "People Success",
+          "value_type": "single_select"
+        },
+        {
+          "id": 11090754,
+          "name": "HM Employee ID (WD)",
+          "value": "202363",
+          "value_type": "short_text"
+        },
+        {
+          "id": 3174030,
+          "name": "Careersite Department (for job postings)",
+          "value": "HR & Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 13234829,
+          "name": "mule_sourcers_counter_custom",
+          "value": null,
+          "value_type": "number"
+        },
+        {
+          "id": 13234830,
+          "name": "mule_recruiters_counter_custom",
+          "value": null,
+          "value_type": "number"
+        }
+      ],
+      "id": 8260302,
+      "updated_at": "2026-10-15T16:21:05-04:00",
+      "requisition_id": "P78571",
+      "title": "Principal Recruiter",
+      "company_name": "Coinbase",
+      "first_published": "2026-10-15T16:21:05-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Principal Recruiter",
@@ -5549,6 +5549,67 @@
       "language": "en",
       "application_deadline": null,
       "raw_title": "Product Manager II, Growth - Notifications ",
+      "role_category": "Product Manager"
+    },
+    {
+      "absolute_url": "https://www.coinbase.com/careers/positions/8311341?gh_jid=8311341",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3593756,
+      "location": {
+        "name": "Remote - USA"
+      },
+      "metadata": [
+        {
+          "id": 166433,
+          "name": "Team",
+          "value": "Developer",
+          "value_type": "single_select"
+        },
+        {
+          "id": 11090754,
+          "name": "HM Employee ID (WD)",
+          "value": "210755",
+          "value_type": "short_text"
+        },
+        {
+          "id": 3174030,
+          "name": "Careersite Department (for job postings)",
+          "value": "Product Management",
+          "value_type": "single_select"
+        },
+        {
+          "id": 13234829,
+          "name": "mule_sourcers_counter_custom",
+          "value": "0.0",
+          "value_type": "number"
+        },
+        {
+          "id": 13234830,
+          "name": "mule_recruiters_counter_custom",
+          "value": "0.0",
+          "value_type": "number"
+        }
+      ],
+      "id": 8311341,
+      "updated_at": "2026-10-26T11:08:28-04:00",
+      "requisition_id": "P78830",
+      "title": "Product Manager II, Wallets and DeFi ",
+      "company_name": "Coinbase",
+      "first_published": "2026-10-26T11:08:28-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Product Manager II, Wallets and DeFi ",
       "role_category": "Product Manager"
     },
     {
@@ -8541,67 +8602,6 @@
       "role_category": "Backend Engineer"
     },
     {
-      "absolute_url": "https://www.coinbase.com/careers/positions/8243517?gh_jid=8243517",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3566846,
-      "location": {
-        "name": "Remote - Canada"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "Consumer & Business",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "211235",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": "0.0",
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": "0.0",
-          "value_type": "number"
-        }
-      ],
-      "id": 8243517,
-      "updated_at": "2026-10-13T19:54:19-04:00",
-      "requisition_id": "P78194",
-      "title": "Senior Software Engineer, Backend (Retail DEX)",
-      "company_name": "Coinbase",
-      "first_published": "2026-09-30T12:46:01-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Software Engineer, Backend (Retail DEX)",
-      "role_category": "Backend Engineer"
-    },
-    {
       "absolute_url": "https://www.coinbase.com/careers/positions/8243520?gh_jid=8243520",
       "data_compliance": [
         {
@@ -8657,6 +8657,67 @@
       "title": "Senior Software Engineer, Backend (Retail DEX)",
       "company_name": "Coinbase",
       "first_published": "2026-10-13T11:12:12-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Software Engineer, Backend (Retail DEX)",
+      "role_category": "Backend Engineer"
+    },
+    {
+      "absolute_url": "https://www.coinbase.com/careers/positions/8243517?gh_jid=8243517",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3566846,
+      "location": {
+        "name": "Remote - Canada"
+      },
+      "metadata": [
+        {
+          "id": 166433,
+          "name": "Team",
+          "value": "Consumer & Business",
+          "value_type": "single_select"
+        },
+        {
+          "id": 11090754,
+          "name": "HM Employee ID (WD)",
+          "value": "211235",
+          "value_type": "short_text"
+        },
+        {
+          "id": 3174030,
+          "name": "Careersite Department (for job postings)",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 13234829,
+          "name": "mule_sourcers_counter_custom",
+          "value": "0.0",
+          "value_type": "number"
+        },
+        {
+          "id": 13234830,
+          "name": "mule_recruiters_counter_custom",
+          "value": "0.0",
+          "value_type": "number"
+        }
+      ],
+      "id": 8243517,
+      "updated_at": "2026-10-13T19:54:19-04:00",
+      "requisition_id": "P78194",
+      "title": "Senior Software Engineer, Backend (Retail DEX)",
+      "company_name": "Coinbase",
+      "first_published": "2026-09-30T12:46:01-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Software Engineer, Backend (Retail DEX)",
@@ -10005,128 +10066,6 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://www.coinbase.com/careers/positions/7580292?gh_jid=7580292",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3250279,
-      "location": {
-        "name": "Remote - USA"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "Platform",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "210428",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": "0.0",
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": "0.0",
-          "value_type": "number"
-        }
-      ],
-      "id": 7580292,
-      "updated_at": "2026-10-13T19:38:24-04:00",
-      "requisition_id": "P72990",
-      "title": "Senior Staff Software Engineer, Core Automation",
-      "company_name": "Coinbase",
-      "first_published": "2026-01-30T17:01:13-05:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Staff Software Engineer, Core Automation",
-      "role_category": "Software Engineer"
-    },
-    {
-      "absolute_url": "https://www.coinbase.com/careers/positions/7711287?gh_jid=7711287",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3384936,
-      "location": {
-        "name": "Remote - USA"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "Platform",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "211331",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": "0.0",
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": "0.0",
-          "value_type": "number"
-        }
-      ],
-      "id": 7711287,
-      "updated_at": "2026-10-23T14:50:07-04:00",
-      "requisition_id": "P75554",
-      "title": "Senior Staff Software Engineer, Data Platform",
-      "company_name": "Coinbase",
-      "first_published": "2026-03-12T10:35:57-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Staff Software Engineer, Data Platform",
-      "role_category": "Data Engineer"
-    },
-    {
       "absolute_url": "https://www.coinbase.com/careers/positions/8179210?gh_jid=8179210",
       "data_compliance": [
         {
@@ -10676,67 +10615,6 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://www.coinbase.com/careers/positions/8241522?gh_jid=8241522",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3566054,
-      "location": {
-        "name": "Remote - USA"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "Developer",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "201359",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": "0.0",
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": "0.0",
-          "value_type": "number"
-        }
-      ],
-      "id": 8241522,
-      "updated_at": "2026-10-21T18:39:44-04:00",
-      "requisition_id": "P78341",
-      "title": "Software Engineer, CDP - Foundations ",
-      "company_name": "Coinbase",
-      "first_published": "2026-09-29T18:40:13-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Software Engineer, CDP - Foundations ",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://www.coinbase.com/careers/positions/8164730?gh_jid=8164730",
       "data_compliance": [
         {
@@ -11042,67 +10920,6 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://www.coinbase.com/careers/positions/8175873?gh_jid=8175873",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3538344,
-      "location": {
-        "name": "Hybrid - Singapore"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "Consumer & Business",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "210517",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "Internships & Emerging Talent Positions",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": "0.0",
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": "0.0",
-          "value_type": "number"
-        }
-      ],
-      "id": 8175873,
-      "updated_at": "2026-10-23T02:27:21-04:00",
-      "requisition_id": "P78000",
-      "title": "Software Engineer Intern",
-      "company_name": "Coinbase",
-      "first_published": "2026-10-21T23:19:03-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Software Engineer Intern",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315",
       "data_compliance": [
         {
@@ -11158,6 +10975,67 @@
       "title": "Software Engineer Intern",
       "company_name": "Coinbase",
       "first_published": "2026-09-08T18:12:20-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Software Engineer Intern",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://www.coinbase.com/careers/positions/8175873?gh_jid=8175873",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3538344,
+      "location": {
+        "name": "Hybrid - Singapore"
+      },
+      "metadata": [
+        {
+          "id": 166433,
+          "name": "Team",
+          "value": "Consumer & Business",
+          "value_type": "single_select"
+        },
+        {
+          "id": 11090754,
+          "name": "HM Employee ID (WD)",
+          "value": "210517",
+          "value_type": "short_text"
+        },
+        {
+          "id": 3174030,
+          "name": "Careersite Department (for job postings)",
+          "value": "Internships & Emerging Talent Positions",
+          "value_type": "single_select"
+        },
+        {
+          "id": 13234829,
+          "name": "mule_sourcers_counter_custom",
+          "value": "0.0",
+          "value_type": "number"
+        },
+        {
+          "id": 13234830,
+          "name": "mule_recruiters_counter_custom",
+          "value": "0.0",
+          "value_type": "number"
+        }
+      ],
+      "id": 8175873,
+      "updated_at": "2026-10-23T02:27:21-04:00",
+      "requisition_id": "P78000",
+      "title": "Software Engineer Intern",
+      "company_name": "Coinbase",
+      "first_published": "2026-10-21T23:19:03-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Software Engineer Intern",
@@ -11347,6 +11225,67 @@
       "role_category": "Other"
     },
     {
+      "absolute_url": "https://www.coinbase.com/careers/positions/8222259?gh_jid=8222259",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3558507,
+      "location": {
+        "name": "Remote - USA"
+      },
+      "metadata": [
+        {
+          "id": 166433,
+          "name": "Team",
+          "value": "Institutional",
+          "value_type": "single_select"
+        },
+        {
+          "id": 11090754,
+          "name": "HM Employee ID (WD)",
+          "value": "204886",
+          "value_type": "short_text"
+        },
+        {
+          "id": 3174030,
+          "name": "Careersite Department (for job postings)",
+          "value": "Finance & Accounting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 13234829,
+          "name": "mule_sourcers_counter_custom",
+          "value": null,
+          "value_type": "number"
+        },
+        {
+          "id": 13234830,
+          "name": "mule_recruiters_counter_custom",
+          "value": null,
+          "value_type": "number"
+        }
+      ],
+      "id": 8222259,
+      "updated_at": "2026-10-13T19:47:37-04:00",
+      "requisition_id": "P77933",
+      "title": "Specialist, Market Operations",
+      "company_name": "Coinbase",
+      "first_published": "2026-09-21T22:41:41-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Specialist, Market Operations",
+      "role_category": "Other"
+    },
+    {
       "absolute_url": "https://www.coinbase.com/careers/positions/8222267?gh_jid=8222267",
       "data_compliance": [
         {
@@ -11463,67 +11402,6 @@
       "title": "Specialist, Market Operations",
       "company_name": "Coinbase",
       "first_published": "2026-09-21T22:46:36-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Specialist, Market Operations",
-      "role_category": "Other"
-    },
-    {
-      "absolute_url": "https://www.coinbase.com/careers/positions/8222259?gh_jid=8222259",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3558507,
-      "location": {
-        "name": "Remote - USA"
-      },
-      "metadata": [
-        {
-          "id": 166433,
-          "name": "Team",
-          "value": "Institutional",
-          "value_type": "single_select"
-        },
-        {
-          "id": 11090754,
-          "name": "HM Employee ID (WD)",
-          "value": "204886",
-          "value_type": "short_text"
-        },
-        {
-          "id": 3174030,
-          "name": "Careersite Department (for job postings)",
-          "value": "Finance & Accounting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 13234829,
-          "name": "mule_sourcers_counter_custom",
-          "value": null,
-          "value_type": "number"
-        },
-        {
-          "id": 13234830,
-          "name": "mule_recruiters_counter_custom",
-          "value": null,
-          "value_type": "number"
-        }
-      ],
-      "id": 8222259,
-      "updated_at": "2026-10-13T19:47:37-04:00",
-      "requisition_id": "P77933",
-      "title": "Specialist, Market Operations",
-      "company_name": "Coinbase",
-      "first_published": "2026-09-21T22:41:41-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Specialist, Market Operations",
