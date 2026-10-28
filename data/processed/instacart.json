@@ -1693,53 +1693,6 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=7991566",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3466796,
-      "location": {
-        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Non-Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7991566,
-      "updated_at": "2026-10-19T15:16:51-04:00",
-      "requisition_id": "MH160",
-      "title": "Sales Development Representative II, Emerging - Instacart Business",
-      "company_name": "Instacart",
-      "first_published": "2026-06-09T15:27:46-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Sales Development Representative II, Emerging - Instacart Business",
-      "role_category": "Product Manager"
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=7991564",
       "data_compliance": [
         {
@@ -1781,6 +1734,53 @@
       "title": "Sales Development Representative II, Emerging - Instacart Business",
       "company_name": "Instacart",
       "first_published": "2026-06-09T15:27:45-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Sales Development Representative II, Emerging - Instacart Business",
+      "role_category": "Product Manager"
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=7991566",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3466796,
+      "location": {
+        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Non-Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7991566,
+      "updated_at": "2026-10-19T15:16:51-04:00",
+      "requisition_id": "MH160",
+      "title": "Sales Development Representative II, Emerging - Instacart Business",
+      "company_name": "Instacart",
+      "first_published": "2026-06-09T15:27:46-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Sales Development Representative II, Emerging - Instacart Business",
@@ -2116,54 +2116,6 @@
       "role_category": "Program Manager"
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8084350",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_optional",
-      "internal_job_id": 3502498,
-      "location": {
-        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8084350,
-      "updated_at": "2026-09-24T15:40:30-04:00",
-      "requisition_id": "PR00050",
-      "title": "Senior Engineering Manager, Core Picking",
-      "company_name": "Instacart",
-      "first_published": "2026-08-28T16:51:47-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Engineering Manager, Core Picking",
-      "role_category": "Engineering Manager"
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8084349",
       "data_compliance": [
         {
@@ -2212,7 +2164,7 @@
       "role_category": "Engineering Manager"
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8282526",
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8084350",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -2223,9 +2175,10 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3582509,
+      "education": "education_optional",
+      "internal_job_id": 3502498,
       "location": {
-        "name": "United States - Remote"
+        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
       },
       "metadata": [
         {
@@ -2247,16 +2200,16 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8282526,
-      "updated_at": "2026-10-14T17:53:44-04:00",
-      "requisition_id": "R018677",
-      "title": "Senior Financial Insights Analyst",
+      "id": 8084350,
+      "updated_at": "2026-09-24T15:40:30-04:00",
+      "requisition_id": "PR00050",
+      "title": "Senior Engineering Manager, Core Picking",
       "company_name": "Instacart",
-      "first_published": "2026-10-14T17:53:44-04:00",
+      "first_published": "2026-08-28T16:51:47-04:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Senior Financial Insights Analyst",
-      "role_category": "Finance Analyst"
+      "raw_title": "Senior Engineering Manager, Core Picking",
+      "role_category": "Engineering Manager"
     },
     {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8282591",
@@ -2306,7 +2259,7 @@
       "role_category": "Finance Analyst"
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8157736",
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8282526",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -2317,7 +2270,7 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3530699,
+      "internal_job_id": 3582509,
       "location": {
         "name": "United States - Remote"
       },
@@ -2341,16 +2294,16 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8157736,
-      "updated_at": "2026-08-27T16:26:27-04:00",
-      "requisition_id": "PR00122",
-      "title": "Senior Machine Learning Engineer, Economist",
+      "id": 8282526,
+      "updated_at": "2026-10-14T17:53:44-04:00",
+      "requisition_id": "R018677",
+      "title": "Senior Financial Insights Analyst",
       "company_name": "Instacart",
-      "first_published": "2026-08-27T16:26:27-04:00",
+      "first_published": "2026-10-14T17:53:44-04:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Senior Machine Learning Engineer, Economist",
-      "role_category": "Machine Learning Engineer"
+      "raw_title": "Senior Financial Insights Analyst",
+      "role_category": "Finance Analyst"
     },
     {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8157738",
@@ -2394,6 +2347,53 @@
       "title": "Senior Machine Learning Engineer, Economist",
       "company_name": "Instacart",
       "first_published": "2026-08-27T16:26:30-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Machine Learning Engineer, Economist",
+      "role_category": "Machine Learning Engineer"
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8157736",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3530699,
+      "location": {
+        "name": "United States - Remote"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8157736,
+      "updated_at": "2026-08-27T16:26:27-04:00",
+      "requisition_id": "PR00122",
+      "title": "Senior Machine Learning Engineer, Economist",
+      "company_name": "Instacart",
+      "first_published": "2026-08-27T16:26:27-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Machine Learning Engineer, Economist",
@@ -2494,53 +2494,6 @@
       "role_category": "Customer Success Manager"
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8237126",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3564425,
-      "location": {
-        "name": "United States - Remote"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8237126,
-      "updated_at": "2026-09-28T12:40:24-04:00",
-      "requisition_id": "PR00180",
-      "title": "Senior Manager, Marketing Decision Science",
-      "company_name": "Instacart",
-      "first_published": "2026-09-28T12:40:24-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Manager, Marketing Decision Science",
-      "role_category": "Other"
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8237127",
       "data_compliance": [
         {
@@ -2582,6 +2535,53 @@
       "title": "Senior Manager, Marketing Decision Science",
       "company_name": "Instacart",
       "first_published": "2026-09-28T12:40:26-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Manager, Marketing Decision Science",
+      "role_category": "Other"
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8237126",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3564425,
+      "location": {
+        "name": "United States - Remote"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8237126,
+      "updated_at": "2026-09-28T12:40:24-04:00",
+      "requisition_id": "PR00180",
+      "title": "Senior Manager, Marketing Decision Science",
+      "company_name": "Instacart",
+      "first_published": "2026-09-28T12:40:24-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Manager, Marketing Decision Science",
@@ -2729,53 +2729,6 @@
       "role_category": "Marketing Manager"
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8191763",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3531663,
-      "location": {
-        "name": "United States - Remote"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8191763,
-      "updated_at": "2026-09-10T13:28:47-04:00",
-      "requisition_id": "MH156",
-      "title": "Senior Product Designer II - Lifecycle & Growth",
-      "company_name": "Instacart",
-      "first_published": "2026-09-10T13:28:47-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Product Designer II - Lifecycle & Growth",
-      "role_category": "Product Designer"
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8191765",
       "data_compliance": [
         {
@@ -2817,6 +2770,53 @@
       "title": "Senior Product Designer II - Lifecycle & Growth",
       "company_name": "Instacart",
       "first_published": "2026-09-10T13:29:33-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Product Designer II - Lifecycle & Growth",
+      "role_category": "Product Designer"
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8191763",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3531663,
+      "location": {
+        "name": "United States - Remote"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8191763,
+      "updated_at": "2026-09-10T13:28:47-04:00",
+      "requisition_id": "MH156",
+      "title": "Senior Product Designer II - Lifecycle & Growth",
+      "company_name": "Instacart",
+      "first_published": "2026-09-10T13:28:47-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Product Designer II - Lifecycle & Growth",
@@ -3011,53 +3011,6 @@
       "role_category": "Product Manager"
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8198161",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3547969,
-      "location": {
-        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8198161,
-      "updated_at": "2026-09-16T22:10:18-04:00",
-      "requisition_id": "PR00157",
-      "title": "Senior Product Manager, AI Control Studio",
-      "company_name": "Instacart",
-      "first_published": "2026-09-16T12:35:44-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Product Manager, AI Control Studio",
-      "role_category": "Product Manager"
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8198159",
       "data_compliance": [
         {
@@ -3099,6 +3052,53 @@
       "title": "Senior Product Manager, AI Control Studio",
       "company_name": "Instacart",
       "first_published": "2026-09-16T12:35:42-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Product Manager, AI Control Studio",
+      "role_category": "Product Manager"
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8198161",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3547969,
+      "location": {
+        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8198161,
+      "updated_at": "2026-09-16T22:10:18-04:00",
+      "requisition_id": "PR00157",
+      "title": "Senior Product Manager, AI Control Studio",
+      "company_name": "Instacart",
+      "first_published": "2026-09-16T12:35:44-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Product Manager, AI Control Studio",
@@ -3434,53 +3434,6 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8292786",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3585984,
-      "location": {
-        "name": "United States - Remote"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8292786,
-      "updated_at": "2026-10-26T16:44:27-04:00",
-      "requisition_id": "PR00254",
-      "title": "Senior Sales Engineer",
-      "company_name": "Instacart",
-      "first_published": "2026-10-16T19:07:23-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Sales Engineer",
-      "role_category": "Solutions Engineer"
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8292802",
       "data_compliance": [
         {
@@ -3522,6 +3475,53 @@
       "title": "Senior Sales Engineer",
       "company_name": "Instacart",
       "first_published": "2026-10-16T19:07:25-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Sales Engineer",
+      "role_category": "Solutions Engineer"
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8292786",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3585984,
+      "location": {
+        "name": "United States - Remote"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8292786,
+      "updated_at": "2026-10-26T16:44:27-04:00",
+      "requisition_id": "PR00254",
+      "title": "Senior Sales Engineer",
+      "company_name": "Instacart",
+      "first_published": "2026-10-16T19:07:23-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Sales Engineer",
@@ -3810,53 +3810,6 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8204016",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3490577,
-      "location": {
-        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8204016,
-      "updated_at": "2026-10-09T15:03:27-04:00",
-      "requisition_id": "EG966",
-      "title": "Senior Software Engineer II, Developer Experience",
-      "company_name": "Instacart",
-      "first_published": "2026-09-15T09:32:53-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Software Engineer II, Developer Experience",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8304279",
       "data_compliance": [
         {
@@ -3904,53 +3857,6 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://instacart.careers/job/?gh_jid=8141535",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3523509,
-      "location": {
-        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
-      },
-      "metadata": [
-        {
-          "id": 16452,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 740030,
-          "name": "Exemption Status",
-          "value": "Exempt",
-          "value_type": "single_select"
-        },
-        {
-          "id": 235666,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8141535,
-      "updated_at": "2026-10-05T14:19:20-04:00",
-      "requisition_id": "PR00103",
-      "title": "Senior Software Engineer II, Marketing Enablement & Technology",
-      "company_name": "Instacart",
-      "first_published": "2026-08-19T09:50:06-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Software Engineer II, Marketing Enablement & Technology",
-      "role_category": "Software Engineer"
-    },
-    {
       "absolute_url": "https://instacart.careers/job/?gh_jid=8141533",
       "data_compliance": [
         {
@@ -3992,6 +3898,53 @@
       "title": "Senior Software Engineer II, Marketing Enablement & Technology",
       "company_name": "Instacart",
       "first_published": "2026-08-19T09:50:05-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Software Engineer II, Marketing Enablement & Technology",
+      "role_category": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://instacart.careers/job/?gh_jid=8141535",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3523509,
+      "location": {
+        "name": "Canada - Remote (ON, AB, BC, or NS Only)"
+      },
+      "metadata": [
+        {
+          "id": 16452,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 740030,
+          "name": "Exemption Status",
+          "value": "Exempt",
+          "value_type": "single_select"
+        },
+        {
+          "id": 235666,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8141535,
+      "updated_at": "2026-10-05T14:19:20-04:00",
+      "requisition_id": "PR00103",
+      "title": "Senior Software Engineer II, Marketing Enablement & Technology",
+      "company_name": "Instacart",
+      "first_published": "2026-08-19T09:50:06-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Software Engineer II, Marketing Enablement & Technology",
