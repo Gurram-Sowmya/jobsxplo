@@ -1173,7 +1173,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8303917?gh_jid=8303917",
+      "absolute_url": "https://careers.airbnb.com/positions/8303971?gh_jid=8303971",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1186,7 +1186,7 @@
       ],
       "internal_job_id": 3590384,
       "location": {
-        "name": "London, United Kingdom"
+        "name": "Dublin, Ireland"
       },
       "metadata": [
         {
@@ -1202,12 +1202,51 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8303917,
-      "updated_at": "2026-10-21T08:59:00-04:00",
+      "id": 8303971,
+      "updated_at": "2026-10-21T08:59:10-04:00",
       "requisition_id": "ONE",
       "title": "Manager, Key Accounts - Hotels",
       "company_name": "Airbnb",
-      "first_published": "2026-10-21T04:40:37-04:00",
+      "first_published": "2026-10-21T04:40:56-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/8303970?gh_jid=8303970",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3590384,
+      "location": {
+        "name": "Berlin, Germany"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Hybrid",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8303970,
+      "updated_at": "2026-10-21T08:59:07-04:00",
+      "requisition_id": "ONE",
+      "title": "Manager, Key Accounts - Hotels",
+      "company_name": "Airbnb",
+      "first_published": "2026-10-21T04:40:58-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1329,7 +1368,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8303970?gh_jid=8303970",
+      "absolute_url": "https://careers.airbnb.com/positions/8303917?gh_jid=8303917",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1342,7 +1381,7 @@
       ],
       "internal_job_id": 3590384,
       "location": {
-        "name": "Berlin, Germany"
+        "name": "London, United Kingdom"
       },
       "metadata": [
         {
@@ -1358,17 +1397,17 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8303970,
-      "updated_at": "2026-10-21T08:59:07-04:00",
+      "id": 8303917,
+      "updated_at": "2026-10-21T08:59:00-04:00",
       "requisition_id": "ONE",
       "title": "Manager, Key Accounts - Hotels",
       "company_name": "Airbnb",
-      "first_published": "2026-10-21T04:40:58-04:00",
+      "first_published": "2026-10-21T04:40:37-04:00",
       "language": "en",
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8303971?gh_jid=8303971",
+      "absolute_url": "https://careers.airbnb.com/positions/8300839?gh_jid=8300839",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1379,9 +1418,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3590384,
+      "internal_job_id": 3589144,
       "location": {
-        "name": "Dublin, Ireland"
+        "name": "Barcelona, Spain"
       },
       "metadata": [
         {
@@ -1397,12 +1436,51 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8303971,
-      "updated_at": "2026-10-21T08:59:10-04:00",
-      "requisition_id": "ONE",
-      "title": "Manager, Key Accounts - Hotels",
+      "id": 8300839,
+      "updated_at": "2026-10-20T04:07:00-04:00",
+      "requisition_id": "MULTI",
+      "title": "Market Associate",
       "company_name": "Airbnb",
-      "first_published": "2026-10-21T04:40:56-04:00",
+      "first_published": "2026-10-19T11:36:43-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/8178505?gh_jid=8178505",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3539237,
+      "location": {
+        "name": "Mexico City, Mexico"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8178505,
+      "updated_at": "2026-09-29T20:00:54-04:00",
+      "requisition_id": "MULTI",
+      "title": "Market Associate",
+      "company_name": "Airbnb",
+      "first_published": "2026-09-08T09:20:36-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1485,84 +1563,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8178505?gh_jid=8178505",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3539237,
-      "location": {
-        "name": "Mexico City, Mexico"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8178505,
-      "updated_at": "2026-09-29T20:00:54-04:00",
-      "requisition_id": "MULTI",
-      "title": "Market Associate",
-      "company_name": "Airbnb",
-      "first_published": "2026-09-08T09:20:36-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://careers.airbnb.com/positions/8300839?gh_jid=8300839",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3589144,
-      "location": {
-        "name": "Barcelona, Spain"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Hybrid",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8300839,
-      "updated_at": "2026-10-20T04:07:00-04:00",
-      "requisition_id": "MULTI",
-      "title": "Market Associate",
-      "company_name": "Airbnb",
-      "first_published": "2026-10-19T11:36:43-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/8303135?gh_jid=8303135",
       "data_compliance": [
         {
@@ -1602,7 +1602,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8260010?gh_jid=8260010",
+      "absolute_url": "https://careers.airbnb.com/positions/8260061?gh_jid=8260061",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1613,9 +1613,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3574081,
+      "internal_job_id": 3574102,
       "location": {
-        "name": "South Carolina, United States"
+        "name": "Missouri, United States "
       },
       "metadata": [
         {
@@ -1631,12 +1631,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8260010,
-      "updated_at": "2026-10-07T13:52:18-04:00",
+      "id": 8260061,
+      "updated_at": "2026-10-07T13:53:02-04:00",
       "requisition_id": "ONE",
       "title": "Market Manager",
       "company_name": "Airbnb",
-      "first_published": "2026-10-06T21:49:35-04:00",
+      "first_published": "2026-10-06T21:50:51-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1680,6 +1680,45 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://careers.airbnb.com/positions/8260010?gh_jid=8260010",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3574081,
+      "location": {
+        "name": "South Carolina, United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8260010,
+      "updated_at": "2026-10-07T13:52:18-04:00",
+      "requisition_id": "ONE",
+      "title": "Market Manager",
+      "company_name": "Airbnb",
+      "first_published": "2026-10-06T21:49:35-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://careers.airbnb.com/positions/8282333?gh_jid=8282333",
       "data_compliance": [
         {
@@ -1715,45 +1754,6 @@
       "title": "Market Manager",
       "company_name": "Airbnb",
       "first_published": "2026-10-14T17:39:06-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://careers.airbnb.com/positions/8260061?gh_jid=8260061",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3574102,
-      "location": {
-        "name": "Missouri, United States "
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8260061,
-      "updated_at": "2026-10-07T13:53:02-04:00",
-      "requisition_id": "ONE",
-      "title": "Market Manager",
-      "company_name": "Airbnb",
-      "first_published": "2026-10-06T21:50:51-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -2457,6 +2457,45 @@
       "title": "Principal, Strategic Finance & Analytics, Incubations",
       "company_name": "Airbnb",
       "first_published": "2026-10-07T12:46:19-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/8329612?gh_jid=8329612",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3600491,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8329612,
+      "updated_at": "2026-10-27T20:05:27-04:00",
+      "requisition_id": "ONE",
+      "title": "Principal, Strategic Finance & Analytics - Membership",
+      "company_name": "Airbnb",
+      "first_published": "2026-10-27T20:05:27-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3358,45 +3397,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8318103?gh_jid=8318103",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3596039,
-      "location": {
-        "name": "London, United Kingdom"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Hybrid",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8318103,
-      "updated_at": "2026-10-23T10:32:28-04:00",
-      "requisition_id": "ONE",
-      "title": "Senior Compliance Lead, EMEA",
-      "company_name": "Airbnb",
-      "first_published": "2026-10-23T10:32:28-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/8318152?gh_jid=8318152",
       "data_compliance": [
         {
@@ -3432,6 +3432,45 @@
       "title": "Senior Compliance Lead, EMEA",
       "company_name": "Airbnb",
       "first_published": "2026-10-23T10:32:30-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/8318103?gh_jid=8318103",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3596039,
+      "location": {
+        "name": "London, United Kingdom"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Hybrid",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8318103,
+      "updated_at": "2026-10-23T10:32:28-04:00",
+      "requisition_id": "ONE",
+      "title": "Senior Compliance Lead, EMEA",
+      "company_name": "Airbnb",
+      "first_published": "2026-10-23T10:32:28-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3904,45 +3943,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8327822?gh_jid=8327822",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3569396,
-      "location": {
-        "name": "Remote, USA "
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8327822,
-      "updated_at": "2026-10-27T11:58:17-04:00",
-      "requisition_id": "MULTI",
-      "title": "Senior iOS Engineer, Guest & Host",
-      "company_name": "Airbnb",
-      "first_published": "2026-10-27T11:58:17-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/7916840?gh_jid=7916840",
       "data_compliance": [
         {
@@ -4099,45 +4099,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8232153?gh_jid=8232153",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3562321,
-      "location": {
-        "name": "San Francisco, CA"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8232153,
-      "updated_at": "2026-10-23T14:52:03-04:00",
-      "requisition_id": "REQ52426",
-      "title": "Senior Machine Learning Engineer, Trust",
-      "company_name": "Airbnb",
-      "first_published": "2026-09-24T19:24:17-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/8130355?gh_jid=8130355",
       "data_compliance": [
         {
@@ -4173,6 +4134,45 @@
       "title": "Senior Machine Learning Engineer, Trust",
       "company_name": "Airbnb",
       "first_published": "2026-08-14T17:27:57-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/8232153?gh_jid=8232153",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3562321,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8232153,
+      "updated_at": "2026-10-23T14:52:03-04:00",
+      "requisition_id": "REQ52426",
+      "title": "Senior Machine Learning Engineer, Trust",
+      "company_name": "Airbnb",
+      "first_published": "2026-09-24T19:24:17-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -6561,45 +6561,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.airbnb.com/positions/8120611?gh_jid=8120611",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3517241,
-      "location": {
-        "name": "Brazil"
-      },
-      "metadata": [
-        {
-          "id": 9245691,
-          "name": "Is this job part of ACC?",
-          "value": false,
-          "value_type": "yes_no"
-        },
-        {
-          "id": 10216612,
-          "name": "Workplace Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8120611,
-      "updated_at": "2026-10-05T21:05:59-04:00",
-      "requisition_id": "ONE",
-      "title": "Staff Platform Product Manager, Payments Regional Growth",
-      "company_name": "Airbnb",
-      "first_published": "2026-08-11T12:34:28-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://careers.airbnb.com/positions/8120721?gh_jid=8120721",
       "data_compliance": [
         {
@@ -6635,6 +6596,45 @@
       "title": "Staff Platform Product Manager, Payments Regional Growth",
       "company_name": "Airbnb",
       "first_published": "2026-08-11T12:34:29-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/8120611?gh_jid=8120611",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3517241,
+      "location": {
+        "name": "Brazil"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8120611,
+      "updated_at": "2026-10-05T21:05:59-04:00",
+      "requisition_id": "ONE",
+      "title": "Staff Platform Product Manager, Payments Regional Growth",
+      "company_name": "Airbnb",
+      "first_published": "2026-08-11T12:34:28-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -7264,6 +7264,45 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://careers.airbnb.com/positions/8327049?gh_jid=8327049",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3599572,
+      "location": {
+        "name": "Bangalore, India"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": true,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Onsite",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8327049,
+      "updated_at": "2026-10-27T22:33:51-04:00",
+      "requisition_id": "ONE",
+      "title": "Supervisor - Trust and Safety Operations",
+      "company_name": "Airbnb",
+      "first_published": "2026-10-27T22:33:51-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://careers.airbnb.com/positions/8080766?gh_jid=8080766",
       "data_compliance": [
         {
@@ -7580,6 +7619,6 @@
     }
   ],
   "meta": {
-    "total": 194
+    "total": 195
   }
 }
