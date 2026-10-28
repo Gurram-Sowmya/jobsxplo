@@ -34,6 +34,39 @@
       "application_deadline": "2026-12-27T17:15:05-05:00"
     },
     {
+      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8305772?t=gh_src=&gh_jid=8305772",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3591121,
+      "location": {
+        "name": "Bellevue, WA; Menlo Park, CA; New York, NY"
+      },
+      "metadata": [
+        {
+          "id": 4288026,
+          "name": "Careers Page Bucket",
+          "value": "SECURITY & ENTERPRISE TECHNOLOGY",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8305772,
+      "updated_at": "2026-10-28T11:54:24-04:00",
+      "requisition_id": "JR109777",
+      "title": "AI Operations Engineer",
+      "company_name": "Robinhood",
+      "first_published": "2026-10-28T11:54:24-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/6669758?t=gh_src=&gh_jid=6669758",
       "data_compliance": [
         {
@@ -364,6 +397,39 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8303977?t=gh_src=&gh_jid=8303977",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3590407,
+      "location": {
+        "name": "Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY"
+      },
+      "metadata": [
+        {
+          "id": 4288026,
+          "name": "Careers Page Bucket",
+          "value": "OPERATIONS",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8303977,
+      "updated_at": "2026-10-28T12:55:36-04:00",
+      "requisition_id": "JR109785",
+      "title": "Clearing Operations Program Manager",
+      "company_name": "Robinhood",
+      "first_published": "2026-10-28T12:55:36-04:00",
+      "language": "en",
+      "application_deadline": "2027-01-01T12:55:36-05:00"
+    },
+    {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8259035?t=gh_src=&gh_jid=8259035",
       "data_compliance": [
         {
@@ -586,7 +652,7 @@
         }
       ],
       "id": 8327450,
-      "updated_at": "2026-10-27T13:19:13-04:00",
+      "updated_at": "2026-10-28T11:14:16-04:00",
       "requisition_id": "1957",
       "title": "Customer Experience Associate, Money",
       "company_name": "Robinhood",
@@ -619,7 +685,7 @@
         }
       ],
       "id": 8329280,
-      "updated_at": "2026-10-27T17:56:51-04:00",
+      "updated_at": "2026-10-28T12:23:13-04:00",
       "requisition_id": "1959",
       "title": "Customer Experience Associate, Pathway",
       "company_name": "Robinhood",
@@ -1288,39 +1354,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8175213?t=gh_src=&gh_jid=8175213",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3538089,
-      "location": {
-        "name": "New York, NY"
-      },
-      "metadata": [
-        {
-          "id": 4288026,
-          "name": "Careers Page Bucket",
-          "value": "SOFTWARE ENGINEERING",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8175213,
-      "updated_at": "2026-10-20T14:19:54-04:00",
-      "requisition_id": "JR109425",
-      "title": "Engineering Manager, International",
-      "company_name": "Robinhood",
-      "first_published": "2026-09-10T09:52:31-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8175215?t=gh_src=&gh_jid=8175215",
       "data_compliance": [
         {
@@ -1350,6 +1383,39 @@
       "title": "Engineering Manager, International",
       "company_name": "Robinhood",
       "first_published": "2026-09-10T16:42:31-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8175213?t=gh_src=&gh_jid=8175213",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3538089,
+      "location": {
+        "name": "New York, NY"
+      },
+      "metadata": [
+        {
+          "id": 4288026,
+          "name": "Careers Page Bucket",
+          "value": "SOFTWARE ENGINEERING",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8175213,
+      "updated_at": "2026-10-20T14:19:54-04:00",
+      "requisition_id": "JR109425",
+      "title": "Engineering Manager, International",
+      "company_name": "Robinhood",
+      "first_published": "2026-09-10T09:52:31-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1451,39 +1517,6 @@
       "first_published": "2026-10-21T15:39:48-04:00",
       "language": "en",
       "application_deadline": "2026-12-25T15:39:48-05:00"
-    },
-    {
-      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8214553?t=gh_src=&gh_jid=8214553",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3555042,
-      "location": {
-        "name": "Chicago, IL; Denver, CO; Westlake, TX"
-      },
-      "metadata": [
-        {
-          "id": 4288026,
-          "name": "Careers Page Bucket",
-          "value": "COMPLIANCE, RISK, & FRAUD",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8214553,
-      "updated_at": "2026-10-07T22:32:42-04:00",
-      "requisition_id": "JR109602",
-      "title": "Fraud Investigator",
-      "company_name": "Robinhood",
-      "first_published": "2026-09-22T16:46:37-04:00",
-      "language": "en",
-      "application_deadline": "2026-11-26T16:46:37-05:00"
     },
     {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8186282?t=gh_src=&gh_jid=8186282",
@@ -3294,7 +3327,7 @@
         }
       ],
       "id": 8329677,
-      "updated_at": "2026-10-27T20:38:47-04:00",
+      "updated_at": "2026-10-28T12:33:21-04:00",
       "requisition_id": "JR109822",
       "title": "Senior Quality Engineer",
       "company_name": "Robinhood",
@@ -3666,39 +3699,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8232855?t=gh_src=&gh_jid=8232855",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3562596,
-      "location": {
-        "name": "Ljubljana, Slovenia"
-      },
-      "metadata": [
-        {
-          "id": 4288026,
-          "name": "Careers Page Bucket",
-          "value": "SOFTWARE ENGINEERING",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8232855,
-      "updated_at": "2026-10-26T16:49:52-04:00",
-      "requisition_id": "JR109517",
-      "title": "Senior Software Engineer, Prime",
-      "company_name": "Robinhood",
-      "first_published": "2026-09-29T06:56:47-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8232853?t=gh_src=&gh_jid=8232853",
       "data_compliance": [
         {
@@ -3728,6 +3728,39 @@
       "title": "Senior Software Engineer, Prime",
       "company_name": "Robinhood",
       "first_published": "2026-09-29T06:53:40-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8232855?t=gh_src=&gh_jid=8232855",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3562596,
+      "location": {
+        "name": "Ljubljana, Slovenia"
+      },
+      "metadata": [
+        {
+          "id": 4288026,
+          "name": "Careers Page Bucket",
+          "value": "SOFTWARE ENGINEERING",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8232855,
+      "updated_at": "2026-10-26T16:49:52-04:00",
+      "requisition_id": "JR109517",
+      "title": "Senior Software Engineer, Prime",
+      "company_name": "Robinhood",
+      "first_published": "2026-09-29T06:56:47-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3996,39 +4029,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8259696?t=gh_src=&gh_jid=8259696",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3573957,
-      "location": {
-        "name": "Toronto, Canada"
-      },
-      "metadata": [
-        {
-          "id": 4288026,
-          "name": "Careers Page Bucket",
-          "value": "PEOPLEX & RECRUITING",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8259696,
-      "updated_at": "2026-10-14T01:09:26-04:00",
-      "requisition_id": "JR109650",
-      "title": "Senior Technical Recruiter, Infrastructure",
-      "company_name": "Robinhood",
-      "first_published": "2026-10-09T16:13:21-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8259694?t=gh_src=&gh_jid=8259694",
       "data_compliance": [
         {
@@ -4058,6 +4058,39 @@
       "title": "Senior Technical Recruiter, Infrastructure",
       "company_name": "Robinhood",
       "first_published": "2026-10-09T16:13:28-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8259696?t=gh_src=&gh_jid=8259696",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3573957,
+      "location": {
+        "name": "Toronto, Canada"
+      },
+      "metadata": [
+        {
+          "id": 4288026,
+          "name": "Careers Page Bucket",
+          "value": "PEOPLEX & RECRUITING",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8259696,
+      "updated_at": "2026-10-14T01:09:26-04:00",
+      "requisition_id": "JR109650",
+      "title": "Senior Technical Recruiter, Infrastructure",
+      "company_name": "Robinhood",
+      "first_published": "2026-10-09T16:13:21-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -4194,39 +4227,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8258305?t=gh_src=&gh_jid=8258305",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3573401,
-      "location": {
-        "name": "Menlo Park, CA; New York, NY"
-      },
-      "metadata": [
-        {
-          "id": 4288026,
-          "name": "Careers Page Bucket",
-          "value": "SOFTWARE ENGINEERING",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8258305,
-      "updated_at": "2026-10-08T13:44:41-04:00",
-      "requisition_id": "1952",
-      "title": "Software Engineer, Web3 Backend",
-      "company_name": "Robinhood",
-      "first_published": "2026-10-07T04:07:43-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8258307?t=gh_src=&gh_jid=8258307",
       "data_compliance": [
         {
@@ -4256,6 +4256,39 @@
       "title": "Software Engineer, Web3 Backend",
       "company_name": "Robinhood",
       "first_published": "2026-10-07T04:41:09-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8258305?t=gh_src=&gh_jid=8258305",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3573401,
+      "location": {
+        "name": "Menlo Park, CA; New York, NY"
+      },
+      "metadata": [
+        {
+          "id": 4288026,
+          "name": "Careers Page Bucket",
+          "value": "SOFTWARE ENGINEERING",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8258305,
+      "updated_at": "2026-10-08T13:44:41-04:00",
+      "requisition_id": "1952",
+      "title": "Software Engineer, Web3 Backend",
+      "company_name": "Robinhood",
+      "first_published": "2026-10-07T04:07:43-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -4920,39 +4953,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8278312?t=gh_src=&gh_jid=8278312",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3542430,
-      "location": {
-        "name": "Ljubljana, Slovenia"
-      },
-      "metadata": [
-        {
-          "id": 4288026,
-          "name": "Careers Page Bucket",
-          "value": "INFRASTRUCTURE ENGINEERING",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8278312,
-      "updated_at": "2026-10-22T03:41:43-04:00",
-      "requisition_id": "JR109440",
-      "title": "Staff Software Engineer, Exchange Platform",
-      "company_name": "Robinhood",
-      "first_published": "2026-10-22T03:41:43-04:00",
-      "language": "en",
-      "application_deadline": "2026-12-26T03:41:43-05:00"
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8186166?t=gh_src=&gh_jid=8186166",
       "data_compliance": [
         {
@@ -4977,13 +4977,46 @@
         }
       ],
       "id": 8186166,
-      "updated_at": "2026-10-22T03:41:38-04:00",
+      "updated_at": "2026-10-28T11:20:15-04:00",
       "requisition_id": "JR109440",
       "title": "Staff Software Engineer, Exchange Platform",
       "company_name": "Robinhood",
       "first_published": "2026-10-09T10:55:03-04:00",
       "language": "en",
       "application_deadline": "2026-12-13T10:55:03-05:00"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8278312?t=gh_src=&gh_jid=8278312",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3542430,
+      "location": {
+        "name": "Ljubljana, Slovenia"
+      },
+      "metadata": [
+        {
+          "id": 4288026,
+          "name": "Careers Page Bucket",
+          "value": "INFRASTRUCTURE ENGINEERING",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8278312,
+      "updated_at": "2026-10-28T11:20:15-04:00",
+      "requisition_id": "JR109440",
+      "title": "Staff Software Engineer, Exchange Platform",
+      "company_name": "Robinhood",
+      "first_published": "2026-10-22T03:41:43-04:00",
+      "language": "en",
+      "application_deadline": "2026-12-26T03:41:43-05:00"
     },
     {
       "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/8036506?t=gh_src=&gh_jid=8036506",
@@ -5208,7 +5241,7 @@
         }
       ],
       "id": 8289855,
-      "updated_at": "2026-10-27T13:11:29-04:00",
+      "updated_at": "2026-10-28T11:40:47-04:00",
       "requisition_id": "JR109744",
       "title": "Trading Specialist",
       "company_name": "Robinhood",
@@ -5251,6 +5284,6 @@
     }
   ],
   "meta": {
-    "total": 159
+    "total": 160
   }
 }
