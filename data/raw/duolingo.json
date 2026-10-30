@@ -872,57 +872,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://careers.duolingo.com/jobs/8778700002?gh_jid=8778700002",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 6511736002,
-      "location": {
-        "name": "New York, NY"
-      },
-      "metadata": [
-        {
-          "id": 10945305002,
-          "name": "Division",
-          "value": "Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 9700632002,
-          "name": "Req Type",
-          "value": "Industry",
-          "value_type": "single_select"
-        },
-        {
-          "id": 98443292002,
-          "name": "Featured Title",
-          "value": null,
-          "value_type": "short_text"
-        },
-        {
-          "id": 98445720002,
-          "name": "Featured City Name",
-          "value": null,
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8778700002,
-      "updated_at": "2026-09-18T12:29:43-04:00",
-      "requisition_id": "R-01228",
-      "title": "Platform Engineer II",
-      "company_name": "Duolingo",
-      "first_published": "2026-09-02T15:02:08-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://careers.duolingo.com/jobs/8858333002?gh_jid=8858333002",
       "data_compliance": [
         {
@@ -1629,7 +1578,7 @@
         }
       ],
       "id": 8393272002,
-      "updated_at": "2026-10-02T12:08:26-04:00",
+      "updated_at": "2026-10-30T17:43:21-04:00",
       "requisition_id": "R-01042",
       "title": "Senior iOS Engineer",
       "company_name": "Duolingo",
@@ -2965,6 +2914,6 @@
     }
   ],
   "meta": {
-    "total": 58
+    "total": 57
   }
 }
