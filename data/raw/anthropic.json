@@ -529,39 +529,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5439169008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4555360008,
-      "location": {
-        "name": "London, UK"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "Remote",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5439169008,
-      "updated_at": "2026-11-04T02:14:30-05:00",
-      "requisition_id": "PIP-267783",
-      "title": "Anthropic Research Resident",
-      "company_name": "Anthropic",
-      "first_published": "2026-10-28T15:09:02-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5438311008",
       "data_compliance": [
         {
@@ -591,6 +558,39 @@
       "title": "Anthropic Research Resident",
       "company_name": "Anthropic",
       "first_published": "2026-10-28T15:09:00-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5439169008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4555360008,
+      "location": {
+        "name": "London, UK"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5439169008,
+      "updated_at": "2026-11-04T02:14:30-05:00",
+      "requisition_id": "PIP-267783",
+      "title": "Anthropic Research Resident",
+      "company_name": "Anthropic",
+      "first_published": "2026-10-28T15:09:02-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -694,7 +694,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5424310008",
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5450798008",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -705,9 +705,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 4548228008,
+      "internal_job_id": 4561124008,
       "location": {
-        "name": "Mumbai, India"
+        "name": "Sydney, Australia"
       },
       "metadata": [
         {
@@ -717,78 +717,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 5424310008,
-      "updated_at": "2026-09-21T03:22:45-04:00",
-      "requisition_id": "267512",
+      "id": 5450798008,
+      "updated_at": "2026-11-02T19:45:18-05:00",
+      "requisition_id": "REQ-26-0556-01",
       "title": "Applied AI Architect",
       "company_name": "Anthropic",
-      "first_published": "2026-09-21T03:22:45-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5476577008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4573925008,
-      "location": {
-        "name": "Seoul, South Korea"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5476577008,
-      "updated_at": "2026-11-09T01:47:38-05:00",
-      "requisition_id": "REQ-26-0705-01",
-      "title": "Applied AI Architect",
-      "company_name": "Anthropic",
-      "first_published": "2026-11-09T01:47:38-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5443882008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4557752008,
-      "location": {
-        "name": "Bangalore, India"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5443882008,
-      "updated_at": "2026-10-09T00:06:04-04:00",
-      "requisition_id": "REQ-26-0472-01",
-      "title": "Applied AI Architect",
-      "company_name": "Anthropic",
-      "first_published": "2026-10-08T01:01:57-04:00",
+      "first_published": "2026-11-02T04:33:31-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -826,7 +760,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5450798008",
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5443882008",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -837,9 +771,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 4561124008,
+      "internal_job_id": 4557752008,
       "location": {
-        "name": "Sydney, Australia"
+        "name": "Bangalore, India"
       },
       "metadata": [
         {
@@ -849,12 +783,78 @@
           "value_type": "single_select"
         }
       ],
-      "id": 5450798008,
-      "updated_at": "2026-11-02T19:45:18-05:00",
-      "requisition_id": "REQ-26-0556-01",
+      "id": 5443882008,
+      "updated_at": "2026-10-09T00:06:04-04:00",
+      "requisition_id": "REQ-26-0472-01",
       "title": "Applied AI Architect",
       "company_name": "Anthropic",
-      "first_published": "2026-11-02T04:33:31-05:00",
+      "first_published": "2026-10-08T01:01:57-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5476577008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4573925008,
+      "location": {
+        "name": "Seoul, South Korea"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5476577008,
+      "updated_at": "2026-11-09T01:47:38-05:00",
+      "requisition_id": "REQ-26-0705-01",
+      "title": "Applied AI Architect",
+      "company_name": "Anthropic",
+      "first_published": "2026-11-09T01:47:38-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5424310008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4548228008,
+      "location": {
+        "name": "Mumbai, India"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5424310008,
+      "updated_at": "2026-09-21T03:22:45-04:00",
+      "requisition_id": "267512",
+      "title": "Applied AI Architect",
+      "company_name": "Anthropic",
+      "first_published": "2026-09-21T03:22:45-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1156,39 +1156,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5390770008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4532788008,
-      "location": {
-        "name": "Milan, Italy"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5390770008,
-      "updated_at": "2026-08-28T16:45:34-04:00",
-      "requisition_id": "266622",
-      "title": "Applied AI Architect, Industries ",
-      "company_name": "Anthropic",
-      "first_published": "2026-08-26T06:00:04-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5390778008",
       "data_compliance": [
         {
@@ -1218,6 +1185,39 @@
       "title": "Applied AI Architect, Industries ",
       "company_name": "Anthropic",
       "first_published": "2026-08-17T03:32:40-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5390770008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4532788008,
+      "location": {
+        "name": "Milan, Italy"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5390770008,
+      "updated_at": "2026-08-28T16:45:34-04:00",
+      "requisition_id": "266622",
+      "title": "Applied AI Architect, Industries ",
+      "company_name": "Anthropic",
+      "first_published": "2026-08-26T06:00:04-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1255,7 +1255,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5447368008",
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5426933008",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1266,9 +1266,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 4559485008,
+      "internal_job_id": 4549634008,
       "location": {
-        "name": "Bangalore, India"
+        "name": "Munich, Germany"
       },
       "metadata": [
         {
@@ -1278,12 +1278,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 5447368008,
-      "updated_at": "2026-10-16T07:39:28-04:00",
-      "requisition_id": "REQ-26-0514-01",
+      "id": 5426933008,
+      "updated_at": "2026-09-21T04:42:09-04:00",
+      "requisition_id": "267563",
       "title": "Applied AI Architect, Partnerships",
       "company_name": "Anthropic",
-      "first_published": "2026-10-08T14:10:17-04:00",
+      "first_published": "2026-09-17T09:54:44-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1321,7 +1321,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5390787008",
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5447368008",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1332,9 +1332,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 4532798008,
+      "internal_job_id": 4559485008,
       "location": {
-        "name": "Paris, France"
+        "name": "Bangalore, India"
       },
       "metadata": [
         {
@@ -1344,12 +1344,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 5390787008,
-      "updated_at": "2026-08-28T16:46:44-04:00",
-      "requisition_id": "266626",
+      "id": 5447368008,
+      "updated_at": "2026-10-16T07:39:28-04:00",
+      "requisition_id": "REQ-26-0514-01",
       "title": "Applied AI Architect, Partnerships",
       "company_name": "Anthropic",
-      "first_published": "2026-08-17T13:48:52-04:00",
+      "first_published": "2026-10-08T14:10:17-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1387,7 +1387,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5426933008",
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5390787008",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1398,9 +1398,9 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 4549634008,
+      "internal_job_id": 4532798008,
       "location": {
-        "name": "Munich, Germany"
+        "name": "Paris, France"
       },
       "metadata": [
         {
@@ -1410,12 +1410,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 5426933008,
-      "updated_at": "2026-09-21T04:42:09-04:00",
-      "requisition_id": "267563",
+      "id": 5390787008,
+      "updated_at": "2026-08-28T16:46:44-04:00",
+      "requisition_id": "266626",
       "title": "Applied AI Architect, Partnerships",
       "company_name": "Anthropic",
-      "first_published": "2026-09-17T09:54:44-04:00",
+      "first_published": "2026-08-17T13:48:52-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1882,39 +1882,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5390754008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4532783008,
-      "location": {
-        "name": "Paris, France"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5390754008,
-      "updated_at": "2026-09-14T17:13:27-04:00",
-      "requisition_id": "266620",
-      "title": "Applied AI Engineer, Enterprise",
-      "company_name": "Anthropic",
-      "first_published": "2026-08-20T09:01:59-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5390795008",
       "data_compliance": [
         {
@@ -1944,6 +1911,39 @@
       "title": "Applied AI Engineer, Enterprise",
       "company_name": "Anthropic",
       "first_published": "2026-08-19T11:20:58-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5390754008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4532783008,
+      "location": {
+        "name": "Paris, France"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5390754008,
+      "updated_at": "2026-09-14T17:13:27-04:00",
+      "requisition_id": "266620",
+      "title": "Applied AI Engineer, Enterprise",
+      "company_name": "Anthropic",
+      "first_published": "2026-08-20T09:01:59-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -2278,39 +2278,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5385588008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4530223008,
-      "location": {
-        "name": "San Francisco, CA"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5385588008,
-      "updated_at": "2026-10-05T19:49:04-04:00",
-      "requisition_id": "266527",
-      "title": "AV Engineer, Builds and Design",
-      "company_name": "Anthropic",
-      "first_published": "2026-08-12T13:07:32-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5385590008",
       "data_compliance": [
         {
@@ -2340,6 +2307,39 @@
       "title": "AV Engineer, Builds and Design",
       "company_name": "Anthropic",
       "first_published": "2026-08-12T13:12:57-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5385588008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4530223008,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5385588008,
+      "updated_at": "2026-10-05T19:49:04-04:00",
+      "requisition_id": "266527",
+      "title": "AV Engineer, Builds and Design",
+      "company_name": "Anthropic",
+      "first_published": "2026-08-12T13:07:32-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3556,7 +3556,7 @@
         }
       ],
       "id": 5407184008,
-      "updated_at": "2026-09-25T14:49:57-04:00",
+      "updated_at": "2026-11-14T09:59:23-05:00",
       "requisition_id": "267132",
       "title": "Corporate Counsel, M&A",
       "company_name": "Anthropic",
@@ -3730,39 +3730,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5463187008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4567360008,
-      "location": {
-        "name": "London, UK"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5463187008,
-      "updated_at": "2026-11-03T13:35:36-05:00",
-      "requisition_id": "REQ-26-1087-01",
-      "title": "Customer Program Manager, Executive Briefings",
-      "company_name": "Anthropic",
-      "first_published": "2026-11-03T13:35:36-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5449415008",
       "data_compliance": [
         {
@@ -3796,6 +3763,39 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5463187008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4567360008,
+      "location": {
+        "name": "London, UK"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5463187008,
+      "updated_at": "2026-11-03T13:35:36-05:00",
+      "requisition_id": "REQ-26-1087-01",
+      "title": "Customer Program Manager, Executive Briefings",
+      "company_name": "Anthropic",
+      "first_published": "2026-11-03T13:35:36-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5451376008",
       "data_compliance": [
         {
@@ -3825,6 +3825,39 @@
       "title": "Customer  Success Manager",
       "company_name": "Anthropic",
       "first_published": "2026-10-21T10:57:15-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5391102008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4532948008,
+      "location": {
+        "name": "London, UK"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5391102008,
+      "updated_at": "2026-10-08T13:56:24-04:00",
+      "requisition_id": "266699",
+      "title": "Customer Success Manager",
+      "company_name": "Anthropic",
+      "first_published": "2026-08-19T06:29:09-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3891,39 +3924,6 @@
       "title": "Customer Success Manager",
       "company_name": "Anthropic",
       "first_published": "2026-08-18T00:32:10-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5391102008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4532948008,
-      "location": {
-        "name": "London, UK"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5391102008,
-      "updated_at": "2026-10-08T13:56:24-04:00",
-      "requisition_id": "266699",
-      "title": "Customer Success Manager",
-      "company_name": "Anthropic",
-      "first_published": "2026-08-19T06:29:09-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -4188,39 +4188,6 @@
       "title": "Cybersecurity Sales Specialist",
       "company_name": "Anthropic",
       "first_published": "2026-10-09T15:39:44-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5339199008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4513034008,
-      "location": {
-        "name": "Remote-Friendly, United States"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5339199008,
-      "updated_at": "2026-08-21T12:50:35-04:00",
-      "requisition_id": "266204",
-      "title": "Data Center Architect, CSA",
-      "company_name": "Anthropic",
-      "first_published": "2026-07-14T23:00:54-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -4687,39 +4654,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5464234008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4567883008,
-      "location": {
-        "name": "San Francisco, CA | New York City, NY; Seattle, WA"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5464234008,
-      "updated_at": "2026-11-04T12:43:44-05:00",
-      "requisition_id": "PIP-267933",
-      "title": "Data Engineer, GTM Systems",
-      "company_name": "Anthropic",
-      "first_published": "2026-10-30T19:34:18-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5448481008",
       "data_compliance": [
         {
@@ -4749,6 +4683,39 @@
       "title": "Data Engineer, Product",
       "company_name": "Anthropic",
       "first_published": "2026-10-09T13:00:40-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5464234008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4567883008,
+      "location": {
+        "name": "San Francisco, CA | New York City, NY; Seattle, WA"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5464234008,
+      "updated_at": "2026-11-14T10:17:41-05:00",
+      "requisition_id": "PIP-267933",
+      "title": "Data Foundations, GTM Systems",
+      "company_name": "Anthropic",
+      "first_published": "2026-10-30T19:34:18-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -5739,6 +5706,39 @@
       "title": "Engineering Manager, Agent Security Partnerships",
       "company_name": "Anthropic",
       "first_published": "2026-11-10T16:53:40-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5469291008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4570441008,
+      "location": {
+        "name": "San Francisco, CA | New York City, NY | Seattle, WA"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5469291008,
+      "updated_at": "2026-11-14T15:19:44-05:00",
+      "requisition_id": "PIP-267946",
+      "title": "Engineering Manager, Billing Platform",
+      "company_name": "Anthropic",
+      "first_published": "2026-11-14T15:19:44-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -7591,39 +7591,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5391016008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4532903008,
-      "location": {
-        "name": "Munich, Germany"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5391016008,
-      "updated_at": "2026-08-28T16:45:54-04:00",
-      "requisition_id": "266679",
-      "title": "Forward Deployed Engineer",
-      "company_name": "Anthropic",
-      "first_published": "2026-08-17T08:05:11-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5391021008",
       "data_compliance": [
         {
@@ -7653,6 +7620,39 @@
       "title": "Forward Deployed Engineer",
       "company_name": "Anthropic",
       "first_published": "2026-08-17T07:59:59-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5391016008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4532903008,
+      "location": {
+        "name": "Munich, Germany"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5391016008,
+      "updated_at": "2026-08-28T16:45:54-04:00",
+      "requisition_id": "266679",
+      "title": "Forward Deployed Engineer",
+      "company_name": "Anthropic",
+      "first_published": "2026-08-17T08:05:11-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -7822,39 +7822,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5440799008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4556118008,
-      "location": {
-        "name": "Dublin, IE"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5440799008,
-      "updated_at": "2026-10-01T06:48:58-04:00",
-      "requisition_id": "REQ-26-0418-01",
-      "title": "Growth Account Executive, Startups",
-      "company_name": "Anthropic",
-      "first_published": "2026-10-01T06:48:58-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5079916008",
       "data_compliance": [
         {
@@ -7884,6 +7851,39 @@
       "title": "Growth Account Executive, Startups",
       "company_name": "Anthropic",
       "first_published": "2026-01-21T16:21:10-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5440799008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4556118008,
+      "location": {
+        "name": "Dublin, IE"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5440799008,
+      "updated_at": "2026-10-01T06:48:58-04:00",
+      "requisition_id": "REQ-26-0418-01",
+      "title": "Growth Account Executive, Startups",
+      "company_name": "Anthropic",
+      "first_published": "2026-10-01T06:48:58-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -9010,39 +9010,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5396397008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4535625008,
-      "location": {
-        "name": "Tokyo, Japan"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5396397008,
-      "updated_at": "2026-08-28T16:49:12-04:00",
-      "requisition_id": "267007",
-      "title": "IT Support Engineer",
-      "company_name": "Anthropic",
-      "first_published": "2026-08-19T21:25:09-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5439524008",
       "data_compliance": [
         {
@@ -9072,6 +9039,39 @@
       "title": "IT Support Engineer",
       "company_name": "Anthropic",
       "first_published": "2026-10-07T12:42:07-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5396397008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4535625008,
+      "location": {
+        "name": "Tokyo, Japan"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5396397008,
+      "updated_at": "2026-08-28T16:49:12-04:00",
+      "requisition_id": "267007",
+      "title": "IT Support Engineer",
+      "company_name": "Anthropic",
+      "first_published": "2026-08-19T21:25:09-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -10132,39 +10132,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5099753008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4417863008,
-      "location": {
-        "name": "New York City, NY"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": null,
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5099753008,
-      "updated_at": "2026-08-31T15:59:18-04:00",
-      "requisition_id": "260241",
-      "title": "Manager, Forward Deployed Engineering",
-      "company_name": "Anthropic",
-      "first_published": "2026-02-05T13:02:26-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5442048008",
       "data_compliance": [
         {
@@ -10194,6 +10161,39 @@
       "title": "Manager, Forward Deployed Engineering",
       "company_name": "Anthropic",
       "first_published": "2026-11-03T16:54:03-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5099753008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4417863008,
+      "location": {
+        "name": "New York City, NY"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5099753008,
+      "updated_at": "2026-08-31T15:59:18-04:00",
+      "requisition_id": "260241",
+      "title": "Manager, Forward Deployed Engineering",
+      "company_name": "Anthropic",
+      "first_published": "2026-02-05T13:02:26-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -11815,39 +11815,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5456405008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4507245008,
-      "location": {
-        "name": "New York City, NY"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5456405008,
-      "updated_at": "2026-10-18T20:49:28-04:00",
-      "requisition_id": "266163",
-      "title": "Principal Engineer Capacity/Compute",
-      "company_name": "Anthropic",
-      "first_published": "2026-10-18T20:49:28-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5456406008",
       "data_compliance": [
         {
@@ -11910,6 +11877,39 @@
       "title": "Principal Engineer Capacity/Compute",
       "company_name": "Anthropic",
       "first_published": "2026-10-18T10:11:38-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5456405008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4507245008,
+      "location": {
+        "name": "New York City, NY"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5456405008,
+      "updated_at": "2026-10-18T20:49:28-04:00",
+      "requisition_id": "266163",
+      "title": "Principal Engineer Capacity/Compute",
+      "company_name": "Anthropic",
+      "first_published": "2026-10-18T20:49:28-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -13333,72 +13333,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5460519008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4565932008,
-      "location": {
-        "name": "Seoul, South Korea"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5460519008,
-      "updated_at": "2026-10-22T14:23:39-04:00",
-      "requisition_id": "REQ-26-L262608-03",
-      "title": "Regional Research Economist, Economic Research",
-      "company_name": "Anthropic",
-      "first_published": "2026-10-22T14:23:39-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5460515008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4565929008,
-      "location": {
-        "name": "Sydney, Australia"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5460515008,
-      "updated_at": "2026-10-22T14:23:17-04:00",
-      "requisition_id": "REQ-26-L262608-02",
-      "title": "Regional Research Economist, Economic Research",
-      "company_name": "Anthropic",
-      "first_published": "2026-10-22T14:23:17-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5231200008",
       "data_compliance": [
         {
@@ -13461,6 +13395,72 @@
       "title": "Regional Research Economist, Economic Research",
       "company_name": "Anthropic",
       "first_published": "2026-10-22T14:23:58-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5460519008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4565932008,
+      "location": {
+        "name": "Seoul, South Korea"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5460519008,
+      "updated_at": "2026-10-22T14:23:39-04:00",
+      "requisition_id": "REQ-26-L262608-03",
+      "title": "Regional Research Economist, Economic Research",
+      "company_name": "Anthropic",
+      "first_published": "2026-10-22T14:23:39-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5460515008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4565929008,
+      "location": {
+        "name": "Sydney, Australia"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5460515008,
+      "updated_at": "2026-10-22T14:23:17-04:00",
+      "requisition_id": "REQ-26-L262608-02",
+      "title": "Regional Research Economist, Economic Research",
+      "company_name": "Anthropic",
+      "first_published": "2026-10-22T14:23:17-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -13762,39 +13762,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5463598008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4567584008,
-      "location": {
-        "name": "San Francisco, CA | New York City, NY"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5463598008,
-      "updated_at": "2026-11-06T03:10:22-05:00",
-      "requisition_id": "REQ-26-1282-01",
-      "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
-      "company_name": "Anthropic",
-      "first_published": "2026-11-06T03:10:22-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5412334008",
       "data_compliance": [
         {
@@ -13824,6 +13791,39 @@
       "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
       "company_name": "Anthropic",
       "first_published": "2026-09-07T04:25:53-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5463598008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4567584008,
+      "location": {
+        "name": "San Francisco, CA | New York City, NY"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5463598008,
+      "updated_at": "2026-11-06T03:10:22-05:00",
+      "requisition_id": "REQ-26-1282-01",
+      "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
+      "company_name": "Anthropic",
+      "first_published": "2026-11-06T03:10:22-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -16402,39 +16402,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5400160008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4537571008,
-      "location": {
-        "name": "London, UK"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5400160008,
-      "updated_at": "2026-08-28T14:44:02-04:00",
-      "requisition_id": "PIP-267088",
-      "title": "Software Engineer, Business Technology",
-      "company_name": "Anthropic",
-      "first_published": "2026-08-24T16:50:24-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5400153008",
       "data_compliance": [
         {
@@ -16464,6 +16431,39 @@
       "title": "Software Engineer, Business Technology",
       "company_name": "Anthropic",
       "first_published": "2026-08-24T16:45:36-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5400160008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4537571008,
+      "location": {
+        "name": "London, UK"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5400160008,
+      "updated_at": "2026-08-28T14:44:02-04:00",
+      "requisition_id": "PIP-267088",
+      "title": "Software Engineer, Business Technology",
+      "company_name": "Anthropic",
+      "first_published": "2026-08-24T16:50:24-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -20659,39 +20659,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5467159008",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 4569411008,
-      "location": {
-        "name": "Munich, Germany"
-      },
-      "metadata": [
-        {
-          "id": 4036944008,
-          "name": "Location Type",
-          "value": "On-Site",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 5467159008,
-      "updated_at": "2026-11-02T04:30:29-05:00",
-      "requisition_id": "REQ-26-0928-01",
-      "title": "Technical Deployment Lead",
-      "company_name": "Anthropic",
-      "first_published": "2026-11-02T04:30:29-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5391108008",
       "data_compliance": [
         {
@@ -20754,6 +20721,39 @@
       "title": "Technical Deployment Lead",
       "company_name": "Anthropic",
       "first_published": "2025-12-04T10:12:44-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5467159008",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 4569411008,
+      "location": {
+        "name": "Munich, Germany"
+      },
+      "metadata": [
+        {
+          "id": 4036944008,
+          "name": "Location Type",
+          "value": "On-Site",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5467159008,
+      "updated_at": "2026-11-02T04:30:29-05:00",
+      "requisition_id": "REQ-26-0928-01",
+      "title": "Technical Deployment Lead",
+      "company_name": "Anthropic",
+      "first_published": "2026-11-02T04:30:29-05:00",
       "language": "en",
       "application_deadline": null
     },
