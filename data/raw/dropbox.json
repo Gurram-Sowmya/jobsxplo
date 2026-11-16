@@ -2582,7 +2582,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8356942?gh_jid=8356942",
+      "absolute_url": "https://jobs.dropbox.com/listing/8353167?gh_jid=8353167",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -2595,15 +2595,15 @@
       ],
       "education": "education_required",
       "employment": "employment_required",
-      "internal_job_id": 3611865,
+      "internal_job_id": 3610384,
       "location": {
-        "name": "Remote - Canada: Select locations"
+        "name": "Remote - Australia: Select locations"
       },
       "metadata": [
         {
           "id": 397108,
           "name": "Recruiting Team Responsible",
-          "value": "International EPD",
+          "value": "GCO Recruiting",
           "value_type": "single_select"
         },
         {
@@ -2645,7 +2645,7 @@
         {
           "id": 696737,
           "name": "Skillset",
-          "value": "ITS, Niche",
+          "value": "Core Sales",
           "value_type": "single_select"
         },
         {
@@ -2657,16 +2657,16 @@
         {
           "id": 54678,
           "name": "Career Page Allocation",
-          "value": "Engineering",
+          "value": "Sales",
           "value_type": "single_select"
         }
       ],
-      "id": 8356942,
-      "updated_at": "2026-11-12T12:56:54-05:00",
-      "requisition_id": "R11774",
-      "title": "Senior Client Platform Engineer, Endpoint Platform & Automation",
+      "id": 8353167,
+      "updated_at": "2026-11-16T08:30:53-05:00",
+      "requisition_id": "R11767",
+      "title": "Senior Account Executive - ANZ",
       "company_name": "Dropbox",
-      "first_published": "2026-11-12T12:56:54-05:00",
+      "first_published": "2026-11-16T08:19:41-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -2756,6 +2756,95 @@
       "title": "Senior Client Platform Engineer, Endpoint Platform & Automation",
       "company_name": "Dropbox",
       "first_published": "2026-11-12T12:56:51-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/8356942?gh_jid=8356942",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3611865,
+      "location": {
+        "name": "Remote - Canada: Select locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "International EPD",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "ITS, Niche",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC4",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Engineering",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8356942,
+      "updated_at": "2026-11-12T12:56:54-05:00",
+      "requisition_id": "R11774",
+      "title": "Senior Client Platform Engineer, Endpoint Platform & Automation",
+      "company_name": "Dropbox",
+      "first_published": "2026-11-12T12:56:54-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3918,6 +4007,6 @@
     }
   ],
   "meta": {
-    "total": 44
+    "total": 45
   }
 }
