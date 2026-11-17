@@ -257,7 +257,7 @@
         }
       ],
       "id": 8943317002,
-      "updated_at": "2026-11-13T16:05:37-05:00",
+      "updated_at": "2026-11-16T17:35:50-05:00",
       "requisition_id": "R-01257",
       "title": "Associate Creative Director",
       "company_name": "Duolingo",
@@ -1480,15 +1480,15 @@
         }
       ],
       "id": 8900546002,
-      "updated_at": "2026-11-03T15:24:26-05:00",
+      "updated_at": "2026-11-16T09:42:26-05:00",
       "requisition_id": "R-01242",
-      "title": "Senior Engineering Manager, Data Platform ",
+      "title": "Senior Engineering Manager, Experiments ",
       "company_name": "Duolingo",
       "first_published": "2026-10-19T15:22:26-04:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Senior Engineering Manager, Data Platform ",
-      "role_category": "Data Engineer"
+      "raw_title": "Senior Engineering Manager, Experiments ",
+      "role_category": "Engineering Manager"
     },
     {
       "absolute_url": "https://careers.duolingo.com/jobs/8725638002?gh_jid=8725638002",
@@ -2074,6 +2074,59 @@
       "role_category": "Site Reliability Engineer"
     },
     {
+      "absolute_url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 6446038002,
+      "location": {
+        "name": "New York, NY; Pittsburgh, PA"
+      },
+      "metadata": [
+        {
+          "id": 10945305002,
+          "name": "Division",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 9700632002,
+          "name": "Req Type",
+          "value": "Industry",
+          "value_type": "single_select"
+        },
+        {
+          "id": 98443292002,
+          "name": "Featured Title",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 98445720002,
+          "name": "Featured City Name",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8628658002,
+      "updated_at": "2026-11-16T10:08:27-05:00",
+      "requisition_id": "R-01177",
+      "title": "Senior Software Engineer, Android",
+      "company_name": "Duolingo",
+      "first_published": "2026-07-10T13:53:28-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Software Engineer, Android",
+      "role_category": "Software Engineer"
+    },
+    {
       "absolute_url": "https://careers.duolingo.com/jobs/8702391002?gh_jid=8702391002",
       "data_compliance": [
         {
@@ -2231,59 +2284,6 @@
       "application_deadline": null,
       "raw_title": "Senior Software Engineer, Backend, Monetization",
       "role_category": "Backend Engineer"
-    },
-    {
-      "absolute_url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 6446038002,
-      "location": {
-        "name": "New York, NY; Pittsburgh, PA"
-      },
-      "metadata": [
-        {
-          "id": 10945305002,
-          "name": "Division",
-          "value": "Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 9700632002,
-          "name": "Req Type",
-          "value": "Industry",
-          "value_type": "single_select"
-        },
-        {
-          "id": 98443292002,
-          "name": "Featured Title",
-          "value": null,
-          "value_type": "short_text"
-        },
-        {
-          "id": 98445720002,
-          "name": "Featured City Name",
-          "value": null,
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8628658002,
-      "updated_at": "2026-11-02T11:38:30-05:00",
-      "requisition_id": "R-01177",
-      "title": "Senior/Software Engineer II, Android",
-      "company_name": "Duolingo",
-      "first_published": "2026-07-10T13:53:28-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior/Software Engineer II, Android",
-      "role_category": "Software Engineer"
     },
     {
       "absolute_url": "https://careers.duolingo.com/jobs/8693210002?gh_jid=8693210002",
