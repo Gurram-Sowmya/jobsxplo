@@ -8239,9 +8239,9 @@
         }
       ],
       "id": 8384969,
-      "updated_at": "2026-11-16T20:57:29-05:00",
+      "updated_at": "2026-11-18T23:26:04-05:00",
       "requisition_id": null,
-      "title": "Public Relations Associate, APJC",
+      "title": "Public Relations Executive, APJC",
       "company_name": "Cloudflare",
       "first_published": "2026-11-16T20:55:20-05:00",
       "language": "en",
@@ -17805,58 +17805,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8164724?gh_jid=8164724",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3533443,
-      "location": {
-        "name": "Hybrid"
-      },
-      "metadata": [
-        {
-          "id": 825338,
-          "name": "Cost Center",
-          "value": "4120 - Foundational Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 8654220,
-          "name": "Job Posting Location",
-          "value": [
-            "Austin, US",
-            "Champaign, US",
-            "Lisbon, Portugal",
-            "London, UK"
-          ],
-          "value_type": "multi_select"
-        },
-        {
-          "id": 46546702,
-          "name": "Career Site Department",
-          "value": [
-            "Engineering"
-          ],
-          "value_type": "multi_select"
-        }
-      ],
-      "id": 8164724,
-      "updated_at": "2026-11-16T12:53:18-05:00",
-      "requisition_id": null,
-      "title": "Senior Software Engineer, Network On-Ramps",
-      "company_name": "Cloudflare",
-      "first_published": "2026-09-01T20:20:19-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7541032?gh_jid=7541032",
       "data_compliance": [
         {
@@ -19098,6 +19046,58 @@
       "title": "Senior Systems Engineer, MCP Server Portals",
       "company_name": "Cloudflare",
       "first_published": "2026-09-28T05:38:46-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/8164724?gh_jid=8164724",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3533443,
+      "location": {
+        "name": "Hybrid"
+      },
+      "metadata": [
+        {
+          "id": 825338,
+          "name": "Cost Center",
+          "value": "4120 - Foundational Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 8654220,
+          "name": "Job Posting Location",
+          "value": [
+            "Austin, US",
+            "Champaign, US",
+            "Lisbon, Portugal",
+            "London, UK"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 46546702,
+          "name": "Career Site Department",
+          "value": [
+            "Engineering"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 8164724,
+      "updated_at": "2026-11-18T19:02:50-05:00",
+      "requisition_id": null,
+      "title": "Senior Systems Engineer, Network On-Ramps",
+      "company_name": "Cloudflare",
+      "first_published": "2026-09-01T20:20:19-04:00",
       "language": "en",
       "application_deadline": null
     },
