@@ -445,117 +445,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3542961,
-      "location": {
-        "name": "New York City, NY"
-      },
-      "metadata": [
-        {
-          "id": 944668,
-          "name": "Position ID",
-          "value": "P-107491",
-          "value_type": "short_text"
-        },
-        {
-          "id": 956352,
-          "name": "Recruiting Start Date",
-          "value": "2026-10-01",
-          "value_type": "date"
-        },
-        {
-          "id": 944671,
-          "name": "Target Hire Date",
-          "value": "2026-10-01",
-          "value_type": "date"
-        },
-        {
-          "id": 944672,
-          "name": "Target Hire End Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 944673,
-          "name": "Job Profile",
-          "value": "Revenue Strategy & Operations Dir 1",
-          "value_type": "single_select"
-        },
-        {
-          "id": 956351,
-          "name": "Management Level",
-          "value": "D1",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944675,
-          "name": "Job Family",
-          "value": "Strategy & Operations",
-          "value_type": "single_select"
-        },
-        {
-          "id": 53341,
-          "name": "Worker Sub-Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944676,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944682,
-          "name": "Pay Rate Type",
-          "value": "Salary",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944681,
-          "name": "Scheduled Weekly Hours",
-          "value": "40.0",
-          "value_type": "number"
-        },
-        {
-          "id": 944667,
-          "name": "Company",
-          "value": "Reddit, Inc.",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944677,
-          "name": "Cost Center",
-          "value": "Support-Executive",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944669,
-          "name": "Worker Type",
-          "value": "Employee",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8187521,
-      "updated_at": "2026-11-18T19:20:17-05:00",
-      "requisition_id": "R-105852",
-      "title": "Chief of Staff, Global Sales",
-      "company_name": "Reddit",
-      "first_published": "2026-10-02T13:29:26-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
       "data_compliance": [
         {
@@ -663,6 +552,117 @@
       "title": "Chief of Staff, Global Sales",
       "company_name": "Reddit",
       "first_published": "2026-10-02T13:29:27-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3542961,
+      "location": {
+        "name": "New York City, NY"
+      },
+      "metadata": [
+        {
+          "id": 944668,
+          "name": "Position ID",
+          "value": "P-107491",
+          "value_type": "short_text"
+        },
+        {
+          "id": 956352,
+          "name": "Recruiting Start Date",
+          "value": "2026-10-01",
+          "value_type": "date"
+        },
+        {
+          "id": 944671,
+          "name": "Target Hire Date",
+          "value": "2026-10-01",
+          "value_type": "date"
+        },
+        {
+          "id": 944672,
+          "name": "Target Hire End Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 944673,
+          "name": "Job Profile",
+          "value": "Revenue Strategy & Operations Dir 1",
+          "value_type": "single_select"
+        },
+        {
+          "id": 956351,
+          "name": "Management Level",
+          "value": "D1",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944675,
+          "name": "Job Family",
+          "value": "Strategy & Operations",
+          "value_type": "single_select"
+        },
+        {
+          "id": 53341,
+          "name": "Worker Sub-Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944676,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944682,
+          "name": "Pay Rate Type",
+          "value": "Salary",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944681,
+          "name": "Scheduled Weekly Hours",
+          "value": "40.0",
+          "value_type": "number"
+        },
+        {
+          "id": 944667,
+          "name": "Company",
+          "value": "Reddit, Inc.",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944677,
+          "name": "Cost Center",
+          "value": "Support-Executive",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944669,
+          "name": "Worker Type",
+          "value": "Employee",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8187521,
+      "updated_at": "2026-11-18T19:20:17-05:00",
+      "requisition_id": "R-105852",
+      "title": "Chief of Staff, Global Sales",
+      "company_name": "Reddit",
+      "first_published": "2026-10-02T13:29:26-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -1666,117 +1666,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8330450",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3600912,
-      "location": {
-        "name": "Remote - United Kingdom"
-      },
-      "metadata": [
-        {
-          "id": 944668,
-          "name": "Position ID",
-          "value": "P-600070",
-          "value_type": "short_text"
-        },
-        {
-          "id": 956352,
-          "name": "Recruiting Start Date",
-          "value": "2026-10-28",
-          "value_type": "date"
-        },
-        {
-          "id": 944671,
-          "name": "Target Hire Date",
-          "value": "2027-01-31",
-          "value_type": "date"
-        },
-        {
-          "id": 944672,
-          "name": "Target Hire End Date",
-          "value": "2028-01-30",
-          "value_type": "date"
-        },
-        {
-          "id": 944673,
-          "name": "Job Profile",
-          "value": "Software Development Mgmt 2",
-          "value_type": "single_select"
-        },
-        {
-          "id": 956351,
-          "name": "Management Level",
-          "value": "M2",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944675,
-          "name": "Job Family",
-          "value": "Software Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 53341,
-          "name": "Worker Sub-Type",
-          "value": "Fixed Term",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944676,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944682,
-          "name": "Pay Rate Type",
-          "value": "Salary",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944681,
-          "name": "Scheduled Weekly Hours",
-          "value": "40.0",
-          "value_type": "number"
-        },
-        {
-          "id": 944667,
-          "name": "Company",
-          "value": "Reddit Netherlands B.V.",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944677,
-          "name": "Cost Center",
-          "value": "Tech-Ads Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944669,
-          "name": "Worker Type",
-          "value": "Employee",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8330450,
-      "updated_at": "2026-11-12T04:28:31-05:00",
-      "requisition_id": "R-105999",
-      "title": "Engineering Manager, Ads Product Catalogs",
-      "company_name": "Reddit",
-      "first_published": "2026-10-28T06:20:38-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8330469",
       "data_compliance": [
         {
@@ -1884,6 +1773,117 @@
       "title": "Engineering Manager, Ads Product Catalogs",
       "company_name": "Reddit",
       "first_published": "2026-10-28T06:20:40-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8330450",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3600912,
+      "location": {
+        "name": "Remote - United Kingdom"
+      },
+      "metadata": [
+        {
+          "id": 944668,
+          "name": "Position ID",
+          "value": "P-600070",
+          "value_type": "short_text"
+        },
+        {
+          "id": 956352,
+          "name": "Recruiting Start Date",
+          "value": "2026-10-28",
+          "value_type": "date"
+        },
+        {
+          "id": 944671,
+          "name": "Target Hire Date",
+          "value": "2027-01-31",
+          "value_type": "date"
+        },
+        {
+          "id": 944672,
+          "name": "Target Hire End Date",
+          "value": "2028-01-30",
+          "value_type": "date"
+        },
+        {
+          "id": 944673,
+          "name": "Job Profile",
+          "value": "Software Development Mgmt 2",
+          "value_type": "single_select"
+        },
+        {
+          "id": 956351,
+          "name": "Management Level",
+          "value": "M2",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944675,
+          "name": "Job Family",
+          "value": "Software Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 53341,
+          "name": "Worker Sub-Type",
+          "value": "Fixed Term",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944676,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944682,
+          "name": "Pay Rate Type",
+          "value": "Salary",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944681,
+          "name": "Scheduled Weekly Hours",
+          "value": "40.0",
+          "value_type": "number"
+        },
+        {
+          "id": 944667,
+          "name": "Company",
+          "value": "Reddit Netherlands B.V.",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944677,
+          "name": "Cost Center",
+          "value": "Tech-Ads Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944669,
+          "name": "Worker Type",
+          "value": "Employee",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8330450,
+      "updated_at": "2026-11-12T04:28:31-05:00",
+      "requisition_id": "R-105999",
+      "title": "Engineering Manager, Ads Product Catalogs",
+      "company_name": "Reddit",
+      "first_published": "2026-10-28T06:20:38-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -2332,228 +2332,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8147559",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3525788,
-      "location": {
-        "name": "Remote - United States"
-      },
-      "metadata": [
-        {
-          "id": 944668,
-          "name": "Position ID",
-          "value": "3525788",
-          "value_type": "short_text"
-        },
-        {
-          "id": 956352,
-          "name": "Recruiting Start Date",
-          "value": "2026-08-21",
-          "value_type": "date"
-        },
-        {
-          "id": 944671,
-          "name": "Target Hire Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 944672,
-          "name": "Target Hire End Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 944673,
-          "name": "Job Profile",
-          "value": "Software Development Engineer 3",
-          "value_type": "single_select"
-        },
-        {
-          "id": 956351,
-          "name": "Management Level",
-          "value": "IC3",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944675,
-          "name": "Job Family",
-          "value": "Software Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 53341,
-          "name": "Worker Sub-Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944676,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944682,
-          "name": "Pay Rate Type",
-          "value": "Salary",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944681,
-          "name": "Scheduled Weekly Hours",
-          "value": "40.0",
-          "value_type": "number"
-        },
-        {
-          "id": 944667,
-          "name": "Company",
-          "value": "Reddit, Inc.",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944677,
-          "name": "Cost Center",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 944669,
-          "name": "Worker Type",
-          "value": "Employee",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8147559,
-      "updated_at": "2026-10-26T10:32:24-04:00",
-      "requisition_id": "Pooled",
-      "title": "Front End Software Engineer, Consumer Engineering",
-      "company_name": "Reddit",
-      "first_published": "2026-09-17T13:07:34-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8198102",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3525788,
-      "location": {
-        "name": "Remote - United States"
-      },
-      "metadata": [
-        {
-          "id": 944668,
-          "name": "Position ID",
-          "value": "3525788",
-          "value_type": "short_text"
-        },
-        {
-          "id": 956352,
-          "name": "Recruiting Start Date",
-          "value": "2026-08-21",
-          "value_type": "date"
-        },
-        {
-          "id": 944671,
-          "name": "Target Hire Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 944672,
-          "name": "Target Hire End Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 944673,
-          "name": "Job Profile",
-          "value": "Software Development Engineer 3",
-          "value_type": "single_select"
-        },
-        {
-          "id": 956351,
-          "name": "Management Level",
-          "value": "IC3",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944675,
-          "name": "Job Family",
-          "value": "Software Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 53341,
-          "name": "Worker Sub-Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944676,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944682,
-          "name": "Pay Rate Type",
-          "value": "Salary",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944681,
-          "name": "Scheduled Weekly Hours",
-          "value": "40.0",
-          "value_type": "number"
-        },
-        {
-          "id": 944667,
-          "name": "Company",
-          "value": "Reddit, Inc.",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944677,
-          "name": "Cost Center",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 944669,
-          "name": "Worker Type",
-          "value": "Employee",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8198102,
-      "updated_at": "2026-10-26T10:32:24-04:00",
-      "requisition_id": "Pooled",
-      "title": "Front End Software Engineer, Media Player",
-      "company_name": "Reddit",
-      "first_published": "2026-09-11T18:27:39-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8189899",
       "data_compliance": [
         {
@@ -2912,13 +2690,13 @@
         {
           "id": 956352,
           "name": "Recruiting Start Date",
-          "value": "2026-10-01",
+          "value": "2026-10-12",
           "value_type": "date"
         },
         {
           "id": 944671,
           "name": "Target Hire Date",
-          "value": "2026-10-01",
+          "value": "2027-02-01",
           "value_type": "date"
         },
         {
@@ -2989,7 +2767,7 @@
         }
       ],
       "id": 8075185,
-      "updated_at": "2026-11-18T19:20:21-05:00",
+      "updated_at": "2026-11-19T11:37:50-05:00",
       "requisition_id": "R-105712",
       "title": "Group Product Manager, Finance Technology",
       "company_name": "Reddit",
@@ -3109,117 +2887,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8234154",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3545055,
-      "location": {
-        "name": "Remote - United Kingdom"
-      },
-      "metadata": [
-        {
-          "id": 944668,
-          "name": "Position ID",
-          "value": "P-108908",
-          "value_type": "short_text"
-        },
-        {
-          "id": 956352,
-          "name": "Recruiting Start Date",
-          "value": "2026-10-01",
-          "value_type": "date"
-        },
-        {
-          "id": 944671,
-          "name": "Target Hire Date",
-          "value": "2026-10-01",
-          "value_type": "date"
-        },
-        {
-          "id": 944672,
-          "name": "Target Hire End Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 944673,
-          "name": "Job Profile",
-          "value": "Payroll Analyst 3",
-          "value_type": "single_select"
-        },
-        {
-          "id": 956351,
-          "name": "Management Level",
-          "value": "IC3",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944675,
-          "name": "Job Family",
-          "value": "Payroll",
-          "value_type": "single_select"
-        },
-        {
-          "id": 53341,
-          "name": "Worker Sub-Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944676,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944682,
-          "name": "Pay Rate Type",
-          "value": "Salary",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944681,
-          "name": "Scheduled Weekly Hours",
-          "value": "40.0",
-          "value_type": "number"
-        },
-        {
-          "id": 944667,
-          "name": "Company",
-          "value": "Reddit, Inc.",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944677,
-          "name": "Cost Center",
-          "value": "Controllership",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944669,
-          "name": "Worker Type",
-          "value": "Employee",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8234154,
-      "updated_at": "2026-11-18T19:20:20-05:00",
-      "requisition_id": "R-105861",
-      "title": "International Payroll Analyst",
-      "company_name": "Reddit",
-      "first_published": "2026-09-25T16:27:39-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8192369",
       "data_compliance": [
         {
@@ -3331,7 +2998,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8257083",
+      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8234154",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -3339,30 +3006,30 @@
           "requires_processing_consent": false,
           "requires_retention_consent": false,
           "retention_period": null,
-          "demographic_data_consent_applies": true
+          "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 3572972,
+      "internal_job_id": 3545055,
       "location": {
-        "name": "Chicago, IL; Los Angeles, CA; New York City, NY; San Francisco, CA"
+        "name": "Remote - United Kingdom"
       },
       "metadata": [
         {
           "id": 944668,
           "name": "Position ID",
-          "value": "P-100992",
+          "value": "P-108908",
           "value_type": "short_text"
         },
         {
           "id": 956352,
           "name": "Recruiting Start Date",
-          "value": "2026-10-05",
+          "value": "2026-10-01",
           "value_type": "date"
         },
         {
           "id": 944671,
           "name": "Target Hire Date",
-          "value": "2026-12-08",
+          "value": "2026-10-01",
           "value_type": "date"
         },
         {
@@ -3374,19 +3041,19 @@
         {
           "id": 944673,
           "name": "Job Profile",
-          "value": "Client Partner 5",
+          "value": "Payroll Analyst 3",
           "value_type": "single_select"
         },
         {
           "id": 956351,
           "name": "Management Level",
-          "value": "IC5",
+          "value": "IC3",
           "value_type": "single_select"
         },
         {
           "id": 944675,
           "name": "Job Family",
-          "value": "Client Partner",
+          "value": "Payroll",
           "value_type": "single_select"
         },
         {
@@ -3422,7 +3089,7 @@
         {
           "id": 944677,
           "name": "Cost Center",
-          "value": "LCS-US",
+          "value": "Controllership",
           "value_type": "single_select"
         },
         {
@@ -3432,12 +3099,12 @@
           "value_type": "single_select"
         }
       ],
-      "id": 8257083,
-      "updated_at": "2026-11-18T23:33:47-05:00",
-      "requisition_id": "R-105922",
-      "title": "Lead Client Partner, Large Customer Sales (Restaurants & Drinks)",
+      "id": 8234154,
+      "updated_at": "2026-11-18T19:20:20-05:00",
+      "requisition_id": "R-105861",
+      "title": "International Payroll Analyst",
       "company_name": "Reddit",
-      "first_published": "2026-10-07T11:54:31-04:00",
+      "first_published": "2026-09-25T16:27:39-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3664,6 +3331,117 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8237375",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3564521,
+      "location": {
+        "name": "New York City, NY"
+      },
+      "metadata": [
+        {
+          "id": 944668,
+          "name": "Position ID",
+          "value": "P-400240",
+          "value_type": "short_text"
+        },
+        {
+          "id": 956352,
+          "name": "Recruiting Start Date",
+          "value": "2026-10-01",
+          "value_type": "date"
+        },
+        {
+          "id": 944671,
+          "name": "Target Hire Date",
+          "value": "2026-10-01",
+          "value_type": "date"
+        },
+        {
+          "id": 944672,
+          "name": "Target Hire End Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 944673,
+          "name": "Job Profile",
+          "value": "Measurement Partnerships & Insights 5",
+          "value_type": "single_select"
+        },
+        {
+          "id": 956351,
+          "name": "Management Level",
+          "value": "IC5",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944675,
+          "name": "Job Family",
+          "value": "Measurement Partnership & Insights",
+          "value_type": "single_select"
+        },
+        {
+          "id": 53341,
+          "name": "Worker Sub-Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944676,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944682,
+          "name": "Pay Rate Type",
+          "value": "Salary",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944681,
+          "name": "Scheduled Weekly Hours",
+          "value": "40.0",
+          "value_type": "number"
+        },
+        {
+          "id": 944667,
+          "name": "Company",
+          "value": "Reddit, Inc.",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944677,
+          "name": "Cost Center",
+          "value": "Support-AEA Measurement",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944669,
+          "name": "Worker Type",
+          "value": "Employee",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8237375,
+      "updated_at": "2026-11-19T17:58:40-05:00",
+      "requisition_id": "R-105894",
+      "title": "Lead Partnerships & Insights Manager",
+      "company_name": "Reddit",
+      "first_published": "2026-11-19T17:58:40-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8263435",
       "data_compliance": [
         {
@@ -3877,7 +3655,7 @@
         }
       ],
       "id": 7131932,
-      "updated_at": "2026-11-18T12:19:51-05:00",
+      "updated_at": "2026-11-19T14:49:39-05:00",
       "requisition_id": "283",
       "title": "Machine Learning Engineer",
       "company_name": "Reddit",
@@ -3988,7 +3766,7 @@
         }
       ],
       "id": 7131934,
-      "updated_at": "2026-11-18T12:19:53-05:00",
+      "updated_at": "2026-11-19T14:49:39-05:00",
       "requisition_id": "283",
       "title": "Machine Learning Engineer",
       "company_name": "Reddit",
@@ -6217,6 +5995,117 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8351484",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3609663,
+      "location": {
+        "name": "New York City, NY"
+      },
+      "metadata": [
+        {
+          "id": 944668,
+          "name": "Position ID",
+          "value": "P-101814",
+          "value_type": "short_text"
+        },
+        {
+          "id": 956352,
+          "name": "Recruiting Start Date",
+          "value": "2026-11-04",
+          "value_type": "date"
+        },
+        {
+          "id": 944671,
+          "name": "Target Hire Date",
+          "value": "2027-01-04",
+          "value_type": "date"
+        },
+        {
+          "id": 944672,
+          "name": "Target Hire End Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 944673,
+          "name": "Job Profile",
+          "value": "Client Account Manager 4",
+          "value_type": "single_select"
+        },
+        {
+          "id": 956351,
+          "name": "Management Level",
+          "value": "IC4",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944675,
+          "name": "Job Family",
+          "value": "Client Account Manager",
+          "value_type": "single_select"
+        },
+        {
+          "id": 53341,
+          "name": "Worker Sub-Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944676,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944682,
+          "name": "Pay Rate Type",
+          "value": "Salary",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944681,
+          "name": "Scheduled Weekly Hours",
+          "value": "40.0",
+          "value_type": "number"
+        },
+        {
+          "id": 944667,
+          "name": "Company",
+          "value": "Reddit, Inc.",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944677,
+          "name": "Cost Center",
+          "value": "Scaled-Goods & Pub & Indy",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944669,
+          "name": "Worker Type",
+          "value": "Employee",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8351484,
+      "updated_at": "2026-11-19T10:55:25-05:00",
+      "requisition_id": "R-106029",
+      "title": "Senior Client Account Manager, Mid-Market (Goods - Shopping)",
+      "company_name": "Reddit",
+      "first_published": "2026-11-19T10:55:25-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8140121",
       "data_compliance": [
         {
@@ -6328,117 +6217,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8360267",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3586228,
-      "location": {
-        "name": "Los Angeles, CA"
-      },
-      "metadata": [
-        {
-          "id": 944668,
-          "name": "Position ID",
-          "value": "P-100574",
-          "value_type": "short_text"
-        },
-        {
-          "id": 956352,
-          "name": "Recruiting Start Date",
-          "value": "2026-10-16",
-          "value_type": "date"
-        },
-        {
-          "id": 944671,
-          "name": "Target Hire Date",
-          "value": "2026-12-31",
-          "value_type": "date"
-        },
-        {
-          "id": 944672,
-          "name": "Target Hire End Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 944673,
-          "name": "Job Profile",
-          "value": "Client Partner 5",
-          "value_type": "single_select"
-        },
-        {
-          "id": 956351,
-          "name": "Management Level",
-          "value": "IC5",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944675,
-          "name": "Job Family",
-          "value": "Client Partner",
-          "value_type": "single_select"
-        },
-        {
-          "id": 53341,
-          "name": "Worker Sub-Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944676,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944682,
-          "name": "Pay Rate Type",
-          "value": "Salary",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944681,
-          "name": "Scheduled Weekly Hours",
-          "value": "40.0",
-          "value_type": "number"
-        },
-        {
-          "id": 944667,
-          "name": "Company",
-          "value": "Reddit, Inc.",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944677,
-          "name": "Cost Center",
-          "value": "Scaled-Goods & Pub & Indy",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944669,
-          "name": "Worker Type",
-          "value": "Employee",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8360267,
-      "updated_at": "2026-11-18T19:20:23-05:00",
-      "requisition_id": "R-105963",
-      "title": "Senior Client Partner, Mid-Market Sales (Goods)",
-      "company_name": "Reddit",
-      "first_published": "2026-11-06T15:27:40-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8293700",
       "data_compliance": [
         {
@@ -6546,6 +6324,117 @@
       "title": "Senior Client Partner, Mid-Market Sales (Goods)",
       "company_name": "Reddit",
       "first_published": "2026-10-19T14:38:16-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8360267",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3586228,
+      "location": {
+        "name": "Los Angeles, CA"
+      },
+      "metadata": [
+        {
+          "id": 944668,
+          "name": "Position ID",
+          "value": "P-100574",
+          "value_type": "short_text"
+        },
+        {
+          "id": 956352,
+          "name": "Recruiting Start Date",
+          "value": "2026-10-16",
+          "value_type": "date"
+        },
+        {
+          "id": 944671,
+          "name": "Target Hire Date",
+          "value": "2026-12-31",
+          "value_type": "date"
+        },
+        {
+          "id": 944672,
+          "name": "Target Hire End Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 944673,
+          "name": "Job Profile",
+          "value": "Client Partner 5",
+          "value_type": "single_select"
+        },
+        {
+          "id": 956351,
+          "name": "Management Level",
+          "value": "IC5",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944675,
+          "name": "Job Family",
+          "value": "Client Partner",
+          "value_type": "single_select"
+        },
+        {
+          "id": 53341,
+          "name": "Worker Sub-Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944676,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944682,
+          "name": "Pay Rate Type",
+          "value": "Salary",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944681,
+          "name": "Scheduled Weekly Hours",
+          "value": "40.0",
+          "value_type": "number"
+        },
+        {
+          "id": 944667,
+          "name": "Company",
+          "value": "Reddit, Inc.",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944677,
+          "name": "Cost Center",
+          "value": "Scaled-Goods & Pub & Indy",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944669,
+          "name": "Worker Type",
+          "value": "Employee",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8360267,
+      "updated_at": "2026-11-18T19:20:23-05:00",
+      "requisition_id": "R-105963",
+      "title": "Senior Client Partner, Mid-Market Sales (Goods)",
+      "company_name": "Reddit",
+      "first_published": "2026-11-06T15:27:40-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -7549,117 +7438,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/6960833",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3165802,
-      "location": {
-        "name": "Remote - Ontario, Canada"
-      },
-      "metadata": [
-        {
-          "id": 944668,
-          "name": "Position ID",
-          "value": null,
-          "value_type": "short_text"
-        },
-        {
-          "id": 956352,
-          "name": "Recruiting Start Date",
-          "value": "2025-06-09",
-          "value_type": "date"
-        },
-        {
-          "id": 944671,
-          "name": "Target Hire Date",
-          "value": "2025-09-01",
-          "value_type": "date"
-        },
-        {
-          "id": 944672,
-          "name": "Target Hire End Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 944673,
-          "name": "Job Profile",
-          "value": "Machine Learning Engineer 4",
-          "value_type": "single_select"
-        },
-        {
-          "id": 956351,
-          "name": "Management Level",
-          "value": "IC4",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944675,
-          "name": "Job Family",
-          "value": "Machine Learning",
-          "value_type": "single_select"
-        },
-        {
-          "id": 53341,
-          "name": "Worker Sub-Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944676,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944682,
-          "name": "Pay Rate Type",
-          "value": "Salary",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944681,
-          "name": "Scheduled Weekly Hours",
-          "value": "40.0",
-          "value_type": "number"
-        },
-        {
-          "id": 944667,
-          "name": "Company",
-          "value": "Reddit, Inc.",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944677,
-          "name": "Cost Center",
-          "value": "Tech-Ads Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944669,
-          "name": "Worker Type",
-          "value": "Employee",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 6960833,
-      "updated_at": "2026-10-23T10:06:06-04:00",
-      "requisition_id": "284",
-      "title": "Senior Machine Learning Engineer",
-      "company_name": "Reddit",
-      "first_published": "2025-08-14T15:50:35-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/6960831",
       "data_compliance": [
         {
@@ -7762,7 +7540,118 @@
         }
       ],
       "id": 6960831,
-      "updated_at": "2026-10-23T10:06:06-04:00",
+      "updated_at": "2026-11-19T14:49:06-05:00",
+      "requisition_id": "284",
+      "title": "Senior Machine Learning Engineer",
+      "company_name": "Reddit",
+      "first_published": "2025-08-14T15:50:35-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/6960833",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3165802,
+      "location": {
+        "name": "Remote - Ontario, Canada"
+      },
+      "metadata": [
+        {
+          "id": 944668,
+          "name": "Position ID",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 956352,
+          "name": "Recruiting Start Date",
+          "value": "2025-06-09",
+          "value_type": "date"
+        },
+        {
+          "id": 944671,
+          "name": "Target Hire Date",
+          "value": "2025-09-01",
+          "value_type": "date"
+        },
+        {
+          "id": 944672,
+          "name": "Target Hire End Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 944673,
+          "name": "Job Profile",
+          "value": "Machine Learning Engineer 4",
+          "value_type": "single_select"
+        },
+        {
+          "id": 956351,
+          "name": "Management Level",
+          "value": "IC4",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944675,
+          "name": "Job Family",
+          "value": "Machine Learning",
+          "value_type": "single_select"
+        },
+        {
+          "id": 53341,
+          "name": "Worker Sub-Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944676,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944682,
+          "name": "Pay Rate Type",
+          "value": "Salary",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944681,
+          "name": "Scheduled Weekly Hours",
+          "value": "40.0",
+          "value_type": "number"
+        },
+        {
+          "id": 944667,
+          "name": "Company",
+          "value": "Reddit, Inc.",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944677,
+          "name": "Cost Center",
+          "value": "Tech-Ads Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944669,
+          "name": "Worker Type",
+          "value": "Employee",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 6960833,
+      "updated_at": "2026-11-19T14:49:06-05:00",
       "requisition_id": "284",
       "title": "Senior Machine Learning Engineer",
       "company_name": "Reddit",
@@ -9103,117 +8992,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/6909093",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3153572,
-      "location": {
-        "name": "Remote - Ontario, Canada"
-      },
-      "metadata": [
-        {
-          "id": 944668,
-          "name": "Position ID",
-          "value": null,
-          "value_type": "short_text"
-        },
-        {
-          "id": 956352,
-          "name": "Recruiting Start Date",
-          "value": "2025-05-21",
-          "value_type": "date"
-        },
-        {
-          "id": 944671,
-          "name": "Target Hire Date",
-          "value": "2025-07-21",
-          "value_type": "date"
-        },
-        {
-          "id": 944672,
-          "name": "Target Hire End Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 944673,
-          "name": "Job Profile",
-          "value": "Software Development Engineer 4",
-          "value_type": "single_select"
-        },
-        {
-          "id": 956351,
-          "name": "Management Level",
-          "value": "IC4",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944675,
-          "name": "Job Family",
-          "value": "Software Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 53341,
-          "name": "Worker Sub-Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944676,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944682,
-          "name": "Pay Rate Type",
-          "value": "Salary",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944681,
-          "name": "Scheduled Weekly Hours",
-          "value": "40.0",
-          "value_type": "number"
-        },
-        {
-          "id": 944667,
-          "name": "Company",
-          "value": "Reddit, Inc.",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944677,
-          "name": "Cost Center",
-          "value": "Tech-Ads Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944669,
-          "name": "Worker Type",
-          "value": "Employee",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 6909093,
-      "updated_at": "2026-10-23T10:06:06-04:00",
-      "requisition_id": null,
-      "title": "Senior Software Engineer, Ads",
-      "company_name": "Reddit",
-      "first_published": "2025-10-21T16:46:52-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/6909091",
       "data_compliance": [
         {
@@ -9321,6 +9099,117 @@
       "title": "Senior Software Engineer, Ads",
       "company_name": "Reddit",
       "first_published": "2025-08-13T16:34:44-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/6909093",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3153572,
+      "location": {
+        "name": "Remote - Ontario, Canada"
+      },
+      "metadata": [
+        {
+          "id": 944668,
+          "name": "Position ID",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 956352,
+          "name": "Recruiting Start Date",
+          "value": "2025-05-21",
+          "value_type": "date"
+        },
+        {
+          "id": 944671,
+          "name": "Target Hire Date",
+          "value": "2025-07-21",
+          "value_type": "date"
+        },
+        {
+          "id": 944672,
+          "name": "Target Hire End Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 944673,
+          "name": "Job Profile",
+          "value": "Software Development Engineer 4",
+          "value_type": "single_select"
+        },
+        {
+          "id": 956351,
+          "name": "Management Level",
+          "value": "IC4",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944675,
+          "name": "Job Family",
+          "value": "Software Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 53341,
+          "name": "Worker Sub-Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944676,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944682,
+          "name": "Pay Rate Type",
+          "value": "Salary",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944681,
+          "name": "Scheduled Weekly Hours",
+          "value": "40.0",
+          "value_type": "number"
+        },
+        {
+          "id": 944667,
+          "name": "Company",
+          "value": "Reddit, Inc.",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944677,
+          "name": "Cost Center",
+          "value": "Tech-Ads Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944669,
+          "name": "Worker Type",
+          "value": "Employee",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 6909093,
+      "updated_at": "2026-10-23T10:06:06-04:00",
+      "requisition_id": null,
+      "title": "Senior Software Engineer, Ads",
+      "company_name": "Reddit",
+      "first_published": "2025-10-21T16:46:52-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -10435,6 +10324,117 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8368600",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3615412,
+      "location": {
+        "name": "Remote - United States"
+      },
+      "metadata": [
+        {
+          "id": 944668,
+          "name": "Position ID",
+          "value": "P-600055",
+          "value_type": "short_text"
+        },
+        {
+          "id": 956352,
+          "name": "Recruiting Start Date",
+          "value": "2026-11-09",
+          "value_type": "date"
+        },
+        {
+          "id": 944671,
+          "name": "Target Hire Date",
+          "value": "2027-02-22",
+          "value_type": "date"
+        },
+        {
+          "id": 944672,
+          "name": "Target Hire End Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 944673,
+          "name": "Job Profile",
+          "value": "Specialized Machine Learning Engineer 6",
+          "value_type": "single_select"
+        },
+        {
+          "id": 956351,
+          "name": "Management Level",
+          "value": "IC6",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944675,
+          "name": "Job Family",
+          "value": "Specialized Machine Learning",
+          "value_type": "single_select"
+        },
+        {
+          "id": 53341,
+          "name": "Worker Sub-Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944676,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944682,
+          "name": "Pay Rate Type",
+          "value": "Salary",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944681,
+          "name": "Scheduled Weekly Hours",
+          "value": "40.0",
+          "value_type": "number"
+        },
+        {
+          "id": 944667,
+          "name": "Company",
+          "value": "Reddit, Inc.",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944677,
+          "name": "Cost Center",
+          "value": "Tech-Ads Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944669,
+          "name": "Worker Type",
+          "value": "Employee",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8368600,
+      "updated_at": "2026-11-19T14:18:02-05:00",
+      "requisition_id": "R-106036",
+      "title": "Senior Staff Machine Learning Engineer, Ads Ranking ",
+      "company_name": "Reddit",
+      "first_published": "2026-11-19T14:18:02-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8122606",
       "data_compliance": [
         {
@@ -11101,117 +11101,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/6512458",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3026717,
-      "location": {
-        "name": "Remote - Ontario, Canada"
-      },
-      "metadata": [
-        {
-          "id": 944668,
-          "name": "Position ID",
-          "value": null,
-          "value_type": "short_text"
-        },
-        {
-          "id": 956352,
-          "name": "Recruiting Start Date",
-          "value": "2025-01-01",
-          "value_type": "date"
-        },
-        {
-          "id": 944671,
-          "name": "Target Hire Date",
-          "value": "2025-04-30",
-          "value_type": "date"
-        },
-        {
-          "id": 944672,
-          "name": "Target Hire End Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 944673,
-          "name": "Job Profile",
-          "value": "Software Development Engineer 3",
-          "value_type": "single_select"
-        },
-        {
-          "id": 956351,
-          "name": "Management Level",
-          "value": "IC3",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944675,
-          "name": "Job Family",
-          "value": "Software Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 53341,
-          "name": "Worker Sub-Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944676,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944682,
-          "name": "Pay Rate Type",
-          "value": "Salary",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944681,
-          "name": "Scheduled Weekly Hours",
-          "value": "40.0",
-          "value_type": "number"
-        },
-        {
-          "id": 944667,
-          "name": "Company",
-          "value": "Reddit, Inc.",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944677,
-          "name": "Cost Center",
-          "value": "Tech-Ads Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944669,
-          "name": "Worker Type",
-          "value": "Employee",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 6512458,
-      "updated_at": "2026-10-23T10:06:06-04:00",
-      "requisition_id": "285",
-      "title": "Software Engineer, Ads",
-      "company_name": "Reddit",
-      "first_published": "2025-01-06T19:00:56-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/6469397",
       "data_compliance": [
         {
@@ -11319,6 +11208,117 @@
       "title": "Software Engineer, Ads",
       "company_name": "Reddit",
       "first_published": "2025-01-06T18:59:24-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/6512458",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3026717,
+      "location": {
+        "name": "Remote - Ontario, Canada"
+      },
+      "metadata": [
+        {
+          "id": 944668,
+          "name": "Position ID",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 956352,
+          "name": "Recruiting Start Date",
+          "value": "2025-01-01",
+          "value_type": "date"
+        },
+        {
+          "id": 944671,
+          "name": "Target Hire Date",
+          "value": "2025-04-30",
+          "value_type": "date"
+        },
+        {
+          "id": 944672,
+          "name": "Target Hire End Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 944673,
+          "name": "Job Profile",
+          "value": "Software Development Engineer 3",
+          "value_type": "single_select"
+        },
+        {
+          "id": 956351,
+          "name": "Management Level",
+          "value": "IC3",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944675,
+          "name": "Job Family",
+          "value": "Software Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 53341,
+          "name": "Worker Sub-Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944676,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944682,
+          "name": "Pay Rate Type",
+          "value": "Salary",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944681,
+          "name": "Scheduled Weekly Hours",
+          "value": "40.0",
+          "value_type": "number"
+        },
+        {
+          "id": 944667,
+          "name": "Company",
+          "value": "Reddit, Inc.",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944677,
+          "name": "Cost Center",
+          "value": "Tech-Ads Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944669,
+          "name": "Worker Type",
+          "value": "Employee",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 6512458,
+      "updated_at": "2026-10-23T10:06:06-04:00",
+      "requisition_id": "285",
+      "title": "Software Engineer, Ads",
+      "company_name": "Reddit",
+      "first_published": "2025-01-06T19:00:56-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -13099,117 +13099,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8382925",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3476328,
-      "location": {
-        "name": "New York City, NY"
-      },
-      "metadata": [
-        {
-          "id": 944668,
-          "name": "Position ID",
-          "value": "P-108359",
-          "value_type": "short_text"
-        },
-        {
-          "id": 956352,
-          "name": "Recruiting Start Date",
-          "value": "2026-10-01",
-          "value_type": "date"
-        },
-        {
-          "id": 944671,
-          "name": "Target Hire Date",
-          "value": "2026-10-01",
-          "value_type": "date"
-        },
-        {
-          "id": 944672,
-          "name": "Target Hire End Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 944673,
-          "name": "Job Profile",
-          "value": "Machine Learning Engineer 5",
-          "value_type": "single_select"
-        },
-        {
-          "id": 956351,
-          "name": "Management Level",
-          "value": "IC5",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944675,
-          "name": "Job Family",
-          "value": "Machine Learning",
-          "value_type": "single_select"
-        },
-        {
-          "id": 53341,
-          "name": "Worker Sub-Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944676,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944682,
-          "name": "Pay Rate Type",
-          "value": "Salary",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944681,
-          "name": "Scheduled Weekly Hours",
-          "value": "40.0",
-          "value_type": "number"
-        },
-        {
-          "id": 944667,
-          "name": "Company",
-          "value": "Reddit UK Limited",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944677,
-          "name": "Cost Center",
-          "value": "Tech-Ads Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944669,
-          "name": "Worker Type",
-          "value": "Employee",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8382925,
-      "updated_at": "2026-11-17T13:11:21-05:00",
-      "requisition_id": "R-105593",
-      "title": "Staff Machine Learning Engineer, Ads Foundational Representations",
-      "company_name": "Reddit",
-      "first_published": "2026-11-12T09:11:21-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8018513",
       "data_compliance": [
         {
@@ -13428,6 +13317,117 @@
       "title": "Staff Machine Learning Engineer, Ads Foundational Representations",
       "company_name": "Reddit",
       "first_published": "2026-06-19T11:02:11-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8382925",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "internal_job_id": 3476328,
+      "location": {
+        "name": "New York City, NY"
+      },
+      "metadata": [
+        {
+          "id": 944668,
+          "name": "Position ID",
+          "value": "P-108359",
+          "value_type": "short_text"
+        },
+        {
+          "id": 956352,
+          "name": "Recruiting Start Date",
+          "value": "2026-10-01",
+          "value_type": "date"
+        },
+        {
+          "id": 944671,
+          "name": "Target Hire Date",
+          "value": "2026-10-01",
+          "value_type": "date"
+        },
+        {
+          "id": 944672,
+          "name": "Target Hire End Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 944673,
+          "name": "Job Profile",
+          "value": "Machine Learning Engineer 5",
+          "value_type": "single_select"
+        },
+        {
+          "id": 956351,
+          "name": "Management Level",
+          "value": "IC5",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944675,
+          "name": "Job Family",
+          "value": "Machine Learning",
+          "value_type": "single_select"
+        },
+        {
+          "id": 53341,
+          "name": "Worker Sub-Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944676,
+          "name": "Time Type",
+          "value": "Full time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944682,
+          "name": "Pay Rate Type",
+          "value": "Salary",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944681,
+          "name": "Scheduled Weekly Hours",
+          "value": "40.0",
+          "value_type": "number"
+        },
+        {
+          "id": 944667,
+          "name": "Company",
+          "value": "Reddit UK Limited",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944677,
+          "name": "Cost Center",
+          "value": "Tech-Ads Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 944669,
+          "name": "Worker Type",
+          "value": "Employee",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8382925,
+      "updated_at": "2026-11-17T13:11:21-05:00",
+      "requisition_id": "R-105593",
+      "title": "Staff Machine Learning Engineer, Ads Foundational Representations",
+      "company_name": "Reddit",
+      "first_published": "2026-11-12T09:11:21-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -14209,117 +14209,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/7868511",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3425193,
-      "location": {
-        "name": "Remote - United States"
-      },
-      "metadata": [
-        {
-          "id": 944668,
-          "name": "Position ID",
-          "value": "P-400351",
-          "value_type": "short_text"
-        },
-        {
-          "id": 956352,
-          "name": "Recruiting Start Date",
-          "value": "2026-10-01",
-          "value_type": "date"
-        },
-        {
-          "id": 944671,
-          "name": "Target Hire Date",
-          "value": "2026-10-01",
-          "value_type": "date"
-        },
-        {
-          "id": 944672,
-          "name": "Target Hire End Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 944673,
-          "name": "Job Profile",
-          "value": "Software Development Engineer 5",
-          "value_type": "single_select"
-        },
-        {
-          "id": 956351,
-          "name": "Management Level",
-          "value": "IC5",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944675,
-          "name": "Job Family",
-          "value": "Software Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 53341,
-          "name": "Worker Sub-Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944676,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944682,
-          "name": "Pay Rate Type",
-          "value": "Salary",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944681,
-          "name": "Scheduled Weekly Hours",
-          "value": "40.0",
-          "value_type": "number"
-        },
-        {
-          "id": 944667,
-          "name": "Company",
-          "value": "Reddit, Inc.",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944677,
-          "name": "Cost Center",
-          "value": "Tech-Privacy & Assurance - R&D",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944669,
-          "name": "Worker Type",
-          "value": "Employee",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 7868511,
-      "updated_at": "2026-10-23T10:06:06-04:00",
-      "requisition_id": "R-105381",
-      "title": "Staff Product Security Engineer",
-      "company_name": "Reddit",
-      "first_published": "2026-04-29T17:51:03-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8319764",
       "data_compliance": [
         {
@@ -14649,117 +14538,6 @@
       "title": "Staff Software Engineer, Consumer Engineering",
       "company_name": "Reddit",
       "first_published": "2026-09-15T19:41:34-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://job-boards.greenhouse.io/reddit/jobs/8180636",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "internal_job_id": 3540040,
-      "location": {
-        "name": "Remote - United States"
-      },
-      "metadata": [
-        {
-          "id": 944668,
-          "name": "Position ID",
-          "value": "P-101886",
-          "value_type": "short_text"
-        },
-        {
-          "id": 956352,
-          "name": "Recruiting Start Date",
-          "value": "2026-10-01",
-          "value_type": "date"
-        },
-        {
-          "id": 944671,
-          "name": "Target Hire Date",
-          "value": "2026-10-01",
-          "value_type": "date"
-        },
-        {
-          "id": 944672,
-          "name": "Target Hire End Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 944673,
-          "name": "Job Profile",
-          "value": "Software Development Engineer 5",
-          "value_type": "single_select"
-        },
-        {
-          "id": 956351,
-          "name": "Management Level",
-          "value": "IC5",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944675,
-          "name": "Job Family",
-          "value": "Software Engineering",
-          "value_type": "single_select"
-        },
-        {
-          "id": 53341,
-          "name": "Worker Sub-Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944676,
-          "name": "Time Type",
-          "value": "Full time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944682,
-          "name": "Pay Rate Type",
-          "value": "Salary",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944681,
-          "name": "Scheduled Weekly Hours",
-          "value": "40.0",
-          "value_type": "number"
-        },
-        {
-          "id": 944667,
-          "name": "Company",
-          "value": "Reddit, Inc.",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944677,
-          "name": "Cost Center",
-          "value": "Tech-Dev Platform",
-          "value_type": "single_select"
-        },
-        {
-          "id": 944669,
-          "name": "Worker Type",
-          "value": "Employee",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8180636,
-      "updated_at": "2026-10-23T10:06:06-04:00",
-      "requisition_id": "R-105846",
-      "title": "Staff Software Engineer, Developer Ecosystem",
-      "company_name": "Reddit",
-      "first_published": "2026-09-04T15:23:54-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -16097,6 +15875,6 @@
     }
   ],
   "meta": {
-    "total": 145
+    "total": 143
   }
 }
