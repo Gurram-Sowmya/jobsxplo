@@ -2185,33 +2185,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8154295",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3528786,
-      "location": {
-        "name": "US-NYC"
-      },
-      "metadata": null,
-      "id": 8154295,
-      "updated_at": "2026-11-19T12:12:24-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Account Executive, Product Sales, Metronome",
-      "company_name": "Stripe",
-      "first_published": "2026-10-28T18:28:57-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8190042",
       "data_compliance": [
         {
@@ -2235,6 +2208,33 @@
       "title": "Account Executive, Product Sales, Metronome",
       "company_name": "Stripe",
       "first_published": "2026-09-25T16:57:23-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8154295",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3528786,
+      "location": {
+        "name": "US-NYC"
+      },
+      "metadata": null,
+      "id": 8154295,
+      "updated_at": "2026-11-19T12:12:24-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Account Executive, Product Sales, Metronome",
+      "company_name": "Stripe",
+      "first_published": "2026-10-28T18:28:57-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3426,7 +3426,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8304841",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8304836",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -3440,42 +3440,15 @@
       "education": "education_required",
       "internal_job_id": 3577367,
       "location": {
-        "name": "San Francisco, CA"
+        "name": "New York, NY"
       },
       "metadata": null,
-      "id": 8304841,
+      "id": 8304836,
       "updated_at": "2026-11-19T12:12:29-05:00",
       "requisition_id": "See Opening ID",
       "title": "Account Executive, Velocity Platforms (Hunter)",
       "company_name": "Stripe",
-      "first_published": "2026-10-20T20:39:07-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8267839",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3577366,
-      "location": {
-        "name": "Chicago, IL; New York, NY; San Francisco, CA"
-      },
-      "metadata": null,
-      "id": 8267839,
-      "updated_at": "2026-11-19T12:12:29-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Account Executive, Velocity Platforms (Hunter)",
-      "company_name": "Stripe",
-      "first_published": "2026-10-19T16:51:46-04:00",
+      "first_published": "2026-10-20T20:37:08-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -3507,7 +3480,34 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8304836",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8267839",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3577366,
+      "location": {
+        "name": "Chicago, IL; New York, NY; San Francisco, CA"
+      },
+      "metadata": null,
+      "id": 8267839,
+      "updated_at": "2026-11-19T12:12:29-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Account Executive, Velocity Platforms (Hunter)",
+      "company_name": "Stripe",
+      "first_published": "2026-10-19T16:51:46-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8304841",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -3521,15 +3521,15 @@
       "education": "education_required",
       "internal_job_id": 3577367,
       "location": {
-        "name": "New York, NY"
+        "name": "San Francisco, CA"
       },
       "metadata": null,
-      "id": 8304836,
+      "id": 8304841,
       "updated_at": "2026-11-19T12:12:29-05:00",
       "requisition_id": "See Opening ID",
       "title": "Account Executive, Velocity Platforms (Hunter)",
       "company_name": "Stripe",
-      "first_published": "2026-10-20T20:37:08-04:00",
+      "first_published": "2026-10-20T20:39:07-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -4179,33 +4179,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=7476555",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3318975,
-      "location": {
-        "name": "SEA, SF, NY, Toronto"
-      },
-      "metadata": null,
-      "id": 7476555,
-      "updated_at": "2026-11-19T12:12:20-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Backend Engineer, Developer & End-user Experience Platform",
-      "company_name": "Stripe",
-      "first_published": "2026-03-03T18:55:32-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=7292520",
       "data_compliance": [
         {
@@ -4229,6 +4202,33 @@
       "title": "Backend Engineer, Developer & End-user Experience Platform",
       "company_name": "Stripe",
       "first_published": "2025-11-06T20:48:57-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=7476555",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3318975,
+      "location": {
+        "name": "SEA, SF, NY, Toronto"
+      },
+      "metadata": null,
+      "id": 7476555,
+      "updated_at": "2026-11-19T12:12:20-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Backend Engineer, Developer & End-user Experience Platform",
+      "company_name": "Stripe",
+      "first_published": "2026-03-03T18:55:32-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -5256,6 +5256,33 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8237366",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3564516,
+      "location": {
+        "name": "Chicago"
+      },
+      "metadata": null,
+      "id": 8237366,
+      "updated_at": "2026-11-19T12:12:27-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Customer Success Manager, Revenue Suite",
+      "company_name": "Stripe",
+      "first_published": "2026-10-05T05:44:45-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8052814",
       "data_compliance": [
         {
@@ -5283,7 +5310,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8237366",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=5416444",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -5294,18 +5321,43 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "education": "education_required",
-      "internal_job_id": 3564516,
+      "internal_job_id": 2692714,
       "location": {
-        "name": "Chicago"
+        "name": "Canada"
       },
       "metadata": null,
-      "id": 8237366,
-      "updated_at": "2026-11-19T12:12:27-05:00",
+      "id": 5416444,
+      "updated_at": "2026-11-19T12:09:46-05:00",
       "requisition_id": "See Opening ID",
-      "title": "Customer Success Manager, Revenue Suite",
+      "title": "Data Analyst",
       "company_name": "Stripe",
-      "first_published": "2026-10-05T05:44:45-04:00",
+      "first_published": "2023-11-01T13:50:50-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=5601881",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 2755199,
+      "location": {
+        "name": "US"
+      },
+      "metadata": null,
+      "id": 5601881,
+      "updated_at": "2026-11-19T12:12:18-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Data Analyst",
+      "company_name": "Stripe",
+      "first_published": "2024-01-09T16:58:15-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -5337,7 +5389,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=5601881",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8194287",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -5348,43 +5400,18 @@
           "demographic_data_consent_applies": false
         }
       ],
-      "internal_job_id": 2755199,
+      "education": "education_required",
+      "internal_job_id": 3545645,
       "location": {
-        "name": "US"
+        "name": "Toronto"
       },
       "metadata": null,
-      "id": 5601881,
-      "updated_at": "2026-11-19T12:12:18-05:00",
+      "id": 8194287,
+      "updated_at": "2026-11-19T12:10:05-05:00",
       "requisition_id": "See Opening ID",
-      "title": "Data Analyst",
+      "title": "Data Analyst, Intern",
       "company_name": "Stripe",
-      "first_published": "2024-01-09T16:58:15-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=5416444",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 2692714,
-      "location": {
-        "name": "Canada"
-      },
-      "metadata": null,
-      "id": 5416444,
-      "updated_at": "2026-11-19T12:09:46-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Data Analyst",
-      "company_name": "Stripe",
-      "first_published": "2023-11-01T13:50:50-04:00",
+      "first_published": "2026-10-01T11:05:36-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -5412,33 +5439,6 @@
       "title": "Data Analyst, Intern",
       "company_name": "Stripe",
       "first_published": "2026-10-01T11:05:29-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8194287",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3545645,
-      "location": {
-        "name": "Toronto"
-      },
-      "metadata": null,
-      "id": 8194287,
-      "updated_at": "2026-11-19T12:10:05-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Data Analyst, Intern",
-      "company_name": "Stripe",
-      "first_published": "2026-10-01T11:05:36-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -5844,33 +5844,6 @@
       "title": "Design Engineer, Expansion",
       "company_name": "Stripe",
       "first_published": "2026-09-22T11:50:40-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8130913",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3520821,
-      "location": {
-        "name": "US-Remote"
-      },
-      "metadata": null,
-      "id": 8130913,
-      "updated_at": "2026-11-19T12:12:23-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Designer, Web Presence & Platform",
-      "company_name": "Stripe",
-      "first_published": "2026-08-31T12:15:39-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -6791,33 +6764,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8330789",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3601051,
-      "location": {
-        "name": "Auckland, New Zealand"
-      },
-      "metadata": null,
-      "id": 8330789,
-      "updated_at": "2026-11-19T12:10:19-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Enterprise Account Executive - Grower",
-      "company_name": "Stripe",
-      "first_published": "2026-11-11T20:56:48-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8336023",
       "data_compliance": [
         {
@@ -6841,6 +6787,33 @@
       "title": "Enterprise Account Executive - Grower",
       "company_name": "Stripe",
       "first_published": "2026-10-30T01:26:32-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8330789",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3601051,
+      "location": {
+        "name": "Auckland, New Zealand"
+      },
+      "metadata": null,
+      "id": 8330789,
+      "updated_at": "2026-11-19T12:10:19-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Enterprise Account Executive - Grower",
+      "company_name": "Stripe",
+      "first_published": "2026-11-11T20:56:48-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -8542,32 +8515,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8128634",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3519998,
-      "location": {
-        "name": "US Remote; Chicago, Atlanta, Canada"
-      },
-      "metadata": null,
-      "id": 8128634,
-      "updated_at": "2026-11-19T12:12:23-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Head of AEO & SEO",
-      "company_name": "Stripe",
-      "first_published": "2026-08-13T17:08:27-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8299649",
       "data_compliance": [
         {
@@ -9160,33 +9107,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8203969",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3550730,
-      "location": {
-        "name": "Mexico City, MX"
-      },
-      "metadata": null,
-      "id": 8203969,
-      "updated_at": "2026-11-19T12:10:06-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Implementation Consultant",
-      "company_name": "Stripe",
-      "first_published": "2026-10-08T13:01:22-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8237533",
       "data_compliance": [
         {
@@ -9210,6 +9130,33 @@
       "title": "Implementation Consultant",
       "company_name": "Stripe",
       "first_published": "2026-11-05T14:09:50-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8203969",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3550730,
+      "location": {
+        "name": "Mexico City, MX"
+      },
+      "metadata": null,
+      "id": 8203969,
+      "updated_at": "2026-11-19T12:10:06-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Implementation Consultant",
+      "company_name": "Stripe",
+      "first_published": "2026-10-08T13:01:22-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -9457,33 +9404,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8267102",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3577067,
-      "location": {
-        "name": "Dublin"
-      },
-      "metadata": null,
-      "id": 8267102,
-      "updated_at": "2026-11-19T12:10:14-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Integration Engineer",
-      "company_name": "Stripe",
-      "first_published": "2026-10-20T10:18:32-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8405596",
       "data_compliance": [
         {
@@ -9534,6 +9454,33 @@
       "title": "Integration Engineer",
       "company_name": "Stripe",
       "first_published": "2026-10-08T13:12:58-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8267102",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3577067,
+      "location": {
+        "name": "Dublin"
+      },
+      "metadata": null,
+      "id": 8267102,
+      "updated_at": "2026-11-19T12:10:14-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Integration Engineer",
+      "company_name": "Stripe",
+      "first_published": "2026-10-20T10:18:32-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -9592,33 +9539,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8080454",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3500741,
-      "location": {
-        "name": "Remote"
-      },
-      "metadata": null,
-      "id": 8080454,
-      "updated_at": "2026-11-19T12:12:22-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Integration Engineer, Metronome",
-      "company_name": "Stripe",
-      "first_published": "2026-08-18T09:25:04-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8338849",
       "data_compliance": [
         {
@@ -9646,6 +9566,33 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8080454",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3500741,
+      "location": {
+        "name": "Remote"
+      },
+      "metadata": null,
+      "id": 8080454,
+      "updated_at": "2026-11-19T12:12:22-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Integration Engineer, Metronome",
+      "company_name": "Stripe",
+      "first_published": "2026-08-18T09:25:04-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8171222",
       "data_compliance": [
         {
@@ -9669,33 +9616,6 @@
       "title": "Integration Engineer, Metronome ",
       "company_name": "Stripe",
       "first_published": "2026-09-02T10:38:07-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8203975",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3550733,
-      "location": {
-        "name": "Toronto or Chicago"
-      },
-      "metadata": null,
-      "id": 8203975,
-      "updated_at": "2026-11-19T12:10:06-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Integration Engineer, Professional Services",
-      "company_name": "Stripe",
-      "first_published": "2026-10-07T14:37:57-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -9750,6 +9670,33 @@
       "title": "Integration Engineer, Professional Services",
       "company_name": "Stripe",
       "first_published": "2026-09-23T09:41:59-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8203975",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3550733,
+      "location": {
+        "name": "Toronto or Chicago"
+      },
+      "metadata": null,
+      "id": 8203975,
+      "updated_at": "2026-11-19T12:10:06-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Integration Engineer, Professional Services",
+      "company_name": "Stripe",
+      "first_published": "2026-10-07T14:37:57-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -9835,33 +9782,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8282171",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3582389,
-      "location": {
-        "name": "Singapore"
-      },
-      "metadata": null,
-      "id": 8282171,
-      "updated_at": "2026-11-19T12:10:16-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Integration Reliability Engineer, Technical Operations",
-      "company_name": "Stripe",
-      "first_published": "2026-11-12T21:43:56-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8360332",
       "data_compliance": [
         {
@@ -9885,6 +9805,33 @@
       "title": "Integration Reliability Engineer, Technical Operations",
       "company_name": "Stripe",
       "first_published": "2026-11-16T13:42:59-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8282171",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3582389,
+      "location": {
+        "name": "Singapore"
+      },
+      "metadata": null,
+      "id": 8282171,
+      "updated_at": "2026-11-19T12:10:16-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Integration Reliability Engineer, Technical Operations",
+      "company_name": "Stripe",
+      "first_published": "2026-11-12T21:43:56-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -10051,33 +9998,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8209647",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3552961,
-      "location": {
-        "name": "New York, NY; Chicago, IL or San Francisco, CA"
-      },
-      "metadata": null,
-      "id": 8209647,
-      "updated_at": "2026-11-19T12:12:26-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Large User Sales Managers, Platform Partnerships",
-      "company_name": "Stripe",
-      "first_published": "2026-09-18T13:24:54-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8368638",
       "data_compliance": [
         {
@@ -10101,6 +10021,33 @@
       "title": "Large User Sales Managers, Platform Partnerships",
       "company_name": "Stripe",
       "first_published": "2026-11-10T12:00:21-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8209647",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3552961,
+      "location": {
+        "name": "New York, NY; Chicago, IL or San Francisco, CA"
+      },
+      "metadata": null,
+      "id": 8209647,
+      "updated_at": "2026-11-19T12:12:26-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Large User Sales Managers, Platform Partnerships",
+      "company_name": "Stripe",
+      "first_published": "2026-09-18T13:24:54-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -10807,33 +10754,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8154304",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3528789,
-      "location": {
-        "name": "Toronto"
-      },
-      "metadata": null,
-      "id": 8154304,
-      "updated_at": "2026-11-19T12:10:00-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Manager, Technical Account Management",
-      "company_name": "Stripe",
-      "first_published": "2026-09-04T10:21:01-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8152136",
       "data_compliance": [
         {
@@ -10857,6 +10777,33 @@
       "title": "Manager, Technical Account Management",
       "company_name": "Stripe",
       "first_published": "2026-09-04T15:01:59-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8154304",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3528789,
+      "location": {
+        "name": "Toronto"
+      },
+      "metadata": null,
+      "id": 8154304,
+      "updated_at": "2026-11-19T12:10:00-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Manager, Technical Account Management",
+      "company_name": "Stripe",
+      "first_published": "2026-09-04T10:21:01-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -11075,33 +11022,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8333074",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3600159,
-      "location": {
-        "name": "San Francisco, New York City, Seattle"
-      },
-      "metadata": null,
-      "id": 8333074,
-      "updated_at": "2026-11-19T12:12:30-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Master's Machine Learning Engineer, Intern",
-      "company_name": "Stripe",
-      "first_published": "2026-10-30T12:19:26-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8333122",
       "data_compliance": [
         {
@@ -11125,6 +11045,33 @@
       "title": "Master's Machine Learning Engineer, Intern",
       "company_name": "Stripe",
       "first_published": "2026-10-30T12:19:21-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8333074",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3600159,
+      "location": {
+        "name": "San Francisco, New York City, Seattle"
+      },
+      "metadata": null,
+      "id": 8333074,
+      "updated_at": "2026-11-19T12:12:30-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Master's Machine Learning Engineer, Intern",
+      "company_name": "Stripe",
+      "first_published": "2026-10-30T12:19:26-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -11990,6 +11937,32 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8261213",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3574580,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": null,
+      "id": 8261213,
+      "updated_at": "2026-11-19T12:12:28-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Payments Fraud Investigator",
+      "company_name": "Stripe",
+      "first_published": "2026-10-07T09:51:23-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=7554002",
       "data_compliance": [
         {
@@ -12013,32 +11986,6 @@
       "title": "Payments Fraud Investigator",
       "company_name": "Stripe",
       "first_published": "2026-01-26T01:25:51-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8261213",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3574580,
-      "location": {
-        "name": "Remote - US"
-      },
-      "metadata": null,
-      "id": 8261213,
-      "updated_at": "2026-11-19T12:12:28-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Payments Fraud Investigator",
-      "company_name": "Stripe",
-      "first_published": "2026-10-07T09:51:23-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -12124,6 +12071,32 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8262027",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "internal_job_id": 3574873,
+      "location": {
+        "name": "Toronto"
+      },
+      "metadata": null,
+      "id": 8262027,
+      "updated_at": "2026-11-19T12:10:13-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "People Consultant",
+      "company_name": "Stripe",
+      "first_published": "2026-10-13T15:14:34-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=7866374",
       "data_compliance": [
         {
@@ -12147,32 +12120,6 @@
       "title": "People Consultant",
       "company_name": "Stripe",
       "first_published": "2026-05-04T10:43:21-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8262027",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "internal_job_id": 3574873,
-      "location": {
-        "name": "Toronto"
-      },
-      "metadata": null,
-      "id": 8262027,
-      "updated_at": "2026-11-19T12:10:13-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "People Consultant",
-      "company_name": "Stripe",
-      "first_published": "2026-10-13T15:14:34-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -12284,33 +12231,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8194283",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3545642,
-      "location": {
-        "name": "New York, Seattle, South San Francisco HQ"
-      },
-      "metadata": null,
-      "id": 8194283,
-      "updated_at": "2026-11-19T12:12:26-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "PhD Data Scientist, Intern",
-      "company_name": "Stripe",
-      "first_published": "2026-10-01T11:05:25-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8194285",
       "data_compliance": [
         {
@@ -12338,7 +12258,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8328664",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8194283",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -12350,17 +12270,17 @@
         }
       ],
       "education": "education_required",
-      "internal_job_id": 3600160,
+      "internal_job_id": 3545642,
       "location": {
-        "name": "Toronto"
+        "name": "New York, Seattle, South San Francisco HQ"
       },
       "metadata": null,
-      "id": 8328664,
-      "updated_at": "2026-11-19T12:10:19-05:00",
+      "id": 8194283,
+      "updated_at": "2026-11-19T12:12:26-05:00",
       "requisition_id": "See Opening ID",
-      "title": "PhD Machine Learning Engineer, Intern",
+      "title": "PhD Data Scientist, Intern",
       "company_name": "Stripe",
-      "first_published": "2026-10-30T12:19:24-04:00",
+      "first_published": "2026-10-01T11:05:25-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -12388,6 +12308,33 @@
       "title": "PhD Machine Learning Engineer, Intern",
       "company_name": "Stripe",
       "first_published": "2026-10-30T12:19:28-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8328664",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3600160,
+      "location": {
+        "name": "Toronto"
+      },
+      "metadata": null,
+      "id": 8328664,
+      "updated_at": "2026-11-19T12:10:19-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "PhD Machine Learning Engineer, Intern",
+      "company_name": "Stripe",
+      "first_published": "2026-10-30T12:19:24-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -13359,33 +13306,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8384780",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3618921,
-      "location": {
-        "name": "London"
-      },
-      "metadata": null,
-      "id": 8384780,
-      "updated_at": "2026-11-20T14:52:23-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Product Manager, Payment Methods, EMEA",
-      "company_name": "Stripe",
-      "first_published": "2026-11-20T14:52:23-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8406995",
       "data_compliance": [
         {
@@ -13409,6 +13329,33 @@
       "title": "Product Manager, Payment Methods, EMEA",
       "company_name": "Stripe",
       "first_published": "2026-11-20T14:53:56-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8384780",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3618921,
+      "location": {
+        "name": "London"
+      },
+      "metadata": null,
+      "id": 8384780,
+      "updated_at": "2026-11-20T14:52:23-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Product Manager, Payment Methods, EMEA",
+      "company_name": "Stripe",
+      "first_published": "2026-11-20T14:52:23-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -13597,33 +13544,6 @@
       "title": "Product Manager, Terminal Developer Experiences",
       "company_name": "Stripe",
       "first_published": "2026-09-04T12:55:44-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8327254",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3599653,
-      "location": {
-        "name": "Toronto, Canada"
-      },
-      "metadata": null,
-      "id": 8327254,
-      "updated_at": "2026-11-19T12:10:19-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Product Manager, Terminal Payments",
-      "company_name": "Stripe",
-      "first_published": "2026-10-30T16:12:57-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -14434,33 +14354,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8337362",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3603831,
-      "location": {
-        "name": "New York"
-      },
-      "metadata": null,
-      "id": 8337362,
-      "updated_at": "2026-11-19T12:12:31-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Recruiting Scheduler",
-      "company_name": "Stripe",
-      "first_published": "2026-11-03T13:26:44-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8351504",
       "data_compliance": [
         {
@@ -14484,6 +14377,33 @@
       "title": "Recruiting Scheduler",
       "company_name": "Stripe",
       "first_published": "2026-11-04T08:57:16-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8337362",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3603831,
+      "location": {
+        "name": "New York"
+      },
+      "metadata": null,
+      "id": 8337362,
+      "updated_at": "2026-11-19T12:12:31-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Recruiting Scheduler",
+      "company_name": "Stripe",
+      "first_published": "2026-11-03T13:26:44-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -15162,33 +15082,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8156998",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3530433,
-      "location": {
-        "name": "New York, San Francisco, Chicago, Seattle"
-      },
-      "metadata": null,
-      "id": 8156998,
-      "updated_at": "2026-11-19T12:12:24-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Sales Manager, Billing",
-      "company_name": "Stripe",
-      "first_published": "2026-08-27T11:17:45-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8326189",
       "data_compliance": [
         {
@@ -15212,6 +15105,33 @@
       "title": "Sales Manager, Billing",
       "company_name": "Stripe",
       "first_published": "2026-10-29T15:28:26-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8156998",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3530433,
+      "location": {
+        "name": "New York, San Francisco, Chicago, Seattle"
+      },
+      "metadata": null,
+      "id": 8156998,
+      "updated_at": "2026-11-19T12:12:24-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Sales Manager, Billing",
+      "company_name": "Stripe",
+      "first_published": "2026-08-27T11:17:45-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -15459,33 +15379,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8267829",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3577360,
-      "location": {
-        "name": "San Francisco"
-      },
-      "metadata": null,
-      "id": 8267829,
-      "updated_at": "2026-11-19T12:12:29-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Sales Manager, Startups - Hunter ",
-      "company_name": "Stripe",
-      "first_published": "2026-10-19T18:05:28-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8191706",
       "data_compliance": [
         {
@@ -15509,6 +15402,33 @@
       "title": "Sales Manager, Startups - Hunter ",
       "company_name": "Stripe",
       "first_published": "2026-09-17T14:04:16-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8267829",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3577360,
+      "location": {
+        "name": "San Francisco"
+      },
+      "metadata": null,
+      "id": 8267829,
+      "updated_at": "2026-11-19T12:12:29-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Sales Manager, Startups - Hunter ",
+      "company_name": "Stripe",
+      "first_published": "2026-10-19T18:05:28-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -15756,33 +15676,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=7776179",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3372021,
-      "location": {
-        "name": "SF, New York, Seattle"
-      },
-      "metadata": null,
-      "id": 7776179,
-      "updated_at": "2026-11-19T12:12:20-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Security Engineer, Bridge",
-      "company_name": "Stripe",
-      "first_published": "2026-04-02T15:12:42-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8209307",
       "data_compliance": [
         {
@@ -15806,6 +15699,33 @@
       "title": "Security Engineer, Bridge",
       "company_name": "Stripe",
       "first_published": "2026-10-19T11:36:24-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=7776179",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3372021,
+      "location": {
+        "name": "SF, New York, Seattle"
+      },
+      "metadata": null,
+      "id": 7776179,
+      "updated_at": "2026-11-19T12:12:20-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Security Engineer, Bridge",
+      "company_name": "Stripe",
+      "first_published": "2026-04-02T15:12:42-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -16106,33 +16026,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8273741",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3575716,
-      "location": {
-        "name": "London"
-      },
-      "metadata": null,
-      "id": 8273741,
-      "updated_at": "2026-11-19T12:10:13-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Senior Staff Product Manager, Risk",
-      "company_name": "Stripe",
-      "first_published": "2026-10-12T07:48:19-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8264005",
       "data_compliance": [
         {
@@ -16156,6 +16049,33 @@
       "title": "Senior Staff Product Manager, Risk",
       "company_name": "Stripe",
       "first_published": "2026-10-12T07:43:09-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8273741",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3575716,
+      "location": {
+        "name": "London"
+      },
+      "metadata": null,
+      "id": 8273741,
+      "updated_at": "2026-11-19T12:10:13-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Senior Staff Product Manager, Risk",
+      "company_name": "Stripe",
+      "first_published": "2026-10-12T07:48:19-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -16484,6 +16404,33 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8130867",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3520801,
+      "location": {
+        "name": "London"
+      },
+      "metadata": null,
+      "id": 8130867,
+      "updated_at": "2026-11-19T12:09:59-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Software Engineer, Intern",
+      "company_name": "Stripe",
+      "first_published": "2026-08-31T18:30:38-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8031833",
       "data_compliance": [
         {
@@ -16538,33 +16485,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8130867",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3520801,
-      "location": {
-        "name": "London"
-      },
-      "metadata": null,
-      "id": 8130867,
-      "updated_at": "2026-11-19T12:09:59-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Software Engineer, Intern",
-      "company_name": "Stripe",
-      "first_published": "2026-08-31T18:30:38-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8130807",
       "data_compliance": [
         {
@@ -16592,33 +16512,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8128745",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3520044,
-      "location": {
-        "name": "San Francisco, Seattle, New York City"
-      },
-      "metadata": null,
-      "id": 8128745,
-      "updated_at": "2026-11-19T12:12:23-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Software Engineer, Intern (Summer)",
-      "company_name": "Stripe",
-      "first_published": "2026-08-31T18:20:45-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8130805",
       "data_compliance": [
         {
@@ -16642,6 +16535,33 @@
       "title": "Software Engineer, Intern (Summer)",
       "company_name": "Stripe",
       "first_published": "2026-08-31T19:21:48-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8128745",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3520044,
+      "location": {
+        "name": "San Francisco, Seattle, New York City"
+      },
+      "metadata": null,
+      "id": 8128745,
+      "updated_at": "2026-11-19T12:12:23-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Software Engineer, Intern (Summer)",
+      "company_name": "Stripe",
+      "first_published": "2026-08-31T18:20:45-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -16727,33 +16647,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8128744",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3520042,
-      "location": {
-        "name": "San Francisco, Seattle, New York"
-      },
-      "metadata": null,
-      "id": 8128744,
-      "updated_at": "2026-11-19T12:12:23-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Software Engineer, New Grad",
-      "company_name": "Stripe",
-      "first_published": "2026-08-31T18:22:27-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8157838",
       "data_compliance": [
         {
@@ -16777,33 +16670,6 @@
       "title": "Software Engineer, New Grad",
       "company_name": "Stripe",
       "first_published": "2026-08-31T19:16:04-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8160776",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": true
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3531945,
-      "location": {
-        "name": "Singapore"
-      },
-      "metadata": null,
-      "id": 8160776,
-      "updated_at": "2026-11-19T12:10:01-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Software Engineer, New Grad",
-      "company_name": "Stripe",
-      "first_published": "2026-09-02T23:28:52-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -16835,6 +16701,33 @@
       "application_deadline": null
     },
     {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8130930",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3520831,
+      "location": {
+        "name": "London"
+      },
+      "metadata": null,
+      "id": 8130930,
+      "updated_at": "2026-11-19T12:09:59-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Software Engineer, New Grad",
+      "company_name": "Stripe",
+      "first_published": "2026-08-31T18:32:53-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8130881",
       "data_compliance": [
         {
@@ -16858,6 +16751,33 @@
       "title": "Software Engineer, New Grad",
       "company_name": "Stripe",
       "first_published": "2026-08-31T19:07:03-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8160776",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3531945,
+      "location": {
+        "name": "Singapore"
+      },
+      "metadata": null,
+      "id": 8160776,
+      "updated_at": "2026-11-19T12:10:01-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Software Engineer, New Grad",
+      "company_name": "Stripe",
+      "first_published": "2026-09-02T23:28:52-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -16889,33 +16809,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8130930",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3520831,
-      "location": {
-        "name": "London"
-      },
-      "metadata": null,
-      "id": 8130930,
-      "updated_at": "2026-11-19T12:09:59-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Software Engineer, New Grad",
-      "company_name": "Stripe",
-      "first_published": "2026-08-31T18:32:53-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8202299",
       "data_compliance": [
         {
@@ -16939,6 +16832,33 @@
       "title": "Software Engineer, New Grad",
       "company_name": "Stripe",
       "first_published": "2026-10-22T23:22:57-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8128744",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3520042,
+      "location": {
+        "name": "San Francisco, Seattle, New York"
+      },
+      "metadata": null,
+      "id": 8128744,
+      "updated_at": "2026-11-19T12:12:23-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Software Engineer, New Grad",
+      "company_name": "Stripe",
+      "first_published": "2026-08-31T18:22:27-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -17024,33 +16944,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=6717520",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3099007,
-      "location": {
-        "name": "Dublin, Ireland"
-      },
-      "metadata": null,
-      "id": 6717520,
-      "updated_at": "2026-11-19T12:09:49-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Software Engineer, Payments and Risk",
-      "company_name": "Stripe",
-      "first_published": "2025-04-24T08:56:32-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8261012",
       "data_compliance": [
         {
@@ -17074,6 +16967,33 @@
       "title": "Software Engineer, Payments and Risk",
       "company_name": "Stripe",
       "first_published": "2026-10-08T10:04:57-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=6717520",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3099007,
+      "location": {
+        "name": "Dublin, Ireland"
+      },
+      "metadata": null,
+      "id": 6717520,
+      "updated_at": "2026-11-19T12:09:49-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Software Engineer, Payments and Risk",
+      "company_name": "Stripe",
+      "first_published": "2025-04-24T08:56:32-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -17914,33 +17834,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8336711",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3603547,
-      "location": {
-        "name": "Dublin"
-      },
-      "metadata": null,
-      "id": 8336711,
-      "updated_at": "2026-11-19T12:10:21-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Solutions Architect, Startups & SMB",
-      "company_name": "Stripe",
-      "first_published": "2026-11-05T08:47:24-05:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8144264",
       "data_compliance": [
         {
@@ -17964,6 +17857,33 @@
       "title": "Solutions Architect, Startups & SMB",
       "company_name": "Stripe",
       "first_published": "2026-09-09T05:22:50-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8336711",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3603547,
+      "location": {
+        "name": "Dublin"
+      },
+      "metadata": null,
+      "id": 8336711,
+      "updated_at": "2026-11-19T12:10:21-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Solutions Architect, Startups & SMB",
+      "company_name": "Stripe",
+      "first_published": "2026-11-05T08:47:24-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -19153,33 +19073,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8174963",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3537989,
-      "location": {
-        "name": "Dublin"
-      },
-      "metadata": null,
-      "id": 8174963,
-      "updated_at": "2026-11-19T12:10:03-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Staff Security Engineer, Abuse Control",
-      "company_name": "Stripe",
-      "first_published": "2026-09-17T11:40:18-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8211180",
       "data_compliance": [
         {
@@ -19207,7 +19100,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8356912",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8356917",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -19221,15 +19114,15 @@
       "education": "education_required",
       "internal_job_id": 3537989,
       "location": {
-        "name": "Bucharest"
+        "name": "Barcelona"
       },
       "metadata": null,
-      "id": 8356912,
+      "id": 8356917,
       "updated_at": "2026-11-19T12:10:03-05:00",
       "requisition_id": "See Opening ID",
       "title": "Staff Security Engineer, Abuse Control",
       "company_name": "Stripe",
-      "first_published": "2026-11-05T15:46:02-05:00",
+      "first_published": "2026-11-05T15:47:17-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -19261,7 +19154,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8356917",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8356912",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -19275,15 +19168,42 @@
       "education": "education_required",
       "internal_job_id": 3537989,
       "location": {
-        "name": "Barcelona"
+        "name": "Bucharest"
       },
       "metadata": null,
-      "id": 8356917,
+      "id": 8356912,
       "updated_at": "2026-11-19T12:10:03-05:00",
       "requisition_id": "See Opening ID",
       "title": "Staff Security Engineer, Abuse Control",
       "company_name": "Stripe",
-      "first_published": "2026-11-05T15:47:17-05:00",
+      "first_published": "2026-11-05T15:46:02-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8174963",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3537989,
+      "location": {
+        "name": "Dublin"
+      },
+      "metadata": null,
+      "id": 8174963,
+      "updated_at": "2026-11-19T12:10:03-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Staff Security Engineer, Abuse Control",
+      "company_name": "Stripe",
+      "first_published": "2026-09-17T11:40:18-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -20094,33 +20014,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8160699",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3531914,
-      "location": {
-        "name": "San Francisco"
-      },
-      "metadata": null,
-      "id": 8160699,
-      "updated_at": "2026-11-19T12:12:24-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Technical Account Manager",
-      "company_name": "Stripe",
-      "first_published": "2026-09-23T11:59:16-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8023524",
       "data_compliance": [
         {
@@ -20144,6 +20037,33 @@
       "title": "Technical Account Manager",
       "company_name": "Stripe",
       "first_published": "2026-06-23T19:38:52-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8160699",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3531914,
+      "location": {
+        "name": "San Francisco"
+      },
+      "metadata": null,
+      "id": 8160699,
+      "updated_at": "2026-11-19T12:12:24-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Technical Account Manager",
+      "company_name": "Stripe",
+      "first_published": "2026-09-23T11:59:16-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -20499,33 +20419,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8154525",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3528876,
-      "location": {
-        "name": "SF, SEA, NYC, CHI, ATL"
-      },
-      "metadata": null,
-      "id": 8154525,
-      "updated_at": "2026-11-19T12:12:24-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Technical Recruiter (Fixed Term Contract)",
-      "company_name": "Stripe",
-      "first_published": "2026-08-24T18:20:43-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=8142856",
       "data_compliance": [
         {
@@ -20549,6 +20442,33 @@
       "title": "Technical Recruiter (Fixed Term Contract)",
       "company_name": "Stripe",
       "first_published": "2026-08-26T06:04:46-04:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8154525",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3528876,
+      "location": {
+        "name": "SF, SEA, NYC, CHI, ATL"
+      },
+      "metadata": null,
+      "id": 8154525,
+      "updated_at": "2026-11-19T12:12:24-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Technical Recruiter (Fixed Term Contract)",
+      "company_name": "Stripe",
+      "first_published": "2026-08-24T18:20:43-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -20580,7 +20500,7 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8368656",
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=7919030",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -20588,21 +20508,21 @@
           "requires_processing_consent": false,
           "requires_retention_consent": false,
           "retention_period": null,
-          "demographic_data_consent_applies": true
+          "demographic_data_consent_applies": false
         }
       ],
       "education": "education_required",
-      "internal_job_id": 3615424,
+      "internal_job_id": 3442022,
       "location": {
-        "name": "Singapore"
+        "name": "Chicago, IL, Seattle, WA"
       },
       "metadata": null,
-      "id": 8368656,
-      "updated_at": "2026-11-19T12:10:23-05:00",
+      "id": 7919030,
+      "updated_at": "2026-11-19T12:12:20-05:00",
       "requisition_id": "See Opening ID",
       "title": "Technical Solutions Engineer",
       "company_name": "Stripe",
-      "first_published": "2026-11-13T05:16:09-05:00",
+      "first_published": "2026-05-14T21:34:53-04:00",
       "language": "en",
       "application_deadline": null
     },
@@ -20634,33 +20554,6 @@
       "application_deadline": null
     },
     {
-      "absolute_url": "https://stripe.com/jobs/search?gh_jid=7919030",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "internal_job_id": 3442022,
-      "location": {
-        "name": "Chicago, IL, Seattle, WA"
-      },
-      "metadata": null,
-      "id": 7919030,
-      "updated_at": "2026-11-19T12:12:20-05:00",
-      "requisition_id": "See Opening ID",
-      "title": "Technical Solutions Engineer",
-      "company_name": "Stripe",
-      "first_published": "2026-05-14T21:34:53-04:00",
-      "language": "en",
-      "application_deadline": null
-    },
-    {
       "absolute_url": "https://stripe.com/jobs/search?gh_jid=7917880",
       "data_compliance": [
         {
@@ -20684,6 +20577,33 @@
       "title": "Technical Solutions Engineer",
       "company_name": "Stripe",
       "first_published": "2026-11-18T09:31:48-05:00",
+      "language": "en",
+      "application_deadline": null
+    },
+    {
+      "absolute_url": "https://stripe.com/jobs/search?gh_jid=8368656",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": true
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 3615424,
+      "location": {
+        "name": "Singapore"
+      },
+      "metadata": null,
+      "id": 8368656,
+      "updated_at": "2026-11-19T12:10:23-05:00",
+      "requisition_id": "See Opening ID",
+      "title": "Technical Solutions Engineer",
+      "company_name": "Stripe",
+      "first_published": "2026-11-13T05:16:09-05:00",
       "language": "en",
       "application_deadline": null
     },
@@ -21039,6 +20959,6 @@
     }
   ],
   "meta": {
-    "total": 781
+    "total": 778
   }
 }
