@@ -1,97 +1,6 @@
 {
   "jobs": [
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8328511?gh_jid=8328511",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3600097,
-      "location": {
-        "name": "Remote - US: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "Engineering Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Security",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC3",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Engineering",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8328511,
-      "updated_at": "2026-11-12T12:58:03-05:00",
-      "requisition_id": "R11758",
-      "title": "Application Security Engineer",
-      "company_name": "Dropbox",
-      "first_published": "2026-11-12T12:58:03-05:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Application Security Engineer",
-      "role_category": "Security Engineer"
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/8328516?gh_jid=8328516",
       "data_compliance": [
         {
@@ -183,7 +92,7 @@
       "role_category": "Security Engineer"
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/7752226?gh_jid=7752226",
+      "absolute_url": "https://jobs.dropbox.com/listing/8328511?gh_jid=8328511",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -196,9 +105,9 @@
       ],
       "education": "education_required",
       "employment": "employment_required",
-      "internal_job_id": 3398503,
+      "internal_job_id": 3600097,
       "location": {
-        "name": "Remote - Mexico"
+        "name": "Remote - US: Select locations"
       },
       "metadata": [
         {
@@ -216,7 +125,7 @@
         {
           "id": 397072,
           "name": "Parent Job ID",
-          "value": "Eng - 3398503",
+          "value": null,
           "value_type": "single_select"
         },
         {
@@ -240,19 +149,19 @@
         {
           "id": 3465818,
           "name": "Location Cost Tier",
-          "value": "Low",
+          "value": "Mid",
           "value_type": "single_select"
         },
         {
           "id": 696737,
           "name": "Skillset",
-          "value": "Product SWE BE",
+          "value": "Security",
           "value_type": "single_select"
         },
         {
           "id": 113830,
           "name": "Dropboxer Level",
-          "value": "IC2",
+          "value": "IC3",
           "value_type": "single_select"
         },
         {
@@ -262,16 +171,16 @@
           "value_type": "single_select"
         }
       ],
-      "id": 7752226,
-      "updated_at": "2026-11-10T10:45:24-05:00",
-      "requisition_id": "PARENT",
-      "title": "Backend Product Software Engineer",
+      "id": 8328511,
+      "updated_at": "2026-11-12T12:58:03-05:00",
+      "requisition_id": "R11758",
+      "title": "Application Security Engineer",
       "company_name": "Dropbox",
-      "first_published": "2026-10-30T07:05:41-04:00",
+      "first_published": "2026-11-12T12:58:03-05:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Backend Product Software Engineer",
-      "role_category": "Backend Engineer"
+      "raw_title": "Application Security Engineer",
+      "role_category": "Security Engineer"
     },
     {
       "absolute_url": "https://jobs.dropbox.com/listing/7172701?gh_jid=7172701",
@@ -359,6 +268,97 @@
       "title": "Backend Product Software Engineer",
       "company_name": "Dropbox",
       "first_published": "2026-10-29T08:40:17-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Backend Product Software Engineer",
+      "role_category": "Backend Engineer"
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/7752226?gh_jid=7752226",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3398503,
+      "location": {
+        "name": "Remote - Mexico"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "Engineering Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": "Eng - 3398503",
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Low",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "Product SWE BE",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC2",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Engineering",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 7752226,
+      "updated_at": "2026-11-10T10:45:24-05:00",
+      "requisition_id": "PARENT",
+      "title": "Backend Product Software Engineer",
+      "company_name": "Dropbox",
+      "first_published": "2026-10-30T07:05:41-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Backend Product Software Engineer",
@@ -638,97 +638,6 @@
       "role_category": "Engineering Manager"
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8386725?gh_jid=8386725",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3619685,
-      "location": {
-        "name": "Remote - Canada: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "G&A Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Finance, Niche",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC3",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Finance",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8386725,
-      "updated_at": "2026-11-23T16:32:26-05:00",
-      "requisition_id": "R11781",
-      "title": "Financial Reporting & Technical Accounting Sr Analyst",
-      "company_name": "Dropbox",
-      "first_published": "2026-11-23T16:32:26-05:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Financial Reporting & Technical Accounting Sr Analyst",
-      "role_category": "Accountant"
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/8386724?gh_jid=8386724",
       "data_compliance": [
         {
@@ -820,7 +729,7 @@
       "role_category": "Accountant"
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/6449729?gh_jid=6449729",
+      "absolute_url": "https://jobs.dropbox.com/listing/8386725?gh_jid=8386725",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -833,15 +742,15 @@
       ],
       "education": "education_required",
       "employment": "employment_required",
-      "internal_job_id": 3020459,
+      "internal_job_id": 3619685,
       "location": {
-        "name": "Remote - Poland"
+        "name": "Remote - Canada: Select locations"
       },
       "metadata": [
         {
           "id": 397108,
           "name": "Recruiting Team Responsible",
-          "value": "International EPD",
+          "value": "G&A Recruiting",
           "value_type": "single_select"
         },
         {
@@ -853,7 +762,7 @@
         {
           "id": 397072,
           "name": "Parent Job ID",
-          "value": "Eng - 3398391",
+          "value": null,
           "value_type": "single_select"
         },
         {
@@ -877,13 +786,13 @@
         {
           "id": 3465818,
           "name": "Location Cost Tier",
-          "value": "Low",
+          "value": "Mid",
           "value_type": "single_select"
         },
         {
           "id": 696737,
           "name": "Skillset",
-          "value": "Product SWE FS",
+          "value": "Finance, Niche",
           "value_type": "single_select"
         },
         {
@@ -895,20 +804,20 @@
         {
           "id": 54678,
           "name": "Career Page Allocation",
-          "value": "Engineering",
+          "value": "Finance",
           "value_type": "single_select"
         }
       ],
-      "id": 6449729,
-      "updated_at": "2026-11-10T10:45:24-05:00",
-      "requisition_id": "PARENT",
-      "title": "Full Stack Product Software Engineer",
+      "id": 8386725,
+      "updated_at": "2026-11-23T16:32:26-05:00",
+      "requisition_id": "R11781",
+      "title": "Financial Reporting & Technical Accounting Sr Analyst",
       "company_name": "Dropbox",
-      "first_published": "2025-01-03T12:35:36-05:00",
+      "first_published": "2026-11-23T16:32:26-05:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Full Stack Product Software Engineer",
-      "role_category": "Full Stack Engineer"
+      "raw_title": "Financial Reporting & Technical Accounting Sr Analyst",
+      "role_category": "Accountant"
     },
     {
       "absolute_url": "https://jobs.dropbox.com/listing/7172839?gh_jid=7172839",
@@ -996,6 +905,97 @@
       "title": "Full Stack Product Software Engineer",
       "company_name": "Dropbox",
       "first_published": "2026-02-16T06:32:34-05:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Full Stack Product Software Engineer",
+      "role_category": "Full Stack Engineer"
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/6449729?gh_jid=6449729",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3020459,
+      "location": {
+        "name": "Remote - Poland"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "International EPD",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": "Eng - 3398391",
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Low",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "Product SWE FS",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC3",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Engineering",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 6449729,
+      "updated_at": "2026-11-10T10:45:24-05:00",
+      "requisition_id": "PARENT",
+      "title": "Full Stack Product Software Engineer",
+      "company_name": "Dropbox",
+      "first_published": "2025-01-03T12:35:36-05:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Full Stack Product Software Engineer",
@@ -1639,97 +1639,6 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8249957?gh_jid=8249957",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3569339,
-      "location": {
-        "name": "Remote - US: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "GCO Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Marketing, Niche",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC4",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Marketing",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8249957,
-      "updated_at": "2026-11-10T15:16:17-05:00",
-      "requisition_id": "R11717",
-      "title": "Integrated Campaign Strategist",
-      "company_name": "Dropbox",
-      "first_published": "2026-10-23T10:36:42-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Integrated Campaign Strategist",
-      "role_category": "Other"
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/8249958?gh_jid=8249958",
       "data_compliance": [
         {
@@ -1821,7 +1730,7 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8328469?gh_jid=8328469",
+      "absolute_url": "https://jobs.dropbox.com/listing/8249957?gh_jid=8249957",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -1834,7 +1743,7 @@
       ],
       "education": "education_required",
       "employment": "employment_required",
-      "internal_job_id": 3600091,
+      "internal_job_id": 3569339,
       "location": {
         "name": "Remote - US: Select locations"
       },
@@ -1842,7 +1751,7 @@
         {
           "id": 397108,
           "name": "Recruiting Team Responsible",
-          "value": "G&A Recruiting",
+          "value": "GCO Recruiting",
           "value_type": "single_select"
         },
         {
@@ -1884,123 +1793,32 @@
         {
           "id": 696737,
           "name": "Skillset",
-          "value": "Contract Specialist",
+          "value": "Marketing, Niche",
           "value_type": "single_select"
         },
         {
           "id": 113830,
           "name": "Dropboxer Level",
-          "value": "IC3",
+          "value": "IC4",
           "value_type": "single_select"
         },
         {
           "id": 54678,
           "name": "Career Page Allocation",
-          "value": "Legal",
+          "value": "Marketing",
           "value_type": "single_select"
         }
       ],
-      "id": 8328469,
-      "updated_at": "2026-11-10T10:45:24-05:00",
-      "requisition_id": "R11731",
-      "title": "Legal Operations Associate",
+      "id": 8249957,
+      "updated_at": "2026-11-10T15:16:17-05:00",
+      "requisition_id": "R11717",
+      "title": "Integrated Campaign Strategist",
       "company_name": "Dropbox",
-      "first_published": "2026-11-03T17:59:06-05:00",
+      "first_published": "2026-10-23T10:36:42-04:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Legal Operations Associate",
-      "role_category": "Legal Counsel"
-    },
-    {
-      "absolute_url": "https://jobs.dropbox.com/listing/8328470?gh_jid=8328470",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3600091,
-      "location": {
-        "name": "Remote - Canada: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "G&A Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Contract Specialist",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC3",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Legal",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8328470,
-      "updated_at": "2026-11-10T10:45:24-05:00",
-      "requisition_id": "R11731",
-      "title": "Legal Operations Associate",
-      "company_name": "Dropbox",
-      "first_published": "2026-11-05T13:23:24-05:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Legal Operations Associate",
-      "role_category": "Legal Counsel"
+      "raw_title": "Integrated Campaign Strategist",
+      "role_category": "Other"
     },
     {
       "absolute_url": "https://jobs.dropbox.com/listing/8380192?gh_jid=8380192",
@@ -2083,7 +1901,7 @@
         }
       ],
       "id": 8380192,
-      "updated_at": "2026-11-23T14:31:32-05:00",
+      "updated_at": "2026-11-24T14:30:41-05:00",
       "requisition_id": "R11765",
       "title": "Partner Sales Manager (Hindi Speaking) - Singapore ",
       "company_name": "Dropbox",
@@ -2092,97 +1910,6 @@
       "application_deadline": null,
       "raw_title": "Partner Sales Manager (Hindi Speaking) - Singapore ",
       "role_category": "Sales Executive"
-    },
-    {
-      "absolute_url": "https://jobs.dropbox.com/listing/8261916?gh_jid=8261916",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3574817,
-      "location": {
-        "name": "Remote - Canada: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "NAMER - Executive Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "High",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Gen SWE",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC6",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Engineering",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8261916,
-      "updated_at": "2026-11-12T10:15:44-05:00",
-      "requisition_id": "R11718",
-      "title": "Principal Software Engineer, Product Engineering",
-      "company_name": "Dropbox",
-      "first_published": "2026-10-08T13:21:58-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Principal Software Engineer, Product Engineering",
-      "role_category": "Software Engineer"
     },
     {
       "absolute_url": "https://jobs.dropbox.com/listing/8261911?gh_jid=8261911",
@@ -2276,7 +2003,7 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8177610?gh_jid=8177610",
+      "absolute_url": "https://jobs.dropbox.com/listing/8261916?gh_jid=8261916",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -2289,7 +2016,7 @@
       ],
       "education": "education_required",
       "employment": "employment_required",
-      "internal_job_id": 3538948,
+      "internal_job_id": 3574817,
       "location": {
         "name": "Remote - Canada: Select locations"
       },
@@ -2297,7 +2024,7 @@
         {
           "id": 397108,
           "name": "Recruiting Team Responsible",
-          "value": "GCO Recruiting",
+          "value": "NAMER - Executive Recruiting",
           "value_type": "single_select"
         },
         {
@@ -2333,38 +2060,38 @@
         {
           "id": 3465818,
           "name": "Location Cost Tier",
-          "value": "Mid",
+          "value": "High",
           "value_type": "single_select"
         },
         {
           "id": 696737,
           "name": "Skillset",
-          "value": "GCO, Niche",
+          "value": "Gen SWE",
           "value_type": "single_select"
         },
         {
           "id": 113830,
           "name": "Dropboxer Level",
-          "value": "IC4",
+          "value": "IC6",
           "value_type": "single_select"
         },
         {
           "id": 54678,
           "name": "Career Page Allocation",
-          "value": "Sales",
+          "value": "Engineering",
           "value_type": "single_select"
         }
       ],
-      "id": 8177610,
-      "updated_at": "2026-11-10T10:45:24-05:00",
-      "requisition_id": "R11701",
-      "title": "Program Manager, Customer Programs",
+      "id": 8261916,
+      "updated_at": "2026-11-12T10:15:44-05:00",
+      "requisition_id": "R11718",
+      "title": "Principal Software Engineer, Product Engineering",
       "company_name": "Dropbox",
-      "first_published": "2026-09-04T09:34:24-04:00",
+      "first_published": "2026-10-08T13:21:58-04:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Program Manager, Customer Programs",
-      "role_category": "Program Manager"
+      "raw_title": "Principal Software Engineer, Product Engineering",
+      "role_category": "Software Engineer"
     },
     {
       "absolute_url": "https://jobs.dropbox.com/listing/8177609?gh_jid=8177609",
@@ -2452,6 +2179,97 @@
       "title": "Program Manager, Customer Programs",
       "company_name": "Dropbox",
       "first_published": "2026-09-04T09:34:22-04:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Program Manager, Customer Programs",
+      "role_category": "Program Manager"
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/8177610?gh_jid=8177610",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3538948,
+      "location": {
+        "name": "Remote - Canada: Select locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "GCO Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "GCO, Niche",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC4",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Sales",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8177610,
+      "updated_at": "2026-11-10T10:45:24-05:00",
+      "requisition_id": "R11701",
+      "title": "Program Manager, Customer Programs",
+      "company_name": "Dropbox",
+      "first_published": "2026-09-04T09:34:24-04:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Program Manager, Customer Programs",
@@ -2549,97 +2367,6 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8328537?gh_jid=8328537",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3600101,
-      "location": {
-        "name": "Remote - Canada: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "Engineering Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Security",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC3",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Engineering",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8328537,
-      "updated_at": "2026-11-10T14:18:10-05:00",
-      "requisition_id": "R11760",
-      "title": "Security Engineer, IAM",
-      "company_name": "Dropbox",
-      "first_published": "2026-11-10T14:18:10-05:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Security Engineer, IAM",
-      "role_category": "Security Engineer"
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/8328534?gh_jid=8328534",
       "data_compliance": [
         {
@@ -2725,6 +2452,97 @@
       "title": "Security Engineer, IAM",
       "company_name": "Dropbox",
       "first_published": "2026-11-10T14:18:06-05:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Security Engineer, IAM",
+      "role_category": "Security Engineer"
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/8328537?gh_jid=8328537",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3600101,
+      "location": {
+        "name": "Remote - Canada: Select locations"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "Engineering Recruiting",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Mid",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "Security",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC3",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Engineering",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8328537,
+      "updated_at": "2026-11-10T14:18:10-05:00",
+      "requisition_id": "R11760",
+      "title": "Security Engineer, IAM",
+      "company_name": "Dropbox",
+      "first_published": "2026-11-10T14:18:10-05:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Security Engineer, IAM",
@@ -3095,97 +2913,6 @@
       "role_category": "Account Executive"
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8328519?gh_jid=8328519",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3600098,
-      "location": {
-        "name": "Remote - Mexico"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "International EPD",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Low",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Niche",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC4",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Corporate IT Engineering",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8328519,
-      "updated_at": "2026-11-23T09:41:25-05:00",
-      "requisition_id": "R11754",
-      "title": "Senior Atlassian Cloud Engineer, Jira Service Management",
-      "company_name": "Dropbox",
-      "first_published": "2026-11-18T10:52:21-05:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Atlassian Cloud Engineer, Jira Service Management",
-      "role_category": "Cloud Engineer"
-    },
-    {
       "absolute_url": "https://jobs.dropbox.com/listing/8328520?gh_jid=8328520",
       "data_compliance": [
         {
@@ -3271,6 +2998,97 @@
       "title": "Senior Atlassian Cloud Engineer, Jira Service Management",
       "company_name": "Dropbox",
       "first_published": "2026-11-18T10:52:18-05:00",
+      "language": "en",
+      "application_deadline": null,
+      "raw_title": "Senior Atlassian Cloud Engineer, Jira Service Management",
+      "role_category": "Cloud Engineer"
+    },
+    {
+      "absolute_url": "https://jobs.dropbox.com/listing/8328519?gh_jid=8328519",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null,
+          "demographic_data_consent_applies": false
+        }
+      ],
+      "education": "education_required",
+      "employment": "employment_required",
+      "internal_job_id": 3600098,
+      "location": {
+        "name": "Remote - Mexico"
+      },
+      "metadata": [
+        {
+          "id": 397108,
+          "name": "Recruiting Team Responsible",
+          "value": "International EPD",
+          "value_type": "single_select"
+        },
+        {
+          "id": 1993612,
+          "name": "Weighted Value",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397072,
+          "name": "Parent Job ID",
+          "value": null,
+          "value_type": "single_select"
+        },
+        {
+          "id": 397073,
+          "name": "Active Until Date",
+          "value": "",
+          "value_type": "date"
+        },
+        {
+          "id": 31703,
+          "name": "Employment Type",
+          "value": "Regular",
+          "value_type": "single_select"
+        },
+        {
+          "id": 29942941,
+          "name": "Time Type",
+          "value": "Full Time",
+          "value_type": "single_select"
+        },
+        {
+          "id": 3465818,
+          "name": "Location Cost Tier",
+          "value": "Low",
+          "value_type": "single_select"
+        },
+        {
+          "id": 696737,
+          "name": "Skillset",
+          "value": "Niche",
+          "value_type": "single_select"
+        },
+        {
+          "id": 113830,
+          "name": "Dropboxer Level",
+          "value": "IC4",
+          "value_type": "single_select"
+        },
+        {
+          "id": 54678,
+          "name": "Career Page Allocation",
+          "value": "Corporate IT Engineering",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 8328519,
+      "updated_at": "2026-11-23T09:41:25-05:00",
+      "requisition_id": "R11754",
+      "title": "Senior Atlassian Cloud Engineer, Jira Service Management",
+      "company_name": "Dropbox",
+      "first_published": "2026-11-18T10:52:21-05:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Atlassian Cloud Engineer, Jira Service Management",
@@ -3914,7 +3732,7 @@
       "role_category": "Software Engineer"
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8279631?gh_jid=8279631",
+      "absolute_url": "https://jobs.dropbox.com/listing/8381085?gh_jid=8381085",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -3927,7 +3745,7 @@
       ],
       "education": "education_required",
       "employment": "employment_required",
-      "internal_job_id": 3581329,
+      "internal_job_id": 3617584,
       "location": {
         "name": "Remote - US: Select locations"
       },
@@ -3935,7 +3753,7 @@
         {
           "id": 397108,
           "name": "Recruiting Team Responsible",
-          "value": "GCO Recruiting",
+          "value": "Engineering Recruiting",
           "value_type": "single_select"
         },
         {
@@ -3977,122 +3795,31 @@
         {
           "id": 696737,
           "name": "Skillset",
-          "value": "Lifecycle Marketer",
+          "value": "FP&A",
           "value_type": "single_select"
         },
         {
           "id": 113830,
           "name": "Dropboxer Level",
-          "value": "MGR5",
+          "value": "IC4",
           "value_type": "single_select"
         },
         {
           "id": 54678,
           "name": "Career Page Allocation",
-          "value": "Marketing",
+          "value": "Finance",
           "value_type": "single_select"
         }
       ],
-      "id": 8279631,
-      "updated_at": "2026-11-10T10:45:24-05:00",
-      "requisition_id": "R11716",
-      "title": "Senior Manager, Lifecycle Marketing",
+      "id": 8381085,
+      "updated_at": "2026-11-18T14:36:53-05:00",
+      "requisition_id": "R11773",
+      "title": "Senior Oracle Functional Lead - Record to Report",
       "company_name": "Dropbox",
-      "first_published": "2026-10-21T14:14:33-04:00",
+      "first_published": "2026-11-18T14:36:53-05:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Senior Manager, Lifecycle Marketing",
-      "role_category": "Other"
-    },
-    {
-      "absolute_url": "https://jobs.dropbox.com/listing/8279632?gh_jid=8279632",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3581329,
-      "location": {
-        "name": "Remote - Canada: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "GCO Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Lifecycle Marketer",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "MGR5",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Marketing",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8279632,
-      "updated_at": "2026-11-10T10:45:24-05:00",
-      "requisition_id": "R11716",
-      "title": "Senior Manager, Lifecycle Marketing",
-      "company_name": "Dropbox",
-      "first_published": "2026-10-21T14:14:34-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Manager, Lifecycle Marketing",
+      "raw_title": "Senior Oracle Functional Lead - Record to Report",
       "role_category": "Other"
     },
     {
@@ -4187,7 +3914,7 @@
       "role_category": "Other"
     },
     {
-      "absolute_url": "https://jobs.dropbox.com/listing/8381085?gh_jid=8381085",
+      "absolute_url": "https://jobs.dropbox.com/listing/8328549?gh_jid=8328549",
       "data_compliance": [
         {
           "type": "gdpr",
@@ -4200,9 +3927,9 @@
       ],
       "education": "education_required",
       "employment": "employment_required",
-      "internal_job_id": 3617584,
+      "internal_job_id": 3600103,
       "location": {
-        "name": "Remote - US: Select locations"
+        "name": "Remote - Canada: Select locations"
       },
       "metadata": [
         {
@@ -4250,7 +3977,7 @@
         {
           "id": 696737,
           "name": "Skillset",
-          "value": "FP&A",
+          "value": "Security",
           "value_type": "single_select"
         },
         {
@@ -4262,20 +3989,20 @@
         {
           "id": 54678,
           "name": "Career Page Allocation",
-          "value": "Finance",
+          "value": "Engineering",
           "value_type": "single_select"
         }
       ],
-      "id": 8381085,
-      "updated_at": "2026-11-18T14:36:53-05:00",
-      "requisition_id": "R11773",
-      "title": "Senior Oracle Functional Lead - Record to Report",
+      "id": 8328549,
+      "updated_at": "2026-11-10T12:56:16-05:00",
+      "requisition_id": "R11759",
+      "title": "Senior Security Engineer, AI Security",
       "company_name": "Dropbox",
-      "first_published": "2026-11-18T14:36:53-05:00",
+      "first_published": "2026-11-10T12:56:16-05:00",
       "language": "en",
       "application_deadline": null,
-      "raw_title": "Senior Oracle Functional Lead - Record to Report",
-      "role_category": "Other"
+      "raw_title": "Senior Security Engineer, AI Security",
+      "role_category": "Security Engineer"
     },
     {
       "absolute_url": "https://jobs.dropbox.com/listing/8328546?gh_jid=8328546",
@@ -4363,97 +4090,6 @@
       "title": "Senior Security Engineer, AI Security",
       "company_name": "Dropbox",
       "first_published": "2026-11-10T12:56:11-05:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Security Engineer, AI Security",
-      "role_category": "Security Engineer"
-    },
-    {
-      "absolute_url": "https://jobs.dropbox.com/listing/8328549?gh_jid=8328549",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3600103,
-      "location": {
-        "name": "Remote - Canada: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "Engineering Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Security",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC4",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Engineering",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8328549,
-      "updated_at": "2026-11-10T12:56:16-05:00",
-      "requisition_id": "R11759",
-      "title": "Senior Security Engineer, AI Security",
-      "company_name": "Dropbox",
-      "first_published": "2026-11-10T12:56:16-05:00",
       "language": "en",
       "application_deadline": null,
       "raw_title": "Senior Security Engineer, AI Security",
@@ -4640,97 +4276,6 @@
       "application_deadline": null,
       "raw_title": "Senior Security Engineer, Offensive Security ",
       "role_category": "Security Engineer"
-    },
-    {
-      "absolute_url": "https://jobs.dropbox.com/listing/8285045?gh_jid=8285045",
-      "data_compliance": [
-        {
-          "type": "gdpr",
-          "requires_consent": false,
-          "requires_processing_consent": false,
-          "requires_retention_consent": false,
-          "retention_period": null,
-          "demographic_data_consent_applies": false
-        }
-      ],
-      "education": "education_required",
-      "employment": "employment_required",
-      "internal_job_id": 3583392,
-      "location": {
-        "name": "Remote - Australia: Select locations"
-      },
-      "metadata": [
-        {
-          "id": 397108,
-          "name": "Recruiting Team Responsible",
-          "value": "GCO Recruiting",
-          "value_type": "single_select"
-        },
-        {
-          "id": 1993612,
-          "name": "Weighted Value",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397072,
-          "name": "Parent Job ID",
-          "value": null,
-          "value_type": "single_select"
-        },
-        {
-          "id": 397073,
-          "name": "Active Until Date",
-          "value": "",
-          "value_type": "date"
-        },
-        {
-          "id": 31703,
-          "name": "Employment Type",
-          "value": "Regular",
-          "value_type": "single_select"
-        },
-        {
-          "id": 29942941,
-          "name": "Time Type",
-          "value": "Full Time",
-          "value_type": "single_select"
-        },
-        {
-          "id": 3465818,
-          "name": "Location Cost Tier",
-          "value": "Mid",
-          "value_type": "single_select"
-        },
-        {
-          "id": 696737,
-          "name": "Skillset",
-          "value": "Solutions Specialist",
-          "value_type": "single_select"
-        },
-        {
-          "id": 113830,
-          "name": "Dropboxer Level",
-          "value": "IC4",
-          "value_type": "single_select"
-        },
-        {
-          "id": 54678,
-          "name": "Career Page Allocation",
-          "value": "Sales",
-          "value_type": "single_select"
-        }
-      ],
-      "id": 8285045,
-      "updated_at": "2026-11-10T11:31:27-05:00",
-      "requisition_id": "R11734",
-      "title": "Senior Technical Solutions Specialist",
-      "company_name": "Dropbox",
-      "first_published": "2026-10-20T09:46:10-04:00",
-      "language": "en",
-      "application_deadline": null,
-      "raw_title": "Senior Technical Solutions Specialist",
-      "role_category": "Other"
     },
     {
       "absolute_url": "https://jobs.dropbox.com/listing/8328476?gh_jid=8328476",
